@@ -1,0 +1,20 @@
+.box {
+  padding: 1rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0284c7;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: #f0f9ff;
+}
+
+.counter {
+  color: #f0f9ff;
+  font-size: 2rem;
+  font-weight: bold;
+}

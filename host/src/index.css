@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.wrapper {
+  padding: 1.5rem 1rem;
+  background-color: #22d3ee;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.title {
+  color: #1e293b;
+}
+
+.button-wrapper {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.button {
+  border: none;
+  outline: none;
+  font-size: 2rem;
+  border-radius: 0.25rem;
+  width: 3rem;
+  height: 3rem;
+  background-color: #1e293b;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.child-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.vue,
+.solid {
+  flex: 1;
+}
