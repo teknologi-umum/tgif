@@ -1,0 +1,27 @@
+---
+import Layout from "~/components/Layout.astro";
+import { Counter } from "~/components/Counter";
+---
+
+<Layout>
+	<Counter client:visible />
+	<span class="text">
+		This counter is written using <a class="text__url" href="https://www.solidjs.com/">Solid.JS</a>
+	</span>
+</Layout>
+
+<style lang="scss">
+	@use "../styles/variables.scss";
+	.text {
+		display: block;
+		font-family: variables.$font-heading;
+		text-align: center;
+		font-size: 2rem;
+		margin-top: 1rem;
+
+		&__url {
+			color: variables.$orange;
+			font-weight: 600;
+		}
+	}
+</style>
