@@ -1,7 +1,12 @@
 {
-  "extends": "astro/tsconfigs/strictest",
-  "compilerOptions": {
-    "jsx": "preserve",
-    "jsxImportSource": "solid-js"
-  }
+	"extends": "astro/tsconfigs/strictest",
+	"compilerOptions": {
+		"jsx": "preserve",
+		"jsxImportSource": "solid-js",
+		"baseUrl": ".",
+		"paths": {
+			"~/*": ["./src/*"]
+		},
+		"types": ["unplugin-icons/types/solid"]
+	}
 }
