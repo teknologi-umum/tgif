@@ -15,13 +15,15 @@
 		"@astrojs/solid-js": "^1.2.3",
 		"@fontsource/space-grotesk": "^4.5.10",
 		"astro": "^1.8.0",
-		"solid-js": "^1.4.3"
+		"solid-js": "^1.4.3",
+		"zod": "^3.20.2"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.20.7",
 		"@iconify-json/fluent": "^1.1.17",
 		"@typescript-eslint/eslint-plugin": "^5.47.1",
 		"@typescript-eslint/parser": "^5.47.1",
+		"@vitest/coverage-c8": "^0.26.3",
 		"autoprefixer": "^10.4.13",
 		"cssnano": "^5.1.14",
 		"eslint": "^8.30.0",
@@ -30,7 +32,8 @@
 		"prettier-plugin-astro": "^0.7.0",
 		"sass": "^1.57.1",
 		"typescript": "^4.9.4",
-		"unplugin-icons": "^0.14.15"
+		"unplugin-icons": "^0.14.15",
+		"vitest": "^0.26.3"
 	},
 	"peerDependencies": {
 		"@babel/core": "^7.20.7",
