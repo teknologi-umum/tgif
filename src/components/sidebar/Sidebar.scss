@@ -1,4 +1,5 @@
 @use "../../styles/variables.scss";
+@use "../../styles/mixins.scss";
 
 .sidebar {
 	position: relative;
@@ -11,13 +12,16 @@
 
 .search-container,
 .chats-content {
-	border-radius: 3rem;
-	border: 0.2rem variables.$black solid;
-	background-color: variables.$white;
+	@include mixins.white-box;
 }
 
 .search {
+	&-shadow {
+		@include mixins.shadow;
+	}
+
 	&-container {
+		position: relative;
 		padding: 1rem;
 		display: flex;
 		gap: 1rem;
@@ -28,7 +32,8 @@
 		border: none;
 		outline: none;
 		font-family: variables.$font-heading;
-		padding: 1rem;
+		padding-block: 1rem;
+		padding-inline: 2rem;
 	}
 
 	&-icon {

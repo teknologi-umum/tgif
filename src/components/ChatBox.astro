@@ -27,21 +27,53 @@ const chats: Chat[] = [
 ---
 
 <div class="chat-box">
-	<div class="chat-box-content">
-		{chats.map((chat) => <ChatBubble {...chat} />)}
+	<div class="chat-box-title">Some Random Chat Title</div>
+	<div class="chat-box-container">
+		<div class="chat-box-content">
+			{chats.map((chat) => <ChatBubble {...chat} />)}
+		</div>
 	</div>
 </div>
 
 <style lang="scss">
 	@use "../styles/variables";
+	@use "../styles/mixins";
 
 	.chat-box {
+		@include mixins.white-box;
+		margin-top: 4rem;
 		position: relative;
-		height: inherit;
-		overflow: hidden;
-		border-radius: 3rem;
-		border: 0.2rem variables.$black solid;
-		background-color: variables.$white;
+		height: calc(100% - 4rem);
+
+		&::before {
+			@include mixins.white-box;
+			content: "";
+			position: absolute;
+			left: 2rem;
+			right: 2rem;
+			top: -1.2rem;
+			height: 10rem;
+			z-index: -1;
+			background-color: variables.$offwhite;
+		}
+
+		&-title {
+			@include mixins.white-box;
+			position: absolute;
+			padding: 1rem;
+			font-family: variables.$font-heading;
+			font-size: 2rem;
+			font-weight: 700;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			z-index: 20;
+		}
+
+		&-container {
+			height: 100%;
+			overflow: hidden;
+			border-radius: 3rem;
+		}
 
 		&-content {
 			position: relative;
@@ -51,6 +83,7 @@ const chats: Chat[] = [
 			height: 100%;
 			width: 100%;
 			padding: 2rem;
+			padding-top: 4rem;
 			overflow-y: scroll;
 		}
 	}

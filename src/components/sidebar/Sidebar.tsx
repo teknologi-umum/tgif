@@ -34,6 +34,7 @@ export function Sidebar(props: SidebarProps) {
 	return (
 		<aside class="sidebar">
 			<div class="search-container">
+				<div class="search-shadow" />
 				<input
 					class="search-input"
 					type="text"
