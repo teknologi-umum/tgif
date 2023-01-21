@@ -4,7 +4,7 @@
 .sidebar {
 	position: relative;
 	max-height: inherit;
-	overflow: hidden;
+	overflow-y: hidden;
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
@@ -52,7 +52,7 @@
 	&-container {
 		position: relative;
 		flex: 1;
-		overflow: hidden;
+		overflow-y: hidden;
 		border-radius: 3rem;
 	}
 

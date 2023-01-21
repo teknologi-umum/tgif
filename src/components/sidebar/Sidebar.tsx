@@ -1,22 +1,36 @@
 import { createSignal, For, type JSX } from "solid-js";
 import autoAnimate from "@formkit/auto-animate";
-import SearchIcon from "~icons/fluent/search-24-filled";
-import { type Chat, ChatCard } from "../chat-card";
-import "./Sidebar.scss";
 import { debounce } from "@solid-primitives/scheduled";
+import type { Metadata } from "~/service/Metadata";
+import SearchIcon from "~icons/fluent/search-24-filled";
+import { ChatCard } from "../chat-card";
+import "./Sidebar.scss";
 
 type SidebarProps = {
-	chats: Chat[];
+	talks: Metadata[];
+	onChatClick: (title: string) => void;
 };
 
 export function Sidebar(props: SidebarProps) {
 	const [keyword, setKeyword] = createSignal("");
 
-	function filterPredicate(chat: Chat) {
-		const keywordRE = new RegExp(keyword(), "i");
-		const nameMatched = chat.name.match(keywordRE);
-		const summaryMatched = chat.summary.match(keywordRE);
-		return nameMatched || summaryMatched;
+	function matchWithKeyword(talk: Metadata) {
+		if (keyword().length < 1) return true;
+		const hasMatch = keyword()
+			.split(" ")
+			.filter((keyword) => keyword.length > 0)
+			.some((keyword) => {
+				if (keyword.startsWith("#")) {
+					const tagRE = new RegExp(keyword.slice(1), "i");
+					return talk.tags.some((tag) => tag.match(tagRE));
+				}
+
+				const keywordRE = new RegExp(keyword, "i");
+				const nameMatched = talk.title.match(keywordRE);
+				const summaryMatched = talk.short_summary.match(keywordRE);
+				return nameMatched || summaryMatched;
+			});
+		return hasMatch;
 	}
 
 	const updateKeyword: JSX.EventHandler<HTMLInputElement, InputEvent> = debounce(
@@ -40,7 +54,7 @@ export function Sidebar(props: SidebarProps) {
 					type="text"
 					onInput={updateKeyword}
 					value={keyword()}
-					placeholder="Search something..."
+					placeholder="Search something... (add # for tags)"
 				/>
 				<div class="search-icon">
 					<SearchIcon />
@@ -48,7 +62,9 @@ export function Sidebar(props: SidebarProps) {
 			</div>
 			<div class="chats-container">
 				<div class="chats-content" use:animate>
-					<For each={props.chats.filter(filterPredicate)}>{(chat) => <ChatCard {...chat} />}</For>
+					<For each={props.talks.filter(matchWithKeyword)}>
+						{(chat) => <ChatCard {...chat} onClick={props.onChatClick} />}
+					</For>
 				</div>
 			</div>
 		</aside>
