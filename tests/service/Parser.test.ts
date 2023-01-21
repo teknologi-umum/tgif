@@ -1526,3 +1526,187 @@ test("italic text", () => {
 		},
 	]);
 });
+
+test("parse without text_entity", () => {
+	const stub = `{
+		"name": "Teknologi Umum v2.0",
+		"type": "public_supergroup",
+		"id": 1712691810,
+		"messages": [
+			{
+				"id": 54758,
+				"type": "message",
+				"date": "2022-08-02T23:21:24",
+				"edited": "2022-08-02T23:21:37",
+				"from": "Ramad",
+				"from_id": "user414742973",
+				"text": "kira2 di group ini ada yang kontra dengan TDD ga ya? penasaran sama sudut pandangnya"
+			},
+			{
+				"id": 54759,
+				"type": "message",
+				"date": "2022-08-02T23:21:53",
+				"from": "Ronny Gunawan",
+				"from_id": "user149994951",
+				"text": [
+					{
+						"type": "link",
+						"text": "https://github.com/teknologi-umum/graphene/tree/master/backend/tests"
+					}
+				]
+			},
+			{
+				"id": 54807,
+				"type": "message",
+				"date": "2022-08-02T23:50:25",
+				"from": "Ronny Gunawan",
+				"from_id": "user149994951",
+				"text": [
+					"kadang orang suka nyampur2\\n\\n",
+					{
+						"type": "pre",
+						"text": "public class Foo {\\n  [JsonPropertyName(\\"email\\")]\\n  [Required, EmailAddress]\\n  [Key, StringLength(50)]\\n  public string Email { get; set; }\\n}",
+						"language": ""
+					}
+				]
+			},
+			{
+				"id": 54811,
+				"type": "message",
+				"date": "2022-08-02T23:52:18",
+				"from": "Kiro Honjou",
+				"from_id": "user719119535",
+				"reply_to_message_id": 54809,
+				"text": [
+					{
+						"type": "link",
+						"text": "https://t.me/CSharpIndonesia/4111"
+					},
+					"\\n\\nNah ane nemu ini dulu inget yang om pernah bilang i see isee"
+				]
+			},
+			{
+				"id": 54820,
+				"type": "message",
+				"date": "2022-08-02T23:58:27",
+				"from": null,
+				"from_id": "user1168523623",
+				"text": [
+					{
+						"type": "italic",
+						"text": "tapi om"
+					}
+				]
+			},
+			{
+				"id": 54822,
+				"type": "message",
+				"date": "2022-08-02T23:58:28",
+				"from": "Ramad",
+				"from_id": "user414742973",
+				"reply_to_message_id": 54801,
+				"text": [
+					"sepakat om ",
+					{
+						"type": "mention",
+						"text": "@okitas0uji"
+					},
+					" , sempet bingung juga tp jadi clear baca ini"
+				]
+			},
+			{
+				"id": 54829,
+				"type": "message",
+				"date": "2022-08-03T00:01:24",
+				"from": "Kiro Honjou",
+				"from_id": "user719119535",
+				"reply_to_message_id": 54824,
+				"text": [
+					"Hmm gitu yah ane masih belum masuk bagian ini nih ane nangkepnya domain model itu berkaitannya nnti ke repository sedangkan data model itu nnti larinya ke entities.",
+					{
+						"type": "hashtag",
+						"text": "#cmiiw"
+					}
+				]
+			}
+		]
+	}`;
+
+	const parser = new Parser();
+
+	const telegramChat = parser.fromExportedChatHistory(stub);
+
+	expect(telegramChat.chatId).toEqual(1712691810);
+	expect(telegramChat.chatName).toEqual("Teknologi Umum v2.0");
+	console.log(telegramChat.message);
+	expect(telegramChat.message).toStrictEqual([
+		{
+			date: new Date("2022-08-02T16:21:24.000Z"),
+			from: { name: "Ramad", id: 414742973 },
+			messageId: 54758,
+			replyToMessageId: undefined,
+			text: "kira2 di group ini ada yang kontra dengan TDD ga ya? penasaran sama sudut pandangnya",
+			hasMedia: false,
+		},
+		{
+			date: new Date("2022-08-02T16:21:53.000Z"),
+			from: { name: "Ronny Gunawan", id: 149994951 },
+			messageId: 54759,
+			replyToMessageId: undefined,
+			text: "https://github.com/teknologi-umum/graphene/tree/master/backend/tests",
+			hasMedia: false,
+		},
+		{
+			date: new Date("2022-08-02T16:50:25.000Z"),
+			from: { name: "Ronny Gunawan", id: 149994951 },
+			messageId: 54807,
+			replyToMessageId: undefined,
+			text:
+				"kadang orang suka nyampur2\n" +
+				"\n" +
+				"```\n" +
+				"public class Foo {\n" +
+				'  [JsonPropertyName("email")]\n' +
+				"  [Required, EmailAddress]\n" +
+				"  [Key, StringLength(50)]\n" +
+				"  public string Email { get; set; }\n" +
+				"}```\n",
+			hasMedia: false,
+		},
+		{
+			date: new Date("2022-08-02T16:52:18.000Z"),
+			from: { name: "Kiro Honjou", id: 719119535 },
+			messageId: 54811,
+			replyToMessageId: 54809,
+			text:
+				"https://t.me/CSharpIndonesia/4111\n" +
+				"\n" +
+				"Nah ane nemu ini dulu inget yang om pernah bilang i see isee",
+			hasMedia: false,
+		},
+		{
+			date: new Date("2022-08-02T16:58:27.000Z"),
+			from: { name: "Deleted Account", id: 1168523623 },
+			messageId: 54820,
+			replyToMessageId: undefined,
+			text: "*tapi om*",
+			hasMedia: false,
+		},
+		{
+			date: new Date("2022-08-02T16:58:28.000Z"),
+			from: { name: "Ramad", id: 414742973 },
+			messageId: 54822,
+			replyToMessageId: 54801,
+			text: "sepakat om @okitas0uji , sempet bingung juga tp jadi clear baca ini",
+			hasMedia: false,
+		},
+		{
+			date: new Date("2022-08-02T17:01:24.000Z"),
+			from: { name: "Kiro Honjou", id: 719119535 },
+			messageId: 54829,
+			replyToMessageId: 54824,
+			text: "Hmm gitu yah ane masih belum masuk bagian ini nih ane nangkepnya domain model itu berkaitannya nnti ke repository sedangkan data model itu nnti larinya ke entities.#cmiiw",
+			hasMedia: false,
+		},
+	]);
+});
