@@ -2,7 +2,22 @@
 import "~/styles/global.scss";
 import "@fontsource/space-grotesk/500.css";
 import "@fontsource/space-grotesk/600.css";
-import Sidebar from "./Sidebar.astro";
+import { Sidebar } from "./sidebar";
+
+const chats = [
+	{ name: "Manusia Bernapas", summary: "Some random tips about something", tags: ["anu", "something"] },
+	{ name: "Anonymous", summary: "Dikira gadis ternyata buntutnya empat", tags: ["random"] },
+	{ name: "Hooman", summary: "Beli bakwan makan ketupan, nganu sih", tags: ["akhlak", "bakwan"] },
+	{ name: "Manusia Bernapas", summary: "Some random tips about something", tags: ["anu", "something"] },
+	{ name: "Anonymous", summary: "Dikira gadis ternyata buntutnya empat", tags: ["random"] },
+	{ name: "Hooman", summary: "Beli bakwan makan ketupan, nganu sih", tags: ["akhlak", "bakwan"] },
+	{ name: "Manusia Bernapas", summary: "Some random tips about something", tags: ["anu", "something"] },
+	{ name: "Anonymous", summary: "Dikira gadis ternyata buntutnya empat", tags: ["random"] },
+	{ name: "Hooman", summary: "Beli bakwan makan ketupan, nganu sih", tags: ["akhlak", "bakwan"] },
+	{ name: "Manusia Bernapas", summary: "Some random tips about something", tags: ["anu", "something"] },
+	{ name: "Anonymous", summary: "Dikira gadis ternyata buntutnya empat", tags: ["random"] },
+	{ name: "Hooman", summary: "Beli bakwan makan ketupan, nganu sih", tags: ["akhlak", "bakwan"] },
+];
 ---
 
 <html lang="en">
@@ -15,7 +30,7 @@ import Sidebar from "./Sidebar.astro";
 	</head>
 	<body>
 		<div class="container">
-			<Sidebar />
+			<Sidebar client:load chats={chats} />
 			<div class="main-content">
 				<slot />
 			</div>
@@ -26,8 +41,9 @@ import Sidebar from "./Sidebar.astro";
 <style lang="scss">
 	.container {
 		position: relative;
-		width: 100%;
+		max-width: 1400px;
 		height: 100%;
+		margin: 0 auto;
 		padding: 2rem;
 		display: grid;
 		gap: 2rem;
@@ -35,6 +51,9 @@ import Sidebar from "./Sidebar.astro";
 	}
 
 	.main-content {
-		height: 60%;
+		position: relative;
+		height: 100%;
+		max-height: inherit;
+		overflow: hidden;
 	}
 </style>

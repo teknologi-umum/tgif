@@ -3,56 +3,31 @@ import ChatBubble from "./ChatBubble.astro";
 
 type Chat = {
 	text: string;
-	time: string;
+	time: Date;
 };
 
+// prettier-ignore
 const chats: Chat[] = [
-	{ text: "Welcome to the Rust tips chat! Let's get started.", time: "2022-11-01T12:00:00.000Z" },
-	{
-		text: "Tip 1: Always use 'cargo check' before building and deploying your code. This will catch any errors before they become a problem.",
-		time: "2022-11-01T12:05:00.000Z",
-	},
-	{
-		text: "Tip 2: Rust has a strong type system, make use of it to catch errors early on in the development process.",
-		time: "2022-11-01T12:10:00.000Z",
-	},
-	{
-		text: "Tip 3: Make use of the 'match' keyword for pattern matching, it is a powerful feature of the language.",
-		time: "2022-11-01T12:15:00.000Z",
-	},
-	{
-		text: "Tip 4: Use 'rustfmt' to format your code consistently and automatically, it will save you a lot of time.",
-		time: "2022-11-01T12:20:00.000Z",
-	},
-	{
-		text: "Tip 5: Always use 'Option' and 'Result' types when writing functions, it makes error handling more explicit.",
-		time: "2022-11-01T12:25:00.000Z",
-	},
-	{
-		text: "Tip 6: Make use of the 'unwrap' method judiciously, it can help simplify your code but can also lead to runtime errors.",
-		time: "2022-11-01T12:30:00.000Z",
-	},
-	{
-		text: "Tip 7: Use 'cargo test' to write and run unit tests for your code, it will help catch bugs early.",
-		time: "2022-11-01T12:35:00.000Z",
-	},
-	{
-		text: "Tip 8: Familiarize yourself with the 'std::collections' library, it has many useful data structures for different use cases.",
-		time: "2022-11-01T12:40:00.000Z",
-	},
-	{
-		text: "Tip 9: Make use of Rust's ownership and borrowing model to ensure thread safety in your code.",
-		time: "2022-11-01T12:45:00.000Z",
-	},
-	{
-		text: "Tip 10: Use 'cargo doc' to generate documentation for your code, it will make it easier for others to understand and use.",
-		time: "2022-11-01T12:50:00.000Z",
-	},
-];
+  { text: "Hi there! If you're looking to improve your Rust skills, I highly recommend starting with the Rust programming book.", time: new Date(2021, 9, 1, 10, 0) },
+  { text: "It's a great resource for learning the basics and understanding the fundamentals of the language.", time: new Date(2021, 9, 1, 10, 15) },
+  { text: "Once you have a solid foundation, I recommend working on small projects to practice and apply what you've learned.", time: new Date(2021, 9, 1, 10, 30) },
+  { text: "Also, don't forget to use the Rust community resources like the Rust forums and the Rust programming subreddit for help and guidance.", time: new Date(2021, 9, 1, 10, 45) },
+  { text: "Another tip is to practice implementing common data structures and algorithms in Rust to solidify your understanding of the language.", time: new Date(2021, 9, 1, 11, 0) },
+  { text: "It's also important to familiarize yourself with the standard library and crates available in the Rust ecosystem.", time: new Date(2021, 9, 1, 11, 15) },
+  { text: "I suggest starting with the most commonly used crates such as serde, reqwest and actix-web", time: new Date(2021, 9, 1, 11, 30) },
+  { text: "Also, don't be afraid to contribute to open-source Rust projects to learn from other experienced Rust developers.", time: new Date(2021, 9, 1, 11, 45) },
+  { text: "Another way of improving is by taking part in Rust programming challenges or participating in hackathons.", time: new Date(2021, 9, 1, 12, 0) },
+  { text: "Participating in these challenges will give you hands-on experience and help you learn more about the language and its best practices.", time: new Date(2021, 9, 1, 12, 15) },
+  { text: "You can also join Rust user groups or meetups in your area to connect with other Rust developers and learn from them.", time: new Date(2021, 9, 1, 12, 30) },
+  { text: "Attending conferences and listening to talks by experienced Rust developers is another great way to learn more about the language.", time: new Date(2021, 9, 1, 12, 45) },
+  { text: "You can also use online resources such as rust-lang.org, rustbyexample and rust-learning to continue learning Rust.", time: new Date(2021, 9, 1, 13, 0) },
+  { text: "Don't forget to take breaks and give yourself time to absorb what you've learned. It's important to not burn out.", time: new Date(2021, 9, 1, 13, 15) },
+  { text: "Finally, keep in mind that practice makes perfect, so keep at it and don't be afraid to make mistakes - that's how we learn!", time: new Date(2021, 9, 1, 13, 30) },
+]
 ---
 
-<div class="box">
-	<div class="box-chats">
+<div class="chat-box">
+	<div class="chat-box-content">
 		{chats.map((chat) => <ChatBubble {...chat} />)}
 	</div>
 </div>
@@ -60,20 +35,23 @@ const chats: Chat[] = [
 <style lang="scss">
 	@use "../styles/variables";
 
-	.box {
+	.chat-box {
 		position: relative;
-		height: 100%;
-		border-radius: 2rem;
+		height: inherit;
+		overflow: hidden;
+		border-radius: 3rem;
 		border: 0.2rem variables.$black solid;
 		background-color: variables.$white;
 
-		&-chats {
-			padding: 2rem;
-			height: 100%;
-			overflow-y: auto;
+		&-content {
+			position: relative;
 			display: flex;
 			flex-direction: column;
 			gap: 2rem;
+			height: 100%;
+			width: 100%;
+			padding: 2rem;
+			overflow-y: scroll;
 		}
 	}
 </style>

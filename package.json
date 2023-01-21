@@ -15,6 +15,8 @@
 	"dependencies": {
 		"@astrojs/solid-js": "^1.2.3",
 		"@fontsource/space-grotesk": "^4.5.13",
+		"@formkit/auto-animate": "1.0.0-beta.5",
+		"@solid-primitives/scheduled": "^1.2.1",
 		"astro": "^1.9.2",
 		"solid-js": "^1.6.9",
 		"zod": "^3.20.2"

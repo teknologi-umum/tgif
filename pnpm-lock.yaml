@@ -4,7 +4,9 @@ specifiers:
   '@astrojs/solid-js': ^1.2.3
   '@babel/core': ^7.20.12
   '@fontsource/space-grotesk': ^4.5.13
+  '@formkit/auto-animate': 1.0.0-beta.5
   '@iconify-json/fluent': ^1.1.17
+  '@solid-primitives/scheduled': ^1.2.1
   '@typescript-eslint/eslint-plugin': ^5.48.2
   '@typescript-eslint/parser': ^5.48.2
   '@vitest/coverage-c8': ^0.27.2
@@ -25,6 +27,8 @@ specifiers:
 dependencies:
   '@astrojs/solid-js': 1.2.3_3qgza6kmmnz4kp2k2nuuudjnzy
   '@fontsource/space-grotesk': 4.5.13
+  '@formkit/auto-animate': 1.0.0-beta.5
+  '@solid-primitives/scheduled': 1.2.1_solid-js@1.6.9
   astro: 1.9.2_sass@1.57.1
   solid-js: 1.6.9
   zod: 3.20.2
@@ -467,6 +471,10 @@ packages:
     resolution: {integrity: sha512-HYjs3C/ME3N55+9la5FGH3NebpBqyCP03DJzDLYlQ/fpnYOoQcEEoojtMyqDr8kBlQtrB6FSoa3vy84Wh0ZFqw==}
     dev: false
 
+  /@formkit/auto-animate/1.0.0-beta.5:
+    resolution: {integrity: sha512-WoSwyhAZPOe6RB/IgicOtCHtrWwEpfKIZ/H/nxpKfnZL9CB6hhhBGU5bCdMRw7YpAUF2CDlQa+WWh+gCqz5lDg==}
+    dev: false
+
   /@humanwhocodes/config-array/0.11.8:
     resolution: {integrity: sha512-UybHIJzJnR5Qc/MsD9Kr+RpO2h+/P1GhOwdiLPXK5TWk5sgTdu88bTD9UP+CKbPPh5Rni1u0GjAdYQLemG8g+g==}
     engines: {node: '>=10.10.0'}
@@ -598,6 +606,14 @@ packages:
     dependencies:
       '@proload/core': 0.3.3
       tsm: 2.3.0
+    dev: false
+
+  /@solid-primitives/scheduled/1.2.1_solid-js@1.6.9:
+    resolution: {integrity: sha512-tV8xJuNJoWR2Kk6FPVpB8KcWjOwJDMYTC31CEW4qDrLwQHzIexJsZsV5Dh5df/YNz5gh3vpxyvBnWTgTf6o/1w==}
+    peerDependencies:
+      solid-js: ^1.6.0
+    dependencies:
+      solid-js: 1.6.9
     dev: false
 
   /@trysound/sax/0.2.0:

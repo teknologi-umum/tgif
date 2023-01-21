@@ -1,0 +1,64 @@
+@use "../../styles/variables.scss";
+
+.sidebar {
+	position: relative;
+	max-height: inherit;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.search-container,
+.chats-content {
+	border-radius: 3rem;
+	border: 0.2rem variables.$black solid;
+	background-color: variables.$white;
+}
+
+.search {
+	&-container {
+		padding: 1rem;
+		display: flex;
+		gap: 1rem;
+	}
+
+	&-input {
+		flex: 1;
+		border: none;
+		outline: none;
+		font-family: variables.$font-heading;
+		padding: 1rem;
+	}
+
+	&-icon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: variables.$blue;
+		padding: 1rem;
+		border-radius: 99rem;
+		color: variables.$white;
+		border: 0.2rem variables.$black solid;
+	}
+}
+
+.chats {
+	&-container {
+		position: relative;
+		flex: 1;
+		overflow: hidden;
+		border-radius: 3rem;
+	}
+
+	&-content {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+		height: 100%;
+		width: 100%;
+		padding: 2rem;
+		overflow-y: scroll;
+	}
+}
