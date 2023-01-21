@@ -1476,7 +1476,6 @@ test("bold text", () => {
 	]);
 });
 
-
 test("italic text", () => {
 	const stub = `{
 		"name": "Teknologi Umum v2.0",
