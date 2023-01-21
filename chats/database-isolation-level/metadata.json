@@ -1,6 +1,6 @@
 {
-	"title": "OOP itu anu",
-	"tags": ["oop"],
-	"short_summary": "OOP FIRST",
-	"date": "2022-09-16"
+	"title": "Database Isolation Level",
+	"tags": ["database","newsql","database"],
+	"short_summary": "There are 3 isolation levels, read committed, repeatable read, and serializable.",
+	"date": "2022-08-28"
 }
