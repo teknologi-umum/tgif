@@ -35,8 +35,8 @@ jobs:
       - name: Lint
         run: npx eslint --ignore-path .gitignore .
 
-	  - name: Formatting
-	  	run:  npx prettier --check **/*.{ts,astro,json,cjs,mjs}
+      - name: Formatting
+        run:  npx prettier --check **/*.{ts,astro,json,cjs,mjs}
 
       - name: Build
         run: pnpm run build
