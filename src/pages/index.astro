@@ -8,7 +8,7 @@ import { Metadata, metadataSchema } from "~/service/Metadata";
 
 const talks: Metadata[] = [];
 
-const files = await readdir(resolve(fileURLToPath(import.meta.url), "../../../chats"), { withFileTypes: true })
+const files = await readdir(resolve(fileURLToPath(import.meta.url), "../../../chats"), { withFileTypes: true });
 const readFileInstructions: Promise<string>[] = [];
 for await (const file of files) {
 	// Only read the directories, because we are on the first level
@@ -19,19 +19,17 @@ for await (const file of files) {
 			continue;
 		}
 
-		const levelTwoFiles = await readdir(
-			resolve(fileURLToPath(import.meta.url), "../../../chats/", file.name), 
-			{ withFileTypes: true },
-		);
+		const levelTwoFiles = await readdir(resolve(fileURLToPath(import.meta.url), "../../../chats/", file.name), {
+			withFileTypes: true,
+		});
 		for (const levelTwoFile of levelTwoFiles) {
 			// We would like to search for metadata.json only
 			if (levelTwoFile.name === "metadata.json") {
 				readFileInstructions.push(
-					readFile(
-						resolve(fileURLToPath(import.meta.url), "../../../chats/", file.name, levelTwoFile.name), 
-						{ encoding: "utf-8" },
-					),
-				)
+					readFile(resolve(fileURLToPath(import.meta.url), "../../../chats/", file.name, levelTwoFile.name), {
+						encoding: "utf-8",
+					})
+				);
 			}
 		}
 	}
