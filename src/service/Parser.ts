@@ -5,14 +5,58 @@ export type TelegramUser = {
 	id: number;
 };
 
-export type TelegramMessage = {
+export type TelegramMessageBase = {
 	messageId: number;
 	date: Date;
 	from: TelegramUser;
 	replyToMessageId: number | undefined;
-	photo: string | undefined;
 	text: string;
+	hasMedia: boolean;
 };
+
+export type TelegramMessageWithAnimation = {
+	hasMedia: true;
+	mediaType: "animation";
+	mimeType: string;
+	thumbnail: string;
+	file: string;
+	width: number;
+	height: number;
+} & TelegramMessageBase;
+
+export type TelegramMessageWithPhoto = {
+	hasMedia: true;
+	mediaType: "photo";
+	file: string;
+	width: number;
+	height: number;
+} & TelegramMessageBase;
+
+export type TelegramMessageWithSticker = {
+	hasMedia: true;
+	mediaType: "sticker";
+	thumbnail: string;
+	file: string;
+	width: number;
+	height: number;
+} & TelegramMessageBase;
+
+export type TelegramMessageWithVideoFile = {
+	hasMedia: true;
+	mediaType: "video_file";
+	mimeType: string;
+	thumbnail: string;
+	file: string;
+	width: number;
+	height: number;
+} & TelegramMessageBase;
+
+export type TelegramMessage =
+	| (TelegramMessageBase & { hasMedia: false })
+	| TelegramMessageWithAnimation
+	| TelegramMessageWithPhoto
+	| TelegramMessageWithSticker
+	| TelegramMessageWithVideoFile;
 
 export type TelegramChat = {
 	chatName: string;
@@ -33,10 +77,16 @@ const exportedChatHistorySchema = z.object({
 			from: z.string(),
 			from_id: z.string(),
 			reply_to_message_id: z.number().optional(),
+			file: z.string().optional(),
+			thumbnail: z.string().optional(),
+			media_type: z.enum(["animation", "photo", "sticker", "video_file"] as const).optional(),
+			mime_type: z.string().optional(),
+			width: z.number().optional(),
+			height: z.number().optional(),
 			photo: z.string().optional(),
 			text_entities: z.array(
 				z.object({
-					type: z.enum(["plain", "mention", "pre", "code"]),
+					type: z.enum(["plain", "mention", "pre", "code", "bot_command", "italic", "bold", "link"] as const),
 					text: z.string(),
 				})
 			),
@@ -55,7 +105,6 @@ export class Parser {
 		const textByNewline = text.split(/\r\n|\n/);
 
 		let lastMessage: TelegramMessage = {
-			photo: undefined,
 			replyToMessageId: undefined,
 			messageId: 0,
 			date: new Date(0),
@@ -64,6 +113,7 @@ export class Parser {
 				id: 0,
 			},
 			text: "",
+			hasMedia: false,
 		};
 
 		for (const line of textByNewline) {
@@ -84,9 +134,9 @@ export class Parser {
 						id: 0,
 					},
 					date: new Date(0),
-					photo: undefined,
 					replyToMessageId: undefined,
 					messageId: 0,
+					hasMedia: false,
 				};
 				continue;
 			}
@@ -130,22 +180,109 @@ export class Parser {
 						text += entity.text;
 						text += "```\n";
 						break;
+					case "italic":
+						text += "*";
+						text += entity.text;
+						text += "*";
+						break;
+					case "bold":
+						text += "**";
+						text += entity.text;
+						text += "**";
+						break;
 					default:
 						text += entity.text;
 				}
 			}
 
-			telegramChat.message.push({
-				date: new Date(message.date),
-				from: {
-					name: message.from,
-					id: Number.parseInt(message.from_id.replace("user", "")),
-				},
-				messageId: message.id,
-				photo: message.photo,
-				replyToMessageId: message.reply_to_message_id,
-				text: text,
-			});
+			if (message.photo !== undefined) {
+				telegramChat.message.push({
+					date: new Date(message.date),
+					from: {
+						name: message.from,
+						id: Number.parseInt(message.from_id.replace("user", "")),
+					},
+					messageId: message.id,
+					replyToMessageId: message.reply_to_message_id,
+					text: text,
+					hasMedia: true,
+					mediaType: "photo",
+					height: message.height ?? 0,
+					width: message.width ?? 0,
+					file: message.photo,
+				});
+				continue;
+			}
+
+			if (message.media_type === "sticker") {
+				telegramChat.message.push({
+					date: new Date(message.date),
+					from: {
+						name: message.from,
+						id: Number.parseInt(message.from_id.replace("user", "")),
+					},
+					messageId: message.id,
+					replyToMessageId: message.reply_to_message_id,
+					text: text,
+					hasMedia: true,
+					mediaType: "sticker",
+					height: message.height ?? 0,
+					width: message.width ?? 0,
+					file: message.file ?? "",
+					thumbnail: message.thumbnail ?? "",
+				});
+				continue;
+			} else if (message.media_type === "animation") {
+				telegramChat.message.push({
+					date: new Date(message.date),
+					from: {
+						name: message.from,
+						id: Number.parseInt(message.from_id.replace("user", "")),
+					},
+					messageId: message.id,
+					replyToMessageId: message.reply_to_message_id,
+					text: text,
+					hasMedia: true,
+					mediaType: "animation",
+					height: message.height ?? 0,
+					width: message.width ?? 0,
+					file: message.file ?? "",
+					thumbnail: message.thumbnail ?? "",
+					mimeType: message.mime_type ?? "",
+				});
+				continue;
+			} else if (message.media_type === "video_file") {
+				telegramChat.message.push({
+					date: new Date(message.date),
+					from: {
+						name: message.from,
+						id: Number.parseInt(message.from_id.replace("user", "")),
+					},
+					messageId: message.id,
+					replyToMessageId: message.reply_to_message_id,
+					text: text,
+					hasMedia: true,
+					mediaType: "video_file",
+					height: message.height ?? 0,
+					width: message.width ?? 0,
+					file: message.file ?? "",
+					thumbnail: message.thumbnail ?? "",
+					mimeType: message.mime_type ?? "",
+				});
+				continue;
+			} else {
+				telegramChat.message.push({
+					date: new Date(message.date),
+					from: {
+						name: message.from,
+						id: Number.parseInt(message.from_id.replace("user", "")),
+					},
+					messageId: message.id,
+					replyToMessageId: message.reply_to_message_id,
+					text: text,
+					hasMedia: false,
+				});
+			}
 		}
 
 		return telegramChat;
