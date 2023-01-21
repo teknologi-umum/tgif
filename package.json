@@ -1,5 +1,5 @@
 {
-	"name": "@example/minimal",
+	"name": "tgif",
 	"type": "module",
 	"version": "0.0.1",
 	"private": true,
@@ -14,27 +14,27 @@
 	},
 	"dependencies": {
 		"@astrojs/solid-js": "^1.2.3",
-		"@fontsource/space-grotesk": "^4.5.10",
-		"astro": "^1.8.0",
-		"solid-js": "^1.4.3",
+		"@fontsource/space-grotesk": "^4.5.13",
+		"astro": "^1.9.2",
+		"solid-js": "^1.6.9",
 		"zod": "^3.20.2"
 	},
 	"devDependencies": {
-		"@babel/core": "^7.20.7",
+		"@babel/core": "^7.20.12",
 		"@iconify-json/fluent": "^1.1.17",
-		"@typescript-eslint/eslint-plugin": "^5.47.1",
-		"@typescript-eslint/parser": "^5.47.1",
-		"@vitest/coverage-c8": "^0.26.3",
+		"@typescript-eslint/eslint-plugin": "^5.48.2",
+		"@typescript-eslint/parser": "^5.48.2",
+		"@vitest/coverage-c8": "^0.27.2",
 		"autoprefixer": "^10.4.13",
 		"cssnano": "^5.1.14",
-		"eslint": "^8.30.0",
-		"postcss": "^8.4.20",
-		"prettier": "^2.8.1",
-		"prettier-plugin-astro": "^0.7.0",
+		"eslint": "^8.32.0",
+		"postcss": "^8.4.21",
+		"prettier": "^2.8.3",
+		"prettier-plugin-astro": "^0.7.2",
 		"sass": "^1.57.1",
 		"typescript": "^4.9.4",
-		"unplugin-icons": "^0.14.15",
-		"vitest": "^0.26.3"
+		"unplugin-icons": "^0.15.1",
+		"vitest": "^0.27.2"
 	},
 	"peerDependencies": {
 		"@babel/core": "^7.20.7",
