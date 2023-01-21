@@ -1,0 +1,960 @@
+{
+ "name": "Golang Indonesia 🇲🇨",
+ "type": "public_supergroup",
+ "id": 1095762521,
+ "messages": [
+  {
+   "id": 235876,
+   "type": "message",
+   "date": "2022-08-28T11:11:44",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "reply_to_message_id": 235871,
+   "text": [
+    "Pak terangin dong\n\n",
+    {
+     "type": "code",
+     "text": "read committed"
+    },
+    " => naon?\n",
+    {
+     "type": "code",
+     "text": "repeatable read"
+    },
+    " => naon?\n",
+    {
+     "type": "code",
+     "text": "serializeable"
+    },
+    " => another naon?"
+   ]
+  },
+  {
+   "id": 235877,
+   "type": "message",
+   "date": "2022-08-28T11:11:52",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "reply_to_message_id": 235875,
+   "text": "'Availability'"
+  },
+  {
+   "id": 235878,
+   "type": "message",
+   "date": "2022-08-28T11:12:07",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235876,
+   "text": "gamau wkwkwkw"
+  },
+  {
+   "id": 235879,
+   "type": "message",
+   "date": "2022-08-28T11:12:11",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": "ck!"
+  },
+  {
+   "id": 235880,
+   "type": "message",
+   "date": "2022-08-28T11:12:14",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": "pelid"
+  },
+  {
+   "id": 235881,
+   "type": "message",
+   "date": "2022-08-28T11:12:19",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": "DM nih kalo ga mau."
+  },
+  {
+   "id": 235882,
+   "type": "message",
+   "date": "2022-08-28T11:14:33",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": [
+    "Oke baru baca\n\n",
+    {
+     "type": "code",
+     "text": "read committed"
+    },
+    " => Ga bakal baca dari write yang belum beres. Cuma yang udah di-commit aja."
+   ]
+  },
+  {
+   "id": 235883,
+   "type": "message",
+   "date": "2022-08-28T11:17:45",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": [
+    {
+     "type": "code",
+     "text": "repeatable read"
+    },
+    " => Dalam transaksi kalo ada 2x read bakal ngehasilin hal yang sama. Sementara kalo ",
+    {
+     "type": "code",
+     "text": "read committed"
+    },
+    " aja kalo ada transaksi lain yang ngubah rownya, maka bisa jadi read kedua berubah."
+   ]
+  },
+  {
+   "id": 235884,
+   "type": "message",
+   "date": "2022-08-28T11:18:27",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "text": "ada juga level snapshot, tapi di yugabyte disamain sama repeatable read"
+  },
+  {
+   "id": 235885,
+   "type": "message",
+   "date": "2022-08-28T11:19:00",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "text": "meanwhile kalo sql normal yang kek postgres, mysql ada read uncommited, satu level dibawah read commited"
+  },
+  {
+   "id": 235886,
+   "type": "message",
+   "date": "2022-08-28T11:19:02",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": [
+    {
+     "type": "code",
+     "text": "serializable"
+    },
+    " => Dalam satu transaksi, transaksi lain harus nunggu kalo ada row yang lagi di-lock. Statenya ga akan berubah."
+   ]
+  },
+  {
+   "id": 235887,
+   "type": "message",
+   "date": "2022-08-28T11:19:09",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "text": "kalo mssql, lebih banyak lagi isolation levelsnya"
+  },
+  {
+   "id": 235888,
+   "type": "message",
+   "date": "2022-08-28T11:19:23",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": [
+    {
+     "type": "code",
+     "text": "read uncommitted"
+    },
+    " gawat juga kalo masih otw"
+   ]
+  },
+  {
+   "id": 235889,
+   "type": "message",
+   "date": "2022-08-28T11:19:57",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": "Makannya transaction jangan lama-lama lah ya."
+  },
+  {
+   "id": 235890,
+   "type": "message",
+   "date": "2022-08-28T11:20:04",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": "Kalo bisa pake atomic operations aja."
+  },
+  {
+   "id": 235891,
+   "type": "message",
+   "date": "2022-08-28T11:20:19",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "text": [
+    "bisa baca baca disini: ",
+    {
+     "type": "link",
+     "text": "https://docs.microsoft.com/en-us/sql/t-sql/statements/set-transaction-isolation-level-transact-sql?view=sql-server-ver16"
+    }
+   ]
+  },
+  {
+   "id": 235892,
+   "type": "message",
+   "date": "2022-08-28T11:20:26",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": [
+    "plus kalo pake NewSQL jangan pake ",
+    {
+     "type": "code",
+     "text": "AUTO INCREMENT"
+    },
+    " karena akan jadi hotspot mas ",
+    {
+     "type": "mention",
+     "text": "@Ramad987"
+    }
+   ]
+  },
+  {
+   "id": 235893,
+   "type": "message",
+   "date": "2022-08-28T11:20:33",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "reply_to_message_id": 235891,
+   "text": "ga bisa enggres mz"
+  },
+  {
+   "id": 235894,
+   "type": "message",
+   "date": "2022-08-28T11:20:45",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235893,
+   "text": "halah boong aja om ini wkwkwk"
+  },
+  {
+   "id": 235895,
+   "type": "message",
+   "date": "2022-08-28T11:21:24",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": "Zaman old bikin aplikasi harus lock-lock di DB lama, bahkan stored procedure panjang."
+  },
+  {
+   "id": 235896,
+   "type": "message",
+   "date": "2022-08-28T11:21:36",
+   "edited": "2022-08-28T11:21:45",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": "Zaman sekarang saya nyari cara yang atomic aja. Hahahaha."
+  },
+  {
+   "id": 235897,
+   "type": "message",
+   "date": "2022-08-28T11:22:01",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235890,
+   "text": "serializable itu ngejamin consistency, tapi ada drawback di performance. kalo misalnya 1 table punya write rps yang banyak banget, bisa jadi bottleneck"
+  },
+  {
+   "id": 235898,
+   "type": "message",
+   "date": "2022-08-28T11:22:14",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "reply_to_message_id": 235897,
+   "text": "Benul"
+  },
+  {
+   "id": 235899,
+   "type": "message",
+   "date": "2022-08-28T11:22:28",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": "Cuma bermasalah kalo domain objectnya adalah hasil agregasi beberapa tabel."
+  },
+  {
+   "id": 235900,
+   "type": "message",
+   "date": "2022-08-28T11:22:41",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": [
+    "Pas lagi operasi ",
+    {
+     "type": "code",
+     "text": "Save"
+    },
+    " harus ngelock beberapa tabel."
+   ]
+  },
+  {
+   "id": 235901,
+   "type": "message",
+   "date": "2022-08-28T11:22:53",
+   "from": "Ramad",
+   "from_id": "user414742973",
+   "reply_to_message_id": 235892,
+   "text": "Ooh bagian ini ga ke hindarin juga berarti ya"
+  },
+  {
+   "id": 235902,
+   "type": "message",
+   "date": "2022-08-28T11:22:55",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "text": "even di cluster deployment. misal deploy 5 node. ya kalo bikin transaction pake level serializable, consistency terjamin, tapi kita harus nunggu sampe data beneran ke write ke 5 node itu"
+  },
+  {
+   "id": 235903,
+   "type": "message",
+   "date": "2022-08-28T11:23:19",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "reply_to_message_id": 235902,
+   "text": "Benar, jadi mindsetnya tetep sama aja. Nunggu quorum."
+  },
+  {
+   "id": 235904,
+   "type": "message",
+   "date": "2022-08-28T11:23:36",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "text": "yang paling pusing di newsql itu kalo bikin JOIN query, tapi clusternya di sharding"
+  },
+  {
+   "id": 235905,
+   "type": "message",
+   "date": "2022-08-28T11:23:40",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": "Kalo ga serializable, bisa baca dari node lain tapi datanya belum quorum."
+  },
+  {
+   "id": 235906,
+   "type": "message",
+   "date": "2022-08-28T11:24:13",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "reply_to_message_id": 235901,
+   "text": [
+    "enggak mas, soalnya kalo ",
+    {
+     "type": "code",
+     "text": "AUTO INCREMENT"
+    },
+    " artinya harus tau ",
+    {
+     "type": "code",
+     "text": "state"
+    },
+    " dari row sebelumnya."
+   ]
+  },
+  {
+   "id": 235907,
+   "type": "message",
+   "date": "2022-08-28T11:24:26",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "text": "ada yang lebih pusing lagi: kalo database lost quorum, what should you do? wkwkkw"
+  },
+  {
+   "id": 235908,
+   "type": "message",
+   "date": "2022-08-28T11:24:27",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": "kalo statenya masih dalam keadaan di lock, ya berarti harus nunggu laig."
+  },
+  {
+   "id": 235909,
+   "type": "message",
+   "date": "2022-08-28T11:24:45",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "reply_to_message_id": 235907,
+   "text": "Matiiin, recover, replay."
+  },
+  {
+   "id": 235910,
+   "type": "message",
+   "date": "2022-08-28T11:24:51",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": [
+    {
+     "type": "code",
+     "text": "SAMA AJA"
+    },
+    " *kabur"
+   ]
+  },
+  {
+   "id": 235911,
+   "type": "message",
+   "date": "2022-08-28T11:24:55",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235909,
+   "text": "hooo tidak semudah itu"
+  },
+  {
+   "id": 235912,
+   "type": "message",
+   "date": "2022-08-28T11:25:25",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "reply_to_message_id": 235899,
+   "text": "Ini makanya kalo bisa domain object jangan banyak2 tabelnya. Problemnya RDBMS itu enakan di-JOIN daripada bikin array dalam satu field."
+  },
+  {
+   "id": 235913,
+   "type": "message",
+   "date": "2022-08-28T11:25:44",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "reply_to_message_id": 235911,
+   "text": "Lalu gimana mz?"
+  },
+  {
+   "id": 235914,
+   "type": "message",
+   "date": "2022-08-28T11:26:31",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": "Belum lagi kalo split brain 😛"
+  },
+  {
+   "id": 235915,
+   "type": "message",
+   "date": "2022-08-28T11:26:40",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": "yang bener mana ini..."
+  },
+  {
+   "id": 235916,
+   "type": "message",
+   "date": "2022-08-28T11:27:01",
+   "from": "Ramad",
+   "from_id": "user414742973",
+   "reply_to_message_id": 235906,
+   "text": "Waktu itu client ttp mauny pake auto increment, akhirny diatur sequencingny, increment +100, starting point masing2 db beda"
+  },
+  {
+   "id": 235917,
+   "type": "message",
+   "date": "2022-08-28T11:27:20",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "reply_to_message_id": 235916,
+   "text": "Ya kalo kata klien sih ya udah 😄"
+  },
+  {
+   "id": 235918,
+   "type": "message",
+   "date": "2022-08-28T11:27:33",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": [
+    "tapi ",
+    {
+     "type": "code",
+     "text": "AUTO INCREMENT"
+    },
+    " itu memaksa sesuatu yang stateless jadi stateful."
+   ]
+  },
+  {
+   "id": 235919,
+   "type": "message",
+   "date": "2022-08-28T11:28:19",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": "bahkan masih ada yang mikir kalo primary keynya bukan integer itu lembet."
+  },
+  {
+   "id": 235920,
+   "type": "message",
+   "date": "2022-08-28T11:28:33",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": [
+    "Padaha ",
+    {
+     "type": "code",
+     "text": "uuid"
+    },
+    " itu ya integer juga. Cuma 128 bit."
+   ]
+  },
+  {
+   "id": 235921,
+   "type": "message",
+   "date": "2022-08-28T11:28:51",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": "Cuma ya ... ga urut aja hahaha."
+  },
+  {
+   "id": 235922,
+   "type": "message",
+   "date": "2022-08-28T11:30:37",
+   "from": "Ramad",
+   "from_id": "user414742973",
+   "reply_to_message_id": 235907,
+   "text": "Ini harus 'stop the world' sebentar"
+  },
+  {
+   "id": 235923,
+   "type": "message",
+   "date": "2022-08-28T11:32:00",
+   "edited": "2022-08-28T11:37:46",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235913,
+   "text": [
+    {
+     "type": "link",
+     "text": "https://github.com/rqlite/rqlite/blob/master/DOC/CLUSTER_MGMT.md#dealing-with-failure"
+    }
+   ]
+  },
+  {
+   "id": 235924,
+   "type": "message",
+   "date": "2022-08-28T11:32:21",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "text": "dari tadi nyari di docs yugabyte sama cockroachdb ga nemu. yowes ambil dari rqlite aja wkwkwk"
+  },
+  {
+   "id": 235925,
+   "type": "message",
+   "date": "2022-08-28T11:33:13",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235919,
+   "text": "ada yang lebih parah. mikir kalo walaupun ada UUID jadi ID, harus tetep ada column ID yang AUTOINCREMENT wkwkwkwkwk"
+  },
+  {
+   "id": 235926,
+   "type": "message",
+   "date": "2022-08-28T11:34:42",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "reply_to_message_id": 235925,
+   "text": "Ya sama aja dong. Maksain sesuatu yg stateless jd stateful."
+  },
+  {
+   "id": 235927,
+   "type": "message",
+   "date": "2022-08-28T11:34:59",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": "Saya sekarang sih: data yang unique saya akan jadiin key :))"
+  },
+  {
+   "id": 235928,
+   "type": "message",
+   "date": "2022-08-28T11:35:05",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": "Ga harus UUID kecuali memang perlu ID."
+  },
+  {
+   "id": 235929,
+   "type": "message",
+   "date": "2022-08-28T11:35:10",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235926,
+   "text": "iya. padahal developer udah provide UUID"
+  },
+  {
+   "id": 235930,
+   "type": "message",
+   "date": "2022-08-28T11:35:10",
+   "from": "Moses Kurniawan",
+   "from_id": "user1188406962",
+   "reply_to_message_id": 235852,
+   "text": "mwekekekeke iya di program rewrite pake ini"
+  },
+  {
+   "id": 235931,
+   "type": "message",
+   "date": "2022-08-28T11:35:18",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "text": "tapi masih ada aja role sebelah yang maksa AUTOINCREMENT"
+  },
+  {
+   "id": 235932,
+   "type": "message",
+   "date": "2022-08-28T11:35:29",
+   "edited": "2022-08-28T16:48:11",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": [
+    "ada, rolenya ",
+    {
+     "type": "code",
+     "text": "ARCHITECT"
+    },
+    " bukan?"
+   ]
+  },
+  {
+   "id": 235933,
+   "type": "message",
+   "date": "2022-08-28T11:35:42",
+   "edited": "2022-08-29T09:29:02",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235932,
+   "text": [
+    {
+     "type": "spoiler",
+     "text": "System Analyst"
+    }
+   ]
+  },
+  {
+   "id": 235934,
+   "type": "message",
+   "date": "2022-08-28T11:36:03",
+   "edited": "2022-08-28T11:38:44",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": [
+    "bodo amat mau ",
+    {
+     "type": "code",
+     "text": "VARCHAR"
+    },
+    " juga, zaman now CPU dah kenceng. Lagian index itu kan pake b+tree kan, ya masak selemot itu."
+   ]
+  },
+  {
+   "id": 235935,
+   "type": "message",
+   "date": "2022-08-28T11:36:32",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": "*kemudian saya ingat, kalo VARCHAR nya unicode, brengsek juga krn urutannya ... jadi ga urut."
+  },
+  {
+   "id": 235936,
+   "type": "message",
+   "date": "2022-08-28T11:36:59",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "reply_to_message_id": 235933,
+   "text": "ya 10-13 lah 😛"
+  },
+  {
+   "id": 235937,
+   "type": "message",
+   "date": "2022-08-28T11:37:19",
+   "from": "Ramad",
+   "from_id": "user414742973",
+   "reply_to_message_id": 235927,
+   "text": "+1"
+  },
+  {
+   "id": 235938,
+   "type": "message",
+   "date": "2022-08-28T11:37:35",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": "Binary data juga bisa di-indeks, tapi indeksnya ga ada konteks (collation) nya. Jadi nurut urutan binernya aja."
+  },
+  {
+   "id": 235939,
+   "type": "message",
+   "date": "2022-08-28T11:38:30",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": "Kalo ada collation, jadi ada konteksnya: misalnya e dan ë harus satu urutan, ga boleh sehabis z."
+  },
+  {
+   "id": 235940,
+   "type": "message",
+   "date": "2022-08-28T11:39:22",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "reply_to_message_id": 235937,
+   "text": "Karena domain modelnya jadi enak mas. Bisa disimpen sekali, ga perlu query dulu id nya berapa. Jadi bisa satu trx tanpa select."
+  },
+  {
+   "id": 235941,
+   "type": "message",
+   "date": "2022-08-28T11:39:49",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": "Kalo enggak, domain modelnya jadi kotor, karena harus nyimpen idnya juga di situ. Padahal itu id dipake buat keperluan storage aja."
+  },
+  {
+   "id": 235942,
+   "type": "message",
+   "date": "2022-08-28T11:41:49",
+   "from": "Ramad",
+   "from_id": "user414742973",
+   "text": "Mayan panjang bahas bukan golang, ga diomelin admin? Haha"
+  },
+  {
+   "id": 235943,
+   "type": "message",
+   "date": "2022-08-28T11:42:10",
+   "from": "ㅤ ㅤ",
+   "from_id": "user82566768",
+   "text": "gw sih gpp '__')"
+  },
+  {
+   "id": 235944,
+   "type": "message",
+   "date": "2022-08-28T11:42:21",
+   "from": "ㅤ ㅤ",
+   "from_id": "user82566768",
+   "text": "related kan"
+  },
+  {
+   "id": 235945,
+   "type": "message",
+   "date": "2022-08-28T11:43:06",
+   "from": "ㅤ ㅤ",
+   "from_id": "user82566768",
+   "text": "gw sih gpp database tertentu auto increment, 200rb rps, ga tembus juga jumlah writenya"
+  },
+  {
+   "id": 235946,
+   "type": "message",
+   "date": "2022-08-28T11:43:17",
+   "from": "ㅤ ㅤ",
+   "from_id": "user82566768",
+   "text": "bottlenecknya bukan di situ"
+  },
+  {
+   "id": 235947,
+   "type": "message",
+   "date": "2022-08-28T11:43:52",
+   "from": "Ramad",
+   "from_id": "user414742973",
+   "reply_to_message_id": 235945,
+   "text": "Single instance itu? di mesin kyk apa mas?"
+  },
+  {
+   "id": 235948,
+   "type": "message",
+   "date": "2022-08-28T11:44:00",
+   "from": "ㅤ ㅤ",
+   "from_id": "user82566768",
+   "text": "yes single machine"
+  },
+  {
+   "id": 235949,
+   "type": "message",
+   "date": "2022-08-28T11:44:10",
+   "from": "ㅤ ㅤ",
+   "from_id": "user82566768",
+   "text": "16 core"
+  },
+  {
+   "id": 235950,
+   "type": "message",
+   "date": "2022-08-28T11:44:40",
+   "edited": "2022-08-28T11:44:45",
+   "from": "Ramad",
+   "from_id": "user414742973",
+   "reply_to_message_id": 235948,
+   "text": "Postgre? Mysql? Mssql?"
+  },
+  {
+   "id": 235951,
+   "type": "message",
+   "date": "2022-08-28T11:44:45",
+   "from": "ㅤ ㅤ",
+   "from_id": "user82566768",
+   "text": "tarantool"
+  },
+  {
+   "id": 235952,
+   "type": "message",
+   "date": "2022-08-28T11:44:53",
+   "from": "ㅤ ㅤ",
+   "from_id": "user82566768",
+   "text": "kalo multimaster baru terpaksa no auto increment"
+  },
+  {
+   "id": 235953,
+   "type": "message",
+   "date": "2022-08-28T11:45:00",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235946,
+   "text": "bottlenecknya dimana? network io?"
+  },
+  {
+   "id": 235954,
+   "type": "message",
+   "date": "2022-08-28T11:45:44",
+   "from": "ㅤ ㅤ",
+   "from_id": "user82566768",
+   "text": "di layer depannya lagi"
+  },
+  {
+   "id": 235955,
+   "type": "message",
+   "date": "2022-08-28T11:45:57",
+   "from": "ㅤ ㅤ",
+   "from_id": "user82566768",
+   "text": "ga bisa utilize fully 200K rps XD"
+  },
+  {
+   "id": 235956,
+   "type": "message",
+   "date": "2022-08-28T11:46:04",
+   "from": "Ramad",
+   "from_id": "user414742973",
+   "reply_to_message_id": 235951,
+   "text": "Kirain, afaik ga kuat dbms spek segitu untuk rps sgitu"
+  },
+  {
+   "id": 235957,
+   "type": "message",
+   "date": "2022-08-28T11:46:06",
+   "from": "ㅤ ㅤ",
+   "from_id": "user82566768",
+   "text": "harus spawn lebih dari 1 instance buat utilize"
+  },
+  {
+   "id": 235958,
+   "type": "message",
+   "date": "2022-08-28T11:46:15",
+   "from": "ㅤ ㅤ",
+   "from_id": "user82566768",
+   "text": "yes dbms biasa paling 40K rps"
+  },
+  {
+   "id": 235959,
+   "type": "message",
+   "date": "2022-08-28T11:46:38",
+   "from": "ㅤ ㅤ",
+   "from_id": "user82566768",
+   "text": "jadi bottleneck pertama ya di database XD bukan di backend/api"
+  },
+  {
+   "id": 235960,
+   "type": "message",
+   "date": "2022-08-28T11:47:26",
+   "from": "ㅤ ㅤ",
+   "from_id": "user82566768",
+   "text": "api gw cuma bisa 70K rps per instance"
+  },
+  {
+   "id": 235961,
+   "type": "message",
+   "date": "2022-08-28T11:48:29",
+   "from": "Ramad",
+   "from_id": "user414742973",
+   "reply_to_message_id": 235960,
+   "text": "Dbms? Spek macem apa itu mas?"
+  },
+  {
+   "id": 235962,
+   "type": "message",
+   "date": "2022-08-28T11:48:45",
+   "from": "Ramad",
+   "from_id": "user414742973",
+   "text": "Di tech empower benchmark max data update aja 24k"
+  },
+  {
+   "id": 235963,
+   "type": "message",
+   "date": "2022-08-28T11:48:49",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": "ya elah, 70K ya udah lah"
+  },
+  {
+   "id": 235964,
+   "type": "message",
+   "date": "2022-08-28T11:48:49",
+   "from": "ㅤ ㅤ",
+   "from_id": "user82566768",
+   "text": "tarantool tetep + api"
+  },
+  {
+   "id": 235965,
+   "type": "message",
+   "date": "2022-08-28T11:49:01",
+   "from": "ㅤ ㅤ",
+   "from_id": "user82566768",
+   "text": "iyes, makannya ga perlu bashing auto increment XD"
+  },
+  {
+   "id": 235966,
+   "type": "message",
+   "date": "2022-08-28T11:49:08",
+   "from": "ㅤ ㅤ",
+   "from_id": "user82566768",
+   "text": "16 core, nvme biasa"
+  },
+  {
+   "id": 235967,
+   "type": "message",
+   "date": "2022-08-28T11:50:01",
+   "edited": "2022-08-28T11:51:17",
+   "from": "Ramad",
+   "from_id": "user414742973",
+   "reply_to_message_id": 235963,
+   "text": "Di allo ada mas product yg sampe segitu? Rahasia perusahaan ga ya, haha"
+  },
+  {
+   "id": 235968,
+   "type": "message",
+   "date": "2022-08-28T11:51:19",
+   "from": "ㅤ ㅤ",
+   "from_id": "user82566768",
+   "text": "udah banyak yg balik sadar server gede 2 lebih ok daripada rent spawn vm server kecil2"
+  },
+  {
+   "id": 235969,
+   "type": "message",
+   "date": "2022-08-28T11:51:37",
+   "from": "ㅤ ㅤ",
+   "from_id": "user82566768",
+   "text": "lebih ga lelah maintainnya"
+  },
+  {
+   "id": 235970,
+   "type": "message",
+   "date": "2022-08-28T11:53:53",
+   "edited": "2022-08-28T11:54:02",
+   "from": "Ramad",
+   "from_id": "user414742973",
+   "reply_to_message_id": 235969,
+   "text": "Yg banyak2 melelahkan y, bnyk vm, bnyk repo, bnyk service"
+  },
+  {
+   "id": 235971,
+   "type": "message",
+   "date": "2022-08-28T12:08:59",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "reply_to_message_id": 235968,
+   "text": "tapi kalo kube lebih enakan gini om :))"
+  },
+  {
+   "id": 235972,
+   "type": "message",
+   "date": "2022-08-28T12:09:04",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": "kecil2 dan banyak"
+  },
+  {
+   "id": 235973,
+   "type": "message",
+   "date": "2022-08-28T12:09:09",
+   "from": "D Noor",
+   "from_id": "user217465963",
+   "text": "Tar tinggal dikonsolidasi hehhee."
+  }
+ ]
+}
