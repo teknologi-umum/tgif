@@ -1,0 +1,1744 @@
+{
+	"name": "Teknologi Umum v2.0",
+	"type": "public_supergroup",
+	"id": 1712691810,
+	"messages": [
+		{
+			"id": 54758,
+			"type": "message",
+			"date": "2022-08-02T23:21:24",
+			"edited": "2022-08-02T23:21:37",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"text": "kira2 di group ini ada yang kontra dengan TDD ga ya? penasaran sama sudut pandangnya"
+		},
+		{
+			"id": 54759,
+			"type": "message",
+			"date": "2022-08-02T23:21:53",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				{
+					"type": "link",
+					"text": "https://github.com/teknologi-umum/graphene/tree/master/backend/tests"
+				}
+			]
+		},
+		{
+			"id": 54760,
+			"type": "message",
+			"date": "2022-08-02T23:22:10",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "AI, what is TDD?"
+		},
+		{
+			"id": 54762,
+			"type": "message",
+			"date": "2022-08-02T23:22:26",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "saya ngga pernah TDD sih"
+		},
+		{
+			"id": 54763,
+			"type": "message",
+			"date": "2022-08-02T23:22:45",
+			"from": null,
+			"from_id": "user1168523623",
+			"reply_to_message_id": 54749,
+			"file": "stickers/sticker (22).webp",
+			"thumbnail": "stickers/sticker (22).webp_thumb.jpg",
+			"media_type": "sticker",
+			"sticker_emoji": "✨",
+			"width": 512,
+			"height": 512,
+			"text": ""
+		},
+		{
+			"id": 54764,
+			"type": "message",
+			"date": "2022-08-02T23:23:04",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"text": "AI, what is Test first programming?"
+		},
+		{
+			"id": 54766,
+			"type": "message",
+			"date": "2022-08-02T23:23:14",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "biasanya domain & interfaces first, lalu minimal implementation (with bunch of TODO markers), lalu bikin tests, barulah full implementation"
+		},
+		{
+			"id": 54767,
+			"type": "message",
+			"date": "2022-08-02T23:23:18",
+			"from": null,
+			"from_id": "user1168523623",
+			"reply_to_message_id": 54765,
+			"text": "what is the alternative?"
+		},
+		{
+			"id": 54769,
+			"type": "message",
+			"date": "2022-08-02T23:23:29",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54766,
+			"text": "ini, imho, masih TDD"
+		},
+		{
+			"id": 54770,
+			"type": "message",
+			"date": "2022-08-02T23:23:54",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 54769,
+			"text": "TDD bukannya bener bener bikin test nya dulu baru ngoding?"
+		},
+		{
+			"id": 54771,
+			"type": "message",
+			"date": "2022-08-02T23:24:32",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54770,
+			"text": "banyak aliran sih, kyk agile banyak aliran, tp pada convergent di Red-Green-Refactor"
+		},
+		{
+			"id": 54772,
+			"type": "message",
+			"date": "2022-08-02T23:24:42",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "interface IFoo {\n}\n\nMock<IFoo>\n\ngitu biasanya TDD di C#"
+		},
+		{
+			"id": 54773,
+			"type": "message",
+			"date": "2022-08-02T23:25:06",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"text": "kalo bikin domain, interface, minimal implementation, bunch of ToDo, trus coding test, most likely bakal red"
+		},
+		{
+			"id": 54774,
+			"type": "message",
+			"date": "2022-08-02T23:25:15",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "saya sih convention driven"
+		},
+		{
+			"id": 54775,
+			"type": "message",
+			"date": "2022-08-02T23:25:24",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "ngoding terus. ngga ditest ngga didebug"
+		},
+		{
+			"id": 54776,
+			"type": "message",
+			"date": "2022-08-02T23:26:03",
+			"edited": "2022-08-02T23:26:12",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "your strict typing guides & validates your own code"
+		},
+		{
+			"id": 54777,
+			"type": "message",
+			"date": "2022-08-02T23:26:32",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "begitu banyak application parts disambung2in, they validate each other"
+		},
+		{
+			"id": 54778,
+			"type": "message",
+			"date": "2022-08-02T23:26:45",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "so beautiful OOP itu"
+		},
+		{
+			"id": 54779,
+			"type": "message",
+			"date": "2022-08-02T23:31:42",
+			"edited": "2022-08-02T23:32:58",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 54773,
+			"text": "nah ini. ternyata saya TDD"
+		},
+		{
+			"id": 54780,
+			"type": "message",
+			"date": "2022-08-02T23:33:33",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54775,
+			"text": "eh ga ditest gimana maksudnya mas? ga di run kali ya? tp unit test dijalanin?"
+		},
+		{
+			"id": 54781,
+			"type": "message",
+			"date": "2022-08-02T23:33:46",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 54780,
+			"text": "ngga juga"
+		},
+		{
+			"id": 54782,
+			"type": "message",
+			"date": "2022-08-02T23:34:09",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "kalo pake CA di C#, bisa ngoding berhari2 tanpa didebug tanpa ditest"
+		},
+		{
+			"id": 54783,
+			"type": "message",
+			"date": "2022-08-02T23:41:25",
+			"edited": "2022-08-02T23:41:35",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54782,
+			"text": "CA itu static code analysis maksudnya?"
+		},
+		{
+			"id": 54784,
+			"type": "message",
+			"date": "2022-08-02T23:41:54",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "clean architecture"
+		},
+		{
+			"id": 54785,
+			"type": "message",
+			"date": "2022-08-02T23:42:23",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "dengan convention yang very very strict & domain driven"
+		},
+		{
+			"id": 54786,
+			"type": "message",
+			"date": "2022-08-02T23:42:48",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "om seriously ini indonesia mau nerapin whitelist? 😢ane baru baca2 efek2nya ngeri juga web porto jadi gak bisa diakses atau hal2 lainnya kek mau nyari freelance di platform luar kayak upwork"
+		},
+		{
+			"id": 54787,
+			"type": "message",
+			"date": "2022-08-02T23:42:51",
+			"edited": "2022-08-02T23:43:09",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54784,
+			"text": "overloaded istilah CA tuh, haha, perlu saya clarify, CA kearah hexagonal / onion, ato CA kearah SOLID?"
+		},
+		{
+			"id": 54788,
+			"type": "message",
+			"date": "2022-08-02T23:43:31",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 54758,
+			"text": "Ane malah termasuk yang diracun sama om 😂"
+		},
+		{
+			"id": 54789,
+			"type": "message",
+			"date": "2022-08-02T23:43:41",
+			"edited": "2022-08-02T23:53:11",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "hexagonal & onion (DDD), sekaligus SOLID, sekaligus OOP, dan install macam2 code analyzer yang galak sekali"
+		},
+		{
+			"id": 54790,
+			"type": "message",
+			"date": "2022-08-02T23:43:58",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "saking strictnya, there's only one way to do everything"
+		},
+		{
+			"id": 54791,
+			"type": "message",
+			"date": "2022-08-02T23:44:24",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "jangan lupa treat warnings as errors"
+		},
+		{
+			"id": 54792,
+			"type": "message",
+			"date": "2022-08-02T23:44:25",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "wkwkwk"
+		},
+		{
+			"id": 54793,
+			"type": "message",
+			"date": "2022-08-02T23:44:49",
+			"edited": "2022-08-02T23:45:19",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "Bahas arsitektur yah ane mau nanya sekalian ideal gak sih kalau properti Dto sama repository itu jumlahnya sama jadi kek cuman copy object aja cuman gak sama methodnya"
+		},
+		{
+			"id": 54794,
+			"type": "message",
+			"date": "2022-08-02T23:45:12",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "properti yang kamu maksud itu apa?"
+		},
+		{
+			"id": 54795,
+			"type": "message",
+			"date": "2022-08-02T23:45:25",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "class yang isinya data?"
+		},
+		{
+			"id": 54796,
+			"type": "message",
+			"date": "2022-08-02T23:45:31",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 54795,
+			"text": "iyah om"
+		},
+		{
+			"id": 54797,
+			"type": "message",
+			"date": "2022-08-02T23:45:37",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 54793,
+			"text": "*Dto"
+		},
+		{
+			"id": 54798,
+			"type": "message",
+			"date": "2022-08-02T23:45:37",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "ok itu namanya model"
+		},
+		{
+			"id": 54799,
+			"type": "message",
+			"date": "2022-08-02T23:46:15",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "tiap aggregate (class yang jadi root di setiap model) biasanya mappingnya 1 to 1 ke repository"
+		},
+		{
+			"id": 54800,
+			"type": "message",
+			"date": "2022-08-02T23:46:17",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 54798,
+			"text": "nah ini ane masih rada rancu soal model antara domain model sama model kek di mvc"
+		},
+		{
+			"id": 54801,
+			"type": "message",
+			"date": "2022-08-02T23:48:16",
+			"edited": "2022-08-02T23:53:22",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "domain model: buat business logic\nview model: buat dioper ke view\nDTO: buat urusan komunikasi\ndata model: buat urusan penyimpanan"
+		},
+		{
+			"id": 54802,
+			"type": "message",
+			"date": "2022-08-02T23:48:37",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "model bagusnya dipisah2 sesuai concernnya"
+		},
+		{
+			"id": 54803,
+			"type": "message",
+			"date": "2022-08-02T23:49:02",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "misal DTO concernnya mikirin gimana model itu diserialize jadi JSON atau protobuf atau messagepack"
+		},
+		{
+			"id": 54804,
+			"type": "message",
+			"date": "2022-08-02T23:49:08",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 54802,
+			"text": "Oh iyah om pernah bilang ke ane gak masalah yah kita bikin class objek banyak yang berulang.\n\nane inget"
+		},
+		{
+			"id": 54805,
+			"type": "message",
+			"date": "2022-08-02T23:49:16",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "data model concernnya mikirin gimana model itu disimpan di SQL atau database lain"
+		},
+		{
+			"id": 54806,
+			"type": "message",
+			"date": "2022-08-02T23:50:03",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54793,
+			"text": "biasanya ini ada kolom yang kurang di data model-nya"
+		},
+		{
+			"id": 54807,
+			"type": "message",
+			"date": "2022-08-02T23:50:25",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				"kadang orang suka nyampur2\n\n",
+				{
+					"type": "pre",
+					"text": "public class Foo {\n  [JsonPropertyName(\"email\")]\n  [Required, EmailAddress]\n  [Key, StringLength(50)]\n  public string Email { get; set; }\n}",
+					"language": ""
+				}
+			]
+		},
+		{
+			"id": 54808,
+			"type": "message",
+			"date": "2022-08-02T23:50:38",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "ada urusan json, ada urusan view model, ada urusan database di 1 class"
+		},
+		{
+			"id": 54809,
+			"type": "message",
+			"date": "2022-08-02T23:50:40",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "ini ngga boleh"
+		},
+		{
+			"id": 54810,
+			"type": "message",
+			"date": "2022-08-02T23:50:46",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"text": "property di DTO, kalo represent suatu domain model yang sama, biasanya lebih sedikit propertinya dibanding data model"
+		},
+		{
+			"id": 54811,
+			"type": "message",
+			"date": "2022-08-02T23:52:18",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 54809,
+			"text": [
+				{
+					"type": "link",
+					"text": "https://t.me/CSharpIndonesia/4111"
+				},
+				"\n\nNah ane nemu ini dulu inget yang om pernah bilang i see isee"
+			]
+		},
+		{
+			"id": 54812,
+			"type": "message",
+			"date": "2022-08-02T23:52:20",
+			"edited": "2022-08-02T23:53:24",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"text": "misalnya di data model ada CreatedAt, CreatedBy, UpdatedAt, UpdatedBy, DeletedAt, DeletedBy, ini jarang dibutuhin di DTO"
+		},
+		{
+			"id": 54813,
+			"type": "message",
+			"date": "2022-08-02T23:54:34",
+			"edited": "2022-08-02T23:55:31",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 54810,
+			"text": "Eh iyah aku liat malah dto lebih kurus di sourcenya codeopinion om nah ini yang mau ane tanyain juga yang ideal itu sama jumlahnya atau dto yang lebih sedikit atau sebaliknya gitu 😂"
+		},
+		{
+			"id": 54814,
+			"type": "message",
+			"date": "2022-08-02T23:54:48",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 54812,
+			"text": "Oh iyah2 ngerti kalau ini om thanks"
+		},
+		{
+			"id": 54816,
+			"type": "message",
+			"date": "2022-08-02T23:55:30",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"text": "iya kok, DTO emang seringnya lebih kurus"
+		},
+		{
+			"id": 54817,
+			"type": "message",
+			"date": "2022-08-02T23:55:49",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "Gak sia2 nongol di grup dapet daging malem2"
+		},
+		{
+			"id": 54818,
+			"type": "message",
+			"date": "2022-08-02T23:55:55",
+			"edited": "2022-08-02T23:57:12",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"text": "network kan lambat dan mahal ya, makin langsing / dikit data yang di transfer, generally better"
+		},
+		{
+			"id": 54819,
+			"type": "message",
+			"date": "2022-08-02T23:57:21",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "lebih kurus lah. jangan sampe user login dikirimin email, nama, alamat, nomer hp, hashed password, salt, dan semua setting"
+		},
+		{
+			"id": 54820,
+			"type": "message",
+			"date": "2022-08-02T23:58:27",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": [
+				{
+					"type": "italic",
+					"text": "tapi om"
+				}
+			]
+		},
+		{
+			"id": 54822,
+			"type": "message",
+			"date": "2022-08-02T23:58:28",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54801,
+			"text": [
+				"sepakat om ",
+				{
+					"type": "mention",
+					"text": "@okitas0uji"
+				},
+				" , sempet bingung juga tp jadi clear baca ini"
+			]
+		},
+		{
+			"id": 54823,
+			"type": "message",
+			"date": "2022-08-02T23:58:39",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 54801,
+			"text": "Tinggal ane research terkait struktur domain model sama data model.\n\nbisa gak sih kita bilang data model itu masuknya ke entities?"
+		},
+		{
+			"id": 54824,
+			"type": "message",
+			"date": "2022-08-02T23:59:25",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54823,
+			"text": "domain model harusnya yang paling deket sama spek / business / real world, dan ga dicampur sama implementation detail"
+		},
+		{
+			"id": 54825,
+			"type": "message",
+			"date": "2022-08-02T23:59:58",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"text": "kalo dah ada domain model, mikirin gmn caranya model itu disimpen, jadilah data model"
+		},
+		{
+			"id": 54828,
+			"type": "message",
+			"date": "2022-08-03T00:00:51",
+			"edited": "2022-08-03T00:01:38",
+			"from": null,
+			"from_id": "user1168523623",
+			"photo": "photos/photo_1901@03-08-2022_00-00-51.jpg",
+			"width": 287,
+			"height": 176,
+			"text": "kek gini naganya sekarang"
+		},
+		{
+			"id": 54829,
+			"type": "message",
+			"date": "2022-08-03T00:01:24",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 54824,
+			"text": [
+				"Hmm gitu yah ane masih belum masuk bagian ini nih ane nangkepnya domain model itu berkaitannya nnti ke repository sedangkan data model itu nnti larinya ke entities.\n\n",
+				{
+					"type": "hashtag",
+					"text": "#cmiiw"
+				}
+			]
+		},
+		{
+			"id": 54833,
+			"type": "message",
+			"date": "2022-08-03T00:02:45",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "jadi telegram itu rada2 hack di feature itu ya"
+		},
+		{
+			"id": 54834,
+			"type": "message",
+			"date": "2022-08-03T00:03:10",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "if (fileExtension == \"webp\"){\n   showAsSticker(picture);  \n}"
+		},
+		{
+			"id": 54835,
+			"type": "message",
+			"date": "2022-08-03T00:03:35",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "yes. ngeselin karena gambar dari google image rata2 webp"
+		},
+		{
+			"id": 54836,
+			"type": "message",
+			"date": "2022-08-03T00:04:45",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54829,
+			"text": "saya kurang paham statement ini"
+		},
+		{
+			"id": 54837,
+			"type": "message",
+			"date": "2022-08-03T00:05:41",
+			"edited": "2022-08-03T00:07:09",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 54829,
+			"text": "repository itu baca data model, direturn sebagai domain model, atau sebaliknya. domain model disave jadi bentuk data model"
+		},
+		{
+			"id": 54838,
+			"type": "message",
+			"date": "2022-08-03T00:08:08",
+			"edited": "2022-08-03T00:08:16",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54837,
+			"text": "aga rancu saya baca ini, tp mungkin buat klarifikasi, data model boleh keluar dari repository ga mas?"
+		},
+		{
+			"id": 54839,
+			"type": "message",
+			"date": "2022-08-03T00:08:20",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "ngga boleh"
+		},
+		{
+			"id": 54840,
+			"type": "message",
+			"date": "2022-08-03T00:09:36",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "core — repository — db\n\n- domain model cuma boleh dipake di core\n- data model cuma boleh dipake di db\n- repository boleh pakai keduanya"
+		},
+		{
+			"id": 54841,
+			"type": "message",
+			"date": "2022-08-03T00:10:16",
+			"edited": "2022-08-03T00:12:13",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "repository jadi jembatan. jadi detail implementasi gimana cara read & write"
+		},
+		{
+			"id": 54842,
+			"type": "message",
+			"date": "2022-08-03T00:11:03",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 54837,
+			"text": [
+				"Nah iyah gini maksud aku om jadi yang handle si domain model ini si repositorynya ane ngutip dari sini om.\n\n\nThe repository is implemented in the domain layer, because it works with domain objects. But in the domain layer we should have no idea about any database nor any storage, so the repository is just an interface.\n\n",
+				{
+					"type": "link",
+					"text": "https://svatasimara.medium.com/domain-driven-design-part-5-repository-d5ad32b2e06f"
+				}
+			]
+		},
+		{
+			"id": 54843,
+			"type": "message",
+			"date": "2022-08-03T00:11:29",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "kalau mau dipecah lebih jauh:\n- domain model\n- repository interface\n- repository implementation\n- data model"
+		},
+		{
+			"id": 54844,
+			"type": "message",
+			"date": "2022-08-03T00:11:52",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 54839,
+			"text": "Nah iyah berarti bener yah om kalau data model itu berkaitan sama entities."
+		},
+		{
+			"id": 54845,
+			"type": "message",
+			"date": "2022-08-03T00:11:57",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "di repository interface cuma boleh ada domain model\ndi repository implementation boleh ada both domain model dan data model"
+		},
+		{
+			"id": 54846,
+			"type": "message",
+			"date": "2022-08-03T00:12:35",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "untuk memastikan mana yang boleh mana yang ngga boleh, paling enak pake project system"
+		},
+		{
+			"id": 54847,
+			"type": "message",
+			"date": "2022-08-03T00:12:49",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54845,
+			"text": "tp berarti harusnya di method signature repository ga boleh ada data model kan mas?"
+		},
+		{
+			"id": 54848,
+			"type": "message",
+			"date": "2022-08-03T00:13:04",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 54847,
+			"text": "betul"
+		},
+		{
+			"id": 54849,
+			"type": "message",
+			"date": "2022-08-03T00:14:49",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54846,
+			"text": "IRepository tempatnya di core project?"
+		},
+		{
+			"id": 54850,
+			"type": "message",
+			"date": "2022-08-03T00:15:00",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 54849,
+			"text": "iya"
+		},
+		{
+			"id": 54851,
+			"type": "message",
+			"date": "2022-08-03T00:15:59",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": [
+				"Kalau ane ambil kesimpulan singkatnya gini.\n\nRepository : itu tentang bagaimana data disimpan.\nEntities itu : tentang bagaimana proses menyimpan data kek transactional dsbnya.\n\n",
+				{
+					"type": "hashtag",
+					"text": "#cmiiw"
+				}
+			]
+		},
+		{
+			"id": 54852,
+			"type": "message",
+			"date": "2022-08-03T00:17:05",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"text": "mungkin kurangin istilah entities itu om, bikin bingung"
+		},
+		{
+			"id": 54853,
+			"type": "message",
+			"date": "2022-08-03T00:17:27",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"text": "Data model dan domain model lebih gampang dipahamin"
+		},
+		{
+			"id": 54854,
+			"type": "message",
+			"date": "2022-08-03T00:17:35",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "entity itu buat magic"
+		},
+		{
+			"id": 54855,
+			"type": "message",
+			"date": "2022-08-03T00:17:39",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "wkwkwk"
+		},
+		{
+			"id": 54856,
+			"type": "message",
+			"date": "2022-08-03T00:17:51",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 54852,
+			"text": "Ane bingung nyebutin istilah persistence proses om yang berkaitan sama db"
+		},
+		{
+			"id": 54857,
+			"type": "message",
+			"date": "2022-08-03T00:18:08",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "Soalnga kalau mengacu ke client architecture bagian ini disebutnya entities"
+		},
+		{
+			"id": 54858,
+			"type": "message",
+			"date": "2022-08-03T00:18:22",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"text": "data model = entities, gitu ga si?"
+		},
+		{
+			"id": 54859,
+			"type": "message",
+			"date": "2022-08-03T00:18:44",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 54858,
+			"text": "karena saya ngga paham entities, saya selama ini asumsinya begitu"
+		},
+		{
+			"id": 54860,
+			"type": "message",
+			"date": "2022-08-03T00:19:10",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"text": "AI, what is entities in context of data persistence?"
+		},
+		{
+			"id": 54862,
+			"type": "message",
+			"date": "2022-08-03T00:19:21",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"text": "canggih"
+		},
+		{
+			"id": 54863,
+			"type": "message",
+			"date": "2022-08-03T00:19:39",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"file": "(File not included. Change data exporting settings to download.)",
+			"thumbnail": "(File not included. Change data exporting settings to download.)",
+			"media_type": "animation",
+			"mime_type": "video/mp4",
+			"duration_seconds": 1,
+			"width": 320,
+			"height": 220,
+			"text": ""
+		},
+		{
+			"id": 54864,
+			"type": "message",
+			"date": "2022-08-03T00:19:48",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "so... magic"
+		},
+		{
+			"id": 54865,
+			"type": "message",
+			"date": "2022-08-03T00:20:01",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 54858,
+			"photo": "photos/photo_1902@03-08-2022_00-20-01.jpg",
+			"width": 601,
+			"height": 534,
+			"text": ""
+		},
+		{
+			"id": 54866,
+			"type": "message",
+			"date": "2022-08-03T00:20:03",
+			"edited": "2022-08-03T00:20:09",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "itu pattern yang saya hindari (entities). kecuali kalau berurusan dengan orleans"
+		},
+		{
+			"id": 54867,
+			"type": "message",
+			"date": "2022-08-03T00:20:07",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "AI, give me the synonyms of entity"
+		},
+		{
+			"id": 54869,
+			"type": "message",
+			"date": "2022-08-03T00:20:10",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"photo": "photos/photo_1902@03-08-2022_00-20-01.jpg",
+			"width": 601,
+			"height": 534,
+			"text": "Ane mengacunya disini om"
+		},
+		{
+			"id": 54871,
+			"type": "message",
+			"date": "2022-08-03T00:20:31",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54869,
+			"text": "kalo yang kuning itu domain model"
+		},
+		{
+			"id": 54872,
+			"type": "message",
+			"date": "2022-08-03T00:20:45",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "lol"
+		},
+		{
+			"id": 54873,
+			"type": "message",
+			"date": "2022-08-03T00:20:50",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "tiap orang istilahnya beda2"
+		},
+		{
+			"id": 54874,
+			"type": "message",
+			"date": "2022-08-03T00:21:02",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "Entity: In clean architecture, entity means the business logic. Different from the entity in domain-driven design, the entity here can be realized as the domain in domain-driven design.\n\n\nAh iyah akwkw"
+		},
+		{
+			"id": 54875,
+			"type": "message",
+			"date": "2022-08-03T00:21:11",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"file": "stickers/sticker (23).webp",
+			"thumbnail": "stickers/sticker (23).webp_thumb.jpg",
+			"media_type": "sticker",
+			"sticker_emoji": "✨",
+			"width": 512,
+			"height": 512,
+			"text": ""
+		},
+		{
+			"id": 54876,
+			"type": "message",
+			"date": "2022-08-03T00:21:37",
+			"from": null,
+			"from_id": "user1168523623",
+			"reply_to_message_id": 54868,
+			"text": [
+				"mulai sekarang gw bakal pakai",
+				{
+					"type": "italic",
+					"text": " Creature"
+				}
+			]
+		},
+		{
+			"id": 54877,
+			"type": "message",
+			"date": "2022-08-03T00:21:37",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"file": "(File not included. Change data exporting settings to download.)",
+			"thumbnail": "(File not included. Change data exporting settings to download.)",
+			"media_type": "animation",
+			"mime_type": "video/mp4",
+			"duration_seconds": 1,
+			"width": 220,
+			"height": 132,
+			"text": ""
+		},
+		{
+			"id": 54879,
+			"type": "message",
+			"date": "2022-08-03T00:21:43",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 54861,
+			"text": "Tapi beberapa ngebedain karena definisi ini sih om berkaitan sama data persistence"
+		},
+		{
+			"id": 54881,
+			"type": "message",
+			"date": "2022-08-03T00:22:07",
+			"from": "Qepo",
+			"from_id": "user527249536",
+			"text": "AI, what is the structure of clean architecture"
+		},
+		{
+			"id": 54883,
+			"type": "message",
+			"date": "2022-08-03T00:22:25",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "pengen rasanya ngasih contoh. tapi projectnya ngga ada"
+		},
+		{
+			"id": 54884,
+			"type": "message",
+			"date": "2022-08-03T00:22:32",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54882,
+			"text": "its not that simple"
+		},
+		{
+			"id": 54886,
+			"type": "message",
+			"date": "2022-08-03T00:23:00",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54885,
+			"text": "no, clean architecture does not guarantee modularity and flexibility"
+		},
+		{
+			"id": 54888,
+			"type": "message",
+			"date": "2022-08-03T00:23:27",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 54886,
+			"text": "it does"
+		},
+		{
+			"id": 54889,
+			"type": "message",
+			"date": "2022-08-03T00:23:39",
+			"edited": "2022-08-03T00:40:08",
+			"from": null,
+			"from_id": "user1168523623",
+			"photo": "photos/photo_1904@03-08-2022_00-23-39.jpg",
+			"width": 966,
+			"height": 1094,
+			"text": "this is my kind of architecture"
+		},
+		{
+			"id": 54890,
+			"type": "message",
+			"date": "2022-08-03T00:23:40",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 54859,
+			"text": "Ini yang ane pahamin juga om"
+		},
+		{
+			"id": 54892,
+			"type": "message",
+			"date": "2022-08-03T00:24:12",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "ada 1 pojokan ilmu CA yang namanya decorator pattern"
+		},
+		{
+			"id": 54893,
+			"type": "message",
+			"date": "2022-08-03T00:24:17",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54888,
+			"text": "CA bisa di implement tanpa DDD mas"
+		},
+		{
+			"id": 54894,
+			"type": "message",
+			"date": "2022-08-03T00:24:27",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 54829,
+			"text": "Jadi data model itu yah nnti berkaitan langsung sama entities"
+		},
+		{
+			"id": 54895,
+			"type": "message",
+			"date": "2022-08-03T00:24:27",
+			"from": null,
+			"from_id": "user1168523623",
+			"reply_to_message_id": 54892,
+			"text": "yang contohnya selalu toping pizza, wkwkwk"
+		},
+		{
+			"id": 54896,
+			"type": "message",
+			"date": "2022-08-03T00:24:28",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "itu enak banget buat modularity"
+		},
+		{
+			"id": 54897,
+			"type": "message",
+			"date": "2022-08-03T00:24:52",
+			"edited": "2022-08-03T00:26:50",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54895,
+			"text": "bukannya beverages ya? hehe"
+		},
+		{
+			"id": 54898,
+			"type": "message",
+			"date": "2022-08-03T00:25:05",
+			"from": "Qepo",
+			"from_id": "user527249536",
+			"text": "Ini yg diomongin banyakan buat implement di OOP?"
+		},
+		{
+			"id": 54899,
+			"type": "message",
+			"date": "2022-08-03T00:25:13",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "yes"
+		},
+		{
+			"id": 54900,
+			"type": "message",
+			"date": "2022-08-03T00:25:19",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 54894,
+			"text": [
+				"untuk saat ini asumsi ane begitu sma kek om ",
+				{
+					"type": "mention",
+					"text": "@RonnyGunawan"
+				},
+				"  tapi siapa tau ada yang bisa ngasih pencerahan lain 😂"
+			]
+		},
+		{
+			"id": 54901,
+			"type": "message",
+			"date": "2022-08-03T00:25:32",
+			"edited": "2022-08-03T00:26:21",
+			"from": null,
+			"from_id": "user1168523623",
+			"reply_to_message_id": 54898,
+			"text": [
+				"buat tidur lebih nyenyak. \n",
+				{
+					"type": "italic",
+					"text": "oh.. pilihan gw ada yang setuju"
+				}
+			]
+		},
+		{
+			"id": 54902,
+			"type": "message",
+			"date": "2022-08-03T00:25:56",
+			"from": "Qepo",
+			"from_id": "user527249536",
+			"text": "Ane belum nyentuh OOP lgi, agak bingung nyimak dritdi🤣\n\nTp daging juga wkwk"
+		},
+		{
+			"id": 54903,
+			"type": "message",
+			"date": "2022-08-03T00:26:06",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 54900,
+			"text": "ya saya taunya entity framework buat database, ya sudah entity = data model WKWKWKWK"
+		},
+		{
+			"id": 54904,
+			"type": "message",
+			"date": "2022-08-03T00:26:23",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "padahal aslinya EF itu harus dijinakkan pakai repository pattern"
+		},
+		{
+			"id": 54905,
+			"type": "message",
+			"date": "2022-08-03T00:26:24",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54903,
+			"text": "nah iya, persis"
+		},
+		{
+			"id": 54906,
+			"type": "message",
+			"date": "2022-08-03T00:26:41",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "biar beneran cuma dipake untuk db"
+		},
+		{
+			"id": 54907,
+			"type": "message",
+			"date": "2022-08-03T00:26:50",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "bukan keperluan lain"
+		},
+		{
+			"id": 54908,
+			"type": "message",
+			"date": "2022-08-03T00:26:56",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 54903,
+			"text": "akwkw iyah ane baru bener2 paham sedikit soal clean architecture ini semenjak nyemplung di dotnet"
+		},
+		{
+			"id": 54909,
+			"type": "message",
+			"date": "2022-08-03T00:28:05",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "typescript juga enak dipake buat CA"
+		},
+		{
+			"id": 54910,
+			"type": "message",
+			"date": "2022-08-03T00:28:24",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"reply_to_message_id": 54727,
+			"text": "Hmm gw punya pengalaman lumayan unik sih. Tapi ya ini kalo bisa gw ambil lesson learned nya juga sebetulnya bukan salah di 100% code coverage nya"
+		},
+		{
+			"id": 54911,
+			"type": "message",
+			"date": "2022-08-03T00:28:56",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Jadi code coverage tinggi, near 100%. Yang terjadi adalah bukannya pusing sih, tapi feels rigid"
+		},
+		{
+			"id": 54912,
+			"type": "message",
+			"date": "2022-08-03T00:28:57",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54910,
+			"text": "100% code coverage yang dikejar for the sake of coverage maybe?"
+		},
+		{
+			"id": 54913,
+			"type": "message",
+			"date": "2022-08-03T00:29:06",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Okelah, not all of us code the test correctly"
+		},
+		{
+			"id": 54914,
+			"type": "message",
+			"date": "2022-08-03T00:29:27",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Tapi at some point it become increasingly difficult to change thing"
+		},
+		{
+			"id": 54915,
+			"type": "message",
+			"date": "2022-08-03T00:29:34",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Tanpa rewrite a huge chunk of the test"
+		},
+		{
+			"id": 54916,
+			"type": "message",
+			"date": "2022-08-03T00:30:03",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54914,
+			"text": "red-green-refactor ga codebase itu awalnya dibuatnya? ato unknown?"
+		},
+		{
+			"id": 54917,
+			"type": "message",
+			"date": "2022-08-03T00:30:09",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Jadi actually kalo mau beneran kejar setinggi itu, ya better make sure semua punya expertise dan knowledge yang strong sih"
+		},
+		{
+			"id": 54918,
+			"type": "message",
+			"date": "2022-08-03T00:30:40",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"reply_to_message_id": 54916,
+			"text": "Pretty much project itu pas dikerjain campuran TDD sama code test along the way"
+		},
+		{
+			"id": 54919,
+			"type": "message",
+			"date": "2022-08-03T00:30:57",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54909,
+			"text": "typescript somehow rasanya kayak C# dan F# digabung, lebih enak buat FP daripada C#, cmiiw"
+		},
+		{
+			"id": 54920,
+			"type": "message",
+			"date": "2022-08-03T00:31:09",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "But then again, 1 orang make a mistake gitu ya, entah methodnya jelek terus dipaksain unit test, atau test nya simply jelek"
+		},
+		{
+			"id": 54921,
+			"type": "message",
+			"date": "2022-08-03T00:31:12",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Itu amplified"
+		},
+		{
+			"id": 54922,
+			"type": "message",
+			"date": "2022-08-03T00:31:20",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "Dulu waktu di django, go sama php cuman sekedar nerapin dikit design patern tapi belum bener2 terstruktur asalkan busnis logic bisa di test ywdh.\n\ntapi pas ngulik c# wah ini bahasa bener2 pure objek oriented banget apa2 harus lewat object gak bisa instan kek bahasa sebelah😂akhirnya ketagihan"
+		},
+		{
+			"id": 54923,
+			"type": "message",
+			"date": "2022-08-03T00:31:24",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Jadinya itu somewhat ngecause other trouble"
+		},
+		{
+			"id": 54924,
+			"type": "message",
+			"date": "2022-08-03T00:31:37",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "saya pernah lho. udah yakin banget codenya ngga ada bug, semua case yang rawan udah masuk coverage, sisa test case saya list sebagai TODO. eh besok2nya ada bug, pas dicek ternyata bugnya di bagian yang belum ditulis unit testnya"
+		},
+		{
+			"id": 54925,
+			"type": "message",
+			"date": "2022-08-03T00:31:38",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Yang mana si rigidness tadi yang paling berasa efeknya"
+		},
+		{
+			"id": 54926,
+			"type": "message",
+			"date": "2022-08-03T00:31:41",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54920,
+			"text": "menarik, thx input-nya mas"
+		},
+		{
+			"id": 54927,
+			"type": "message",
+			"date": "2022-08-03T00:32:11",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Jadi ada lah ya yang misal bikin test nya too tightly coupled sama implementation"
+		},
+		{
+			"id": 54928,
+			"type": "message",
+			"date": "2022-08-03T00:32:36",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Misal 1 orang bikin kayak gitu. Nah orang yang build on that unit jadi kena dampak semua"
+		},
+		{
+			"id": 54929,
+			"type": "message",
+			"date": "2022-08-03T00:33:01",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Lama2 merembet sampe it's impossible to change a little bit without rewrite a huge chunk of code and tests"
+		},
+		{
+			"id": 54930,
+			"type": "message",
+			"date": "2022-08-03T00:33:19",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Nah tapi when being done correctly, wah cantik banget"
+		},
+		{
+			"id": 54931,
+			"type": "message",
+			"date": "2022-08-03T00:33:25",
+			"edited": "2022-08-03T00:33:35",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "Semakin malem semakin mantep bahasannya 😂ane ngetest selama ini cuman ngandelin assertion bawaan aja"
+		},
+		{
+			"id": 54932,
+			"type": "message",
+			"date": "2022-08-03T00:33:47",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Di kantor yg sama, another project yang orangnya lebih dikit dan jadinya gampang koordinasi dan naikin standard nya"
+		},
+		{
+			"id": 54933,
+			"type": "message",
+			"date": "2022-08-03T00:34:09",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54932,
+			"text": "moral story, jumlah per tim jangan banyak2? haha"
+		},
+		{
+			"id": 54934,
+			"type": "message",
+			"date": "2022-08-03T00:34:10",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Itu ada code yang cuma di code 1x, sampe gw cabut dari kantor itu mungkin kalo diitung jumlah changes nya ga sampe 10x"
+		},
+		{
+			"id": 54935,
+			"type": "message",
+			"date": "2022-08-03T00:34:19",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "For the lifetime of the project selama gw disitu"
+		},
+		{
+			"id": 54936,
+			"type": "message",
+			"date": "2022-08-03T00:34:27",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Jadi add functionality, dll semua smooth"
+		},
+		{
+			"id": 54937,
+			"type": "message",
+			"date": "2022-08-03T00:34:36",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Ga ada yang bentrok, ga ada yg feels rigid, dll"
+		},
+		{
+			"id": 54938,
+			"type": "message",
+			"date": "2022-08-03T00:34:48",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"reply_to_message_id": 54933,
+			"text": "Ga juga. Multiple variables lah"
+		},
+		{
+			"id": 54939,
+			"type": "message",
+			"date": "2022-08-03T00:35:02",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Di satu sisi writing test itu masih skill yang ga banyak dev indonesia kuasai"
+		},
+		{
+			"id": 54940,
+			"type": "message",
+			"date": "2022-08-03T00:35:02",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54936,
+			"text": "the very definition of software, its soft thus easy to change"
+		},
+		{
+			"id": 54941,
+			"type": "message",
+			"date": "2022-08-03T00:35:08",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Secara bener ya, bukan cuma asal bisa nulis test"
+		},
+		{
+			"id": 54942,
+			"type": "message",
+			"date": "2022-08-03T00:36:04",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 54939,
+			"text": "Karena yah banyak magicnya soal ini om kek ngandelin assertion aja beres 😂ane baru tau pentingnya test yang baik aja dari obrolan ini"
+		},
+		{
+			"id": 54943,
+			"type": "message",
+			"date": "2022-08-03T00:36:05",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54941,
+			"text": "ya ini spektrum lah, cuma belief saya saat ini, any kind of test its better than no test at all"
+		},
+		{
+			"id": 54944,
+			"type": "message",
+			"date": "2022-08-03T00:36:07",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Jadi kalo berani mau test ngejar 100%, better make sure the code is at high standard"
+		},
+		{
+			"id": 54945,
+			"type": "message",
+			"date": "2022-08-03T00:36:41",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Kalo yang code testnya masih mengandung \"anti-patterns\" ya it will make things difficult down the road"
+		},
+		{
+			"id": 54946,
+			"type": "message",
+			"date": "2022-08-03T00:36:53",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Jadinya again, ga pusing. Tapi rigid"
+		},
+		{
+			"id": 54947,
+			"type": "message",
+			"date": "2022-08-03T00:36:58",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54944,
+			"text": "belom ngerti sih justifikasinya harus ngejar 100%. kalo tinggi, paham, tp 100%? belom dapet why-nya"
+		},
+		{
+			"id": 54948,
+			"type": "message",
+			"date": "2022-08-03T00:37:11",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Pusingnya itu datang dari rigidnya. Kayak anjay where do I even start"
+		},
+		{
+			"id": 54949,
+			"type": "message",
+			"date": "2022-08-03T00:37:11",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 54942,
+			"text": [
+				"Dan baru mau nerapin tdd setelah diracun om ",
+				{
+					"type": "mention",
+					"text": "@Ramad987"
+				}
+			]
+		},
+		{
+			"id": 54950,
+			"type": "message",
+			"date": "2022-08-03T00:37:19",
+			"edited": "2022-08-03T00:37:47",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Semua kalo gw colek codenya, yang lain ikut broken"
+		},
+		{
+			"id": 54951,
+			"type": "message",
+			"date": "2022-08-03T00:37:37",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"reply_to_message_id": 54947,
+			"text": "Leave no path untested I guess?"
+		},
+		{
+			"id": 54952,
+			"type": "message",
+			"date": "2022-08-03T00:38:17",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54951,
+			"text": "at the expense of false sense of confidence"
+		},
+		{
+			"id": 54953,
+			"type": "message",
+			"date": "2022-08-03T00:38:40",
+			"from": null,
+			"from_id": "user1168523623",
+			"reply_to_message_id": 54947,
+			"text": "OCD"
+		},
+		{
+			"id": 54954,
+			"type": "message",
+			"date": "2022-08-03T00:39:09",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54945,
+			"text": "noted, thx om"
+		},
+		{
+			"id": 54955,
+			"type": "message",
+			"date": "2022-08-03T00:39:18",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"reply_to_message_id": 54952,
+			"text": "Yes, but again one could argue bahwa kalo code nya is so good, then all codes adalah meaningful code, bukan \"noise\" jadinya 100% of the code actually do something significant jadinya testnya harus di 100%"
+		},
+		{
+			"id": 54956,
+			"type": "message",
+			"date": "2022-08-03T00:39:34",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "btw sebenarnya testing itu tugas QA atau developer sih? Om"
+		},
+		{
+			"id": 54957,
+			"type": "message",
+			"date": "2022-08-03T00:39:44",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "But again, it takes some level of expertise buat bisa nulis code sebagus itu dan nulis test yang sama bagusnya"
+		},
+		{
+			"id": 54958,
+			"type": "message",
+			"date": "2022-08-03T00:39:48",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 54902,
+			"text": "biasanya apa? imperative?"
+		},
+		{
+			"id": 54959,
+			"type": "message",
+			"date": "2022-08-03T00:39:55",
+			"edited": "2022-08-03T00:40:36",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54956,
+			"text": "unit test? dev, you code it, you test it"
+		},
+		{
+			"id": 54960,
+			"type": "message",
+			"date": "2022-08-03T00:40:02",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Karena kalo kepeleset dikit, bakal amplified jeleknya itu ke part code yg lain"
+		},
+		{
+			"id": 54961,
+			"type": "message",
+			"date": "2022-08-03T00:40:06",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Pengalaman gw sih gitu ya"
+		},
+		{
+			"id": 54962,
+			"type": "message",
+			"date": "2022-08-03T00:41:06",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54957,
+			"text": "might be a hard question, better to write bad test or, knowing one will write a bad one, not writing test at all?"
+		},
+		{
+			"id": 54963,
+			"type": "message",
+			"date": "2022-08-03T00:41:44",
+			"edited": "2022-08-03T00:42:33",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"reply_to_message_id": 54962,
+			"text": "Kan ga harus ada di ujung extreme. Kita di tengah, write test, but also ada room buat make mistakes"
+		},
+		{
+			"id": 54964,
+			"type": "message",
+			"date": "2022-08-03T00:41:50",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54956,
+			"text": "kalo kata Uncle Bob, QA seharusnya found no issue in our code"
+		},
+		{
+			"id": 54965,
+			"type": "message",
+			"date": "2022-08-03T00:42:14",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 54963,
+			"text": "ah yes, make sense"
+		},
+		{
+			"id": 54966,
+			"type": "message",
+			"date": "2022-08-03T00:42:17",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Bukannya mendukung mistakes so it can be made ya, tapi sediain room karena nobody is perfect"
+		},
+		{
+			"id": 54967,
+			"type": "message",
+			"date": "2022-08-03T00:42:32",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "kalian nanti pagi ga kerja?"
+		}
+	]
+}
