@@ -3,3270 +3,3270 @@
 	"type": "public_supergroup",
 	"id": 1712691810,
 	"messages": [
-	 {
-	  "id": 242640,
-	  "type": "message",
-	  "date": "2023-01-20T19:05:09",
-	  "date_unixtime": "1674216309",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "dikit lagi gw sampe rumah, ntar gw jelasin gimana gw bisa develop app without even running it locally",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "dikit lagi gw sampe rumah, ntar gw jelasin gimana gw bisa develop app without even running it locally"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242699,
-	  "type": "message",
-	  "date": "2023-01-20T20:05:33",
-	  "date_unixtime": "1674219933",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "tapi disclaimer dulu:  I am not a senior software engineer (by all means), if this does not work for you, idk tho",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "tapi disclaimer dulu:  I am not a senior software engineer (by all means), if this does not work for you, idk tho"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242701,
-	  "type": "message",
-	  "date": "2023-01-20T20:07:42",
-	  "date_unixtime": "1674220062",
-	  "edited": "2023-01-20T20:08:00",
-	  "edited_unixtime": "1674220080",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "another disclaimer: ini bukan kayak grup-grup sebelah (baca: Python dan Java dan PHP) yang kalo ada 1 orang ngomong, ga boleh ada orang lain yang ngomong. lu mau nyelak karena bingung, atau nyelak karena ketemu tweet lucu, bodo amat. ngomong aja. ini grup santai.",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "another disclaimer: ini bukan kayak grup-grup sebelah (baca: Python dan Java dan PHP) yang kalo ada 1 orang ngomong, ga boleh ada orang lain yang ngomong. lu mau nyelak karena bingung, atau nyelak karena ketemu tweet lucu, bodo amat. ngomong aja. ini grup santai."
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242702,
-	  "type": "message",
-	  "date": "2023-01-20T20:08:12",
-	  "date_unixtime": "1674220092",
-	  "from": "Ramad",
-	  "from_id": "user414742973",
-	  "reply_to_message_id": 242701,
-	  "text": "Group sebelah ga boleh di selak? Baru tau, dotnet kykny selak2 aja",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "Group sebelah ga boleh di selak? Baru tau, dotnet kykny selak2 aja"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242703,
-	  "type": "message",
-	  "date": "2023-01-20T20:08:20",
-	  "date_unixtime": "1674220100",
-	  "from": "yuu",
-	  "from_id": "user846345612",
-	  "text": "padahal php grupnya sepi",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "padahal php grupnya sepi"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242704,
-	  "type": "message",
-	  "date": "2023-01-20T20:08:25",
-	  "date_unixtime": "1674220105",
-	  "from": "Zasda Yusuf Mikail",
-	  "from_id": "user311785123",
-	  "reply_to_message_id": 242699,
-	  "text": "Wkwkwkwkwkwkwk, insert meme \"never be accountable\"",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "Wkwkwkwkwkwkwk, insert meme \"never be accountable\""
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242705,
-	  "type": "message",
-	  "date": "2023-01-20T20:08:57",
-	  "date_unixtime": "1674220137",
-	  "from": "Ahmad Tohir",
-	  "from_id": "user368718073",
-	  "reply_to_message_id": 242704,
-	  "text": [
-	   {
-		"type": "italic",
-		"text": "insert idk tho"
-	   }
-	  ],
-	  "text_entities": [
-	   {
-		"type": "italic",
-		"text": "insert idk tho"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242706,
-	  "type": "message",
-	  "date": "2023-01-20T20:11:23",
-	  "date_unixtime": "1674220283",
-	  "edited": "2023-01-20T20:18:03",
-	  "edited_unixtime": "1674220683",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "testing came to be a significant part pas gw kerja di ****** (pas itu ceritanya nge rewrite 3 monolith lama pake django ke microservice pake go — yang ujung-ujungnya ada javascript sama dotnet). \n\nsignifikan karena gw percaya pada beberapa hal:\n\n1. testing proves that your code is right, kalo ada yang salah ya MUNGKIN bukan salah kita\n2. kalo nggak ada test, dan kita udah meninggalkan perusahaan, your code became a legacy product of yours. gw gamau ninggalin legacy kayak gitu. gw gamau hasil kerja gw di rewrite orang lain, gw maunya diterusin.\n3. karena microservice, nggak mungkin lu nyalain belasan service lainnya just to test if your service can run properly. gila aja harus spin up semua service di local.",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "testing came to be a significant part pas gw kerja di ****** (pas itu ceritanya nge rewrite 3 monolith lama pake django ke microservice pake go — yang ujung-ujungnya ada javascript sama dotnet). \n\nsignifikan karena gw percaya pada beberapa hal:\n\n1. testing proves that your code is right, kalo ada yang salah ya MUNGKIN bukan salah kita\n2. kalo nggak ada test, dan kita udah meninggalkan perusahaan, your code became a legacy product of yours. gw gamau ninggalin legacy kayak gitu. gw gamau hasil kerja gw di rewrite orang lain, gw maunya diterusin.\n3. karena microservice, nggak mungkin lu nyalain belasan service lainnya just to test if your service can run properly. gila aja harus spin up semua service di local."
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242707,
-	  "type": "message",
-	  "date": "2023-01-20T20:11:36",
-	  "date_unixtime": "1674220296",
-	  "from": "dicha?",
-	  "from_id": "user925009191",
-	  "reply_to_message_id": 242703,
-	  "text": "WKWKWKW",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "WKWKWKW"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242708,
-	  "type": "message",
-	  "date": "2023-01-20T20:12:14",
-	  "date_unixtime": "1674220334",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "dan semua yang pas itu contribute ke backend nya ******, tanya pertanyaan yang sama: \"Cara jalaninnya gimana?\"\n\njawabannya: \"You don't\"",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "dan semua yang pas itu contribute ke backend nya ******, tanya pertanyaan yang sama: \"Cara jalaninnya gimana?\"\n\njawabannya: \"You don't\""
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242709,
-	  "type": "message",
-	  "date": "2023-01-20T20:12:28",
-	  "date_unixtime": "1674220348",
-	  "edited": "2023-01-20T20:12:47",
-	  "edited_unixtime": "1674220367",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "to know if your code is right, is to test them, rigorously (or extensively if anyone doesn't know what rigorously means)",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "to know if your code is right, is to test them, rigorously (or extensively if anyone doesn't know what rigorously means)"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242710,
-	  "type": "message",
-	  "date": "2023-01-20T20:13:18",
-	  "date_unixtime": "1674220398",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "jenis-jenis testing udah pada tau kan ya: ada unit testing, integration testing, load testing, end-to-end testing, dll. banyak",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "jenis-jenis testing udah pada tau kan ya: ada unit testing, integration testing, load testing, end-to-end testing, dll. banyak"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242711,
-	  "type": "message",
-	  "date": "2023-01-20T20:13:30",
-	  "date_unixtime": "1674220410",
-	  "from": "Ahmad Tohir",
-	  "from_id": "user368718073",
-	  "reply_to_message_id": 242706,
-	  "file": "stickers/sticker (24).webp",
-	  "thumbnail": "stickers/sticker (24).webp_thumb.jpg",
-	  "media_type": "sticker",
-	  "sticker_emoji": "🖋",
-	  "width": 512,
-	  "height": 512,
-	  "text": "",
-	  "text_entities": []
-	 },
-	 {
-	  "id": 242712,
-	  "type": "message",
-	  "date": "2023-01-20T20:13:59",
-	  "date_unixtime": "1674220439",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "kalo join cult nya golang, biasanya bakal ngomongin 2 school of testing: Detroit and London.\n\nTLDR: London —> bikin mock, Detroit —> deep class/module creation.",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "kalo join cult nya golang, biasanya bakal ngomongin 2 school of testing: Detroit and London.\n\nTLDR: London —> bikin mock, Detroit —> deep class/module creation."
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242713,
-	  "type": "message",
-	  "date": "2023-01-20T20:14:22",
-	  "date_unixtime": "1674220462",
-	  "from": "R",
-	  "from_id": "user769838460",
-	  "file": "stickers/sticker (24).webp",
-	  "thumbnail": "stickers/sticker (24).webp_thumb.jpg",
-	  "media_type": "sticker",
-	  "sticker_emoji": "🖋",
-	  "width": 512,
-	  "height": 512,
-	  "text": "",
-	  "text_entities": []
-	 },
-	 {
-	  "id": 242714,
-	  "type": "message",
-	  "date": "2023-01-20T20:14:47",
-	  "date_unixtime": "1674220487",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": [
-	   "but yes, some language are best by just using one of them. misal dotnet emang cocok kalo style testingnya bikin mock (but it's a whole different case with this beast of an om-om ",
-	   {
-		"type": "mention",
-		"text": "@RonnyGunawan"
-	   },
-	   ")."
-	  ],
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "but yes, some language are best by just using one of them. misal dotnet emang cocok kalo style testingnya bikin mock (but it's a whole different case with this beast of an om-om "
-	   },
-	   {
-		"type": "mention",
-		"text": "@RonnyGunawan"
-	   },
-	   {
-		"type": "plain",
-		"text": ")."
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242715,
-	  "type": "message",
-	  "date": "2023-01-20T20:14:59",
-	  "date_unixtime": "1674220499",
-	  "from": "botak licin",
-	  "from_id": "user5467883815",
-	  "reply_to_message_id": 242597,
-	  "text": "Kok malah lebih ribet dari unit test yg mocking2 ya?, tear up and tear down itu idempotent ga unit testnya?",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "Kok malah lebih ribet dari unit test yg mocking2 ya?, tear up and tear down itu idempotent ga unit testnya?"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242716,
-	  "type": "message",
-	  "date": "2023-01-20T20:15:21",
-	  "date_unixtime": "1674220521",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "tapi kalo golang, emang banyak yang argue kalo style testing lebih cocok kalo nggak di mock, tapi test aja langsung. \n\nmisal spawn database beneran, kafka beneran, semua pake docker compose",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "tapi kalo golang, emang banyak yang argue kalo style testing lebih cocok kalo nggak di mock, tapi test aja langsung. \n\nmisal spawn database beneran, kafka beneran, semua pake docker compose"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242717,
-	  "type": "message",
-	  "date": "2023-01-20T20:15:39",
-	  "date_unixtime": "1674220539",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "reply_to_message_id": 242715,
-	  "text": [
-	   "idempotent, dan ga ribet. it looks \"ribet\" karena emang belom biasa aja. go ask ",
-	   {
-		"type": "mention",
-		"text": "@dsnoor"
-	   }
-	  ],
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "idempotent, dan ga ribet. it looks \"ribet\" karena emang belom biasa aja. go ask "
-	   },
-	   {
-		"type": "mention",
-		"text": "@dsnoor"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242719,
-	  "type": "message",
-	  "date": "2023-01-20T20:16:46",
-	  "date_unixtime": "1674220606",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "reply_to_message_id": 242716,
-	  "text": "but I'd argue that both style of testing really go hand in hand. emang ada beberapa yang harus kita mock, ada beberapa yang harus kita test against managed dependency (alias dependency yang emang kita bisa manage sendiri, within our own control)",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "but I'd argue that both style of testing really go hand in hand. emang ada beberapa yang harus kita mock, ada beberapa yang harus kita test against managed dependency (alias dependency yang emang kita bisa manage sendiri, within our own control)"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242720,
-	  "type": "message",
-	  "date": "2023-01-20T20:16:53",
-	  "date_unixtime": "1674220613",
-	  "from": "Ahmad Tohir",
-	  "from_id": "user368718073",
-	  "reply_to_message_id": 242716,
-	  "text": "btw testing nya gak perlu pilih salah satu kan ?\n\nbeberapa bagian mock, beberapa bagian lainnya langsung",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "btw testing nya gak perlu pilih salah satu kan ?\n\nbeberapa bagian mock, beberapa bagian lainnya langsung"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242721,
-	  "type": "message",
-	  "date": "2023-01-20T20:17:02",
-	  "date_unixtime": "1674220622",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "reply_to_message_id": 242720,
-	  "text": "yes gw gitu kok",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "yes gw gitu kok"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242722,
-	  "type": "message",
-	  "date": "2023-01-20T20:17:35",
-	  "date_unixtime": "1674220655",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "dan nggak ada yang salah atau bener, yang penting ikut aja apa kata Dan Abramov: \"Do whatever feels less awkward\"",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "dan nggak ada yang salah atau bener, yang penting ikut aja apa kata Dan Abramov: \"Do whatever feels less awkward\""
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242723,
-	  "type": "message",
-	  "date": "2023-01-20T20:17:42",
-	  "date_unixtime": "1674220662",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "less awkward for you, not for someone else",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "less awkward for you, not for someone else"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242724,
-	  "type": "message",
-	  "date": "2023-01-20T20:17:55",
-	  "date_unixtime": "1674220675",
-	  "from": "yuu",
-	  "from_id": "user846345612",
-	  "text": "mantappp",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "mantappp"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242725,
-	  "type": "message",
-	  "date": "2023-01-20T20:18:06",
-	  "date_unixtime": "1674220686",
-	  "from": "Ahmad Tohir",
-	  "from_id": "user368718073",
-	  "reply_to_message_id": 242719,
-	  "file": "stickers/sticker (24).webp",
-	  "thumbnail": "stickers/sticker (24).webp_thumb.jpg",
-	  "media_type": "sticker",
-	  "sticker_emoji": "🖋",
-	  "width": 512,
-	  "height": 512,
-	  "text": "",
-	  "text_entities": []
-	 },
-	 {
-	  "id": 242726,
-	  "type": "message",
-	  "date": "2023-01-20T20:18:09",
-	  "date_unixtime": "1674220689",
-	  "from": "R",
-	  "from_id": "user769838460",
-	  "file": "stickers/sticker (24).webp",
-	  "thumbnail": "stickers/sticker (24).webp_thumb.jpg",
-	  "media_type": "sticker",
-	  "sticker_emoji": "🖋",
-	  "width": 512,
-	  "height": 512,
-	  "text": "",
-	  "text_entities": []
-	 },
-	 {
-	  "id": 242728,
-	  "type": "message",
-	  "date": "2023-01-20T20:18:32",
-	  "date_unixtime": "1674220712",
-	  "from": "yuu",
-	  "from_id": "user846345612",
-	  "reply_to_message_id": 242706,
-	  "text": "point no. 2 mantep",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "point no. 2 mantep"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242732,
-	  "type": "message",
-	  "date": "2023-01-20T20:19:44",
-	  "date_unixtime": "1674220784",
-	  "edited": "2023-01-20T20:20:15",
-	  "edited_unixtime": "1674220815",
-	  "from": "botak licin",
-	  "from_id": "user5467883815",
-	  "reply_to_message_id": 242634,
-	  "text": "Kalau library driver ke db atau orm nya cukup fitur untuk ngeset koneksi versi mocked/fake, bagus.",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "Kalau library driver ke db atau orm nya cukup fitur untuk ngeset koneksi versi mocked/fake, bagus."
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242733,
-	  "type": "message",
-	  "date": "2023-01-20T20:19:53",
-	  "date_unixtime": "1674220793",
-	  "from": "Ramad",
-	  "from_id": "user414742973",
-	  "reply_to_message_id": 242712,
-	  "file": "stickers/sticker (24).webp",
-	  "thumbnail": "stickers/sticker (24).webp_thumb.jpg",
-	  "media_type": "sticker",
-	  "sticker_emoji": "🖋",
-	  "width": 512,
-	  "height": 512,
-	  "text": "",
-	  "text_entities": []
-	 },
-	 {
-	  "id": 242734,
-	  "type": "message",
-	  "date": "2023-01-20T20:20:56",
-	  "date_unixtime": "1674220856",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "reply_to_message_id": 242712,
-	  "text": "balik lagi kesini bentar. notice Detroit ini deep module creation. artinya kalo mau test service/business layer yang depends on banyak repository layers, artinya repository layernya di create juga. nggak di mock",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "balik lagi kesini bentar. notice Detroit ini deep module creation. artinya kalo mau test service/business layer yang depends on banyak repository layers, artinya repository layernya di create juga. nggak di mock"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242735,
-	  "type": "message",
-	  "date": "2023-01-20T20:21:21",
-	  "date_unixtime": "1674220881",
-	  "edited": "2023-01-20T20:21:39",
-	  "edited_unixtime": "1674220899",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "photo": "photos/photo_10041@20-01-2023_20-21-21.jpg",
-	  "width": 793,
-	  "height": 453,
-	  "text": [
-	   "more about that in detail: ",
-	   {
-		"type": "link",
-		"text": "https://zone84.tech/architecture/london-and-detroit-schools-of-unit-tests/"
-	   }
-	  ],
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "more about that in detail: "
-	   },
-	   {
-		"type": "link",
-		"text": "https://zone84.tech/architecture/london-and-detroit-schools-of-unit-tests/"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242737,
-	  "type": "message",
-	  "date": "2023-01-20T20:21:38",
-	  "date_unixtime": "1674220898",
-	  "from": "Ahmad Tohir",
-	  "from_id": "user368718073",
-	  "reply_to_message_id": 242731,
-	  "text": "busyet, ternyata sebelum groot ada yang lain",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "busyet, ternyata sebelum groot ada yang lain"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242738,
-	  "type": "message",
-	  "date": "2023-01-20T20:22:07",
-	  "date_unixtime": "1674220927",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "nah kalo gw emang gitu, jadi emang susah banget kalo mau jalanin servicenya. but it forces you to create unit test",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "nah kalo gw emang gitu, jadi emang susah banget kalo mau jalanin servicenya. but it forces you to create unit test"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242739,
-	  "type": "message",
-	  "date": "2023-01-20T20:22:27",
-	  "date_unixtime": "1674220947",
-	  "from": "botak licin",
-	  "from_id": "user5467883815",
-	  "reply_to_message_id": 242640,
-	  "text": "Ini integration test yg kemarin kan?",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "Ini integration test yg kemarin kan?"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242740,
-	  "type": "message",
-	  "date": "2023-01-20T20:22:44",
-	  "date_unixtime": "1674220964",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "nanti pas bikin unit test, keliatan line of code mana aja yang kena coverage. dan keliatan juga line of code mana aja yang POSSIBLE buat kena coverage kalo kita tambah test case",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "nanti pas bikin unit test, keliatan line of code mana aja yang kena coverage. dan keliatan juga line of code mana aja yang POSSIBLE buat kena coverage kalo kita tambah test case"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242741,
-	  "type": "message",
-	  "date": "2023-01-20T20:22:47",
-	  "date_unixtime": "1674220967",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "reply_to_message_id": 242739,
-	  "text": "yes",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "yes"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242742,
-	  "type": "message",
-	  "date": "2023-01-20T20:23:10",
-	  "date_unixtime": "1674220990",
-	  "from": "yuu",
-	  "from_id": "user846345612",
-	  "text": "mantap om penjelasannya",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "mantap om penjelasannya"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242743,
-	  "type": "message",
-	  "date": "2023-01-20T20:23:54",
-	  "date_unixtime": "1674221034",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "reply_to_message_id": 242740,
-	  "text": "dari sini kalo the whole team udah aware sama seberapa pentingnya testing (no matter what kind of test), ya jadi:\n\n1. pengen ngejar coverage setinggi mungkin\n2. lebih pede sama kodingannya",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "dari sini kalo the whole team udah aware sama seberapa pentingnya testing (no matter what kind of test), ya jadi:\n\n1. pengen ngejar coverage setinggi mungkin\n2. lebih pede sama kodingannya"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242744,
-	  "type": "message",
-	  "date": "2023-01-20T20:24:20",
-	  "date_unixtime": "1674221060",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "soal \"apa yang bisa di test\", jawaban gw \"anything you can think of\"",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "soal \"apa yang bisa di test\", jawaban gw \"anything you can think of\""
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242745,
-	  "type": "message",
-	  "date": "2023-01-20T20:24:37",
-	  "date_unixtime": "1674221077",
-	  "edited": "2023-01-20T20:24:46",
-	  "edited_unixtime": "1674221086",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "kalo dirasa penting, ya test. kalo dirasa ga penting, ya terserah mau test atau engga",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "kalo dirasa penting, ya test. kalo dirasa ga penting, ya terserah mau test atau engga"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242746,
-	  "type": "message",
-	  "date": "2023-01-20T20:25:12",
-	  "date_unixtime": "1674221112",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "misal penting: repository layer, business layer yang ada validasi kompleks, business layer yang LOC nya banyak\n\nmisal ga penting: business layer yang cuma panggil repository layer sebiji abis itu return, presentation layer yang panggil business layer sebiji",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "misal penting: repository layer, business layer yang ada validasi kompleks, business layer yang LOC nya banyak\n\nmisal ga penting: business layer yang cuma panggil repository layer sebiji abis itu return, presentation layer yang panggil business layer sebiji"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242748,
-	  "type": "message",
-	  "date": "2023-01-20T20:27:32",
-	  "date_unixtime": "1674221252",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": [
-	   "kalo nggak penting kayak function gini doang:\n\n",
-	   {
-		"type": "pre",
-		"text": "enum Education {\n  Others,\n  SD,\n  SMP,\n  SMA,\n  KuliahS1,\n  KuliahS2,\n}\n\nfunction convertEducationToString(education: Education) string {\n  switch (education) {\n    case Education.SD:\n      return \"SD\";\n    case Education.SMP:\n      return \"SMP\";\n    case Education.SMA:\n      return \"SMA\";\n    case Education.KuliahS1:\n      return \"Strata 1\";\n    case Education.KuliahS2:\n      return \"Strata 2\";\n    case Education.Others:\n    default:\n      return \"Lainnya\";\n  }\n}",
-		"language": ""
-	   }
-	  ],
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "kalo nggak penting kayak function gini doang:\n\n"
-	   },
-	   {
-		"type": "pre",
-		"text": "enum Education {\n  Others,\n  SD,\n  SMP,\n  SMA,\n  KuliahS1,\n  KuliahS2,\n}\n\nfunction convertEducationToString(education: Education) string {\n  switch (education) {\n    case Education.SD:\n      return \"SD\";\n    case Education.SMP:\n      return \"SMP\";\n    case Education.SMA:\n      return \"SMA\";\n    case Education.KuliahS1:\n      return \"Strata 1\";\n    case Education.KuliahS2:\n      return \"Strata 2\";\n    case Education.Others:\n    default:\n      return \"Lainnya\";\n  }\n}",
-		"language": ""
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242749,
-	  "type": "message",
-	  "date": "2023-01-20T20:27:47",
-	  "date_unixtime": "1674221267",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "ini kan function ga penting, dan hasilnya gitu doang. kalo mau di test ya monggo, kalo ga mau ya gapapa.",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "ini kan function ga penting, dan hasilnya gitu doang. kalo mau di test ya monggo, kalo ga mau ya gapapa."
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242750,
-	  "type": "message",
-	  "date": "2023-01-20T20:27:56",
-	  "date_unixtime": "1674221276",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "kalo pas ngerjain test nya bikin happy ngodingnya, ya gapapa, bikin aja",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "kalo pas ngerjain test nya bikin happy ngodingnya, ya gapapa, bikin aja"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242751,
-	  "type": "message",
-	  "date": "2023-01-20T20:28:07",
-	  "date_unixtime": "1674221287",
-	  "edited": "2023-01-20T20:28:35",
-	  "edited_unixtime": "1674221315",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "no one's stopping you from doing it or not doing it",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "no one's stopping you from doing it or not doing it"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242752,
-	  "type": "message",
-	  "date": "2023-01-20T20:28:31",
-	  "date_unixtime": "1674221311",
-	  "from": "yuu",
-	  "from_id": "user846345612",
-	  "text": "butuh copilot banget kalau case nya banyak",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "butuh copilot banget kalau case nya banyak"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242753,
-	  "type": "message",
-	  "date": "2023-01-20T20:28:48",
-	  "date_unixtime": "1674221328",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "itu soal what to test",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "itu soal what to test"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242754,
-	  "type": "message",
-	  "date": "2023-01-20T20:29:11",
-	  "date_unixtime": "1674221351",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "terus pertanyaan berikutnya biasa gini: karena code kita udah dijamin oke, how do you prove it to the others?",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "terus pertanyaan berikutnya biasa gini: karena code kita udah dijamin oke, how do you prove it to the others?"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242755,
-	  "type": "message",
-	  "date": "2023-01-20T20:29:45",
-	  "date_unixtime": "1674221385",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "reply_to_message_id": 242752,
-	  "text": "kalo pake copilot udah disuruh nambah\n\nDiploma1\nDiploma3\nKuliahD1\nKuliahD3\nKuliahDiploma1\nKuliahDiploma3\nKuliahDiplomaD1\nKuliahDiplomaD3",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "kalo pake copilot udah disuruh nambah\n\nDiploma1\nDiploma3\nKuliahD1\nKuliahD3\nKuliahDiploma1\nKuliahDiploma3\nKuliahDiplomaD1\nKuliahDiplomaD3"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242756,
-	  "type": "message",
-	  "date": "2023-01-20T20:30:03",
-	  "date_unixtime": "1674221403",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "ya masukin di CI pipeline.\n\ngithub actions atau gitlab ci sama-sama bisa spawn additional service yang running pake docker. services ini jalan sidecar sama proses kita, jadi kita bisa hit mereka.",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "ya masukin di CI pipeline.\n\ngithub actions atau gitlab ci sama-sama bisa spawn additional service yang running pake docker. services ini jalan sidecar sama proses kita, jadi kita bisa hit mereka."
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242757,
-	  "type": "message",
-	  "date": "2023-01-20T20:30:19",
-	  "date_unixtime": "1674221419",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "ini ayam napa jadi pedes amat",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "ini ayam napa jadi pedes amat"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242758,
-	  "type": "message",
-	  "date": "2023-01-20T20:30:48",
-	  "date_unixtime": "1674221448",
-	  "from": "Ahmad Tohir",
-	  "from_id": "user368718073",
-	  "text": "+1 github action, mulai suka, mulai perlu bayar sepertinya.\n2000 menit kayanya kurang",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "+1 github action, mulai suka, mulai perlu bayar sepertinya.\n2000 menit kayanya kurang"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242759,
-	  "type": "message",
-	  "date": "2023-01-20T20:30:58",
-	  "date_unixtime": "1674221458",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": [
-	   "ini gitlab ci: ",
-	   {
-		"type": "link",
-		"text": "https://docs.gitlab.com/ee/ci/yaml/index.html#services"
-	   },
-	   "\n\nini github actions: ",
-	   {
-		"type": "link",
-		"text": "https://docs.github.com/en/actions/using-containerized-services/creating-postgresql-service-containers"
-	   }
-	  ],
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "ini gitlab ci: "
-	   },
-	   {
-		"type": "link",
-		"text": "https://docs.gitlab.com/ee/ci/yaml/index.html#services"
-	   },
-	   {
-		"type": "plain",
-		"text": "\n\nini github actions: "
-	   },
-	   {
-		"type": "link",
-		"text": "https://docs.github.com/en/actions/using-containerized-services/creating-postgresql-service-containers"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242760,
-	  "type": "message",
-	  "date": "2023-01-20T20:31:08",
-	  "date_unixtime": "1674221468",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "reply_to_message_id": 242758,
-	  "text": "bisa self hosted. kantor gw pake github, dan github actionsnya self hosted",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "bisa self hosted. kantor gw pake github, dan github actionsnya self hosted"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242761,
-	  "type": "message",
-	  "date": "2023-01-20T20:31:44",
-	  "date_unixtime": "1674221504",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "kalo pake CI providers lain, bisa juga seharusnya. kayak argocd, jenkins, agola, dll.",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "kalo pake CI providers lain, bisa juga seharusnya. kayak argocd, jenkins, agola, dll."
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242762,
-	  "type": "message",
-	  "date": "2023-01-20T20:31:48",
-	  "date_unixtime": "1674221508",
-	  "from": "Ahmad Tohir",
-	  "from_id": "user368718073",
-	  "reply_to_message_id": 242760,
-	  "text": "ooh, bisa gitu ya. gak kena charge ?",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "ooh, bisa gitu ya. gak kena charge ?"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242763,
-	  "type": "message",
-	  "date": "2023-01-20T20:32:16",
-	  "date_unixtime": "1674221536",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "kalo nggak ada opsi buat spawn service external, bisa aja dikasih akses ke docker socket, nanti pas run test nya baru spawn required servicesnya",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "kalo nggak ada opsi buat spawn service external, bisa aja dikasih akses ke docker socket, nanti pas run test nya baru spawn required servicesnya"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242764,
-	  "type": "message",
-	  "date": "2023-01-20T20:32:25",
-	  "date_unixtime": "1674221545",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": [
-	   "misal kalo golang pake ",
-	   {
-		"type": "link",
-		"text": "https://github.com/ory/dockertest"
-	   }
-	  ],
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "misal kalo golang pake "
-	   },
-	   {
-		"type": "link",
-		"text": "https://github.com/ory/dockertest"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242765,
-	  "type": "message",
-	  "date": "2023-01-20T20:32:32",
-	  "date_unixtime": "1674221552",
-	  "from": "botak licin",
-	  "from_id": "user5467883815",
-	  "reply_to_message_id": 242717,
-	  "text": "Jadi setiap tear up and down itu instance baru? Supaya bener2 idempotent?, gede pasti setup nya, karena yg diharapin dari unit test kan bisa test tanpa spawn apa2pun",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "Jadi setiap tear up and down itu instance baru? Supaya bener2 idempotent?, gede pasti setup nya, karena yg diharapin dari unit test kan bisa test tanpa spawn apa2pun"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242766,
-	  "type": "message",
-	  "date": "2023-01-20T20:32:48",
-	  "date_unixtime": "1674221568",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "reply_to_message_id": 242765,
-	  "text": "oh nggak instance baru",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "oh nggak instance baru"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242767,
-	  "type": "message",
-	  "date": "2023-01-20T20:32:59",
-	  "date_unixtime": "1674221579",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "tear up + down itu bener bener bikin dependency nya jadi clean",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "tear up + down itu bener bener bikin dependency nya jadi clean"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242768,
-	  "type": "message",
-	  "date": "2023-01-20T20:33:04",
-	  "date_unixtime": "1674221584",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "text": "hati2 pake GH action. credit card saya hampir jebol gara2 ngga sadar ngebuild pake macos itu costnya pake faktor pengali 10x",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "hati2 pake GH action. credit card saya hampir jebol gara2 ngga sadar ngebuild pake macos itu costnya pake faktor pengali 10x"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242769,
-	  "type": "message",
-	  "date": "2023-01-20T20:33:06",
-	  "date_unixtime": "1674221586",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "kalo database ya tear down nya cuma drop tables",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "kalo database ya tear down nya cuma drop tables"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242770,
-	  "type": "message",
-	  "date": "2023-01-20T20:33:13",
-	  "date_unixtime": "1674221593",
-	  "from": "Ahmad Tohir",
-	  "from_id": "user368718073",
-	  "reply_to_message_id": 242768,
-	  "text": "wkwkwk",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "wkwkwk"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242771,
-	  "type": "message",
-	  "date": "2023-01-20T20:33:15",
-	  "date_unixtime": "1674221595",
-	  "from": "Ahmad Tohir",
-	  "from_id": "user368718073",
-	  "text": "bener",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "bener"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242772,
-	  "type": "message",
-	  "date": "2023-01-20T20:33:20",
-	  "date_unixtime": "1674221600",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "reply_to_message_id": 242762,
-	  "text": "kalo self hosted ga kena",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "kalo self hosted ga kena"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242773,
-	  "type": "message",
-	  "date": "2023-01-20T20:33:27",
-	  "date_unixtime": "1674221607",
-	  "from": "Ahmad Tohir",
-	  "from_id": "user368718073",
-	  "text": "ubuntu x 1\nwindows x 2\nmac x 10",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "ubuntu x 1\nwindows x 2\nmac x 10"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242774,
-	  "type": "message",
-	  "date": "2023-01-20T20:33:43",
-	  "date_unixtime": "1674221623",
-	  "from": "iamyuu",
-	  "from_id": "user578743342",
-	  "reply_to_message_id": 242743,
-	  "text": "Biar tim pada \"aware sama seberapa pentingnya testing\" ada saran?",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "Biar tim pada \"aware sama seberapa pentingnya testing\" ada saran?"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242775,
-	  "type": "message",
-	  "date": "2023-01-20T20:33:45",
-	  "date_unixtime": "1674221625",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "reply_to_message_id": 242773,
-	  "text": "berasa kena scam",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "berasa kena scam"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242776,
-	  "type": "message",
-	  "date": "2023-01-20T20:33:45",
-	  "date_unixtime": "1674221625",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "kalo kafka, sebenernya ga perlu tear down juga sih, cukup kirim administrator request aja buat clear topics",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "kalo kafka, sebenernya ga perlu tear down juga sih, cukup kirim administrator request aja buat clear topics"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242777,
-	  "type": "message",
-	  "date": "2023-01-20T20:33:58",
-	  "date_unixtime": "1674221638",
-	  "edited": "2023-01-20T20:35:41",
-	  "edited_unixtime": "1674221741",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "reply_to_message_id": 242774,
-	  "text": "create the test, dominate the team",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "create the test, dominate the team"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242778,
-	  "type": "message",
-	  "date": "2023-01-20T20:34:04",
-	  "date_unixtime": "1674221644",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "that's the only way",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "that's the only way"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242780,
-	  "type": "message",
-	  "date": "2023-01-20T20:34:29",
-	  "date_unixtime": "1674221669",
-	  "edited": "2023-01-20T20:35:40",
-	  "edited_unixtime": "1674221740",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "reply_to_message_id": 242774,
-	  "text": "pake CI. kalo test fail mereka ngga bisa lanjutin PR",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "pake CI. kalo test fail mereka ngga bisa lanjutin PR"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242782,
-	  "type": "message",
-	  "date": "2023-01-20T20:34:50",
-	  "date_unixtime": "1674221690",
-	  "from": "Terminus Est",
-	  "from_id": "user386213269",
-	  "reply_to_message_id": 242734,
-	  "text": [
-	   "ini london atau detroit? ",
-	   {
-		"type": "link",
-		"text": "https://github.com/mashingan/localredis"
-	   },
-	   " wkwkwk"
-	  ],
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "ini london atau detroit? "
-	   },
-	   {
-		"type": "link",
-		"text": "https://github.com/mashingan/localredis"
-	   },
-	   {
-		"type": "plain",
-		"text": " wkwkwk"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242784,
-	  "type": "message",
-	  "date": "2023-01-20T20:35:36",
-	  "date_unixtime": "1674221736",
-	  "from": "Ahmad Tohir",
-	  "from_id": "user368718073",
-	  "reply_to_message_id": 242775,
-	  "text": "wkwkw, saya juga baru nyampe ke docs nya itu pas udah pake.\ntpi untung masih pake ubuntu",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "wkwkw, saya juga baru nyampe ke docs nya itu pas udah pake.\ntpi untung masih pake ubuntu"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242785,
-	  "type": "message",
-	  "date": "2023-01-20T20:35:54",
-	  "date_unixtime": "1674221754",
-	  "from": "Ahmad Tohir",
-	  "from_id": "user368718073",
-	  "reply_to_message_id": 242779,
-	  "file": "stickers/sticker (12).webp",
-	  "thumbnail": "stickers/sticker (12).webp_thumb.jpg",
-	  "media_type": "sticker",
-	  "sticker_emoji": "✨",
-	  "width": 512,
-	  "height": 512,
-	  "text": "",
-	  "text_entities": []
-	 },
-	 {
-	  "id": 242786,
-	  "type": "message",
-	  "date": "2023-01-20T20:36:18",
-	  "date_unixtime": "1674221778",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "text": "saya ngga pake london londonan atau detroit detroitan. saya pake gaya redmond",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "saya ngga pake london londonan atau detroit detroitan. saya pake gaya redmond"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242787,
-	  "type": "message",
-	  "date": "2023-01-20T20:36:47",
-	  "date_unixtime": "1674221807",
-	  "from": "botak licin",
-	  "from_id": "user5467883815",
-	  "reply_to_message_id": 242723,
-	  "text": "For you?, for boss maybe, kecuali kerja sendiri wkwkwk",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "For you?, for boss maybe, kecuali kerja sendiri wkwkwk"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242788,
-	  "type": "message",
-	  "date": "2023-01-20T20:36:55",
-	  "date_unixtime": "1674221815",
-	  "edited": "2023-01-20T20:37:13",
-	  "edited_unixtime": "1674221833",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "reply_to_message_id": 242782,
-	  "text": "ini saya anggap london btw",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "ini saya anggap london btw"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242789,
-	  "type": "message",
-	  "date": "2023-01-20T20:37:07",
-	  "date_unixtime": "1674221827",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "text": "itu cuma glorofied mock library",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "itu cuma glorofied mock library"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242792,
-	  "type": "message",
-	  "date": "2023-01-20T20:37:42",
-	  "date_unixtime": "1674221862",
-	  "from": "R",
-	  "from_id": "user769838460",
-	  "file": "stickers/sticker (25).webp",
-	  "thumbnail": "stickers/sticker (25).webp_thumb.jpg",
-	  "media_type": "sticker",
-	  "sticker_emoji": "😐",
-	  "width": 512,
-	  "height": 368,
-	  "text": "",
-	  "text_entities": []
-	 },
-	 {
-	  "id": 242793,
-	  "type": "message",
-	  "date": "2023-01-20T20:37:47",
-	  "date_unixtime": "1674221867",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "reply_to_message_id": 242790,
-	  "file": "stickers/sticker (9).webp",
-	  "thumbnail": "stickers/sticker (9).webp_thumb.jpg",
-	  "media_type": "sticker",
-	  "sticker_emoji": "😮",
-	  "width": 512,
-	  "height": 201,
-	  "text": "",
-	  "text_entities": []
-	 },
-	 {
-	  "id": 242794,
-	  "type": "message",
-	  "date": "2023-01-20T20:38:51",
-	  "date_unixtime": "1674221931",
-	  "from": "Terminus Est",
-	  "from_id": "user386213269",
-	  "reply_to_message_id": 242789,
-	  "text": "awalnya cmn sebagai redis-client tapi karena udah implement protocol nya ya udah sekalian bikin server langsung jadi cmn sebagai runnable redis instance aja, wkwk",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "awalnya cmn sebagai redis-client tapi karena udah implement protocol nya ya udah sekalian bikin server langsung jadi cmn sebagai runnable redis instance aja, wkwk"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242795,
-	  "type": "message",
-	  "date": "2023-01-20T20:38:53",
-	  "date_unixtime": "1674221933",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "reply_to_message_id": 242756,
-	  "text": "ini bener-bener jadi prove ke orang lain kalo your code works.\n\ndi kantor gw yang sekarang, gw ada bikin API buat ngurusin pembukaan rekening RDN salah satu bank di indonesia. ada 1 orang yang gapernah pegang golang sebelomnya, harus nyentuh repositorynya untuk ngubah beberapa hal, karena dia yang ikut testing UAT buat API ini.\n\nall he did was: \n\n1. install golang sama goland (karena dia punya full jetbrains suite) — biar dapet intellisense nya doang\n2. ubah di tempat yang kira-kira butuh\n3. git checkout branch baru, push\n4. tunggu hasil CI pipeline hijau\n\nkalo merah, dia baca failing messagenya, dan ubah accordingly",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "ini bener-bener jadi prove ke orang lain kalo your code works.\n\ndi kantor gw yang sekarang, gw ada bikin API buat ngurusin pembukaan rekening RDN salah satu bank di indonesia. ada 1 orang yang gapernah pegang golang sebelomnya, harus nyentuh repositorynya untuk ngubah beberapa hal, karena dia yang ikut testing UAT buat API ini.\n\nall he did was: \n\n1. install golang sama goland (karena dia punya full jetbrains suite) — biar dapet intellisense nya doang\n2. ubah di tempat yang kira-kira butuh\n3. git checkout branch baru, push\n4. tunggu hasil CI pipeline hijau\n\nkalo merah, dia baca failing messagenya, dan ubah accordingly"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242796,
-	  "type": "message",
-	  "date": "2023-01-20T20:38:57",
-	  "date_unixtime": "1674221937",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "it. really. works.",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "it. really. works."
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242797,
-	  "type": "message",
-	  "date": "2023-01-20T20:39:07",
-	  "date_unixtime": "1674221947",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "testing your code and putting it as a CI pipeline, really works",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "testing your code and putting it as a CI pipeline, really works"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242798,
-	  "type": "message",
-	  "date": "2023-01-20T20:39:09",
-	  "date_unixtime": "1674221949",
-	  "from": "botak licin",
-	  "from_id": "user5467883815",
-	  "reply_to_message_id": 242734,
-	  "text": "Detroit lebih ribet ya, padahal yg mock bisa auto generate",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "Detroit lebih ribet ya, padahal yg mock bisa auto generate"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242801,
-	  "type": "message",
-	  "date": "2023-01-20T20:39:45",
-	  "date_unixtime": "1674221985",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "reply_to_message_id": 242787,
-	  "text": "gw bukan bos kok, gw just another middle-level. gw galak aja sama orang lain, even yang senior2 gw galakin wkwkwkw",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "gw bukan bos kok, gw just another middle-level. gw galak aja sama orang lain, even yang senior2 gw galakin wkwkwkw"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242802,
-	  "type": "message",
-	  "date": "2023-01-20T20:39:56",
-	  "date_unixtime": "1674221996",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "tanya aja ke orang yang pernah ketemu gw di ******, seberapa galak gw",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "tanya aja ke orang yang pernah ketemu gw di ******, seberapa galak gw"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242805,
-	  "type": "message",
-	  "date": "2023-01-20T20:40:33",
-	  "date_unixtime": "1674222033",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "reply_to_message_id": 242798,
-	  "text": "detroit cuma ribet di pisahin dependency configuration. setelah itu everything is easy",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "detroit cuma ribet di pisahin dependency configuration. setelah itu everything is easy"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242807,
-	  "type": "message",
-	  "date": "2023-01-20T20:40:43",
-	  "date_unixtime": "1674222043",
-	  "edited": "2023-01-20T20:52:11",
-	  "edited_unixtime": "1674222731",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "text": "tapi jujur, ngetest detroit style capek",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "tapi jujur, ngetest detroit style capek"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242809,
-	  "type": "message",
-	  "date": "2023-01-20T20:40:51",
-	  "date_unixtime": "1674222051",
-	  "from": "A JI Mode Signal Putus - Put",
-	  "from_id": "user224998752",
-	  "file": "stickers/sticker (26).webp",
-	  "thumbnail": "stickers/sticker (26).webp_thumb.jpg",
-	  "media_type": "sticker",
-	  "sticker_emoji": "😐",
-	  "width": 512,
-	  "height": 482,
-	  "text": "",
-	  "text_entities": []
-	 },
-	 {
-	  "id": 242810,
-	  "type": "message",
-	  "date": "2023-01-20T20:41:16",
-	  "date_unixtime": "1674222076",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "text": "dunia luar API itu kotor. jadi yang dicek banyak sekali",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "dunia luar API itu kotor. jadi yang dicek banyak sekali"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242811,
-	  "type": "message",
-	  "date": "2023-01-20T20:41:29",
-	  "date_unixtime": "1674222089",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "text": "udah kaya QA engineers walk into a bar",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "udah kaya QA engineers walk into a bar"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242812,
-	  "type": "message",
-	  "date": "2023-01-20T20:41:35",
-	  "date_unixtime": "1674222095",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "reply_to_message_id": 242807,
-	  "text": "but is it worth it?",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "but is it worth it?"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242813,
-	  "type": "message",
-	  "date": "2023-01-20T20:42:01",
-	  "date_unixtime": "1674222121",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "reply_to_message_id": 242812,
-	  "text": "saya cuma ngetest alur registrasi, verify sms, verify email, forgot password, role assignment, etc",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "saya cuma ngetest alur registrasi, verify sms, verify email, forgot password, role assignment, etc"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242814,
-	  "type": "message",
-	  "date": "2023-01-20T20:42:04",
-	  "date_unixtime": "1674222124",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "text": "worth it",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "worth it"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242815,
-	  "type": "message",
-	  "date": "2023-01-20T20:42:06",
-	  "date_unixtime": "1674222126",
-	  "from": "dicha?",
-	  "from_id": "user925009191",
-	  "reply_to_message_id": 242779,
-	  "text": "kesalahan ini mah wkwkwk",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "kesalahan ini mah wkwkwk"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242816,
-	  "type": "message",
-	  "date": "2023-01-20T20:42:09",
-	  "date_unixtime": "1674222129",
-	  "from": "A JI Mode Signal Putus - Put",
-	  "from_id": "user224998752",
-	  "text": "Tpi dri sekian penjelasan. Itu ntar QA nya gmna om? Postman testing doang?",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "Tpi dri sekian penjelasan. Itu ntar QA nya gmna om? Postman testing doang?"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242817,
-	  "type": "message",
-	  "date": "2023-01-20T20:42:09",
-	  "date_unixtime": "1674222129",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "text": "daripada ngetest manual bisa mencret2",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "daripada ngetest manual bisa mencret2"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242821,
-	  "type": "message",
-	  "date": "2023-01-20T20:42:56",
-	  "date_unixtime": "1674222176",
-	  "edited": "2023-01-20T20:44:00",
-	  "edited_unixtime": "1674222240",
-	  "from": "Ahmad Tohir",
-	  "from_id": "user368718073",
-	  "reply_to_message_id": 242816,
-	  "text": [
-	   {
-		"type": "italic",
-		"text": "woii, lu jangan ngambil kerjaan guaa"
-	   }
-	  ],
-	  "text_entities": [
-	   {
-		"type": "italic",
-		"text": "woii, lu jangan ngambil kerjaan guaa"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242822,
-	  "type": "message",
-	  "date": "2023-01-20T20:43:12",
-	  "date_unixtime": "1674222192",
-	  "edited": "2023-01-20T20:43:13",
-	  "edited_unixtime": "1674222193",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "reply_to_message_id": 242821,
-	  "text": "it happened",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "it happened"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242823,
-	  "type": "message",
-	  "date": "2023-01-20T20:43:12",
-	  "date_unixtime": "1674222192",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "text": "minggu lalu saya bikin test scenario registrasi, cek email, klik link di email ke browser A, klik link email ke browser B, dst dst",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "minggu lalu saya bikin test scenario registrasi, cek email, klik link di email ke browser A, klik link email ke browser B, dst dst"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242824,
-	  "type": "message",
-	  "date": "2023-01-20T20:43:21",
-	  "date_unixtime": "1674222201",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "reply_to_message_id": 242816,
-	  "text": "QA jadi user beneran",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "QA jadi user beneran"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242825,
-	  "type": "message",
-	  "date": "2023-01-20T20:43:27",
-	  "date_unixtime": "1674222207",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "bener-bener testing as if they are the user",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "bener-bener testing as if they are the user"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242826,
-	  "type": "message",
-	  "date": "2023-01-20T20:43:34",
-	  "date_unixtime": "1674222214",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "bukan di promosikan jadi user ya",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "bukan di promosikan jadi user ya"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242828,
-	  "type": "message",
-	  "date": "2023-01-20T20:43:48",
-	  "date_unixtime": "1674222228",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "kan gw berhenti di unit test dan integration test, something that users won't be able to see",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "kan gw berhenti di unit test dan integration test, something that users won't be able to see"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242831,
-	  "type": "message",
-	  "date": "2023-01-20T20:43:56",
-	  "date_unixtime": "1674222236",
-	  "from": "botak licin",
-	  "from_id": "user5467883815",
-	  "reply_to_message_id": 242767,
-	  "text": "Yes, more effort berrti, sekalipun bisa auto, but still, butuh setup hal2 lain diluar code",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "Yes, more effort berrti, sekalipun bisa auto, but still, butuh setup hal2 lain diluar code"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242833,
-	  "type": "message",
-	  "date": "2023-01-20T20:44:15",
-	  "date_unixtime": "1674222255",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "reply_to_message_id": 242831,
-	  "text": "ya, buat gw sih effortnya udah \"gitu doang\"",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "ya, buat gw sih effortnya udah \"gitu doang\""
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242834,
-	  "type": "message",
-	  "date": "2023-01-20T20:46:03",
-	  "date_unixtime": "1674222363",
-	  "from": "Terminus Est",
-	  "from_id": "user386213269",
-	  "reply_to_message_id": 242831,
-	  "text": "effort gak jauh beda, tapi saya cenderung prefer yg mock murni karena faktor waktu ngetes nya\nsetup dan tear down dependency itu makan waktu",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "effort gak jauh beda, tapi saya cenderung prefer yg mock murni karena faktor waktu ngetes nya\nsetup dan tear down dependency itu makan waktu"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242835,
-	  "type": "message",
-	  "date": "2023-01-20T20:46:07",
-	  "date_unixtime": "1674222367",
-	  "from": "botak licin",
-	  "from_id": "user5467883815",
-	  "reply_to_message_id": 242768,
-	  "text": "Debit card aja, biar aman wkwk",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "Debit card aja, biar aman wkwk"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242836,
-	  "type": "message",
-	  "date": "2023-01-20T20:46:22",
-	  "date_unixtime": "1674222382",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": [
-	   {
-		"type": "pre",
-		"text": "func destroy(ctx context.Context) error {\n  queries := []string{\"DROP TABLE a\", \"DROP TABLE b\", \"DROP TABLE c\"}\n\n  connection, err := db.Conn(ctx)\n  if err != nil {}\n\n  transaction, err := connection.BeginTx(ctx, &sql.TxOptions{})\n  if err != nil {}\n\n\n  for _, query := range queries {\n    _, err = transaction.ExecContext(ctx, query)\n  }\n\n  transaction.Commit()\n\n  connection.Close()\n}",
-		"language": ""
-	   },
-	   "\n\ntear down gini doang"
-	  ],
-	  "text_entities": [
-	   {
-		"type": "pre",
-		"text": "func destroy(ctx context.Context) error {\n  queries := []string{\"DROP TABLE a\", \"DROP TABLE b\", \"DROP TABLE c\"}\n\n  connection, err := db.Conn(ctx)\n  if err != nil {}\n\n  transaction, err := connection.BeginTx(ctx, &sql.TxOptions{})\n  if err != nil {}\n\n\n  for _, query := range queries {\n    _, err = transaction.ExecContext(ctx, query)\n  }\n\n  transaction.Commit()\n\n  connection.Close()\n}",
-		"language": ""
-	   },
-	   {
-		"type": "plain",
-		"text": "\n\ntear down gini doang"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242837,
-	  "type": "message",
-	  "date": "2023-01-20T20:46:45",
-	  "date_unixtime": "1674222405",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "reply_to_message_id": 242836,
-	  "text": "do that 500 times",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "do that 500 times"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242838,
-	  "type": "message",
-	  "date": "2023-01-20T20:46:57",
-	  "date_unixtime": "1674222417",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "reply_to_message_id": 242837,
-	  "text": "that's where Github Copilot come into play",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "that's where Github Copilot come into play"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242839,
-	  "type": "message",
-	  "date": "2023-01-20T20:47:04",
-	  "date_unixtime": "1674222424",
-	  "from": "botak licin",
-	  "from_id": "user5467883815",
-	  "reply_to_message_id": 242774,
-	  "text": "Bilang aja, \"gimana supaya code lu error kalo disenggol2?\"",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "Bilang aja, \"gimana supaya code lu error kalo disenggol2?\""
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242840,
-	  "type": "message",
-	  "date": "2023-01-20T20:47:13",
-	  "date_unixtime": "1674222433",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "but I've done it without Github Copilot, so what?",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "but I've done it without Github Copilot, so what?"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242841,
-	  "type": "message",
-	  "date": "2023-01-20T20:47:23",
-	  "date_unixtime": "1674222443",
-	  "edited": "2023-01-20T20:47:39",
-	  "edited_unixtime": "1674222459",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "reply_to_message_id": 242838,
-	  "text": "\"do that\" bukan nulis testnya, tapi executenya",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "\"do that\" bukan nulis testnya, tapi executenya"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242842,
-	  "type": "message",
-	  "date": "2023-01-20T20:47:30",
-	  "date_unixtime": "1674222450",
-	  "from": "dicha?",
-	  "from_id": "user925009191",
-	  "text": [
-	   {
-		"type": "italic",
-		"text": "biar kibod mechanya kepake"
-	   }
-	  ],
-	  "text_entities": [
-	   {
-		"type": "italic",
-		"text": "biar kibod mechanya kepake"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242843,
-	  "type": "message",
-	  "date": "2023-01-20T20:47:34",
-	  "date_unixtime": "1674222454",
-	  "from": "dicha?",
-	  "from_id": "user925009191",
-	  "text": [
-	   {
-		"type": "italic",
-		"text": "ngetik yg banyak"
-	   }
-	  ],
-	  "text_entities": [
-	   {
-		"type": "italic",
-		"text": "ngetik yg banyak"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242844,
-	  "type": "message",
-	  "date": "2023-01-20T20:47:35",
-	  "date_unixtime": "1674222455",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "reply_to_message_id": 242841,
-	  "text": "oh yaudah execute aja",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "oh yaudah execute aja"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242845,
-	  "type": "message",
-	  "date": "2023-01-20T20:47:37",
-	  "date_unixtime": "1674222457",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "WKWKWKWKWKK",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "WKWKWKWKWKK"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242846,
-	  "type": "message",
-	  "date": "2023-01-20T20:47:56",
-	  "date_unixtime": "1674222476",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "text": "saya pernah jalanin test hampir 3k tests. tanpa begituan aja udah lama bener",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "saya pernah jalanin test hampir 3k tests. tanpa begituan aja udah lama bener"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242847,
-	  "type": "message",
-	  "date": "2023-01-20T20:48:02",
-	  "date_unixtime": "1674222482",
-	  "from": "A JI Mode Signal Putus - Put",
-	  "from_id": "user224998752",
-	  "reply_to_message_id": 242836,
-	  "text": "Ini dilakuin diakhir test?\n\nYes.",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "Ini dilakuin diakhir test?\n\nYes."
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242848,
-	  "type": "message",
-	  "date": "2023-01-20T20:48:02",
-	  "date_unixtime": "1674222482",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "kalo dotnet, enak. entitiy framework bisa spawn in-memory database",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "kalo dotnet, enak. entitiy framework bisa spawn in-memory database"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242849,
-	  "type": "message",
-	  "date": "2023-01-20T20:48:11",
-	  "date_unixtime": "1674222491",
-	  "edited": "2023-01-20T20:48:16",
-	  "edited_unixtime": "1674222496",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "reply_to_message_id": 242847,
-	  "text": "nama functionnya destroy sih",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "nama functionnya destroy sih"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242850,
-	  "type": "message",
-	  "date": "2023-01-20T20:48:24",
-	  "date_unixtime": "1674222504",
-	  "from": "A JI Mode Signal Putus - Put",
-	  "from_id": "user224998752",
-	  "text": [
-	   {
-		"type": "italic",
-		"text": "Siapa tau"
-	   }
-	  ],
-	  "text_entities": [
-	   {
-		"type": "italic",
-		"text": "Siapa tau"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242851,
-	  "type": "message",
-	  "date": "2023-01-20T20:48:29",
-	  "date_unixtime": "1674222509",
-	  "from": "A JI Mode Signal Putus - Put",
-	  "from_id": "user224998752",
-	  "file": "stickers/sticker (20).webp",
-	  "thumbnail": "stickers/sticker (20).webp_thumb.jpg",
-	  "media_type": "sticker",
-	  "sticker_emoji": "✨",
-	  "width": 512,
-	  "height": 512,
-	  "text": "",
-	  "text_entities": []
-	 },
-	 {
-	  "id": 242852,
-	  "type": "message",
-	  "date": "2023-01-20T20:48:35",
-	  "date_unixtime": "1674222515",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "reply_to_message_id": 242848,
-	  "text": "tapi kalo migrationnya berat, tetep lama",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "tapi kalo migrationnya berat, tetep lama"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242853,
-	  "type": "message",
-	  "date": "2023-01-20T20:48:39",
-	  "date_unixtime": "1674222519",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "text": "saya pernah wkwkwkwk",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "saya pernah wkwkwkwk"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242854,
-	  "type": "message",
-	  "date": "2023-01-20T20:48:46",
-	  "date_unixtime": "1674222526",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "text": "100 an migration scripts, with seed",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "100 an migration scripts, with seed"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242855,
-	  "type": "message",
-	  "date": "2023-01-20T20:48:50",
-	  "date_unixtime": "1674222530",
-	  "from": "botak licin",
-	  "from_id": "user5467883815",
-	  "reply_to_message_id": 242786,
-	  "text": "Bikin gaya baru ah, Bandung Style",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "Bikin gaya baru ah, Bandung Style"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242856,
-	  "type": "message",
-	  "date": "2023-01-20T20:48:54",
-	  "date_unixtime": "1674222534",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "reply_to_message_id": 242852,
-	  "text": "kalo migration berat, lebih cepet hit database langsung?",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "kalo migration berat, lebih cepet hit database langsung?"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242857,
-	  "type": "message",
-	  "date": "2023-01-20T20:49:05",
-	  "date_unixtime": "1674222545",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "reply_to_message_id": 242856,
-	  "text": "tetep cepetan in memory",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "tetep cepetan in memory"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242858,
-	  "type": "message",
-	  "date": "2023-01-20T20:49:28",
-	  "date_unixtime": "1674222568",
-	  "from": "A JI Mode Signal Putus - Put",
-	  "from_id": "user224998752",
-	  "reply_to_message_id": 242857,
-	  "text": "Bakal makan gede memory ga itu om?",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "Bakal makan gede memory ga itu om?"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242859,
-	  "type": "message",
-	  "date": "2023-01-20T20:49:55",
-	  "date_unixtime": "1674222595",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "reply_to_message_id": 242858,
-	  "text": "ya proporsional ke available memory",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "ya proporsional ke available memory"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242860,
-	  "type": "message",
-	  "date": "2023-01-20T20:50:27",
-	  "date_unixtime": "1674222627",
-	  "edited": "2023-01-20T20:50:38",
-	  "edited_unixtime": "1674222638",
-	  "from": "A JI Mode Signal Putus - Put",
-	  "from_id": "user224998752",
-	  "text": "Kalo 100 migration with seed. Terus seed nya ada sejuta ya tekor jga kayaknya :D",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "Kalo 100 migration with seed. Terus seed nya ada sejuta ya tekor jga kayaknya :D"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242861,
-	  "type": "message",
-	  "date": "2023-01-20T20:50:31",
-	  "date_unixtime": "1674222631",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "sekian motivasi untuk test your apps",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "sekian motivasi untuk test your apps"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242863,
-	  "type": "message",
-	  "date": "2023-01-20T20:50:48",
-	  "date_unixtime": "1674222648",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "text": "belakangan saya ngga pake in memory database. soalnya saya butuh ngetest FK constraints sedangkan sqlite ngga support",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "belakangan saya ngga pake in memory database. soalnya saya butuh ngetest FK constraints sedangkan sqlite ngga support"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242866,
-	  "type": "message",
-	  "date": "2023-01-20T20:51:07",
-	  "date_unixtime": "1674222667",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "text": "sekarang saya ngetestnya pake MSSQL localdb dengan GUID database name",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "sekarang saya ngetestnya pake MSSQL localdb dengan GUID database name"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242867,
-	  "type": "message",
-	  "date": "2023-01-20T20:51:10",
-	  "date_unixtime": "1674222670",
-	  "from": "A JI Mode Signal Putus - Put",
-	  "from_id": "user224998752",
-	  "text": "Bukan wkwkwkwk",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "Bukan wkwkwkwk"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242868,
-	  "type": "message",
-	  "date": "2023-01-20T20:51:18",
-	  "date_unixtime": "1674222678",
-	  "from": "Ahmad Tohir",
-	  "from_id": "user368718073",
-	  "reply_to_message_id": 242860,
-	  "text": "ngeri bener nge seed sejuta pak wkwk",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "ngeri bener nge seed sejuta pak wkwk"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242870,
-	  "type": "message",
-	  "date": "2023-01-20T20:51:28",
-	  "date_unixtime": "1674222688",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "reply_to_message_id": 242866,
-	  "text": "ini hampir sama kencengnya dengan in memory",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "ini hampir sama kencengnya dengan in memory"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242871,
-	  "type": "message",
-	  "date": "2023-01-20T20:51:58",
-	  "date_unixtime": "1674222718",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "text": "padahal production database saya PGSQL family",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "padahal production database saya PGSQL family"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242872,
-	  "type": "message",
-	  "date": "2023-01-20T20:53:04",
-	  "date_unixtime": "1674222784",
-	  "from": "A JI Mode Signal Putus - Put",
-	  "from_id": "user224998752",
-	  "reply_to_message_id": 242868,
-	  "text": "Kantor lama dlu gw pernah. Karena pengen nyoba fitur searchnya. Yg pke fulltext-search sama modal like query. Karena blum percaya dri katanya. Dn ya, dua2 nya ga rekomen IMO. Wkwkwkwk",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "Kantor lama dlu gw pernah. Karena pengen nyoba fitur searchnya. Yg pke fulltext-search sama modal like query. Karena blum percaya dri katanya. Dn ya, dua2 nya ga rekomen IMO. Wkwkwkwk"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242873,
-	  "type": "message",
-	  "date": "2023-01-20T20:53:08",
-	  "date_unixtime": "1674222788",
-	  "from": "dicha?",
-	  "from_id": "user925009191",
-	  "text": "butuh seseorang buat convince ngetest frontend itu worth",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "butuh seseorang buat convince ngetest frontend itu worth"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242874,
-	  "type": "message",
-	  "date": "2023-01-20T20:53:21",
-	  "date_unixtime": "1674222801",
-	  "from": "dicha?",
-	  "from_id": "user925009191",
-	  "text": "biasanya males karena ujung ujungnya tetep tes sendiri di browser wkwkw",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "biasanya males karena ujung ujungnya tetep tes sendiri di browser wkwkw"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242875,
-	  "type": "message",
-	  "date": "2023-01-20T20:53:31",
-	  "date_unixtime": "1674222811",
-	  "from": "A JI Mode Signal Putus - Put",
-	  "from_id": "user224998752",
-	  "reply_to_message_id": 242873,
-	  "text": "Mana dn harus ngapain?",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "Mana dn harus ngapain?"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242876,
-	  "type": "message",
-	  "date": "2023-01-20T20:53:44",
-	  "date_unixtime": "1674222824",
-	  "edited": "2023-01-20T20:55:07",
-	  "edited_unixtime": "1674222907",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "reply_to_message_id": 242860,
-	  "text": "anjir. saya pernah ngeseed > 1 miliar record. seminggu baru kelar",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "anjir. saya pernah ngeseed > 1 miliar record. seminggu baru kelar"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242877,
-	  "type": "message",
-	  "date": "2023-01-20T20:54:00",
-	  "date_unixtime": "1674222840",
-	  "from": "Ahmad Tohir",
-	  "from_id": "user368718073",
-	  "reply_to_message_id": 242872,
-	  "text": "ooh case nya fts",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "ooh case nya fts"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242878,
-	  "type": "message",
-	  "date": "2023-01-20T20:54:01",
-	  "date_unixtime": "1674222841",
-	  "from": "dicha?",
-	  "from_id": "user925009191",
-	  "text": [
-	   "kalo componentnya interaktif ya oke lah, aku masih ngga paham sama test yg ",
-	   {
-		"type": "code",
-		"text": "expect tulisan anu on component anu"
-	   }
-	  ],
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "kalo componentnya interaktif ya oke lah, aku masih ngga paham sama test yg "
-	   },
-	   {
-		"type": "code",
-		"text": "expect tulisan anu on component anu"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242879,
-	  "type": "message",
-	  "date": "2023-01-20T20:54:10",
-	  "date_unixtime": "1674222850",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "text": "belum lagi kalo seedernya ada bug, mesti diulang",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "belum lagi kalo seedernya ada bug, mesti diulang"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242880,
-	  "type": "message",
-	  "date": "2023-01-20T20:54:30",
-	  "date_unixtime": "1674222870",
-	  "from": "A JI Mode Signal Putus - Put",
-	  "from_id": "user224998752",
-	  "text": "Itu gw pas run 1 jta. Kena memory limit kalo ga salah. Alhasil running bertahap berapa ratus gtu wkwkwk",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "Itu gw pas run 1 jta. Kena memory limit kalo ga salah. Alhasil running bertahap berapa ratus gtu wkwkwk"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242881,
-	  "type": "message",
-	  "date": "2023-01-20T20:54:33",
-	  "date_unixtime": "1674222873",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "text": "sampe saya ngodingnya pake 3 laptop",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "sampe saya ngodingnya pake 3 laptop"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242882,
-	  "type": "message",
-	  "date": "2023-01-20T20:54:39",
-	  "date_unixtime": "1674222879",
-	  "from": "Ahmad Tohir",
-	  "from_id": "user368718073",
-	  "reply_to_message_id": 242876,
-	  "text": "busyet",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "busyet"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242883,
-	  "type": "message",
-	  "date": "2023-01-20T20:54:47",
-	  "date_unixtime": "1674222887",
-	  "from": "dicha?",
-	  "from_id": "user925009191",
-	  "reply_to_message_id": 242881,
-	  "text": "buset",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "buset"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242884,
-	  "type": "message",
-	  "date": "2023-01-20T20:54:58",
-	  "date_unixtime": "1674222898",
-	  "from": "A JI Mode Signal Putus - Put",
-	  "from_id": "user224998752",
-	  "reply_to_message_id": 242877,
-	  "text": "Iyo, tpi ga ada yg kupake. Gw ngikutin cara bank akhirnya",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "Iyo, tpi ga ada yg kupake. Gw ngikutin cara bank akhirnya"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242885,
-	  "type": "message",
-	  "date": "2023-01-20T20:55:08",
-	  "date_unixtime": "1674222908",
-	  "from": "botak licin",
-	  "from_id": "user5467883815",
-	  "reply_to_message_id": 242836,
-	  "text": "Nah kan, yg ginian ga bisa di auto generate, logic tersendiri. Beneran more effort",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "Nah kan, yg ginian ga bisa di auto generate, logic tersendiri. Beneran more effort"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242886,
-	  "type": "message",
-	  "date": "2023-01-20T20:55:15",
-	  "date_unixtime": "1674222915",
-	  "from": "Ahmad Tohir",
-	  "from_id": "user368718073",
-	  "reply_to_message_id": 242881,
-	  "text": "mestilah, itu udah occupied buat seed doang wwkk",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "mestilah, itu udah occupied buat seed doang wwkk"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242887,
-	  "type": "message",
-	  "date": "2023-01-20T20:55:17",
-	  "date_unixtime": "1674222917",
-	  "from": "botak licin",
-	  "from_id": "user5467883815",
-	  "text": "Ujung2nya qa yg test juga",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "Ujung2nya qa yg test juga"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242888,
-	  "type": "message",
-	  "date": "2023-01-20T20:55:28",
-	  "date_unixtime": "1674222928",
-	  "from": "Ahmad Tohir",
-	  "from_id": "user368718073",
-	  "text": "btw nge seed apa tuh pak ?",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "btw nge seed apa tuh pak ?"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242889,
-	  "type": "message",
-	  "date": "2023-01-20T20:55:40",
-	  "date_unixtime": "1674222940",
-	  "from": "A JI Mode Signal Putus - Put",
-	  "from_id": "user224998752",
-	  "text": [
-	   {
-		"type": "italic",
-		"text": "data"
-	   },
-	   " wkwkwk"
-	  ],
-	  "text_entities": [
-	   {
-		"type": "italic",
-		"text": "data"
-	   },
-	   {
-		"type": "plain",
-		"text": " wkwkwk"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242890,
-	  "type": "message",
-	  "date": "2023-01-20T20:55:41",
-	  "date_unixtime": "1674222941",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "reply_to_message_id": 242886,
-	  "text": "1 ngeseed production, 1 ngeseed local (test), 1 buat coding",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "1 ngeseed production, 1 ngeseed local (test), 1 buat coding"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242891,
-	  "type": "message",
-	  "date": "2023-01-20T20:55:50",
-	  "date_unixtime": "1674222950",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "reply_to_message_id": 242888,
-	  "text": "data schematic part mobil",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "data schematic part mobil"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242892,
-	  "type": "message",
-	  "date": "2023-01-20T20:56:07",
-	  "date_unixtime": "1674222967",
-	  "from": "A JI Mode Signal Putus - Put",
-	  "from_id": "user224998752",
-	  "text": "Hooo gw dulu data warehouse sih.",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "Hooo gw dulu data warehouse sih."
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242893,
-	  "type": "message",
-	  "date": "2023-01-20T20:56:26",
-	  "date_unixtime": "1674222986",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "text": "saya waktu itu pengen ditransform aja ke relational",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "saya waktu itu pengen ditransform aja ke relational"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242894,
-	  "type": "message",
-	  "date": "2023-01-20T20:56:30",
-	  "date_unixtime": "1674222990",
-	  "from": "Ahmad Tohir",
-	  "from_id": "user368718073",
-	  "reply_to_message_id": 242885,
-	  "text": "tadi poin yang disampein soal effort juga happines.\nkalo happy ya lanjut, kalo engga ya skip",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "tadi poin yang disampein soal effort juga happines.\nkalo happy ya lanjut, kalo engga ya skip"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242895,
-	  "type": "message",
-	  "date": "2023-01-20T20:56:35",
-	  "date_unixtime": "1674222995",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "text": "and it was worth it",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "and it was worth it"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242897,
-	  "type": "message",
-	  "date": "2023-01-20T20:57:28",
-	  "date_unixtime": "1674223048",
-	  "from": "Ahmad Tohir",
-	  "from_id": "user368718073",
-	  "reply_to_message_id": 242890,
-	  "text": "edun, 1 miliar itu belum kebayang",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "edun, 1 miliar itu belum kebayang"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242898,
-	  "type": "message",
-	  "date": "2023-01-20T20:57:53",
-	  "date_unixtime": "1674223073",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "reply_to_message_id": 242887,
-	  "text": "pas itu gw ga izinin orang QA buat ngubah value langsung dari database",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "pas itu gw ga izinin orang QA buat ngubah value langsung dari database"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242899,
-	  "type": "message",
-	  "date": "2023-01-20T20:58:08",
-	  "date_unixtime": "1674223088",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "di production nanti gaboleh ada manusia yang ngubah value apapun di database",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "di production nanti gaboleh ada manusia yang ngubah value apapun di database"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242900,
-	  "type": "message",
-	  "date": "2023-01-20T20:58:13",
-	  "date_unixtime": "1674223093",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "mau ngubah anything di database harus lewat running app",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "mau ngubah anything di database harus lewat running app"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242901,
-	  "type": "message",
-	  "date": "2023-01-20T20:58:21",
-	  "date_unixtime": "1674223101",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "nggak lewat itu, you risk the whole business to go down",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "nggak lewat itu, you risk the whole business to go down"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242902,
-	  "type": "message",
-	  "date": "2023-01-20T20:58:41",
-	  "date_unixtime": "1674223121",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "mencegah orang delete record atau drop table secara \"ga sengaja\" juga sebenernya",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "mencegah orang delete record atau drop table secara \"ga sengaja\" juga sebenernya"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242903,
-	  "type": "message",
-	  "date": "2023-01-20T20:58:48",
-	  "date_unixtime": "1674223128",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "reply_to_message_id": 242897,
-	  "text": "langsung berasa kecepatan insert menurun drastis pas rownya udah di atas 100 ribu",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "langsung berasa kecepatan insert menurun drastis pas rownya udah di atas 100 ribu"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242904,
-	  "type": "message",
-	  "date": "2023-01-20T20:59:02",
-	  "date_unixtime": "1674223142",
-	  "from": "botak licin",
-	  "from_id": "user5467883815",
-	  "text": [
-	   "Yg enak itu kalau pake library atau orm yg udah ada objek mock/fake/stub didalemnya, jadi gak perlu mock2an/fake2an/stub2an lg. Kalo command yg dijalanin ",
-	   {
-		"type": "code",
-		"text": "test"
-	   },
-	   ", otomatis execute objek versi mocked/fake. Ga perlu generate apa2, ga perlu setup2 apa2 diluar code, ga perlu tear up and down"
-	  ],
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "Yg enak itu kalau pake library atau orm yg udah ada objek mock/fake/stub didalemnya, jadi gak perlu mock2an/fake2an/stub2an lg. Kalo command yg dijalanin "
-	   },
-	   {
-		"type": "code",
-		"text": "test"
-	   },
-	   {
-		"type": "plain",
-		"text": ", otomatis execute objek versi mocked/fake. Ga perlu generate apa2, ga perlu setup2 apa2 diluar code, ga perlu tear up and down"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242905,
-	  "type": "message",
-	  "date": "2023-01-20T20:59:10",
-	  "date_unixtime": "1674223150",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "text": "pas itu juga ada requirements \"bisa customizable, dinamis dari database valuenya\"\n\ngw tolak",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "pas itu juga ada requirements \"bisa customizable, dinamis dari database valuenya\"\n\ngw tolak"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242906,
-	  "type": "message",
-	  "date": "2023-01-20T20:59:34",
-	  "date_unixtime": "1674223174",
-	  "from": "Reinaldy",
-	  "from_id": "user1462097294",
-	  "reply_to_message_id": 242904,
-	  "text": "good case dengan dotnet",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "good case dengan dotnet"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242907,
-	  "type": "message",
-	  "date": "2023-01-20T20:59:49",
-	  "date_unixtime": "1674223189",
-	  "from": "botak licin",
-	  "from_id": "user5467883815",
-	  "reply_to_message_id": 242904,
-	  "text": "Paling tinggal ngetest yg pure functionz doank",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "Paling tinggal ngetest yg pure functionz doank"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242909,
-	  "type": "message",
-	  "date": "2023-01-20T21:00:29",
-	  "date_unixtime": "1674223229",
-	  "from": "yuu",
-	  "from_id": "user846345612",
-	  "reply_to_message_id": 242896,
-	  "text": "inii pakai nest kah?",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "inii pakai nest kah?"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242911,
-	  "type": "message",
-	  "date": "2023-01-20T21:00:59",
-	  "date_unixtime": "1674223259",
-	  "from": "Ahmad Tohir",
-	  "from_id": "user368718073",
-	  "reply_to_message_id": 242903,
-	  "text": "wkwkwk, sempet ngecek resource CPU nya gak pak ?",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "wkwkwk, sempet ngecek resource CPU nya gak pak ?"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242912,
-	  "type": "message",
-	  "date": "2023-01-20T21:01:10",
-	  "date_unixtime": "1674223270",
-	  "edited": "2023-01-20T21:02:40",
-	  "edited_unixtime": "1674223360",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "reply_to_message_id": 242911,
-	  "text": "100% mentok",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "100% mentok"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242913,
-	  "type": "message",
-	  "date": "2023-01-20T21:01:16",
-	  "date_unixtime": "1674223276",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "text": "itu azure SQL",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "itu azure SQL"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242916,
-	  "type": "message",
-	  "date": "2023-01-20T21:01:44",
-	  "date_unixtime": "1674223304",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "reply_to_message_id": 242911,
-	  "text": "terus saya scale up ke tier 7 jutaan, barulah lancar",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "terus saya scale up ke tier 7 jutaan, barulah lancar"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242917,
-	  "type": "message",
-	  "date": "2023-01-20T21:02:05",
-	  "date_unixtime": "1674223325",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "text": "setelah selesai seed, saya scale down lagi ke tier 200 ribuan",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "setelah selesai seed, saya scale down lagi ke tier 200 ribuan"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242918,
-	  "type": "message",
-	  "date": "2023-01-20T21:02:18",
-	  "date_unixtime": "1674223338",
-	  "from": "yuu",
-	  "from_id": "user846345612",
-	  "reply_to_message_id": 242910,
-	  "text": "hah?",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "hah?"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242919,
-	  "type": "message",
-	  "date": "2023-01-20T21:03:27",
-	  "date_unixtime": "1674223407",
-	  "from": "Ahmad Tohir",
-	  "from_id": "user368718073",
-	  "reply_to_message_id": 242916,
-	  "text": "mantap wkwkwk\ntadi kena 1 minggu ya",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "mantap wkwkwk\ntadi kena 1 minggu ya"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242920,
-	  "type": "message",
-	  "date": "2023-01-20T21:03:38",
-	  "date_unixtime": "1674223418",
-	  "from": "Zasda Yusuf Mikail",
-	  "from_id": "user311785123",
-	  "reply_to_message_id": 242876,
-	  "text": "Wkwkwkwk, id auto increment + banyak index + bukan nvme ini kayaknya sampe seminggu.",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "Wkwkwkwk, id auto increment + banyak index + bukan nvme ini kayaknya sampe seminggu."
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242922,
-	  "type": "message",
-	  "date": "2023-01-20T21:03:41",
-	  "date_unixtime": "1674223421",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "reply_to_message_id": 242919,
-	  "text": "1 minggu lebih. plus development time",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "1 minggu lebih. plus development time"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242925,
-	  "type": "message",
-	  "date": "2023-01-20T21:03:50",
-	  "date_unixtime": "1674223430",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "text": "3-5 minggu lah total",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "3-5 minggu lah total"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242928,
-	  "type": "message",
-	  "date": "2023-01-20T21:04:04",
-	  "date_unixtime": "1674223444",
-	  "from": "R",
-	  "from_id": "user769838460",
-	  "reply_to_message_id": 242925,
-	  "text": "1 bulan",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "1 bulan"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242929,
-	  "type": "message",
-	  "date": "2023-01-20T21:04:09",
-	  "date_unixtime": "1674223449",
-	  "from": "Ahmad Tohir",
-	  "from_id": "user368718073",
-	  "reply_to_message_id": 242925,
-	  "text": "WUUT",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "WUUT"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242930,
-	  "type": "message",
-	  "date": "2023-01-20T21:04:18",
-	  "date_unixtime": "1674223458",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "text": "kadang udah jalan 3 hari, crash",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "kadang udah jalan 3 hari, crash"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242931,
-	  "type": "message",
-	  "date": "2023-01-20T21:04:19",
-	  "date_unixtime": "1674223459",
-	  "from": "Ahmad Tohir",
-	  "from_id": "user368718073",
-	  "text": "masih pake yang 7 jutaan ?",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "masih pake yang 7 jutaan ?"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242932,
-	  "type": "message",
-	  "date": "2023-01-20T21:04:32",
-	  "date_unixtime": "1674223472",
-	  "from": "Ahmad Tohir",
-	  "from_id": "user368718073",
-	  "text": "1 bulan mayan tuh jadinya wkkw",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "1 bulan mayan tuh jadinya wkkw"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242933,
-	  "type": "message",
-	  "date": "2023-01-20T21:04:39",
-	  "date_unixtime": "1674223479",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "reply_to_message_id": 242931,
-	  "text": "saya naik turunin sih tergantung lagi seed apa ngoding",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "saya naik turunin sih tergantung lagi seed apa ngoding"
-	   }
-	  ]
-	 },
-	 {
-	  "id": 242934,
-	  "type": "message",
-	  "date": "2023-01-20T21:04:53",
-	  "date_unixtime": "1674223493",
-	  "from": "Ronny Gunawan ️",
-	  "from_id": "user149994951",
-	  "text": "enaknya azure bisa scale up & down instantly gitu",
-	  "text_entities": [
-	   {
-		"type": "plain",
-		"text": "enaknya azure bisa scale up & down instantly gitu"
-	   }
-	  ]
-	 }
+		{
+			"id": 242640,
+			"type": "message",
+			"date": "2023-01-20T19:05:09",
+			"date_unixtime": "1674216309",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "dikit lagi gw sampe rumah, ntar gw jelasin gimana gw bisa develop app without even running it locally",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "dikit lagi gw sampe rumah, ntar gw jelasin gimana gw bisa develop app without even running it locally"
+				}
+			]
+		},
+		{
+			"id": 242699,
+			"type": "message",
+			"date": "2023-01-20T20:05:33",
+			"date_unixtime": "1674219933",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "tapi disclaimer dulu:  I am not a senior software engineer (by all means), if this does not work for you, idk tho",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "tapi disclaimer dulu:  I am not a senior software engineer (by all means), if this does not work for you, idk tho"
+				}
+			]
+		},
+		{
+			"id": 242701,
+			"type": "message",
+			"date": "2023-01-20T20:07:42",
+			"date_unixtime": "1674220062",
+			"edited": "2023-01-20T20:08:00",
+			"edited_unixtime": "1674220080",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "another disclaimer: ini bukan kayak grup-grup sebelah (baca: Python dan Java dan PHP) yang kalo ada 1 orang ngomong, ga boleh ada orang lain yang ngomong. lu mau nyelak karena bingung, atau nyelak karena ketemu tweet lucu, bodo amat. ngomong aja. ini grup santai.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "another disclaimer: ini bukan kayak grup-grup sebelah (baca: Python dan Java dan PHP) yang kalo ada 1 orang ngomong, ga boleh ada orang lain yang ngomong. lu mau nyelak karena bingung, atau nyelak karena ketemu tweet lucu, bodo amat. ngomong aja. ini grup santai."
+				}
+			]
+		},
+		{
+			"id": 242702,
+			"type": "message",
+			"date": "2023-01-20T20:08:12",
+			"date_unixtime": "1674220092",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 242701,
+			"text": "Group sebelah ga boleh di selak? Baru tau, dotnet kykny selak2 aja",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Group sebelah ga boleh di selak? Baru tau, dotnet kykny selak2 aja"
+				}
+			]
+		},
+		{
+			"id": 242703,
+			"type": "message",
+			"date": "2023-01-20T20:08:20",
+			"date_unixtime": "1674220100",
+			"from": "yuu",
+			"from_id": "user846345612",
+			"text": "padahal php grupnya sepi",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "padahal php grupnya sepi"
+				}
+			]
+		},
+		{
+			"id": 242704,
+			"type": "message",
+			"date": "2023-01-20T20:08:25",
+			"date_unixtime": "1674220105",
+			"from": "Zasda Yusuf Mikail",
+			"from_id": "user311785123",
+			"reply_to_message_id": 242699,
+			"text": "Wkwkwkwkwkwkwk, insert meme \"never be accountable\"",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Wkwkwkwkwkwkwk, insert meme \"never be accountable\""
+				}
+			]
+		},
+		{
+			"id": 242705,
+			"type": "message",
+			"date": "2023-01-20T20:08:57",
+			"date_unixtime": "1674220137",
+			"from": "Ahmad Tohir",
+			"from_id": "user368718073",
+			"reply_to_message_id": 242704,
+			"text": [
+				{
+					"type": "italic",
+					"text": "insert idk tho"
+				}
+			],
+			"text_entities": [
+				{
+					"type": "italic",
+					"text": "insert idk tho"
+				}
+			]
+		},
+		{
+			"id": 242706,
+			"type": "message",
+			"date": "2023-01-20T20:11:23",
+			"date_unixtime": "1674220283",
+			"edited": "2023-01-20T20:18:03",
+			"edited_unixtime": "1674220683",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "testing came to be a significant part pas gw kerja di ****** (pas itu ceritanya nge rewrite 3 monolith lama pake django ke microservice pake go — yang ujung-ujungnya ada javascript sama dotnet). \n\nsignifikan karena gw percaya pada beberapa hal:\n\n1. testing proves that your code is right, kalo ada yang salah ya MUNGKIN bukan salah kita\n2. kalo nggak ada test, dan kita udah meninggalkan perusahaan, your code became a legacy product of yours. gw gamau ninggalin legacy kayak gitu. gw gamau hasil kerja gw di rewrite orang lain, gw maunya diterusin.\n3. karena microservice, nggak mungkin lu nyalain belasan service lainnya just to test if your service can run properly. gila aja harus spin up semua service di local.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "testing came to be a significant part pas gw kerja di ****** (pas itu ceritanya nge rewrite 3 monolith lama pake django ke microservice pake go — yang ujung-ujungnya ada javascript sama dotnet). \n\nsignifikan karena gw percaya pada beberapa hal:\n\n1. testing proves that your code is right, kalo ada yang salah ya MUNGKIN bukan salah kita\n2. kalo nggak ada test, dan kita udah meninggalkan perusahaan, your code became a legacy product of yours. gw gamau ninggalin legacy kayak gitu. gw gamau hasil kerja gw di rewrite orang lain, gw maunya diterusin.\n3. karena microservice, nggak mungkin lu nyalain belasan service lainnya just to test if your service can run properly. gila aja harus spin up semua service di local."
+				}
+			]
+		},
+		{
+			"id": 242707,
+			"type": "message",
+			"date": "2023-01-20T20:11:36",
+			"date_unixtime": "1674220296",
+			"from": "dicha?",
+			"from_id": "user925009191",
+			"reply_to_message_id": 242703,
+			"text": "WKWKWKW",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "WKWKWKW"
+				}
+			]
+		},
+		{
+			"id": 242708,
+			"type": "message",
+			"date": "2023-01-20T20:12:14",
+			"date_unixtime": "1674220334",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "dan semua yang pas itu contribute ke backend nya ******, tanya pertanyaan yang sama: \"Cara jalaninnya gimana?\"\n\njawabannya: \"You don't\"",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "dan semua yang pas itu contribute ke backend nya ******, tanya pertanyaan yang sama: \"Cara jalaninnya gimana?\"\n\njawabannya: \"You don't\""
+				}
+			]
+		},
+		{
+			"id": 242709,
+			"type": "message",
+			"date": "2023-01-20T20:12:28",
+			"date_unixtime": "1674220348",
+			"edited": "2023-01-20T20:12:47",
+			"edited_unixtime": "1674220367",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "to know if your code is right, is to test them, rigorously (or extensively if anyone doesn't know what rigorously means)",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "to know if your code is right, is to test them, rigorously (or extensively if anyone doesn't know what rigorously means)"
+				}
+			]
+		},
+		{
+			"id": 242710,
+			"type": "message",
+			"date": "2023-01-20T20:13:18",
+			"date_unixtime": "1674220398",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "jenis-jenis testing udah pada tau kan ya: ada unit testing, integration testing, load testing, end-to-end testing, dll. banyak",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "jenis-jenis testing udah pada tau kan ya: ada unit testing, integration testing, load testing, end-to-end testing, dll. banyak"
+				}
+			]
+		},
+		{
+			"id": 242711,
+			"type": "message",
+			"date": "2023-01-20T20:13:30",
+			"date_unixtime": "1674220410",
+			"from": "Ahmad Tohir",
+			"from_id": "user368718073",
+			"reply_to_message_id": 242706,
+			"file": "stickers/sticker (24).webp",
+			"thumbnail": "stickers/sticker (24).webp_thumb.jpg",
+			"media_type": "sticker",
+			"sticker_emoji": "🖋",
+			"width": 512,
+			"height": 512,
+			"text": "",
+			"text_entities": []
+		},
+		{
+			"id": 242712,
+			"type": "message",
+			"date": "2023-01-20T20:13:59",
+			"date_unixtime": "1674220439",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "kalo join cult nya golang, biasanya bakal ngomongin 2 school of testing: Detroit and London.\n\nTLDR: London —> bikin mock, Detroit —> deep class/module creation.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kalo join cult nya golang, biasanya bakal ngomongin 2 school of testing: Detroit and London.\n\nTLDR: London —> bikin mock, Detroit —> deep class/module creation."
+				}
+			]
+		},
+		{
+			"id": 242713,
+			"type": "message",
+			"date": "2023-01-20T20:14:22",
+			"date_unixtime": "1674220462",
+			"from": "R",
+			"from_id": "user769838460",
+			"file": "stickers/sticker (24).webp",
+			"thumbnail": "stickers/sticker (24).webp_thumb.jpg",
+			"media_type": "sticker",
+			"sticker_emoji": "🖋",
+			"width": 512,
+			"height": 512,
+			"text": "",
+			"text_entities": []
+		},
+		{
+			"id": 242714,
+			"type": "message",
+			"date": "2023-01-20T20:14:47",
+			"date_unixtime": "1674220487",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": [
+				"but yes, some language are best by just using one of them. misal dotnet emang cocok kalo style testingnya bikin mock (but it's a whole different case with this beast of an om-om ",
+				{
+					"type": "mention",
+					"text": "@RonnyGunawan"
+				},
+				")."
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "but yes, some language are best by just using one of them. misal dotnet emang cocok kalo style testingnya bikin mock (but it's a whole different case with this beast of an om-om "
+				},
+				{
+					"type": "mention",
+					"text": "@RonnyGunawan"
+				},
+				{
+					"type": "plain",
+					"text": ")."
+				}
+			]
+		},
+		{
+			"id": 242715,
+			"type": "message",
+			"date": "2023-01-20T20:14:59",
+			"date_unixtime": "1674220499",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"reply_to_message_id": 242597,
+			"text": "Kok malah lebih ribet dari unit test yg mocking2 ya?, tear up and tear down itu idempotent ga unit testnya?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Kok malah lebih ribet dari unit test yg mocking2 ya?, tear up and tear down itu idempotent ga unit testnya?"
+				}
+			]
+		},
+		{
+			"id": 242716,
+			"type": "message",
+			"date": "2023-01-20T20:15:21",
+			"date_unixtime": "1674220521",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "tapi kalo golang, emang banyak yang argue kalo style testing lebih cocok kalo nggak di mock, tapi test aja langsung. \n\nmisal spawn database beneran, kafka beneran, semua pake docker compose",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "tapi kalo golang, emang banyak yang argue kalo style testing lebih cocok kalo nggak di mock, tapi test aja langsung. \n\nmisal spawn database beneran, kafka beneran, semua pake docker compose"
+				}
+			]
+		},
+		{
+			"id": 242717,
+			"type": "message",
+			"date": "2023-01-20T20:15:39",
+			"date_unixtime": "1674220539",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 242715,
+			"text": [
+				"idempotent, dan ga ribet. it looks \"ribet\" karena emang belom biasa aja. go ask ",
+				{
+					"type": "mention",
+					"text": "@dsnoor"
+				}
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "idempotent, dan ga ribet. it looks \"ribet\" karena emang belom biasa aja. go ask "
+				},
+				{
+					"type": "mention",
+					"text": "@dsnoor"
+				}
+			]
+		},
+		{
+			"id": 242719,
+			"type": "message",
+			"date": "2023-01-20T20:16:46",
+			"date_unixtime": "1674220606",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 242716,
+			"text": "but I'd argue that both style of testing really go hand in hand. emang ada beberapa yang harus kita mock, ada beberapa yang harus kita test against managed dependency (alias dependency yang emang kita bisa manage sendiri, within our own control)",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "but I'd argue that both style of testing really go hand in hand. emang ada beberapa yang harus kita mock, ada beberapa yang harus kita test against managed dependency (alias dependency yang emang kita bisa manage sendiri, within our own control)"
+				}
+			]
+		},
+		{
+			"id": 242720,
+			"type": "message",
+			"date": "2023-01-20T20:16:53",
+			"date_unixtime": "1674220613",
+			"from": "Ahmad Tohir",
+			"from_id": "user368718073",
+			"reply_to_message_id": 242716,
+			"text": "btw testing nya gak perlu pilih salah satu kan ?\n\nbeberapa bagian mock, beberapa bagian lainnya langsung",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "btw testing nya gak perlu pilih salah satu kan ?\n\nbeberapa bagian mock, beberapa bagian lainnya langsung"
+				}
+			]
+		},
+		{
+			"id": 242721,
+			"type": "message",
+			"date": "2023-01-20T20:17:02",
+			"date_unixtime": "1674220622",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 242720,
+			"text": "yes gw gitu kok",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "yes gw gitu kok"
+				}
+			]
+		},
+		{
+			"id": 242722,
+			"type": "message",
+			"date": "2023-01-20T20:17:35",
+			"date_unixtime": "1674220655",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "dan nggak ada yang salah atau bener, yang penting ikut aja apa kata Dan Abramov: \"Do whatever feels less awkward\"",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "dan nggak ada yang salah atau bener, yang penting ikut aja apa kata Dan Abramov: \"Do whatever feels less awkward\""
+				}
+			]
+		},
+		{
+			"id": 242723,
+			"type": "message",
+			"date": "2023-01-20T20:17:42",
+			"date_unixtime": "1674220662",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "less awkward for you, not for someone else",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "less awkward for you, not for someone else"
+				}
+			]
+		},
+		{
+			"id": 242724,
+			"type": "message",
+			"date": "2023-01-20T20:17:55",
+			"date_unixtime": "1674220675",
+			"from": "yuu",
+			"from_id": "user846345612",
+			"text": "mantappp",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "mantappp"
+				}
+			]
+		},
+		{
+			"id": 242725,
+			"type": "message",
+			"date": "2023-01-20T20:18:06",
+			"date_unixtime": "1674220686",
+			"from": "Ahmad Tohir",
+			"from_id": "user368718073",
+			"reply_to_message_id": 242719,
+			"file": "stickers/sticker (24).webp",
+			"thumbnail": "stickers/sticker (24).webp_thumb.jpg",
+			"media_type": "sticker",
+			"sticker_emoji": "🖋",
+			"width": 512,
+			"height": 512,
+			"text": "",
+			"text_entities": []
+		},
+		{
+			"id": 242726,
+			"type": "message",
+			"date": "2023-01-20T20:18:09",
+			"date_unixtime": "1674220689",
+			"from": "R",
+			"from_id": "user769838460",
+			"file": "stickers/sticker (24).webp",
+			"thumbnail": "stickers/sticker (24).webp_thumb.jpg",
+			"media_type": "sticker",
+			"sticker_emoji": "🖋",
+			"width": 512,
+			"height": 512,
+			"text": "",
+			"text_entities": []
+		},
+		{
+			"id": 242728,
+			"type": "message",
+			"date": "2023-01-20T20:18:32",
+			"date_unixtime": "1674220712",
+			"from": "yuu",
+			"from_id": "user846345612",
+			"reply_to_message_id": 242706,
+			"text": "point no. 2 mantep",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "point no. 2 mantep"
+				}
+			]
+		},
+		{
+			"id": 242732,
+			"type": "message",
+			"date": "2023-01-20T20:19:44",
+			"date_unixtime": "1674220784",
+			"edited": "2023-01-20T20:20:15",
+			"edited_unixtime": "1674220815",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"reply_to_message_id": 242634,
+			"text": "Kalau library driver ke db atau orm nya cukup fitur untuk ngeset koneksi versi mocked/fake, bagus.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Kalau library driver ke db atau orm nya cukup fitur untuk ngeset koneksi versi mocked/fake, bagus."
+				}
+			]
+		},
+		{
+			"id": 242733,
+			"type": "message",
+			"date": "2023-01-20T20:19:53",
+			"date_unixtime": "1674220793",
+			"from": "Ramad",
+			"from_id": "user414742973",
+			"reply_to_message_id": 242712,
+			"file": "stickers/sticker (24).webp",
+			"thumbnail": "stickers/sticker (24).webp_thumb.jpg",
+			"media_type": "sticker",
+			"sticker_emoji": "🖋",
+			"width": 512,
+			"height": 512,
+			"text": "",
+			"text_entities": []
+		},
+		{
+			"id": 242734,
+			"type": "message",
+			"date": "2023-01-20T20:20:56",
+			"date_unixtime": "1674220856",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 242712,
+			"text": "balik lagi kesini bentar. notice Detroit ini deep module creation. artinya kalo mau test service/business layer yang depends on banyak repository layers, artinya repository layernya di create juga. nggak di mock",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "balik lagi kesini bentar. notice Detroit ini deep module creation. artinya kalo mau test service/business layer yang depends on banyak repository layers, artinya repository layernya di create juga. nggak di mock"
+				}
+			]
+		},
+		{
+			"id": 242735,
+			"type": "message",
+			"date": "2023-01-20T20:21:21",
+			"date_unixtime": "1674220881",
+			"edited": "2023-01-20T20:21:39",
+			"edited_unixtime": "1674220899",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"photo": "photos/photo_10041@20-01-2023_20-21-21.jpg",
+			"width": 793,
+			"height": 453,
+			"text": [
+				"more about that in detail: ",
+				{
+					"type": "link",
+					"text": "https://zone84.tech/architecture/london-and-detroit-schools-of-unit-tests/"
+				}
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "more about that in detail: "
+				},
+				{
+					"type": "link",
+					"text": "https://zone84.tech/architecture/london-and-detroit-schools-of-unit-tests/"
+				}
+			]
+		},
+		{
+			"id": 242737,
+			"type": "message",
+			"date": "2023-01-20T20:21:38",
+			"date_unixtime": "1674220898",
+			"from": "Ahmad Tohir",
+			"from_id": "user368718073",
+			"reply_to_message_id": 242731,
+			"text": "busyet, ternyata sebelum groot ada yang lain",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "busyet, ternyata sebelum groot ada yang lain"
+				}
+			]
+		},
+		{
+			"id": 242738,
+			"type": "message",
+			"date": "2023-01-20T20:22:07",
+			"date_unixtime": "1674220927",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "nah kalo gw emang gitu, jadi emang susah banget kalo mau jalanin servicenya. but it forces you to create unit test",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "nah kalo gw emang gitu, jadi emang susah banget kalo mau jalanin servicenya. but it forces you to create unit test"
+				}
+			]
+		},
+		{
+			"id": 242739,
+			"type": "message",
+			"date": "2023-01-20T20:22:27",
+			"date_unixtime": "1674220947",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"reply_to_message_id": 242640,
+			"text": "Ini integration test yg kemarin kan?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Ini integration test yg kemarin kan?"
+				}
+			]
+		},
+		{
+			"id": 242740,
+			"type": "message",
+			"date": "2023-01-20T20:22:44",
+			"date_unixtime": "1674220964",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "nanti pas bikin unit test, keliatan line of code mana aja yang kena coverage. dan keliatan juga line of code mana aja yang POSSIBLE buat kena coverage kalo kita tambah test case",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "nanti pas bikin unit test, keliatan line of code mana aja yang kena coverage. dan keliatan juga line of code mana aja yang POSSIBLE buat kena coverage kalo kita tambah test case"
+				}
+			]
+		},
+		{
+			"id": 242741,
+			"type": "message",
+			"date": "2023-01-20T20:22:47",
+			"date_unixtime": "1674220967",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 242739,
+			"text": "yes",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "yes"
+				}
+			]
+		},
+		{
+			"id": 242742,
+			"type": "message",
+			"date": "2023-01-20T20:23:10",
+			"date_unixtime": "1674220990",
+			"from": "yuu",
+			"from_id": "user846345612",
+			"text": "mantap om penjelasannya",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "mantap om penjelasannya"
+				}
+			]
+		},
+		{
+			"id": 242743,
+			"type": "message",
+			"date": "2023-01-20T20:23:54",
+			"date_unixtime": "1674221034",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 242740,
+			"text": "dari sini kalo the whole team udah aware sama seberapa pentingnya testing (no matter what kind of test), ya jadi:\n\n1. pengen ngejar coverage setinggi mungkin\n2. lebih pede sama kodingannya",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "dari sini kalo the whole team udah aware sama seberapa pentingnya testing (no matter what kind of test), ya jadi:\n\n1. pengen ngejar coverage setinggi mungkin\n2. lebih pede sama kodingannya"
+				}
+			]
+		},
+		{
+			"id": 242744,
+			"type": "message",
+			"date": "2023-01-20T20:24:20",
+			"date_unixtime": "1674221060",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "soal \"apa yang bisa di test\", jawaban gw \"anything you can think of\"",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "soal \"apa yang bisa di test\", jawaban gw \"anything you can think of\""
+				}
+			]
+		},
+		{
+			"id": 242745,
+			"type": "message",
+			"date": "2023-01-20T20:24:37",
+			"date_unixtime": "1674221077",
+			"edited": "2023-01-20T20:24:46",
+			"edited_unixtime": "1674221086",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "kalo dirasa penting, ya test. kalo dirasa ga penting, ya terserah mau test atau engga",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kalo dirasa penting, ya test. kalo dirasa ga penting, ya terserah mau test atau engga"
+				}
+			]
+		},
+		{
+			"id": 242746,
+			"type": "message",
+			"date": "2023-01-20T20:25:12",
+			"date_unixtime": "1674221112",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "misal penting: repository layer, business layer yang ada validasi kompleks, business layer yang LOC nya banyak\n\nmisal ga penting: business layer yang cuma panggil repository layer sebiji abis itu return, presentation layer yang panggil business layer sebiji",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "misal penting: repository layer, business layer yang ada validasi kompleks, business layer yang LOC nya banyak\n\nmisal ga penting: business layer yang cuma panggil repository layer sebiji abis itu return, presentation layer yang panggil business layer sebiji"
+				}
+			]
+		},
+		{
+			"id": 242748,
+			"type": "message",
+			"date": "2023-01-20T20:27:32",
+			"date_unixtime": "1674221252",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": [
+				"kalo nggak penting kayak function gini doang:\n\n",
+				{
+					"type": "pre",
+					"text": "enum Education {\n  Others,\n  SD,\n  SMP,\n  SMA,\n  KuliahS1,\n  KuliahS2,\n}\n\nfunction convertEducationToString(education: Education) string {\n  switch (education) {\n    case Education.SD:\n      return \"SD\";\n    case Education.SMP:\n      return \"SMP\";\n    case Education.SMA:\n      return \"SMA\";\n    case Education.KuliahS1:\n      return \"Strata 1\";\n    case Education.KuliahS2:\n      return \"Strata 2\";\n    case Education.Others:\n    default:\n      return \"Lainnya\";\n  }\n}",
+					"language": ""
+				}
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kalo nggak penting kayak function gini doang:\n\n"
+				},
+				{
+					"type": "pre",
+					"text": "enum Education {\n  Others,\n  SD,\n  SMP,\n  SMA,\n  KuliahS1,\n  KuliahS2,\n}\n\nfunction convertEducationToString(education: Education) string {\n  switch (education) {\n    case Education.SD:\n      return \"SD\";\n    case Education.SMP:\n      return \"SMP\";\n    case Education.SMA:\n      return \"SMA\";\n    case Education.KuliahS1:\n      return \"Strata 1\";\n    case Education.KuliahS2:\n      return \"Strata 2\";\n    case Education.Others:\n    default:\n      return \"Lainnya\";\n  }\n}",
+					"language": ""
+				}
+			]
+		},
+		{
+			"id": 242749,
+			"type": "message",
+			"date": "2023-01-20T20:27:47",
+			"date_unixtime": "1674221267",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "ini kan function ga penting, dan hasilnya gitu doang. kalo mau di test ya monggo, kalo ga mau ya gapapa.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ini kan function ga penting, dan hasilnya gitu doang. kalo mau di test ya monggo, kalo ga mau ya gapapa."
+				}
+			]
+		},
+		{
+			"id": 242750,
+			"type": "message",
+			"date": "2023-01-20T20:27:56",
+			"date_unixtime": "1674221276",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "kalo pas ngerjain test nya bikin happy ngodingnya, ya gapapa, bikin aja",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kalo pas ngerjain test nya bikin happy ngodingnya, ya gapapa, bikin aja"
+				}
+			]
+		},
+		{
+			"id": 242751,
+			"type": "message",
+			"date": "2023-01-20T20:28:07",
+			"date_unixtime": "1674221287",
+			"edited": "2023-01-20T20:28:35",
+			"edited_unixtime": "1674221315",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "no one's stopping you from doing it or not doing it",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "no one's stopping you from doing it or not doing it"
+				}
+			]
+		},
+		{
+			"id": 242752,
+			"type": "message",
+			"date": "2023-01-20T20:28:31",
+			"date_unixtime": "1674221311",
+			"from": "yuu",
+			"from_id": "user846345612",
+			"text": "butuh copilot banget kalau case nya banyak",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "butuh copilot banget kalau case nya banyak"
+				}
+			]
+		},
+		{
+			"id": 242753,
+			"type": "message",
+			"date": "2023-01-20T20:28:48",
+			"date_unixtime": "1674221328",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "itu soal what to test",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "itu soal what to test"
+				}
+			]
+		},
+		{
+			"id": 242754,
+			"type": "message",
+			"date": "2023-01-20T20:29:11",
+			"date_unixtime": "1674221351",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "terus pertanyaan berikutnya biasa gini: karena code kita udah dijamin oke, how do you prove it to the others?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "terus pertanyaan berikutnya biasa gini: karena code kita udah dijamin oke, how do you prove it to the others?"
+				}
+			]
+		},
+		{
+			"id": 242755,
+			"type": "message",
+			"date": "2023-01-20T20:29:45",
+			"date_unixtime": "1674221385",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 242752,
+			"text": "kalo pake copilot udah disuruh nambah\n\nDiploma1\nDiploma3\nKuliahD1\nKuliahD3\nKuliahDiploma1\nKuliahDiploma3\nKuliahDiplomaD1\nKuliahDiplomaD3",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kalo pake copilot udah disuruh nambah\n\nDiploma1\nDiploma3\nKuliahD1\nKuliahD3\nKuliahDiploma1\nKuliahDiploma3\nKuliahDiplomaD1\nKuliahDiplomaD3"
+				}
+			]
+		},
+		{
+			"id": 242756,
+			"type": "message",
+			"date": "2023-01-20T20:30:03",
+			"date_unixtime": "1674221403",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "ya masukin di CI pipeline.\n\ngithub actions atau gitlab ci sama-sama bisa spawn additional service yang running pake docker. services ini jalan sidecar sama proses kita, jadi kita bisa hit mereka.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ya masukin di CI pipeline.\n\ngithub actions atau gitlab ci sama-sama bisa spawn additional service yang running pake docker. services ini jalan sidecar sama proses kita, jadi kita bisa hit mereka."
+				}
+			]
+		},
+		{
+			"id": 242757,
+			"type": "message",
+			"date": "2023-01-20T20:30:19",
+			"date_unixtime": "1674221419",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "ini ayam napa jadi pedes amat",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ini ayam napa jadi pedes amat"
+				}
+			]
+		},
+		{
+			"id": 242758,
+			"type": "message",
+			"date": "2023-01-20T20:30:48",
+			"date_unixtime": "1674221448",
+			"from": "Ahmad Tohir",
+			"from_id": "user368718073",
+			"text": "+1 github action, mulai suka, mulai perlu bayar sepertinya.\n2000 menit kayanya kurang",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "+1 github action, mulai suka, mulai perlu bayar sepertinya.\n2000 menit kayanya kurang"
+				}
+			]
+		},
+		{
+			"id": 242759,
+			"type": "message",
+			"date": "2023-01-20T20:30:58",
+			"date_unixtime": "1674221458",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": [
+				"ini gitlab ci: ",
+				{
+					"type": "link",
+					"text": "https://docs.gitlab.com/ee/ci/yaml/index.html#services"
+				},
+				"\n\nini github actions: ",
+				{
+					"type": "link",
+					"text": "https://docs.github.com/en/actions/using-containerized-services/creating-postgresql-service-containers"
+				}
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ini gitlab ci: "
+				},
+				{
+					"type": "link",
+					"text": "https://docs.gitlab.com/ee/ci/yaml/index.html#services"
+				},
+				{
+					"type": "plain",
+					"text": "\n\nini github actions: "
+				},
+				{
+					"type": "link",
+					"text": "https://docs.github.com/en/actions/using-containerized-services/creating-postgresql-service-containers"
+				}
+			]
+		},
+		{
+			"id": 242760,
+			"type": "message",
+			"date": "2023-01-20T20:31:08",
+			"date_unixtime": "1674221468",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 242758,
+			"text": "bisa self hosted. kantor gw pake github, dan github actionsnya self hosted",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "bisa self hosted. kantor gw pake github, dan github actionsnya self hosted"
+				}
+			]
+		},
+		{
+			"id": 242761,
+			"type": "message",
+			"date": "2023-01-20T20:31:44",
+			"date_unixtime": "1674221504",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "kalo pake CI providers lain, bisa juga seharusnya. kayak argocd, jenkins, agola, dll.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kalo pake CI providers lain, bisa juga seharusnya. kayak argocd, jenkins, agola, dll."
+				}
+			]
+		},
+		{
+			"id": 242762,
+			"type": "message",
+			"date": "2023-01-20T20:31:48",
+			"date_unixtime": "1674221508",
+			"from": "Ahmad Tohir",
+			"from_id": "user368718073",
+			"reply_to_message_id": 242760,
+			"text": "ooh, bisa gitu ya. gak kena charge ?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ooh, bisa gitu ya. gak kena charge ?"
+				}
+			]
+		},
+		{
+			"id": 242763,
+			"type": "message",
+			"date": "2023-01-20T20:32:16",
+			"date_unixtime": "1674221536",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "kalo nggak ada opsi buat spawn service external, bisa aja dikasih akses ke docker socket, nanti pas run test nya baru spawn required servicesnya",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kalo nggak ada opsi buat spawn service external, bisa aja dikasih akses ke docker socket, nanti pas run test nya baru spawn required servicesnya"
+				}
+			]
+		},
+		{
+			"id": 242764,
+			"type": "message",
+			"date": "2023-01-20T20:32:25",
+			"date_unixtime": "1674221545",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": [
+				"misal kalo golang pake ",
+				{
+					"type": "link",
+					"text": "https://github.com/ory/dockertest"
+				}
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "misal kalo golang pake "
+				},
+				{
+					"type": "link",
+					"text": "https://github.com/ory/dockertest"
+				}
+			]
+		},
+		{
+			"id": 242765,
+			"type": "message",
+			"date": "2023-01-20T20:32:32",
+			"date_unixtime": "1674221552",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"reply_to_message_id": 242717,
+			"text": "Jadi setiap tear up and down itu instance baru? Supaya bener2 idempotent?, gede pasti setup nya, karena yg diharapin dari unit test kan bisa test tanpa spawn apa2pun",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Jadi setiap tear up and down itu instance baru? Supaya bener2 idempotent?, gede pasti setup nya, karena yg diharapin dari unit test kan bisa test tanpa spawn apa2pun"
+				}
+			]
+		},
+		{
+			"id": 242766,
+			"type": "message",
+			"date": "2023-01-20T20:32:48",
+			"date_unixtime": "1674221568",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 242765,
+			"text": "oh nggak instance baru",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "oh nggak instance baru"
+				}
+			]
+		},
+		{
+			"id": 242767,
+			"type": "message",
+			"date": "2023-01-20T20:32:59",
+			"date_unixtime": "1674221579",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "tear up + down itu bener bener bikin dependency nya jadi clean",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "tear up + down itu bener bener bikin dependency nya jadi clean"
+				}
+			]
+		},
+		{
+			"id": 242768,
+			"type": "message",
+			"date": "2023-01-20T20:33:04",
+			"date_unixtime": "1674221584",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "hati2 pake GH action. credit card saya hampir jebol gara2 ngga sadar ngebuild pake macos itu costnya pake faktor pengali 10x",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "hati2 pake GH action. credit card saya hampir jebol gara2 ngga sadar ngebuild pake macos itu costnya pake faktor pengali 10x"
+				}
+			]
+		},
+		{
+			"id": 242769,
+			"type": "message",
+			"date": "2023-01-20T20:33:06",
+			"date_unixtime": "1674221586",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "kalo database ya tear down nya cuma drop tables",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kalo database ya tear down nya cuma drop tables"
+				}
+			]
+		},
+		{
+			"id": 242770,
+			"type": "message",
+			"date": "2023-01-20T20:33:13",
+			"date_unixtime": "1674221593",
+			"from": "Ahmad Tohir",
+			"from_id": "user368718073",
+			"reply_to_message_id": 242768,
+			"text": "wkwkwk",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "wkwkwk"
+				}
+			]
+		},
+		{
+			"id": 242771,
+			"type": "message",
+			"date": "2023-01-20T20:33:15",
+			"date_unixtime": "1674221595",
+			"from": "Ahmad Tohir",
+			"from_id": "user368718073",
+			"text": "bener",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "bener"
+				}
+			]
+		},
+		{
+			"id": 242772,
+			"type": "message",
+			"date": "2023-01-20T20:33:20",
+			"date_unixtime": "1674221600",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 242762,
+			"text": "kalo self hosted ga kena",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kalo self hosted ga kena"
+				}
+			]
+		},
+		{
+			"id": 242773,
+			"type": "message",
+			"date": "2023-01-20T20:33:27",
+			"date_unixtime": "1674221607",
+			"from": "Ahmad Tohir",
+			"from_id": "user368718073",
+			"text": "ubuntu x 1\nwindows x 2\nmac x 10",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ubuntu x 1\nwindows x 2\nmac x 10"
+				}
+			]
+		},
+		{
+			"id": 242774,
+			"type": "message",
+			"date": "2023-01-20T20:33:43",
+			"date_unixtime": "1674221623",
+			"from": "iamyuu",
+			"from_id": "user578743342",
+			"reply_to_message_id": 242743,
+			"text": "Biar tim pada \"aware sama seberapa pentingnya testing\" ada saran?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Biar tim pada \"aware sama seberapa pentingnya testing\" ada saran?"
+				}
+			]
+		},
+		{
+			"id": 242775,
+			"type": "message",
+			"date": "2023-01-20T20:33:45",
+			"date_unixtime": "1674221625",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 242773,
+			"text": "berasa kena scam",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "berasa kena scam"
+				}
+			]
+		},
+		{
+			"id": 242776,
+			"type": "message",
+			"date": "2023-01-20T20:33:45",
+			"date_unixtime": "1674221625",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "kalo kafka, sebenernya ga perlu tear down juga sih, cukup kirim administrator request aja buat clear topics",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kalo kafka, sebenernya ga perlu tear down juga sih, cukup kirim administrator request aja buat clear topics"
+				}
+			]
+		},
+		{
+			"id": 242777,
+			"type": "message",
+			"date": "2023-01-20T20:33:58",
+			"date_unixtime": "1674221638",
+			"edited": "2023-01-20T20:35:41",
+			"edited_unixtime": "1674221741",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 242774,
+			"text": "create the test, dominate the team",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "create the test, dominate the team"
+				}
+			]
+		},
+		{
+			"id": 242778,
+			"type": "message",
+			"date": "2023-01-20T20:34:04",
+			"date_unixtime": "1674221644",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "that's the only way",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "that's the only way"
+				}
+			]
+		},
+		{
+			"id": 242780,
+			"type": "message",
+			"date": "2023-01-20T20:34:29",
+			"date_unixtime": "1674221669",
+			"edited": "2023-01-20T20:35:40",
+			"edited_unixtime": "1674221740",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 242774,
+			"text": "pake CI. kalo test fail mereka ngga bisa lanjutin PR",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "pake CI. kalo test fail mereka ngga bisa lanjutin PR"
+				}
+			]
+		},
+		{
+			"id": 242782,
+			"type": "message",
+			"date": "2023-01-20T20:34:50",
+			"date_unixtime": "1674221690",
+			"from": "Terminus Est",
+			"from_id": "user386213269",
+			"reply_to_message_id": 242734,
+			"text": [
+				"ini london atau detroit? ",
+				{
+					"type": "link",
+					"text": "https://github.com/mashingan/localredis"
+				},
+				" wkwkwk"
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ini london atau detroit? "
+				},
+				{
+					"type": "link",
+					"text": "https://github.com/mashingan/localredis"
+				},
+				{
+					"type": "plain",
+					"text": " wkwkwk"
+				}
+			]
+		},
+		{
+			"id": 242784,
+			"type": "message",
+			"date": "2023-01-20T20:35:36",
+			"date_unixtime": "1674221736",
+			"from": "Ahmad Tohir",
+			"from_id": "user368718073",
+			"reply_to_message_id": 242775,
+			"text": "wkwkw, saya juga baru nyampe ke docs nya itu pas udah pake.\ntpi untung masih pake ubuntu",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "wkwkw, saya juga baru nyampe ke docs nya itu pas udah pake.\ntpi untung masih pake ubuntu"
+				}
+			]
+		},
+		{
+			"id": 242785,
+			"type": "message",
+			"date": "2023-01-20T20:35:54",
+			"date_unixtime": "1674221754",
+			"from": "Ahmad Tohir",
+			"from_id": "user368718073",
+			"reply_to_message_id": 242779,
+			"file": "stickers/sticker (12).webp",
+			"thumbnail": "stickers/sticker (12).webp_thumb.jpg",
+			"media_type": "sticker",
+			"sticker_emoji": "✨",
+			"width": 512,
+			"height": 512,
+			"text": "",
+			"text_entities": []
+		},
+		{
+			"id": 242786,
+			"type": "message",
+			"date": "2023-01-20T20:36:18",
+			"date_unixtime": "1674221778",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "saya ngga pake london londonan atau detroit detroitan. saya pake gaya redmond",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "saya ngga pake london londonan atau detroit detroitan. saya pake gaya redmond"
+				}
+			]
+		},
+		{
+			"id": 242787,
+			"type": "message",
+			"date": "2023-01-20T20:36:47",
+			"date_unixtime": "1674221807",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"reply_to_message_id": 242723,
+			"text": "For you?, for boss maybe, kecuali kerja sendiri wkwkwk",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "For you?, for boss maybe, kecuali kerja sendiri wkwkwk"
+				}
+			]
+		},
+		{
+			"id": 242788,
+			"type": "message",
+			"date": "2023-01-20T20:36:55",
+			"date_unixtime": "1674221815",
+			"edited": "2023-01-20T20:37:13",
+			"edited_unixtime": "1674221833",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 242782,
+			"text": "ini saya anggap london btw",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ini saya anggap london btw"
+				}
+			]
+		},
+		{
+			"id": 242789,
+			"type": "message",
+			"date": "2023-01-20T20:37:07",
+			"date_unixtime": "1674221827",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "itu cuma glorofied mock library",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "itu cuma glorofied mock library"
+				}
+			]
+		},
+		{
+			"id": 242792,
+			"type": "message",
+			"date": "2023-01-20T20:37:42",
+			"date_unixtime": "1674221862",
+			"from": "R",
+			"from_id": "user769838460",
+			"file": "stickers/sticker (25).webp",
+			"thumbnail": "stickers/sticker (25).webp_thumb.jpg",
+			"media_type": "sticker",
+			"sticker_emoji": "😐",
+			"width": 512,
+			"height": 368,
+			"text": "",
+			"text_entities": []
+		},
+		{
+			"id": 242793,
+			"type": "message",
+			"date": "2023-01-20T20:37:47",
+			"date_unixtime": "1674221867",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 242790,
+			"file": "stickers/sticker (9).webp",
+			"thumbnail": "stickers/sticker (9).webp_thumb.jpg",
+			"media_type": "sticker",
+			"sticker_emoji": "😮",
+			"width": 512,
+			"height": 201,
+			"text": "",
+			"text_entities": []
+		},
+		{
+			"id": 242794,
+			"type": "message",
+			"date": "2023-01-20T20:38:51",
+			"date_unixtime": "1674221931",
+			"from": "Terminus Est",
+			"from_id": "user386213269",
+			"reply_to_message_id": 242789,
+			"text": "awalnya cmn sebagai redis-client tapi karena udah implement protocol nya ya udah sekalian bikin server langsung jadi cmn sebagai runnable redis instance aja, wkwk",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "awalnya cmn sebagai redis-client tapi karena udah implement protocol nya ya udah sekalian bikin server langsung jadi cmn sebagai runnable redis instance aja, wkwk"
+				}
+			]
+		},
+		{
+			"id": 242795,
+			"type": "message",
+			"date": "2023-01-20T20:38:53",
+			"date_unixtime": "1674221933",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 242756,
+			"text": "ini bener-bener jadi prove ke orang lain kalo your code works.\n\ndi kantor gw yang sekarang, gw ada bikin API buat ngurusin pembukaan rekening RDN salah satu bank di indonesia. ada 1 orang yang gapernah pegang golang sebelomnya, harus nyentuh repositorynya untuk ngubah beberapa hal, karena dia yang ikut testing UAT buat API ini.\n\nall he did was: \n\n1. install golang sama goland (karena dia punya full jetbrains suite) — biar dapet intellisense nya doang\n2. ubah di tempat yang kira-kira butuh\n3. git checkout branch baru, push\n4. tunggu hasil CI pipeline hijau\n\nkalo merah, dia baca failing messagenya, dan ubah accordingly",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ini bener-bener jadi prove ke orang lain kalo your code works.\n\ndi kantor gw yang sekarang, gw ada bikin API buat ngurusin pembukaan rekening RDN salah satu bank di indonesia. ada 1 orang yang gapernah pegang golang sebelomnya, harus nyentuh repositorynya untuk ngubah beberapa hal, karena dia yang ikut testing UAT buat API ini.\n\nall he did was: \n\n1. install golang sama goland (karena dia punya full jetbrains suite) — biar dapet intellisense nya doang\n2. ubah di tempat yang kira-kira butuh\n3. git checkout branch baru, push\n4. tunggu hasil CI pipeline hijau\n\nkalo merah, dia baca failing messagenya, dan ubah accordingly"
+				}
+			]
+		},
+		{
+			"id": 242796,
+			"type": "message",
+			"date": "2023-01-20T20:38:57",
+			"date_unixtime": "1674221937",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "it. really. works.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "it. really. works."
+				}
+			]
+		},
+		{
+			"id": 242797,
+			"type": "message",
+			"date": "2023-01-20T20:39:07",
+			"date_unixtime": "1674221947",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "testing your code and putting it as a CI pipeline, really works",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "testing your code and putting it as a CI pipeline, really works"
+				}
+			]
+		},
+		{
+			"id": 242798,
+			"type": "message",
+			"date": "2023-01-20T20:39:09",
+			"date_unixtime": "1674221949",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"reply_to_message_id": 242734,
+			"text": "Detroit lebih ribet ya, padahal yg mock bisa auto generate",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Detroit lebih ribet ya, padahal yg mock bisa auto generate"
+				}
+			]
+		},
+		{
+			"id": 242801,
+			"type": "message",
+			"date": "2023-01-20T20:39:45",
+			"date_unixtime": "1674221985",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 242787,
+			"text": "gw bukan bos kok, gw just another middle-level. gw galak aja sama orang lain, even yang senior2 gw galakin wkwkwkw",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "gw bukan bos kok, gw just another middle-level. gw galak aja sama orang lain, even yang senior2 gw galakin wkwkwkw"
+				}
+			]
+		},
+		{
+			"id": 242802,
+			"type": "message",
+			"date": "2023-01-20T20:39:56",
+			"date_unixtime": "1674221996",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "tanya aja ke orang yang pernah ketemu gw di ******, seberapa galak gw",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "tanya aja ke orang yang pernah ketemu gw di ******, seberapa galak gw"
+				}
+			]
+		},
+		{
+			"id": 242805,
+			"type": "message",
+			"date": "2023-01-20T20:40:33",
+			"date_unixtime": "1674222033",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 242798,
+			"text": "detroit cuma ribet di pisahin dependency configuration. setelah itu everything is easy",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "detroit cuma ribet di pisahin dependency configuration. setelah itu everything is easy"
+				}
+			]
+		},
+		{
+			"id": 242807,
+			"type": "message",
+			"date": "2023-01-20T20:40:43",
+			"date_unixtime": "1674222043",
+			"edited": "2023-01-20T20:52:11",
+			"edited_unixtime": "1674222731",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "tapi jujur, ngetest detroit style capek",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "tapi jujur, ngetest detroit style capek"
+				}
+			]
+		},
+		{
+			"id": 242809,
+			"type": "message",
+			"date": "2023-01-20T20:40:51",
+			"date_unixtime": "1674222051",
+			"from": "A JI Mode Signal Putus - Put",
+			"from_id": "user224998752",
+			"file": "stickers/sticker (26).webp",
+			"thumbnail": "stickers/sticker (26).webp_thumb.jpg",
+			"media_type": "sticker",
+			"sticker_emoji": "😐",
+			"width": 512,
+			"height": 482,
+			"text": "",
+			"text_entities": []
+		},
+		{
+			"id": 242810,
+			"type": "message",
+			"date": "2023-01-20T20:41:16",
+			"date_unixtime": "1674222076",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "dunia luar API itu kotor. jadi yang dicek banyak sekali",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "dunia luar API itu kotor. jadi yang dicek banyak sekali"
+				}
+			]
+		},
+		{
+			"id": 242811,
+			"type": "message",
+			"date": "2023-01-20T20:41:29",
+			"date_unixtime": "1674222089",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "udah kaya QA engineers walk into a bar",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "udah kaya QA engineers walk into a bar"
+				}
+			]
+		},
+		{
+			"id": 242812,
+			"type": "message",
+			"date": "2023-01-20T20:41:35",
+			"date_unixtime": "1674222095",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 242807,
+			"text": "but is it worth it?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "but is it worth it?"
+				}
+			]
+		},
+		{
+			"id": 242813,
+			"type": "message",
+			"date": "2023-01-20T20:42:01",
+			"date_unixtime": "1674222121",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 242812,
+			"text": "saya cuma ngetest alur registrasi, verify sms, verify email, forgot password, role assignment, etc",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "saya cuma ngetest alur registrasi, verify sms, verify email, forgot password, role assignment, etc"
+				}
+			]
+		},
+		{
+			"id": 242814,
+			"type": "message",
+			"date": "2023-01-20T20:42:04",
+			"date_unixtime": "1674222124",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "worth it",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "worth it"
+				}
+			]
+		},
+		{
+			"id": 242815,
+			"type": "message",
+			"date": "2023-01-20T20:42:06",
+			"date_unixtime": "1674222126",
+			"from": "dicha?",
+			"from_id": "user925009191",
+			"reply_to_message_id": 242779,
+			"text": "kesalahan ini mah wkwkwk",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kesalahan ini mah wkwkwk"
+				}
+			]
+		},
+		{
+			"id": 242816,
+			"type": "message",
+			"date": "2023-01-20T20:42:09",
+			"date_unixtime": "1674222129",
+			"from": "A JI Mode Signal Putus - Put",
+			"from_id": "user224998752",
+			"text": "Tpi dri sekian penjelasan. Itu ntar QA nya gmna om? Postman testing doang?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Tpi dri sekian penjelasan. Itu ntar QA nya gmna om? Postman testing doang?"
+				}
+			]
+		},
+		{
+			"id": 242817,
+			"type": "message",
+			"date": "2023-01-20T20:42:09",
+			"date_unixtime": "1674222129",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "daripada ngetest manual bisa mencret2",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "daripada ngetest manual bisa mencret2"
+				}
+			]
+		},
+		{
+			"id": 242821,
+			"type": "message",
+			"date": "2023-01-20T20:42:56",
+			"date_unixtime": "1674222176",
+			"edited": "2023-01-20T20:44:00",
+			"edited_unixtime": "1674222240",
+			"from": "Ahmad Tohir",
+			"from_id": "user368718073",
+			"reply_to_message_id": 242816,
+			"text": [
+				{
+					"type": "italic",
+					"text": "woii, lu jangan ngambil kerjaan guaa"
+				}
+			],
+			"text_entities": [
+				{
+					"type": "italic",
+					"text": "woii, lu jangan ngambil kerjaan guaa"
+				}
+			]
+		},
+		{
+			"id": 242822,
+			"type": "message",
+			"date": "2023-01-20T20:43:12",
+			"date_unixtime": "1674222192",
+			"edited": "2023-01-20T20:43:13",
+			"edited_unixtime": "1674222193",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 242821,
+			"text": "it happened",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "it happened"
+				}
+			]
+		},
+		{
+			"id": 242823,
+			"type": "message",
+			"date": "2023-01-20T20:43:12",
+			"date_unixtime": "1674222192",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "minggu lalu saya bikin test scenario registrasi, cek email, klik link di email ke browser A, klik link email ke browser B, dst dst",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "minggu lalu saya bikin test scenario registrasi, cek email, klik link di email ke browser A, klik link email ke browser B, dst dst"
+				}
+			]
+		},
+		{
+			"id": 242824,
+			"type": "message",
+			"date": "2023-01-20T20:43:21",
+			"date_unixtime": "1674222201",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 242816,
+			"text": "QA jadi user beneran",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "QA jadi user beneran"
+				}
+			]
+		},
+		{
+			"id": 242825,
+			"type": "message",
+			"date": "2023-01-20T20:43:27",
+			"date_unixtime": "1674222207",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "bener-bener testing as if they are the user",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "bener-bener testing as if they are the user"
+				}
+			]
+		},
+		{
+			"id": 242826,
+			"type": "message",
+			"date": "2023-01-20T20:43:34",
+			"date_unixtime": "1674222214",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "bukan di promosikan jadi user ya",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "bukan di promosikan jadi user ya"
+				}
+			]
+		},
+		{
+			"id": 242828,
+			"type": "message",
+			"date": "2023-01-20T20:43:48",
+			"date_unixtime": "1674222228",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "kan gw berhenti di unit test dan integration test, something that users won't be able to see",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kan gw berhenti di unit test dan integration test, something that users won't be able to see"
+				}
+			]
+		},
+		{
+			"id": 242831,
+			"type": "message",
+			"date": "2023-01-20T20:43:56",
+			"date_unixtime": "1674222236",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"reply_to_message_id": 242767,
+			"text": "Yes, more effort berrti, sekalipun bisa auto, but still, butuh setup hal2 lain diluar code",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Yes, more effort berrti, sekalipun bisa auto, but still, butuh setup hal2 lain diluar code"
+				}
+			]
+		},
+		{
+			"id": 242833,
+			"type": "message",
+			"date": "2023-01-20T20:44:15",
+			"date_unixtime": "1674222255",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 242831,
+			"text": "ya, buat gw sih effortnya udah \"gitu doang\"",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ya, buat gw sih effortnya udah \"gitu doang\""
+				}
+			]
+		},
+		{
+			"id": 242834,
+			"type": "message",
+			"date": "2023-01-20T20:46:03",
+			"date_unixtime": "1674222363",
+			"from": "Terminus Est",
+			"from_id": "user386213269",
+			"reply_to_message_id": 242831,
+			"text": "effort gak jauh beda, tapi saya cenderung prefer yg mock murni karena faktor waktu ngetes nya\nsetup dan tear down dependency itu makan waktu",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "effort gak jauh beda, tapi saya cenderung prefer yg mock murni karena faktor waktu ngetes nya\nsetup dan tear down dependency itu makan waktu"
+				}
+			]
+		},
+		{
+			"id": 242835,
+			"type": "message",
+			"date": "2023-01-20T20:46:07",
+			"date_unixtime": "1674222367",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"reply_to_message_id": 242768,
+			"text": "Debit card aja, biar aman wkwk",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Debit card aja, biar aman wkwk"
+				}
+			]
+		},
+		{
+			"id": 242836,
+			"type": "message",
+			"date": "2023-01-20T20:46:22",
+			"date_unixtime": "1674222382",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": [
+				{
+					"type": "pre",
+					"text": "func destroy(ctx context.Context) error {\n  queries := []string{\"DROP TABLE a\", \"DROP TABLE b\", \"DROP TABLE c\"}\n\n  connection, err := db.Conn(ctx)\n  if err != nil {}\n\n  transaction, err := connection.BeginTx(ctx, &sql.TxOptions{})\n  if err != nil {}\n\n\n  for _, query := range queries {\n    _, err = transaction.ExecContext(ctx, query)\n  }\n\n  transaction.Commit()\n\n  connection.Close()\n}",
+					"language": ""
+				},
+				"\n\ntear down gini doang"
+			],
+			"text_entities": [
+				{
+					"type": "pre",
+					"text": "func destroy(ctx context.Context) error {\n  queries := []string{\"DROP TABLE a\", \"DROP TABLE b\", \"DROP TABLE c\"}\n\n  connection, err := db.Conn(ctx)\n  if err != nil {}\n\n  transaction, err := connection.BeginTx(ctx, &sql.TxOptions{})\n  if err != nil {}\n\n\n  for _, query := range queries {\n    _, err = transaction.ExecContext(ctx, query)\n  }\n\n  transaction.Commit()\n\n  connection.Close()\n}",
+					"language": ""
+				},
+				{
+					"type": "plain",
+					"text": "\n\ntear down gini doang"
+				}
+			]
+		},
+		{
+			"id": 242837,
+			"type": "message",
+			"date": "2023-01-20T20:46:45",
+			"date_unixtime": "1674222405",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 242836,
+			"text": "do that 500 times",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "do that 500 times"
+				}
+			]
+		},
+		{
+			"id": 242838,
+			"type": "message",
+			"date": "2023-01-20T20:46:57",
+			"date_unixtime": "1674222417",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 242837,
+			"text": "that's where Github Copilot come into play",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "that's where Github Copilot come into play"
+				}
+			]
+		},
+		{
+			"id": 242839,
+			"type": "message",
+			"date": "2023-01-20T20:47:04",
+			"date_unixtime": "1674222424",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"reply_to_message_id": 242774,
+			"text": "Bilang aja, \"gimana supaya code lu error kalo disenggol2?\"",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Bilang aja, \"gimana supaya code lu error kalo disenggol2?\""
+				}
+			]
+		},
+		{
+			"id": 242840,
+			"type": "message",
+			"date": "2023-01-20T20:47:13",
+			"date_unixtime": "1674222433",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "but I've done it without Github Copilot, so what?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "but I've done it without Github Copilot, so what?"
+				}
+			]
+		},
+		{
+			"id": 242841,
+			"type": "message",
+			"date": "2023-01-20T20:47:23",
+			"date_unixtime": "1674222443",
+			"edited": "2023-01-20T20:47:39",
+			"edited_unixtime": "1674222459",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 242838,
+			"text": "\"do that\" bukan nulis testnya, tapi executenya",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "\"do that\" bukan nulis testnya, tapi executenya"
+				}
+			]
+		},
+		{
+			"id": 242842,
+			"type": "message",
+			"date": "2023-01-20T20:47:30",
+			"date_unixtime": "1674222450",
+			"from": "dicha?",
+			"from_id": "user925009191",
+			"text": [
+				{
+					"type": "italic",
+					"text": "biar kibod mechanya kepake"
+				}
+			],
+			"text_entities": [
+				{
+					"type": "italic",
+					"text": "biar kibod mechanya kepake"
+				}
+			]
+		},
+		{
+			"id": 242843,
+			"type": "message",
+			"date": "2023-01-20T20:47:34",
+			"date_unixtime": "1674222454",
+			"from": "dicha?",
+			"from_id": "user925009191",
+			"text": [
+				{
+					"type": "italic",
+					"text": "ngetik yg banyak"
+				}
+			],
+			"text_entities": [
+				{
+					"type": "italic",
+					"text": "ngetik yg banyak"
+				}
+			]
+		},
+		{
+			"id": 242844,
+			"type": "message",
+			"date": "2023-01-20T20:47:35",
+			"date_unixtime": "1674222455",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 242841,
+			"text": "oh yaudah execute aja",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "oh yaudah execute aja"
+				}
+			]
+		},
+		{
+			"id": 242845,
+			"type": "message",
+			"date": "2023-01-20T20:47:37",
+			"date_unixtime": "1674222457",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "WKWKWKWKWKK",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "WKWKWKWKWKK"
+				}
+			]
+		},
+		{
+			"id": 242846,
+			"type": "message",
+			"date": "2023-01-20T20:47:56",
+			"date_unixtime": "1674222476",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "saya pernah jalanin test hampir 3k tests. tanpa begituan aja udah lama bener",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "saya pernah jalanin test hampir 3k tests. tanpa begituan aja udah lama bener"
+				}
+			]
+		},
+		{
+			"id": 242847,
+			"type": "message",
+			"date": "2023-01-20T20:48:02",
+			"date_unixtime": "1674222482",
+			"from": "A JI Mode Signal Putus - Put",
+			"from_id": "user224998752",
+			"reply_to_message_id": 242836,
+			"text": "Ini dilakuin diakhir test?\n\nYes.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Ini dilakuin diakhir test?\n\nYes."
+				}
+			]
+		},
+		{
+			"id": 242848,
+			"type": "message",
+			"date": "2023-01-20T20:48:02",
+			"date_unixtime": "1674222482",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "kalo dotnet, enak. entitiy framework bisa spawn in-memory database",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kalo dotnet, enak. entitiy framework bisa spawn in-memory database"
+				}
+			]
+		},
+		{
+			"id": 242849,
+			"type": "message",
+			"date": "2023-01-20T20:48:11",
+			"date_unixtime": "1674222491",
+			"edited": "2023-01-20T20:48:16",
+			"edited_unixtime": "1674222496",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 242847,
+			"text": "nama functionnya destroy sih",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "nama functionnya destroy sih"
+				}
+			]
+		},
+		{
+			"id": 242850,
+			"type": "message",
+			"date": "2023-01-20T20:48:24",
+			"date_unixtime": "1674222504",
+			"from": "A JI Mode Signal Putus - Put",
+			"from_id": "user224998752",
+			"text": [
+				{
+					"type": "italic",
+					"text": "Siapa tau"
+				}
+			],
+			"text_entities": [
+				{
+					"type": "italic",
+					"text": "Siapa tau"
+				}
+			]
+		},
+		{
+			"id": 242851,
+			"type": "message",
+			"date": "2023-01-20T20:48:29",
+			"date_unixtime": "1674222509",
+			"from": "A JI Mode Signal Putus - Put",
+			"from_id": "user224998752",
+			"file": "stickers/sticker (20).webp",
+			"thumbnail": "stickers/sticker (20).webp_thumb.jpg",
+			"media_type": "sticker",
+			"sticker_emoji": "✨",
+			"width": 512,
+			"height": 512,
+			"text": "",
+			"text_entities": []
+		},
+		{
+			"id": 242852,
+			"type": "message",
+			"date": "2023-01-20T20:48:35",
+			"date_unixtime": "1674222515",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 242848,
+			"text": "tapi kalo migrationnya berat, tetep lama",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "tapi kalo migrationnya berat, tetep lama"
+				}
+			]
+		},
+		{
+			"id": 242853,
+			"type": "message",
+			"date": "2023-01-20T20:48:39",
+			"date_unixtime": "1674222519",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "saya pernah wkwkwkwk",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "saya pernah wkwkwkwk"
+				}
+			]
+		},
+		{
+			"id": 242854,
+			"type": "message",
+			"date": "2023-01-20T20:48:46",
+			"date_unixtime": "1674222526",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "100 an migration scripts, with seed",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "100 an migration scripts, with seed"
+				}
+			]
+		},
+		{
+			"id": 242855,
+			"type": "message",
+			"date": "2023-01-20T20:48:50",
+			"date_unixtime": "1674222530",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"reply_to_message_id": 242786,
+			"text": "Bikin gaya baru ah, Bandung Style",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Bikin gaya baru ah, Bandung Style"
+				}
+			]
+		},
+		{
+			"id": 242856,
+			"type": "message",
+			"date": "2023-01-20T20:48:54",
+			"date_unixtime": "1674222534",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 242852,
+			"text": "kalo migration berat, lebih cepet hit database langsung?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kalo migration berat, lebih cepet hit database langsung?"
+				}
+			]
+		},
+		{
+			"id": 242857,
+			"type": "message",
+			"date": "2023-01-20T20:49:05",
+			"date_unixtime": "1674222545",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 242856,
+			"text": "tetep cepetan in memory",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "tetep cepetan in memory"
+				}
+			]
+		},
+		{
+			"id": 242858,
+			"type": "message",
+			"date": "2023-01-20T20:49:28",
+			"date_unixtime": "1674222568",
+			"from": "A JI Mode Signal Putus - Put",
+			"from_id": "user224998752",
+			"reply_to_message_id": 242857,
+			"text": "Bakal makan gede memory ga itu om?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Bakal makan gede memory ga itu om?"
+				}
+			]
+		},
+		{
+			"id": 242859,
+			"type": "message",
+			"date": "2023-01-20T20:49:55",
+			"date_unixtime": "1674222595",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 242858,
+			"text": "ya proporsional ke available memory",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ya proporsional ke available memory"
+				}
+			]
+		},
+		{
+			"id": 242860,
+			"type": "message",
+			"date": "2023-01-20T20:50:27",
+			"date_unixtime": "1674222627",
+			"edited": "2023-01-20T20:50:38",
+			"edited_unixtime": "1674222638",
+			"from": "A JI Mode Signal Putus - Put",
+			"from_id": "user224998752",
+			"text": "Kalo 100 migration with seed. Terus seed nya ada sejuta ya tekor jga kayaknya :D",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Kalo 100 migration with seed. Terus seed nya ada sejuta ya tekor jga kayaknya :D"
+				}
+			]
+		},
+		{
+			"id": 242861,
+			"type": "message",
+			"date": "2023-01-20T20:50:31",
+			"date_unixtime": "1674222631",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "sekian motivasi untuk test your apps",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "sekian motivasi untuk test your apps"
+				}
+			]
+		},
+		{
+			"id": 242863,
+			"type": "message",
+			"date": "2023-01-20T20:50:48",
+			"date_unixtime": "1674222648",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "belakangan saya ngga pake in memory database. soalnya saya butuh ngetest FK constraints sedangkan sqlite ngga support",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "belakangan saya ngga pake in memory database. soalnya saya butuh ngetest FK constraints sedangkan sqlite ngga support"
+				}
+			]
+		},
+		{
+			"id": 242866,
+			"type": "message",
+			"date": "2023-01-20T20:51:07",
+			"date_unixtime": "1674222667",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "sekarang saya ngetestnya pake MSSQL localdb dengan GUID database name",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "sekarang saya ngetestnya pake MSSQL localdb dengan GUID database name"
+				}
+			]
+		},
+		{
+			"id": 242867,
+			"type": "message",
+			"date": "2023-01-20T20:51:10",
+			"date_unixtime": "1674222670",
+			"from": "A JI Mode Signal Putus - Put",
+			"from_id": "user224998752",
+			"text": "Bukan wkwkwkwk",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Bukan wkwkwkwk"
+				}
+			]
+		},
+		{
+			"id": 242868,
+			"type": "message",
+			"date": "2023-01-20T20:51:18",
+			"date_unixtime": "1674222678",
+			"from": "Ahmad Tohir",
+			"from_id": "user368718073",
+			"reply_to_message_id": 242860,
+			"text": "ngeri bener nge seed sejuta pak wkwk",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ngeri bener nge seed sejuta pak wkwk"
+				}
+			]
+		},
+		{
+			"id": 242870,
+			"type": "message",
+			"date": "2023-01-20T20:51:28",
+			"date_unixtime": "1674222688",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 242866,
+			"text": "ini hampir sama kencengnya dengan in memory",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ini hampir sama kencengnya dengan in memory"
+				}
+			]
+		},
+		{
+			"id": 242871,
+			"type": "message",
+			"date": "2023-01-20T20:51:58",
+			"date_unixtime": "1674222718",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "padahal production database saya PGSQL family",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "padahal production database saya PGSQL family"
+				}
+			]
+		},
+		{
+			"id": 242872,
+			"type": "message",
+			"date": "2023-01-20T20:53:04",
+			"date_unixtime": "1674222784",
+			"from": "A JI Mode Signal Putus - Put",
+			"from_id": "user224998752",
+			"reply_to_message_id": 242868,
+			"text": "Kantor lama dlu gw pernah. Karena pengen nyoba fitur searchnya. Yg pke fulltext-search sama modal like query. Karena blum percaya dri katanya. Dn ya, dua2 nya ga rekomen IMO. Wkwkwkwk",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Kantor lama dlu gw pernah. Karena pengen nyoba fitur searchnya. Yg pke fulltext-search sama modal like query. Karena blum percaya dri katanya. Dn ya, dua2 nya ga rekomen IMO. Wkwkwkwk"
+				}
+			]
+		},
+		{
+			"id": 242873,
+			"type": "message",
+			"date": "2023-01-20T20:53:08",
+			"date_unixtime": "1674222788",
+			"from": "dicha?",
+			"from_id": "user925009191",
+			"text": "butuh seseorang buat convince ngetest frontend itu worth",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "butuh seseorang buat convince ngetest frontend itu worth"
+				}
+			]
+		},
+		{
+			"id": 242874,
+			"type": "message",
+			"date": "2023-01-20T20:53:21",
+			"date_unixtime": "1674222801",
+			"from": "dicha?",
+			"from_id": "user925009191",
+			"text": "biasanya males karena ujung ujungnya tetep tes sendiri di browser wkwkw",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "biasanya males karena ujung ujungnya tetep tes sendiri di browser wkwkw"
+				}
+			]
+		},
+		{
+			"id": 242875,
+			"type": "message",
+			"date": "2023-01-20T20:53:31",
+			"date_unixtime": "1674222811",
+			"from": "A JI Mode Signal Putus - Put",
+			"from_id": "user224998752",
+			"reply_to_message_id": 242873,
+			"text": "Mana dn harus ngapain?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Mana dn harus ngapain?"
+				}
+			]
+		},
+		{
+			"id": 242876,
+			"type": "message",
+			"date": "2023-01-20T20:53:44",
+			"date_unixtime": "1674222824",
+			"edited": "2023-01-20T20:55:07",
+			"edited_unixtime": "1674222907",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 242860,
+			"text": "anjir. saya pernah ngeseed > 1 miliar record. seminggu baru kelar",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "anjir. saya pernah ngeseed > 1 miliar record. seminggu baru kelar"
+				}
+			]
+		},
+		{
+			"id": 242877,
+			"type": "message",
+			"date": "2023-01-20T20:54:00",
+			"date_unixtime": "1674222840",
+			"from": "Ahmad Tohir",
+			"from_id": "user368718073",
+			"reply_to_message_id": 242872,
+			"text": "ooh case nya fts",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ooh case nya fts"
+				}
+			]
+		},
+		{
+			"id": 242878,
+			"type": "message",
+			"date": "2023-01-20T20:54:01",
+			"date_unixtime": "1674222841",
+			"from": "dicha?",
+			"from_id": "user925009191",
+			"text": [
+				"kalo componentnya interaktif ya oke lah, aku masih ngga paham sama test yg ",
+				{
+					"type": "code",
+					"text": "expect tulisan anu on component anu"
+				}
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kalo componentnya interaktif ya oke lah, aku masih ngga paham sama test yg "
+				},
+				{
+					"type": "code",
+					"text": "expect tulisan anu on component anu"
+				}
+			]
+		},
+		{
+			"id": 242879,
+			"type": "message",
+			"date": "2023-01-20T20:54:10",
+			"date_unixtime": "1674222850",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "belum lagi kalo seedernya ada bug, mesti diulang",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "belum lagi kalo seedernya ada bug, mesti diulang"
+				}
+			]
+		},
+		{
+			"id": 242880,
+			"type": "message",
+			"date": "2023-01-20T20:54:30",
+			"date_unixtime": "1674222870",
+			"from": "A JI Mode Signal Putus - Put",
+			"from_id": "user224998752",
+			"text": "Itu gw pas run 1 jta. Kena memory limit kalo ga salah. Alhasil running bertahap berapa ratus gtu wkwkwk",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Itu gw pas run 1 jta. Kena memory limit kalo ga salah. Alhasil running bertahap berapa ratus gtu wkwkwk"
+				}
+			]
+		},
+		{
+			"id": 242881,
+			"type": "message",
+			"date": "2023-01-20T20:54:33",
+			"date_unixtime": "1674222873",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "sampe saya ngodingnya pake 3 laptop",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "sampe saya ngodingnya pake 3 laptop"
+				}
+			]
+		},
+		{
+			"id": 242882,
+			"type": "message",
+			"date": "2023-01-20T20:54:39",
+			"date_unixtime": "1674222879",
+			"from": "Ahmad Tohir",
+			"from_id": "user368718073",
+			"reply_to_message_id": 242876,
+			"text": "busyet",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "busyet"
+				}
+			]
+		},
+		{
+			"id": 242883,
+			"type": "message",
+			"date": "2023-01-20T20:54:47",
+			"date_unixtime": "1674222887",
+			"from": "dicha?",
+			"from_id": "user925009191",
+			"reply_to_message_id": 242881,
+			"text": "buset",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "buset"
+				}
+			]
+		},
+		{
+			"id": 242884,
+			"type": "message",
+			"date": "2023-01-20T20:54:58",
+			"date_unixtime": "1674222898",
+			"from": "A JI Mode Signal Putus - Put",
+			"from_id": "user224998752",
+			"reply_to_message_id": 242877,
+			"text": "Iyo, tpi ga ada yg kupake. Gw ngikutin cara bank akhirnya",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Iyo, tpi ga ada yg kupake. Gw ngikutin cara bank akhirnya"
+				}
+			]
+		},
+		{
+			"id": 242885,
+			"type": "message",
+			"date": "2023-01-20T20:55:08",
+			"date_unixtime": "1674222908",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"reply_to_message_id": 242836,
+			"text": "Nah kan, yg ginian ga bisa di auto generate, logic tersendiri. Beneran more effort",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Nah kan, yg ginian ga bisa di auto generate, logic tersendiri. Beneran more effort"
+				}
+			]
+		},
+		{
+			"id": 242886,
+			"type": "message",
+			"date": "2023-01-20T20:55:15",
+			"date_unixtime": "1674222915",
+			"from": "Ahmad Tohir",
+			"from_id": "user368718073",
+			"reply_to_message_id": 242881,
+			"text": "mestilah, itu udah occupied buat seed doang wwkk",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "mestilah, itu udah occupied buat seed doang wwkk"
+				}
+			]
+		},
+		{
+			"id": 242887,
+			"type": "message",
+			"date": "2023-01-20T20:55:17",
+			"date_unixtime": "1674222917",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"text": "Ujung2nya qa yg test juga",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Ujung2nya qa yg test juga"
+				}
+			]
+		},
+		{
+			"id": 242888,
+			"type": "message",
+			"date": "2023-01-20T20:55:28",
+			"date_unixtime": "1674222928",
+			"from": "Ahmad Tohir",
+			"from_id": "user368718073",
+			"text": "btw nge seed apa tuh pak ?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "btw nge seed apa tuh pak ?"
+				}
+			]
+		},
+		{
+			"id": 242889,
+			"type": "message",
+			"date": "2023-01-20T20:55:40",
+			"date_unixtime": "1674222940",
+			"from": "A JI Mode Signal Putus - Put",
+			"from_id": "user224998752",
+			"text": [
+				{
+					"type": "italic",
+					"text": "data"
+				},
+				" wkwkwk"
+			],
+			"text_entities": [
+				{
+					"type": "italic",
+					"text": "data"
+				},
+				{
+					"type": "plain",
+					"text": " wkwkwk"
+				}
+			]
+		},
+		{
+			"id": 242890,
+			"type": "message",
+			"date": "2023-01-20T20:55:41",
+			"date_unixtime": "1674222941",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 242886,
+			"text": "1 ngeseed production, 1 ngeseed local (test), 1 buat coding",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "1 ngeseed production, 1 ngeseed local (test), 1 buat coding"
+				}
+			]
+		},
+		{
+			"id": 242891,
+			"type": "message",
+			"date": "2023-01-20T20:55:50",
+			"date_unixtime": "1674222950",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 242888,
+			"text": "data schematic part mobil",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "data schematic part mobil"
+				}
+			]
+		},
+		{
+			"id": 242892,
+			"type": "message",
+			"date": "2023-01-20T20:56:07",
+			"date_unixtime": "1674222967",
+			"from": "A JI Mode Signal Putus - Put",
+			"from_id": "user224998752",
+			"text": "Hooo gw dulu data warehouse sih.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Hooo gw dulu data warehouse sih."
+				}
+			]
+		},
+		{
+			"id": 242893,
+			"type": "message",
+			"date": "2023-01-20T20:56:26",
+			"date_unixtime": "1674222986",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "saya waktu itu pengen ditransform aja ke relational",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "saya waktu itu pengen ditransform aja ke relational"
+				}
+			]
+		},
+		{
+			"id": 242894,
+			"type": "message",
+			"date": "2023-01-20T20:56:30",
+			"date_unixtime": "1674222990",
+			"from": "Ahmad Tohir",
+			"from_id": "user368718073",
+			"reply_to_message_id": 242885,
+			"text": "tadi poin yang disampein soal effort juga happines.\nkalo happy ya lanjut, kalo engga ya skip",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "tadi poin yang disampein soal effort juga happines.\nkalo happy ya lanjut, kalo engga ya skip"
+				}
+			]
+		},
+		{
+			"id": 242895,
+			"type": "message",
+			"date": "2023-01-20T20:56:35",
+			"date_unixtime": "1674222995",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "and it was worth it",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "and it was worth it"
+				}
+			]
+		},
+		{
+			"id": 242897,
+			"type": "message",
+			"date": "2023-01-20T20:57:28",
+			"date_unixtime": "1674223048",
+			"from": "Ahmad Tohir",
+			"from_id": "user368718073",
+			"reply_to_message_id": 242890,
+			"text": "edun, 1 miliar itu belum kebayang",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "edun, 1 miliar itu belum kebayang"
+				}
+			]
+		},
+		{
+			"id": 242898,
+			"type": "message",
+			"date": "2023-01-20T20:57:53",
+			"date_unixtime": "1674223073",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 242887,
+			"text": "pas itu gw ga izinin orang QA buat ngubah value langsung dari database",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "pas itu gw ga izinin orang QA buat ngubah value langsung dari database"
+				}
+			]
+		},
+		{
+			"id": 242899,
+			"type": "message",
+			"date": "2023-01-20T20:58:08",
+			"date_unixtime": "1674223088",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "di production nanti gaboleh ada manusia yang ngubah value apapun di database",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "di production nanti gaboleh ada manusia yang ngubah value apapun di database"
+				}
+			]
+		},
+		{
+			"id": 242900,
+			"type": "message",
+			"date": "2023-01-20T20:58:13",
+			"date_unixtime": "1674223093",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "mau ngubah anything di database harus lewat running app",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "mau ngubah anything di database harus lewat running app"
+				}
+			]
+		},
+		{
+			"id": 242901,
+			"type": "message",
+			"date": "2023-01-20T20:58:21",
+			"date_unixtime": "1674223101",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "nggak lewat itu, you risk the whole business to go down",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "nggak lewat itu, you risk the whole business to go down"
+				}
+			]
+		},
+		{
+			"id": 242902,
+			"type": "message",
+			"date": "2023-01-20T20:58:41",
+			"date_unixtime": "1674223121",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "mencegah orang delete record atau drop table secara \"ga sengaja\" juga sebenernya",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "mencegah orang delete record atau drop table secara \"ga sengaja\" juga sebenernya"
+				}
+			]
+		},
+		{
+			"id": 242903,
+			"type": "message",
+			"date": "2023-01-20T20:58:48",
+			"date_unixtime": "1674223128",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 242897,
+			"text": "langsung berasa kecepatan insert menurun drastis pas rownya udah di atas 100 ribu",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "langsung berasa kecepatan insert menurun drastis pas rownya udah di atas 100 ribu"
+				}
+			]
+		},
+		{
+			"id": 242904,
+			"type": "message",
+			"date": "2023-01-20T20:59:02",
+			"date_unixtime": "1674223142",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"text": [
+				"Yg enak itu kalau pake library atau orm yg udah ada objek mock/fake/stub didalemnya, jadi gak perlu mock2an/fake2an/stub2an lg. Kalo command yg dijalanin ",
+				{
+					"type": "code",
+					"text": "test"
+				},
+				", otomatis execute objek versi mocked/fake. Ga perlu generate apa2, ga perlu setup2 apa2 diluar code, ga perlu tear up and down"
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Yg enak itu kalau pake library atau orm yg udah ada objek mock/fake/stub didalemnya, jadi gak perlu mock2an/fake2an/stub2an lg. Kalo command yg dijalanin "
+				},
+				{
+					"type": "code",
+					"text": "test"
+				},
+				{
+					"type": "plain",
+					"text": ", otomatis execute objek versi mocked/fake. Ga perlu generate apa2, ga perlu setup2 apa2 diluar code, ga perlu tear up and down"
+				}
+			]
+		},
+		{
+			"id": 242905,
+			"type": "message",
+			"date": "2023-01-20T20:59:10",
+			"date_unixtime": "1674223150",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "pas itu juga ada requirements \"bisa customizable, dinamis dari database valuenya\"\n\ngw tolak",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "pas itu juga ada requirements \"bisa customizable, dinamis dari database valuenya\"\n\ngw tolak"
+				}
+			]
+		},
+		{
+			"id": 242906,
+			"type": "message",
+			"date": "2023-01-20T20:59:34",
+			"date_unixtime": "1674223174",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 242904,
+			"text": "good case dengan dotnet",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "good case dengan dotnet"
+				}
+			]
+		},
+		{
+			"id": 242907,
+			"type": "message",
+			"date": "2023-01-20T20:59:49",
+			"date_unixtime": "1674223189",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"reply_to_message_id": 242904,
+			"text": "Paling tinggal ngetest yg pure functionz doank",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Paling tinggal ngetest yg pure functionz doank"
+				}
+			]
+		},
+		{
+			"id": 242909,
+			"type": "message",
+			"date": "2023-01-20T21:00:29",
+			"date_unixtime": "1674223229",
+			"from": "yuu",
+			"from_id": "user846345612",
+			"reply_to_message_id": 242896,
+			"text": "inii pakai nest kah?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "inii pakai nest kah?"
+				}
+			]
+		},
+		{
+			"id": 242911,
+			"type": "message",
+			"date": "2023-01-20T21:00:59",
+			"date_unixtime": "1674223259",
+			"from": "Ahmad Tohir",
+			"from_id": "user368718073",
+			"reply_to_message_id": 242903,
+			"text": "wkwkwk, sempet ngecek resource CPU nya gak pak ?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "wkwkwk, sempet ngecek resource CPU nya gak pak ?"
+				}
+			]
+		},
+		{
+			"id": 242912,
+			"type": "message",
+			"date": "2023-01-20T21:01:10",
+			"date_unixtime": "1674223270",
+			"edited": "2023-01-20T21:02:40",
+			"edited_unixtime": "1674223360",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 242911,
+			"text": "100% mentok",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "100% mentok"
+				}
+			]
+		},
+		{
+			"id": 242913,
+			"type": "message",
+			"date": "2023-01-20T21:01:16",
+			"date_unixtime": "1674223276",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "itu azure SQL",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "itu azure SQL"
+				}
+			]
+		},
+		{
+			"id": 242916,
+			"type": "message",
+			"date": "2023-01-20T21:01:44",
+			"date_unixtime": "1674223304",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 242911,
+			"text": "terus saya scale up ke tier 7 jutaan, barulah lancar",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "terus saya scale up ke tier 7 jutaan, barulah lancar"
+				}
+			]
+		},
+		{
+			"id": 242917,
+			"type": "message",
+			"date": "2023-01-20T21:02:05",
+			"date_unixtime": "1674223325",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "setelah selesai seed, saya scale down lagi ke tier 200 ribuan",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "setelah selesai seed, saya scale down lagi ke tier 200 ribuan"
+				}
+			]
+		},
+		{
+			"id": 242918,
+			"type": "message",
+			"date": "2023-01-20T21:02:18",
+			"date_unixtime": "1674223338",
+			"from": "yuu",
+			"from_id": "user846345612",
+			"reply_to_message_id": 242910,
+			"text": "hah?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "hah?"
+				}
+			]
+		},
+		{
+			"id": 242919,
+			"type": "message",
+			"date": "2023-01-20T21:03:27",
+			"date_unixtime": "1674223407",
+			"from": "Ahmad Tohir",
+			"from_id": "user368718073",
+			"reply_to_message_id": 242916,
+			"text": "mantap wkwkwk\ntadi kena 1 minggu ya",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "mantap wkwkwk\ntadi kena 1 minggu ya"
+				}
+			]
+		},
+		{
+			"id": 242920,
+			"type": "message",
+			"date": "2023-01-20T21:03:38",
+			"date_unixtime": "1674223418",
+			"from": "Zasda Yusuf Mikail",
+			"from_id": "user311785123",
+			"reply_to_message_id": 242876,
+			"text": "Wkwkwkwk, id auto increment + banyak index + bukan nvme ini kayaknya sampe seminggu.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Wkwkwkwk, id auto increment + banyak index + bukan nvme ini kayaknya sampe seminggu."
+				}
+			]
+		},
+		{
+			"id": 242922,
+			"type": "message",
+			"date": "2023-01-20T21:03:41",
+			"date_unixtime": "1674223421",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 242919,
+			"text": "1 minggu lebih. plus development time",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "1 minggu lebih. plus development time"
+				}
+			]
+		},
+		{
+			"id": 242925,
+			"type": "message",
+			"date": "2023-01-20T21:03:50",
+			"date_unixtime": "1674223430",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "3-5 minggu lah total",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "3-5 minggu lah total"
+				}
+			]
+		},
+		{
+			"id": 242928,
+			"type": "message",
+			"date": "2023-01-20T21:04:04",
+			"date_unixtime": "1674223444",
+			"from": "R",
+			"from_id": "user769838460",
+			"reply_to_message_id": 242925,
+			"text": "1 bulan",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "1 bulan"
+				}
+			]
+		},
+		{
+			"id": 242929,
+			"type": "message",
+			"date": "2023-01-20T21:04:09",
+			"date_unixtime": "1674223449",
+			"from": "Ahmad Tohir",
+			"from_id": "user368718073",
+			"reply_to_message_id": 242925,
+			"text": "WUUT",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "WUUT"
+				}
+			]
+		},
+		{
+			"id": 242930,
+			"type": "message",
+			"date": "2023-01-20T21:04:18",
+			"date_unixtime": "1674223458",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "kadang udah jalan 3 hari, crash",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kadang udah jalan 3 hari, crash"
+				}
+			]
+		},
+		{
+			"id": 242931,
+			"type": "message",
+			"date": "2023-01-20T21:04:19",
+			"date_unixtime": "1674223459",
+			"from": "Ahmad Tohir",
+			"from_id": "user368718073",
+			"text": "masih pake yang 7 jutaan ?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "masih pake yang 7 jutaan ?"
+				}
+			]
+		},
+		{
+			"id": 242932,
+			"type": "message",
+			"date": "2023-01-20T21:04:32",
+			"date_unixtime": "1674223472",
+			"from": "Ahmad Tohir",
+			"from_id": "user368718073",
+			"text": "1 bulan mayan tuh jadinya wkkw",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "1 bulan mayan tuh jadinya wkkw"
+				}
+			]
+		},
+		{
+			"id": 242933,
+			"type": "message",
+			"date": "2023-01-20T21:04:39",
+			"date_unixtime": "1674223479",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 242931,
+			"text": "saya naik turunin sih tergantung lagi seed apa ngoding",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "saya naik turunin sih tergantung lagi seed apa ngoding"
+				}
+			]
+		},
+		{
+			"id": 242934,
+			"type": "message",
+			"date": "2023-01-20T21:04:53",
+			"date_unixtime": "1674223493",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "enaknya azure bisa scale up & down instantly gitu",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "enaknya azure bisa scale up & down instantly gitu"
+				}
+			]
+		}
 	]
 }

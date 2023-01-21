@@ -64,6 +64,8 @@ export type TelegramChat = {
 	message: TelegramMessage[];
 };
 
+const messageTypes = ["plain", "mention", "pre", "code", "bot_command", "italic", "bold", "link", "hashtag"] as const;
+
 const exportedChatHistorySchema = z.object({
 	name: z.string(),
 	type: z.string(),
@@ -73,8 +75,11 @@ const exportedChatHistorySchema = z.object({
 			id: z.number(),
 			type: z.string(),
 			date: z.date({ coerce: true }),
-			date_unixtime: z.string(),
-			from: z.string(),
+			date_unixtime: z.string().optional(),
+			from: z
+				.string()
+				.nullable()
+				.transform((arg: string | null): string => (arg == null ? "Deleted Account" : arg)),
 			from_id: z.string(),
 			reply_to_message_id: z.number().optional(),
 			file: z.string().optional(),
@@ -84,12 +89,26 @@ const exportedChatHistorySchema = z.object({
 			width: z.number().optional(),
 			height: z.number().optional(),
 			photo: z.string().optional(),
-			text_entities: z.array(
-				z.object({
-					type: z.enum(["plain", "mention", "pre", "code", "bot_command", "italic", "bold", "link"] as const),
-					text: z.string(),
-				})
-			),
+			text: z.union([
+				z.string(),
+				z.array(
+					z.union([
+						z.string(),
+						z.object({
+							type: z.enum(messageTypes),
+							text: z.string(),
+						}),
+					])
+				),
+			]),
+			text_entities: z
+				.array(
+					z.object({
+						type: z.enum(messageTypes),
+						text: z.string(),
+					})
+				)
+				.optional(),
 		})
 	),
 });
@@ -164,34 +183,79 @@ export class Parser {
 		for (const message of exportedChatHistory.messages) {
 			let text = "";
 
-			for (const entity of message.text_entities) {
-				switch (entity.type) {
-					case "plain":
-					case "mention":
-						text += entity.text;
-						break;
-					case "code":
-						text += "`";
-						text += entity.text;
-						text += "`";
-						break;
-					case "pre":
-						text += "```\n";
-						text += entity.text;
-						text += "```\n";
-						break;
-					case "italic":
-						text += "*";
-						text += entity.text;
-						text += "*";
-						break;
-					case "bold":
-						text += "**";
-						text += entity.text;
-						text += "**";
-						break;
-					default:
-						text += entity.text;
+			// message.text_entities should be prioritized
+			// if they exists, because they are far easier to parse.
+			if (message.text_entities !== undefined) {
+				for (const entity of message.text_entities) {
+					switch (entity.type) {
+						case "plain":
+						case "mention":
+							text += entity.text;
+							break;
+						case "code":
+							text += "`";
+							text += entity.text;
+							text += "`";
+							break;
+						case "pre":
+							text += "```\n";
+							text += entity.text;
+							text += "```\n";
+							break;
+						case "italic":
+							text += "*";
+							text += entity.text;
+							text += "*";
+							break;
+						case "bold":
+							text += "**";
+							text += entity.text;
+							text += "**";
+							break;
+						default:
+							text += entity.text;
+					}
+				}
+			} else {
+				// use message.text
+				if (typeof message.text === "string") {
+					text += message.text;
+				} else {
+					for (const entity of message.text) {
+						if (typeof entity === "string") {
+							text += entity;
+							continue;
+						}
+
+						switch (entity.type) {
+							case "plain":
+							case "mention":
+								text += entity.text;
+								break;
+							case "code":
+								text += "`";
+								text += entity.text;
+								text += "`";
+								break;
+							case "pre":
+								text += "```\n";
+								text += entity.text;
+								text += "```\n";
+								break;
+							case "italic":
+								text += "*";
+								text += entity.text;
+								text += "*";
+								break;
+							case "bold":
+								text += "**";
+								text += entity.text;
+								text += "**";
+								break;
+							default:
+								text += entity.text;
+						}
+					}
 				}
 			}
 
