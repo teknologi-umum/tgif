@@ -65,6 +65,7 @@ export type TelegramChat = {
 };
 
 const messageTypes = ["plain", "mention", "pre", "code", "bot_command", "italic", "bold", "link", "hashtag"] as const;
+type MessageType = (typeof messageTypes)[number];
 
 const exportedChatHistorySchema = z.object({
 	name: z.string(),
@@ -171,6 +172,31 @@ export class Parser {
 		return telegramChat;
 	}
 
+	private addTextFormatting(text: string, type: MessageType) {
+		let result = "";
+		switch (type) {
+			case "plain":
+			case "mention":
+				result += text;
+				break;
+			case "code":
+				result += "`" + text + "`";
+				break;
+			case "pre":
+				result += "```\n" + text + "```\n";
+				break;
+			case "italic":
+				result += "*" + text + "*";
+				break;
+			case "bold":
+				result += "**" + text + "**";
+				break;
+			default:
+				result += text;
+		}
+		return result;
+	}
+
 	fromExportedChatHistory(rawInput: string): TelegramChat {
 		const exportedChatHistory = exportedChatHistorySchema.parse(JSON.parse(rawInput));
 
@@ -187,34 +213,7 @@ export class Parser {
 			// if they exists, because they are far easier to parse.
 			if (message.text_entities !== undefined) {
 				for (const entity of message.text_entities) {
-					switch (entity.type) {
-						case "plain":
-						case "mention":
-							text += entity.text;
-							break;
-						case "code":
-							text += "`";
-							text += entity.text;
-							text += "`";
-							break;
-						case "pre":
-							text += "```\n";
-							text += entity.text;
-							text += "```\n";
-							break;
-						case "italic":
-							text += "*";
-							text += entity.text;
-							text += "*";
-							break;
-						case "bold":
-							text += "**";
-							text += entity.text;
-							text += "**";
-							break;
-						default:
-							text += entity.text;
-					}
+					text += this.addTextFormatting(entity.text, entity.type);
 				}
 			} else {
 				// use message.text
@@ -226,35 +225,7 @@ export class Parser {
 							text += entity;
 							continue;
 						}
-
-						switch (entity.type) {
-							case "plain":
-							case "mention":
-								text += entity.text;
-								break;
-							case "code":
-								text += "`";
-								text += entity.text;
-								text += "`";
-								break;
-							case "pre":
-								text += "```\n";
-								text += entity.text;
-								text += "```\n";
-								break;
-							case "italic":
-								text += "*";
-								text += entity.text;
-								text += "*";
-								break;
-							case "bold":
-								text += "**";
-								text += entity.text;
-								text += "**";
-								break;
-							default:
-								text += entity.text;
-						}
+						text += this.addTextFormatting(entity.text, entity.type);
 					}
 				}
 			}
