@@ -64,7 +64,18 @@ export type TelegramChat = {
 	message: TelegramMessage[];
 };
 
-const messageTypes = ["plain", "mention", "pre", "code", "bot_command", "italic", "bold", "link", "hashtag"] as const;
+const messageTypes = [
+	"plain",
+	"mention",
+	"pre",
+	"code",
+	"bot_command",
+	"italic",
+	"bold",
+	"link",
+	"hashtag",
+	"spoiler",
+] as const;
 type MessageType = (typeof messageTypes)[number];
 
 const exportedChatHistorySchema = z.object({
@@ -80,7 +91,7 @@ const exportedChatHistorySchema = z.object({
 			from: z
 				.string()
 				.nullable()
-				.transform((arg: string | null): string => (arg == null ? "Deleted Account" : arg)),
+				.transform((arg: string | null): string => arg ?? "Deleted Account"),
 			from_id: z.string(),
 			reply_to_message_id: z.number().optional(),
 			file: z.string().optional(),
@@ -113,6 +124,7 @@ const exportedChatHistorySchema = z.object({
 		})
 	),
 });
+type ExportedChatHistory = z.infer<typeof exportedChatHistorySchema>;
 
 export class Parser {
 	fromText(chatName: string, chatId: number, text: string): TelegramChat {
@@ -191,14 +203,24 @@ export class Parser {
 			case "bold":
 				result += "**" + text + "**";
 				break;
+			case "spoiler":
+				result += '<span class="spoiler">' + text + "</span>";
+				break;
 			default:
 				result += text;
 		}
 		return result;
 	}
 
-	fromExportedChatHistory(rawInput: string): TelegramChat {
-		const exportedChatHistory = exportedChatHistorySchema.parse(JSON.parse(rawInput));
+	fromExportedChatHistory(input: string): TelegramChat;
+	fromExportedChatHistory(input: object): TelegramChat;
+	fromExportedChatHistory(input: string | object): TelegramChat {
+		let exportedChatHistory: ExportedChatHistory;
+		if (typeof input === "string") {
+			exportedChatHistory = exportedChatHistorySchema.parse(JSON.parse(input));
+		} else {
+			exportedChatHistory = exportedChatHistorySchema.parse(input);
+		}
 
 		const telegramChat: TelegramChat = {
 			chatName: exportedChatHistory.name,

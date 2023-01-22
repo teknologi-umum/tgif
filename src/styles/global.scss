@@ -1,23 +1,25 @@
 @use "./variables.scss";
 @import "./preflight.scss";
 @import url("https://fonts.googleapis.com/css2?family=Unbounded&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
 
 body {
 	background-color: #f4f4ff;
 }
 
 *::-webkit-scrollbar {
-	width: 0.5rem;
+	width: 0.75rem;
 	background-color: transparent;
 	border-radius: 1rem;
 }
 
 *::-webkit-scrollbar-thumb {
-	width: 0.5rem;
-	background-color: rgba($color: variables.$black, $alpha: 0.5);
+	width: 0.75rem;
+	background-color: rgba($color: variables.$black, $alpha: 0.4);
 	border-radius: 1rem;
 }
 
-.url {
+.url,
+a {
 	color: variables.$blue;
 }

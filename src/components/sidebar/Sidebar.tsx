@@ -8,7 +8,6 @@ import "./Sidebar.scss";
 
 type SidebarProps = {
 	talks: Metadata[];
-	onChatClick: (title: string) => void;
 };
 
 export function Sidebar(props: SidebarProps) {
@@ -63,7 +62,7 @@ export function Sidebar(props: SidebarProps) {
 			<div class="chats-container">
 				<div class="chats-content" use:animate>
 					<For each={props.talks.filter(matchWithKeyword)}>
-						{(chat) => <ChatCard {...chat} onClick={props.onChatClick} />}
+						{(chat) => <ChatCard {...chat} />}
 					</For>
 				</div>
 			</div>

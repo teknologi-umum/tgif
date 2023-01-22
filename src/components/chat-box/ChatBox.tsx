@@ -3,7 +3,7 @@ import { ChatBubble } from "../chat-bubble";
 import "./ChatBox.scss";
 
 type ChatBoxProps = {
-	chat?: TelegramChat;
+	chat?: TelegramChat | undefined;
 };
 
 export function ChatBox(props: ChatBoxProps) {

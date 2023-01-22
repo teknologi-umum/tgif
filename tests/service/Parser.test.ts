@@ -1638,7 +1638,6 @@ test("parse without text_entity", () => {
 
 	expect(telegramChat.chatId).toEqual(1712691810);
 	expect(telegramChat.chatName).toEqual("Teknologi Umum v2.0");
-	console.log(telegramChat.message);
 	expect(telegramChat.message).toStrictEqual([
 		{
 			date: new Date("2022-08-02T16:21:24.000Z"),
