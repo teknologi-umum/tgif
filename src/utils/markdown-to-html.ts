@@ -1,9 +1,9 @@
 import { Processor, unified } from "unified";
 import fromMarkdown from "remark-parse";
 import toHast from "remark-rehype";
-import withHtmlInMarkdown from "rehype-raw";
-import withShiki from "@stefanprobst/remark-shiki";
-import remarkGfm from "remark-gfm";
+import withShiki from "@leafac/rehype-shiki";
+import withGfm from "remark-gfm";
+import withBreaks from "remark-breaks";
 import toHtml from "rehype-stringify";
 import * as shiki from "shiki";
 
@@ -14,10 +14,10 @@ async function createProcessor() {
 	}
 	const markdownParser = unified()
 		.use(fromMarkdown)
-		.use(withShiki, { highlighter })
-		.use(remarkGfm)
+		.use(withGfm)
+		.use(withBreaks)
 		.use(toHast, { allowDangerousHtml: true })
-		.use(withHtmlInMarkdown)
+		.use(withShiki, { highlighter })
 		.use(toHtml);
 	return markdownParser;
 }
