@@ -54,7 +54,7 @@ const talks: Metadata[] = await Promise.all(
 	<body>
 		<div class="container">
 			<Sidebar talks={[...talks, ...talks]} />
-			<div class="chat-content">
+			<div class="chat-content" id="chat-content">
 				<slot />
 			</div>
 		</div>

@@ -1,3 +1,4 @@
+import flourite from "flourite";
 import { z } from "zod";
 
 export type TelegramUser = {
@@ -194,9 +195,11 @@ export class Parser {
 			case "code":
 				result += "`" + text + "`";
 				break;
-			case "pre":
-				result += "```\n" + text + "```\n";
+			case "pre": {
+				const detected = flourite(text, { shiki: true });
+				result += "```" + detected.language + "\n" + text + "\n```\n";
 				break;
+			}
 			case "italic":
 				result += "*" + text + "*";
 				break;

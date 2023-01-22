@@ -1,0 +1,78 @@
+<div class="loading">
+	<span class="loader"></span>
+	<span class="loading-text">Loading Conversation...</span>
+</div>
+
+<style lang="scss">
+	@use "../../styles/variables.scss";
+	@use "../../styles/mixins.scss";
+
+	:global(body),
+	:global(html) {
+		height: 100%;
+	}
+
+	.loading {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 100%;
+
+		&-text {
+			font-family: variables.$font-heading;
+			font-size: 2rem;
+			font-weight: 600;
+			color: variables.$black;
+		}
+	}
+
+	.loader {
+		width: 48px;
+		height: 48px;
+		display: block;
+		margin: 15px auto;
+		position: relative;
+		color: red;
+		box-sizing: border-box;
+		animation: rotation 1s linear infinite;
+	}
+	.loader::after,
+	.loader::before {
+		@include mixins.white-box;
+		content: "";
+		box-sizing: border-box;
+		position: absolute;
+		width: 24px;
+		height: 24px;
+		top: 0;
+		background-color: variables.$blue;
+		border-radius: 50%;
+		animation: scale50 1s infinite ease-in-out;
+	}
+	.loader::before {
+		top: auto;
+		bottom: 0;
+		background-color: variables.$teal;
+		animation-delay: 0.5s;
+	}
+
+	@keyframes rotation {
+		0% {
+			transform: rotate(0deg);
+		}
+		100% {
+			transform: rotate(360deg);
+		}
+	}
+	@keyframes scale50 {
+		0%,
+		100% {
+			transform: scale(0);
+		}
+		50% {
+			transform: scale(1);
+		}
+	}
+</style>

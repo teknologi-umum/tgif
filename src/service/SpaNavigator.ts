@@ -25,7 +25,6 @@ export class SpaNavigator {
 	private async getFragment(pathname: string) {
 		const response = await fetch(`/fragments${pathname}`);
 		const data = await response.text();
-
 		return data;
 	}
 
@@ -36,7 +35,13 @@ export class SpaNavigator {
 		const toPath = toUrl.pathname;
 		if (location.origin !== toUrl.origin) return;
 
-		const htmlFragment = await this.getFragment(toPath);
-		this.render(htmlFragment);
+		navigateEvent.intercept({
+			handler: async () => {
+				const loadingFragment = await this.getFragment("/loading");
+				this.render(loadingFragment);
+				const chatFragment = await this.getFragment(toPath);
+				this.render(chatFragment);
+			},
+		});
 	}
 }

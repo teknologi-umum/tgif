@@ -1,6 +1,5 @@
 ---
 import { ChatBox } from "~/components/chat-box";
-import Layout from "~/components/Layout.astro";
 import { findChatById } from "~/utils/chat-by-id";
 
 type Params = {
@@ -8,10 +7,8 @@ type Params = {
 };
 
 const { id } = Astro.params as Params;
-const chats = await Astro.glob("../../../chats/**/exported.json");
+const chats = await Astro.glob("../../../../chats/**/exported.json");
 const parsedChat = await findChatById(id, chats, { transform: true });
 ---
 
-<Layout>
-	<ChatBox chat={parsedChat} client:load />
-</Layout>
+<ChatBox chat={parsedChat} />

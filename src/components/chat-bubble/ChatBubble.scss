@@ -15,8 +15,9 @@
 	}
 
 	&-sender {
-		font-family: variables.$font-heading;
 		@include mixins.white-box;
+		white-space: nowrap;
+		font-family: variables.$font-heading;
 		position: absolute;
 		padding: 0.25rem 1rem;
 		left: 1rem;
@@ -38,6 +39,16 @@
 			display: inline;
 		}
 
+		pre {
+			padding: 1.5rem;
+			border-radius: 1rem;
+			background-color: variables.$code-bg;
+		}
+
+		pre code {
+			background-color: variables.$white;
+		}
+
 		code {
 			border-radius: 1rem;
 			padding: 0.25rem 0.75rem;
@@ -46,6 +57,10 @@
 			font-family: variables.$font-mono;
 			font-size: 1.5rem;
 			font-weight: 600;
+		}
+
+		ul {
+			list-style-position: inside;
 		}
 	}
 }
