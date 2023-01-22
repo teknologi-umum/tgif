@@ -9,7 +9,7 @@ type Params = {
 };
 
 const { slug } = Astro.params as Params;
-const parsedChat = slug !== "_" ? await findChatBySlug(slug, { transform: true }) : undefined;
+const parsedChat = await findChatBySlug(slug);
 
 export async function getStaticPaths() {
 	return getPaths();

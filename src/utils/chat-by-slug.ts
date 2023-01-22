@@ -6,36 +6,28 @@ import { getRandomColour } from "./colours";
 import { markdownToHtml } from "./markdown-to-html";
 
 const parser = new Parser();
-
-type FindChatByIdOptions = {
-	transform: boolean;
-};
+const CHATS_PATH = import.meta.env.DEV ? "../../../chats" : "../../chats";
 
 /**
- * Gets a parsed chat by its id
- * @param slug The id of the chat
- * @param chats List of chats from Astro.glob
+ * Gets a parsed chat by its slug
+ * @param slug The slug of the chat, use _ to return undefined
  * @returns parsed Telegram chat
  */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-export async function findChatBySlug(slug: string, opts?: FindChatByIdOptions) {
-	const currentChat = await readFile(
-		resolve(fileURLToPath(import.meta.url), "../../chats", slug, "exported.json"),
-		{ encoding: "utf-8" }
-	);
+export async function findChatBySlug(slug: string) {
+	if (slug === "_") return undefined;
 
-	if (currentChat === undefined) {
-		return undefined;
-	}
+	const currentChat = await readFile(resolve(fileURLToPath(import.meta.url), CHATS_PATH, slug, "exported.json"), {
+		encoding: "utf-8",
+	});
+	if (currentChat === undefined) return undefined;
 
 	const parsedChat = parser.fromExportedChatHistory(currentChat);
-	if (opts?.transform) {
-		for (let i = 0; i < parsedChat.message.length; i++) {
-			const currentMessage = parsedChat.message[i];
-			if (currentMessage === undefined) continue;
-			currentMessage.text = await markdownToHtml(currentMessage.text);
-			currentMessage.from.colour = await getRandomColour(currentMessage.from.name);
-		}
+	for (let i = 0; i < parsedChat.message.length; i++) {
+		const currentMessage = parsedChat.message[i];
+		if (currentMessage === undefined) continue;
+		currentMessage.text = await markdownToHtml(currentMessage.text);
+		currentMessage.from.colour = await getRandomColour(currentMessage.from.name);
 	}
 
 	return parsedChat;
