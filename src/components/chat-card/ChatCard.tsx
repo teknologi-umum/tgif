@@ -1,17 +1,14 @@
 import type { Metadata } from "~/service/Metadata";
 import "./ChatCard.scss";
 
-type ChatCardProps = Metadata;
+type ChatCardProps = Metadata & {
+	isActive: boolean;
+};
 
 export function ChatCard(props: ChatCardProps) {
 	return (
-		<a
-			href={`/chat/${props.id}`}
-			style={{
-				"text-decoration": "none",
-			}}
-		>
-			<div class="chat-card">
+		<a href={`/chat/${props.slug}`} style={{ "text-decoration": "none" }}>
+			<div class={["chat-card", props.isActive ? "" : "chat-card-inactive"].join(" ")}>
 				<div class="hook">
 					<div class="hook-hole"></div>
 				</div>

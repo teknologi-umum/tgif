@@ -39,7 +39,7 @@ export class SpaNavigator {
 			handler: async () => {
 				const loadingFragment = await this.getFragment("/loading");
 				this.render(loadingFragment);
-				const chatFragment = await this.getFragment(toPath);
+				const chatFragment = await this.getFragment(toPath === "/" ? "/chat/_" : toPath);
 				this.render(chatFragment);
 			},
 		});

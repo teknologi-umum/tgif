@@ -1,7 +1,7 @@
 import { z } from "zod";
 
 export const metadataSchema = z.object({
-	id: z.number(),
+	slug: z.string(),
 	title: z.string().min(1),
 	tags: z.array(z.string()),
 	short_summary: z.string().min(1),

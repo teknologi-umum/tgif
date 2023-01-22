@@ -4,6 +4,7 @@ import { z } from "zod";
 export type TelegramUser = {
 	name: string;
 	id: number;
+	colour?: string;
 };
 
 export type TelegramMessageBase = {
@@ -125,7 +126,6 @@ const exportedChatHistorySchema = z.object({
 		})
 	),
 });
-type ExportedChatHistory = z.infer<typeof exportedChatHistorySchema>;
 
 export class Parser {
 	fromText(chatName: string, chatId: number, text: string): TelegramChat {
@@ -215,15 +215,8 @@ export class Parser {
 		return result;
 	}
 
-	fromExportedChatHistory(input: string): TelegramChat;
-	fromExportedChatHistory(input: object): TelegramChat;
-	fromExportedChatHistory(input: string | object): TelegramChat {
-		let exportedChatHistory: ExportedChatHistory;
-		if (typeof input === "string") {
-			exportedChatHistory = exportedChatHistorySchema.parse(JSON.parse(input));
-		} else {
-			exportedChatHistory = exportedChatHistorySchema.parse(input);
-		}
+	fromExportedChatHistory(input: string): TelegramChat {
+		const exportedChatHistory = exportedChatHistorySchema.parse(JSON.parse(input));
 
 		const telegramChat: TelegramChat = {
 			chatName: exportedChatHistory.name,
