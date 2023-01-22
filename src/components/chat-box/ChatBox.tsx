@@ -33,9 +33,11 @@ export function ChatBox(props: ChatBoxProps) {
 			<div class="chat-box-title">{props.chat.chatName}</div>
 			<div class="chat-box-container">
 				<div class="chat-box-content">
-					{props.chat.message.map((chat) => (
-						<ChatBubble {...chat} />
-					))}
+					{props.chat.message.map((chat, i) => {
+						const previousChat = i === 0 ? undefined : props.chat?.message[i - 1];
+						const showSender = chat.from.id !== previousChat?.from.id;
+						return <ChatBubble {...chat} showSender={showSender} isTop={i === 0} />;
+					})}
 				</div>
 			</div>
 		</div>
