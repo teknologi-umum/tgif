@@ -2,11 +2,9 @@
 import { readdir, readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import ChatBox from "~/components/ChatBox.astro";
+import { App } from "~/components/app";
 import Layout from "~/components/Layout.astro";
 import { Metadata, metadataSchema } from "~/service/Metadata";
-
-const talks: Metadata[] = [];
 
 const files = await readdir(resolve(fileURLToPath(import.meta.url), "../../../chats"), { withFileTypes: true });
 const readFileInstructions: Promise<string>[] = [];
@@ -35,18 +33,11 @@ for await (const file of files) {
 	}
 }
 
-const readFiles = await Promise.all(readFileInstructions);
-for (const file of readFiles) {
-	const metadata = metadataSchema.parse(JSON.parse(file));
-
-	talks.push(metadata);
-}
+const talks: Metadata[] = await Promise.all(
+	readFileInstructions.map(async (file) => metadataSchema.parse(JSON.parse(await file)))
+);
 ---
 
 <Layout>
-	<ChatBox />
+	<App talks={[...talks, ...talks, ...talks]} client:load />
 </Layout>
-
-<style lang="scss">
-	@use "../styles/variables.scss";
-</style>

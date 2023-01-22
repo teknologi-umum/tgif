@@ -2,7 +2,6 @@
 import "~/styles/global.scss";
 import "@fontsource/space-grotesk/500.css";
 import "@fontsource/space-grotesk/600.css";
-import Sidebar from "./Sidebar.astro";
 ---
 
 <html lang="en">
@@ -14,27 +13,6 @@ import Sidebar from "./Sidebar.astro";
 		<title>Astro</title>
 	</head>
 	<body>
-		<div class="container">
-			<Sidebar />
-			<div class="main-content">
-				<slot />
-			</div>
-		</div>
+		<slot />
 	</body>
 </html>
-
-<style lang="scss">
-	.container {
-		position: relative;
-		width: 100%;
-		height: 100%;
-		padding: 2rem;
-		display: grid;
-		gap: 2rem;
-		grid-template-columns: 40rem 1fr;
-	}
-
-	.main-content {
-		height: 60%;
-	}
-</style>

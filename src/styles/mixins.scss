@@ -1,0 +1,19 @@
+@use "./variables.scss";
+
+@mixin shadow {
+	position: absolute;
+	left: 2rem;
+	right: 2rem;
+	bottom: -1rem;
+	height: 3rem;
+	border-radius: 3rem;
+	border: 0.2rem variables.$black solid;
+	background-color: variables.$offwhite;
+	z-index: -1;
+}
+
+@mixin white-box {
+	border-radius: 3rem;
+	border: 0.2rem variables.$black solid;
+	background-color: variables.$white;
+}

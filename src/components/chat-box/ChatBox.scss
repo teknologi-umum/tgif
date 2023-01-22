@@ -1,0 +1,84 @@
+@use "../../styles/variables";
+@use "../../styles/mixins";
+
+.placeholder {
+	&-box {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+		width: 100%;
+		height: 100%;
+		align-items: flex-start;
+		justify-content: center;
+		padding-inline: 8rem;
+	}
+
+	&-title {
+		font-family: variables.$font-body;
+		color: variables.$black;
+		font-size: 8rem;
+		font-weight: 800;
+	}
+
+	&-content {
+		font-family: variables.$font-body;
+		color: rgba($color: variables.$black, $alpha: 0.9);
+		font-size: 2.4rem;
+		line-height: 2em;
+		margin-block: 1rem;
+	}
+
+	&-arrow {
+		width: 6rem;
+		height: auto;
+	}
+}
+
+.chat-box {
+	@include mixins.white-box;
+	margin-top: 4rem;
+	position: relative;
+	height: calc(100% - 4rem);
+
+	&::before {
+		@include mixins.white-box;
+		content: "";
+		position: absolute;
+		left: 2rem;
+		right: 2rem;
+		top: -1.2rem;
+		height: 10rem;
+		z-index: -1;
+		background-color: variables.$offwhite;
+	}
+
+	&-title {
+		@include mixins.white-box;
+		position: absolute;
+		padding: 1rem;
+		font-family: variables.$font-heading;
+		font-size: 2rem;
+		font-weight: 700;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+		z-index: 20;
+	}
+
+	&-container {
+		height: 100%;
+		overflow: hidden;
+		border-radius: 3rem;
+	}
+
+	&-content {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+		height: 100%;
+		width: 100%;
+		padding: 2rem;
+		padding-top: 4rem;
+		overflow-y: scroll;
+	}
+}

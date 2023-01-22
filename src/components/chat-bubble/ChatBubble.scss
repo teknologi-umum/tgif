@@ -1,0 +1,16 @@
+@use "../../styles/variables.scss";
+
+.chat-bubble {
+	font-family: variables.$font-heading;
+	font-weight: 400;
+	font-size: 1.5rem;
+	line-height: 1.8em;
+	background-color: variables.$white;
+	border: 0.2rem variables.$black solid;
+	width: fit-content;
+	max-width: 80rem;
+	padding: 2rem;
+	padding-left: 3rem;
+	border-radius: 0 3rem 3rem 3rem;
+	box-shadow: 0.4rem 0.4rem 0 0 variables.$teal, 0.4rem 0.4rem 0 0.2rem variables.$black;
+}
