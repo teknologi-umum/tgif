@@ -28,6 +28,23 @@
 		width: fit-content;
 	}
 
+	&-reply {
+		&-box {
+			border-left: 0.2rem rgba($color: variables.$black, $alpha: 0.5) solid;
+			padding-left: 1rem;
+			margin-block: 1rem;
+		}
+
+		&-sender {
+			font-weight: 600;
+			opacity: 0.75;
+		}
+
+		&-content {
+			color: rgba($color: variables.$black, $alpha: 0.75);
+		}
+	}
+
 	&-content {
 		font-family: variables.$font-body;
 		font-size: 1.75rem;

@@ -12,6 +12,7 @@ export type TelegramMessageBase = {
 	date: Date;
 	from: TelegramUser;
 	replyToMessageId: number | undefined;
+	repliedTo?: TelegramMessage;
 	text: string;
 	hasMedia: boolean;
 };
@@ -250,7 +251,7 @@ export class Parser {
 
 			if (message.photo !== undefined) {
 				telegramChat.message.push({
-					date: new Date(message.date),
+					date: new Date(message.date_unixtime ?? message.date),
 					from: {
 						name: message.from,
 						id: Number.parseInt(message.from_id.replace("user", "")),

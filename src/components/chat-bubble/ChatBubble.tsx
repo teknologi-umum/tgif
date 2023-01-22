@@ -9,7 +9,15 @@ export function ChatBubble(props: ChatBubbleProps) {
 			<span class="chat-sender" style={{ color: props.from.colour ?? "black" }}>
 				{props.from.name}
 			</span>
-			<p class="chat-content" innerHTML={props.text}></p>
+			{props.repliedTo !== undefined && (
+				<div class="chat-reply-box">
+					<span class="chat-reply-sender" style={{ color: props.repliedTo.from.colour ?? "black" }}>
+						{props.repliedTo.from.name}
+					</span>
+					<div class="chat-reply-content" innerHTML={props.repliedTo.text} />
+				</div>
+			)}
+			<div class="chat-content" innerHTML={props.text} />
 		</div>
 	);
 }

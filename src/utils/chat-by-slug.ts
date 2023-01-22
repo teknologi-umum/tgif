@@ -30,5 +30,15 @@ export async function findChatBySlug(slug: string) {
 		currentMessage.from.colour = await getRandomColour(currentMessage.from.name);
 	}
 
+	for (let i = 0; i < parsedChat.message.length; i++) {
+		const currentMessage = parsedChat.message[i];
+		if (currentMessage === undefined || currentMessage.replyToMessageId === null) continue;
+
+		const repliedMessage = parsedChat.message.find((msg) => msg.messageId === currentMessage.replyToMessageId);
+		if (repliedMessage === undefined) continue;
+
+		currentMessage.repliedTo = repliedMessage;
+	}
+
 	return parsedChat;
 }
