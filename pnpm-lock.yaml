@@ -3,7 +3,9 @@ lockfileVersion: 5.4
 specifiers:
   '@astrojs/solid-js': ^1.2.3
   '@babel/core': ^7.20.12
+  '@fontsource/jetbrains-mono': ^4.5.12
   '@fontsource/space-grotesk': ^4.5.13
+  '@fontsource/unbounded': ^4.5.1
   '@formkit/auto-animate': 1.0.0-beta.5
   '@iconify-json/fluent': ^1.1.17
   '@solid-primitives/scheduled': ^1.2.1
@@ -36,7 +38,9 @@ specifiers:
 
 dependencies:
   '@astrojs/solid-js': 1.2.3_3qgza6kmmnz4kp2k2nuuudjnzy
+  '@fontsource/jetbrains-mono': 4.5.12
   '@fontsource/space-grotesk': 4.5.13
+  '@fontsource/unbounded': 4.5.1
   '@formkit/auto-animate': 1.0.0-beta.5
   '@solid-primitives/scheduled': 1.2.1_solid-js@1.6.9
   astro: 1.9.2_sass@1.57.1
@@ -687,8 +691,16 @@ packages:
       - supports-color
     dev: true
 
+  /@fontsource/jetbrains-mono/4.5.12:
+    resolution: {integrity: sha512-LJF1ala1/u+wXZmESFqIk08FA9yGX4/uAAleCHmXUMgEjvNAYFHUQQ7eK5hQQoBOwh99cU5suTrqYqEkgzwzPA==}
+    dev: false
+
   /@fontsource/space-grotesk/4.5.13:
     resolution: {integrity: sha512-HYjs3C/ME3N55+9la5FGH3NebpBqyCP03DJzDLYlQ/fpnYOoQcEEoojtMyqDr8kBlQtrB6FSoa3vy84Wh0ZFqw==}
+    dev: false
+
+  /@fontsource/unbounded/4.5.1:
+    resolution: {integrity: sha512-IDC84Vp89QMe8IYqYufViSJ7jdBjA+yaaqb3b5d1pSc0oJFG5DAQksxIGf1U7cheSB2JDE/aFRztuT5H6/WMmQ==}
     dev: false
 
   /@formkit/auto-animate/1.0.0-beta.5:
