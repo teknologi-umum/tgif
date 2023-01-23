@@ -76,13 +76,21 @@
 			font-weight: 600;
 		}
 
-		ul {
+		ul,
+		ol {
 			list-style-position: inside;
 		}
 	}
 
-	&-media {
+	&-sticker {
 		width: 20rem;
-		height: auto;
+		height: 20rem;
+		border-radius: 2rem;
+	}
+
+	&-photo {
+		height: 30rem;
+		width: auto;
+		border-radius: 3rem;
 	}
 }

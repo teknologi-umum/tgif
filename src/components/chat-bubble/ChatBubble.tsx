@@ -9,12 +9,22 @@ type ChatBubbleProps = TelegramMessage & {
 };
 
 export function ChatBubble(props: ChatBubbleProps) {
+	const shouldHavePadding = props.hasMedia && props.repliedTo === undefined;
+
+	function resolveMediaClassname() {
+		if (!props.hasMedia) return "";
+		if (props.mediaType === "sticker") return "chat-sticker";
+		if (props.mediaType === "photo") return "chat-photo";
+		return "chat-media";
+	}
+
 	return (
 		<div
 			class="chat-bubble"
 			style={{
 				"margin-top": !props.isTop && props.showSender ? "4rem" : "2rem",
-				"padding-top": props.showSender ? "3rem" : "1rem",
+				padding: shouldHavePadding ? "0" : "2.5rem 2rem 1.5rem 2rem",
+				"padding-top": shouldHavePadding ? "0" : props.showSender ? "3rem" : "1rem",
 			}}
 		>
 			<Show when={props.showSender}>
@@ -32,7 +42,10 @@ export function ChatBubble(props: ChatBubbleProps) {
 			</Show>
 			<Switch>
 				<Match when={props.hasMedia}>
-					<img class="chat-media" src={props.hasMedia ? `/chats/${props.slug}/${props.file}` : ""} />
+					<img
+						class={resolveMediaClassname()}
+						src={props.hasMedia ? `/chats/${props.slug}/${props.file}` : ""}
+					/>
 				</Match>
 				<Match when={!props.hasMedia}>
 					<div class="chat-content" innerHTML={props.text} />
