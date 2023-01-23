@@ -4,6 +4,7 @@ import "./ChatBox.scss";
 
 type ChatBoxProps = {
 	chat?: TelegramChat | undefined;
+	slug: string;
 };
 
 export function ChatBox(props: ChatBoxProps) {
@@ -36,7 +37,7 @@ export function ChatBox(props: ChatBoxProps) {
 					{props.chat.message.map((chat, i) => {
 						const previousChat = i === 0 ? undefined : props.chat?.message[i - 1];
 						const showSender = chat.from.id !== previousChat?.from.id;
-						return <ChatBubble {...chat} showSender={showSender} isTop={i === 0} />;
+						return <ChatBubble {...chat} showSender={showSender} isTop={i === 0} slug={props.slug} />;
 					})}
 				</div>
 			</div>

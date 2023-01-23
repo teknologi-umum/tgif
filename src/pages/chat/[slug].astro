@@ -17,5 +17,5 @@ export async function getStaticPaths() {
 ---
 
 <Layout>
-	<ChatBox chat={parsedChat} client:load />
+	<ChatBox chat={parsedChat} client:load slug={slug} />
 </Layout>

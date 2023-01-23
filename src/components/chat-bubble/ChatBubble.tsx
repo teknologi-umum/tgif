@@ -1,10 +1,11 @@
-import { Show } from "solid-js";
+import { Match, Show, Switch } from "solid-js";
 import type { TelegramMessage } from "~/service/Parser";
 import "./ChatBubble.scss";
 
 type ChatBubbleProps = TelegramMessage & {
 	showSender: boolean;
 	isTop?: boolean;
+	slug: string;
 };
 
 export function ChatBubble(props: ChatBubbleProps) {
@@ -29,7 +30,14 @@ export function ChatBubble(props: ChatBubbleProps) {
 					<div class="chat-reply-content" innerHTML={props.repliedTo?.text ?? ""} />
 				</div>
 			</Show>
-			<div class="chat-content" innerHTML={props.text} />
+			<Switch>
+				<Match when={props.hasMedia}>
+					<img class="chat-media" src={props.hasMedia ? `/chats/${props.slug}/${props.file}` : ""} />
+				</Match>
+				<Match when={!props.hasMedia}>
+					<div class="chat-content" innerHTML={props.text} />
+				</Match>
+			</Switch>
 		</div>
 	);
 }

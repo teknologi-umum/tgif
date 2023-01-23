@@ -6,7 +6,7 @@ import { getRandomColour } from "./colours";
 import { markdownToHtml } from "./markdown-to-html";
 
 const parser = new Parser();
-const CHATS_PATH = import.meta.env.DEV ? "../../../chats" : "../../chats";
+const CHATS_PATH = import.meta.env.DEV ? "../../../public/chats" : "../../public/chats";
 
 /**
  * Gets a parsed chat by its slug

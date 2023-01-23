@@ -2,7 +2,7 @@ import { readdir } from "node:fs/promises";
 import { resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
-const CHATS_PATH = import.meta.env.DEV ? "../../../chats" : "../../chats";
+const CHATS_PATH = import.meta.env.DEV ? "../../../public/chats" : "../../public/chats";
 
 export async function getPaths() {
 	const files = await readdir(resolve(fileURLToPath(import.meta.url), CHATS_PATH), {

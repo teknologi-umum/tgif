@@ -13,7 +13,7 @@ import "@fontsource/unbounded/400.css";
 import "@fontsource/unbounded/600.css";
 import "@fontsource/jetbrains-mono/600.css";
 
-const CHATS_PATH = import.meta.env.DEV ? "../../../chats" : "../../chats";
+const CHATS_PATH = import.meta.env.DEV ? "../../../public/chats" : "../../public/chats";
 
 const files = await readdir(resolve(fileURLToPath(import.meta.url), CHATS_PATH), { withFileTypes: true });
 const readFileInstructions: Promise<string>[] = [];
