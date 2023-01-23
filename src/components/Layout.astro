@@ -47,15 +47,21 @@ const talks: Metadata[] = await Promise.all(
 );
 
 const pathname = Astro.url.pathname;
+
+export type Props = {
+	title: string;
+};
+
+const { title } = Astro.props as Props;
 ---
 
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>{title} | TGIF</title>
 		<script>
 			import "../scripts/spa-navigation";
 		</script>

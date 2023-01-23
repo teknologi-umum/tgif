@@ -1,12 +1,18 @@
 import { readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import { Parser } from "~/service/Parser";
+import { Metadata, metadataSchema } from "~/service/Metadata";
+import { Parser, TelegramChat } from "~/service/Parser";
 import { getRandomColour } from "./colours";
 import { markdownToHtml } from "./markdown-to-html";
 
 const parser = new Parser();
 const CHATS_PATH = import.meta.env.DEV ? "../../../public/chats" : "../../public/chats";
+
+type FindChatResult = {
+	chat: TelegramChat;
+	metadata: Metadata;
+};
 
 /**
  * Gets a parsed chat by its slug
@@ -14,15 +20,18 @@ const CHATS_PATH = import.meta.env.DEV ? "../../../public/chats" : "../../public
  * @returns parsed Telegram chat
  */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-export async function findChatBySlug(slug: string) {
+export async function findChatBySlug(slug: string): Promise<FindChatResult | undefined> {
 	if (slug === "_") return undefined;
 
-	const currentChat = await readFile(resolve(fileURLToPath(import.meta.url), CHATS_PATH, slug, "exported.json"), {
+	const chat = await readFile(resolve(fileURLToPath(import.meta.url), CHATS_PATH, slug, "exported.json"), {
 		encoding: "utf-8",
 	});
-	if (currentChat === undefined) return undefined;
+	const metadata = await readFile(resolve(fileURLToPath(import.meta.url), CHATS_PATH, slug, "metadata.json"), {
+		encoding: "utf-8",
+	});
+	if (chat === undefined) return undefined;
 
-	const parsedChat = parser.fromExportedChatHistory(currentChat);
+	const parsedChat = parser.fromExportedChatHistory(chat);
 	for (let i = 0; i < parsedChat.message.length; i++) {
 		const currentMessage = parsedChat.message[i];
 		if (currentMessage === undefined) continue;
@@ -40,5 +49,8 @@ export async function findChatBySlug(slug: string) {
 		currentMessage.repliedTo = repliedMessage;
 	}
 
-	return parsedChat;
+	return {
+		chat: parsedChat,
+		metadata: metadataSchema.parse(JSON.parse(metadata)),
+	};
 }

@@ -89,7 +89,11 @@ export function Sidebar(props: SidebarProps) {
 				<div class="chats-content" use:animate>
 					<For each={props.talks.filter(matchWithKeyword)}>
 						{(chat) => (
-							<ChatCard {...chat} isActive={isPathEmpty() ? true : `/chat/${chat.slug}` === pathname()} />
+							<ChatCard
+								{...chat}
+								isActive={isPathEmpty() ? true : `/chat/${chat.slug}` === pathname()}
+								onClick={() => (document.title = chat.title)}
+							/>
 						)}
 					</For>
 				</div>

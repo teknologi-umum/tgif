@@ -3,11 +3,12 @@ import "./ChatCard.scss";
 
 type ChatCardProps = Metadata & {
 	isActive: boolean;
+	onClick?: () => void;
 };
 
 export function ChatCard(props: ChatCardProps) {
 	return (
-		<a href={`/chat/${props.slug}`} style={{ "text-decoration": "none" }}>
+		<a href={`/chat/${props.slug}`} style={{ "text-decoration": "none" }} onClick={() => props.onClick?.()}>
 			<div class={["chat-card", props.isActive ? "" : "chat-card-inactive"].join(" ")}>
 				<div class="hook">
 					<div class="hook-hole"></div>
