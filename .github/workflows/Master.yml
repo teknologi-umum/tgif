@@ -31,6 +31,9 @@ jobs:
           head: HEAD
           extra_args: --debug --only-verified
 
+      - name: Setup tzdata
+        run: apt-get update -y && apt-get upgrade -y && apt-get install -y tzdata
+
       - name: Setup pnpm
         uses: pnpm/action-setup@v2
         with:
@@ -50,6 +53,8 @@ jobs:
 
       - name: Test
         run: pnpm run test
+        env:
+          TZ: Asia/Jakarta
 
       - uses: codecov/codecov-action@v3
   
