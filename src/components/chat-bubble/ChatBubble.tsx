@@ -9,7 +9,7 @@ type ChatBubbleProps = TelegramMessage & {
 };
 
 export function ChatBubble(props: ChatBubbleProps) {
-	const shouldHavePadding = props.hasMedia && props.repliedTo === undefined;
+	const isPaddingHidden = props.hasMedia && props.repliedTo === undefined;
 
 	function resolveMediaClassname() {
 		if (!props.hasMedia) return "";
@@ -23,8 +23,8 @@ export function ChatBubble(props: ChatBubbleProps) {
 			class="chat-bubble"
 			style={{
 				"margin-top": !props.isTop && props.showSender ? "4rem" : "2rem",
-				padding: shouldHavePadding ? "0" : "2.5rem 2rem 1.5rem 2rem",
-				"padding-top": shouldHavePadding ? "0" : props.showSender ? "3rem" : "1rem",
+				padding: isPaddingHidden ? "0" : "2.5rem 2rem 1.5rem 2rem",
+				"padding-top": isPaddingHidden ? "0" : props.showSender ? "3rem" : "1rem",
 			}}
 			id={props.messageId.toString()}
 		>

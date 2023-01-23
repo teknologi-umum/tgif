@@ -33,7 +33,7 @@ export class SpaNavigator {
 
 		const toUrl = new URL(navigateEvent.destination.url);
 		const toPath = toUrl.pathname;
-		if (location.origin !== toUrl.origin) return;
+		if (location.origin !== toUrl.origin || window.location.href === toUrl.href) return;
 
 		navigateEvent.intercept({
 			handler: async () => {

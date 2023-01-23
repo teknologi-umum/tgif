@@ -86,15 +86,20 @@
 		}
 	}
 
+	&-sticker,
+	&-photo {
+		display: block;
+		border-radius: 0 3rem 3rem 3rem;
+		overflow: hidden;
+	}
+
 	&-sticker {
 		width: 20rem;
-		height: 20rem;
-		border-radius: 2rem;
+		height: auto;
 	}
 
 	&-photo {
 		height: 30rem;
 		width: auto;
-		border-radius: 3rem;
 	}
 }
