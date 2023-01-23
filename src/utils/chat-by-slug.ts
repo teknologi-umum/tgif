@@ -26,7 +26,7 @@ export async function findChatBySlug(slug: string) {
 	for (let i = 0; i < parsedChat.message.length; i++) {
 		const currentMessage = parsedChat.message[i];
 		if (currentMessage === undefined) continue;
-		currentMessage.text = await markdownToHtml(currentMessage.text);
+		currentMessage.text = await markdownToHtml(currentMessage.text.replaceAll("\n\n", "  \n"));
 		currentMessage.from.colour = await getRandomColour(currentMessage.from.name);
 	}
 
