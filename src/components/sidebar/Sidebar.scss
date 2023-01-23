@@ -34,6 +34,12 @@
 		font-family: variables.$font-heading;
 		padding-block: 1rem;
 		padding-inline: 2rem;
+
+		&-active {
+			display: none;
+			width: 0;
+			opacity: 0;
+		}
 	}
 
 	&-icon {
@@ -43,8 +49,14 @@
 		background-color: variables.$blue;
 		padding: 1rem;
 		border-radius: 99rem;
-		color: variables.$white;
+		color: variables.$black;
 		border: 0.2rem variables.$black solid;
+		cursor: pointer;
+		width: auto;
+
+		&-active {
+			width: 100%;
+		}
 	}
 }
 

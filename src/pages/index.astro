@@ -1,43 +1,8 @@
 ---
-import { readdir, readFile } from "node:fs/promises";
-import { resolve } from "node:path";
-import { fileURLToPath } from "node:url";
-import { App } from "~/components/app";
+import { ChatBox } from "~/components/chat-box";
 import Layout from "~/components/Layout.astro";
-import { Metadata, metadataSchema } from "~/service/Metadata";
-
-const files = await readdir(resolve(fileURLToPath(import.meta.url), "../../../chats"), { withFileTypes: true });
-const readFileInstructions: Promise<string>[] = [];
-for await (const file of files) {
-	// Only read the directories, because we are on the first level
-	// Ignore non-directory
-	if (file.isDirectory()) {
-		if (file.name === "photos" || file.name === "stickers" || file.name === "videos") {
-			// We don't need to traverse these
-			continue;
-		}
-
-		const levelTwoFiles = await readdir(resolve(fileURLToPath(import.meta.url), "../../../chats/", file.name), {
-			withFileTypes: true,
-		});
-		for (const levelTwoFile of levelTwoFiles) {
-			// We would like to search for metadata.json only
-			if (levelTwoFile.name === "metadata.json") {
-				readFileInstructions.push(
-					readFile(resolve(fileURLToPath(import.meta.url), "../../../chats/", file.name, levelTwoFile.name), {
-						encoding: "utf-8",
-					})
-				);
-			}
-		}
-	}
-}
-
-const talks: Metadata[] = await Promise.all(
-	readFileInstructions.map(async (file) => metadataSchema.parse(JSON.parse(await file)))
-);
 ---
 
-<Layout>
-	<App talks={[...talks, ...talks, ...talks]} client:load />
+<Layout title="Home">
+	<ChatBox slug="_" />
 </Layout>

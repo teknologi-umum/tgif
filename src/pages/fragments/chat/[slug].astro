@@ -1,0 +1,18 @@
+---
+import { ChatBox } from "~/components/chat-box";
+import { findChatBySlug } from "~/utils/chat-by-slug";
+import { getPaths } from "~/utils/get-paths";
+
+type Params = {
+	slug: string;
+};
+
+const { slug } = Astro.params as Params;
+const found = await findChatBySlug(slug);
+
+export async function getStaticPaths() {
+	return getPaths();
+}
+---
+
+<ChatBox chat={found?.chat} slug={slug} client:load />

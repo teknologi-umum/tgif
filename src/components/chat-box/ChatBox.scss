@@ -39,6 +39,8 @@
 	margin-top: 4rem;
 	position: relative;
 	height: calc(100% - 4rem);
+	display: flex;
+	flex-direction: column;
 
 	&::before {
 		@include mixins.white-box;
@@ -55,7 +57,7 @@
 	&-title {
 		@include mixins.white-box;
 		position: absolute;
-		padding: 1rem;
+		padding: 1rem 2rem;
 		font-family: variables.$font-heading;
 		font-size: 2rem;
 		font-weight: 700;
@@ -65,20 +67,22 @@
 	}
 
 	&-container {
-		height: 100%;
+		position: absolute;
+		inset: 0;
 		overflow: hidden;
 		border-radius: 3rem;
 	}
 
 	&-content {
+		scroll-padding-top: 4rem;
 		position: relative;
 		display: flex;
 		flex-direction: column;
-		gap: 2rem;
+		overflow-x: hidden;
+		overflow-y: scroll;
 		height: 100%;
 		width: 100%;
 		padding: 2rem;
-		padding-top: 4rem;
-		overflow-y: scroll;
+		padding-top: 6rem;
 	}
 }

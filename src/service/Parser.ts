@@ -1,8 +1,10 @@
+import flourite from "flourite";
 import { z } from "zod";
 
 export type TelegramUser = {
 	name: string;
 	id: number;
+	colour?: string;
 };
 
 export type TelegramMessageBase = {
@@ -10,6 +12,7 @@ export type TelegramMessageBase = {
 	date: Date;
 	from: TelegramUser;
 	replyToMessageId: number | undefined;
+	repliedTo?: TelegramMessage;
 	text: string;
 	hasMedia: boolean;
 };
@@ -64,7 +67,18 @@ export type TelegramChat = {
 	message: TelegramMessage[];
 };
 
-const messageTypes = ["plain", "mention", "pre", "code", "bot_command", "italic", "bold", "link", "hashtag"] as const;
+const messageTypes = [
+	"plain",
+	"mention",
+	"pre",
+	"code",
+	"bot_command",
+	"italic",
+	"bold",
+	"link",
+	"hashtag",
+	"spoiler",
+] as const;
 type MessageType = (typeof messageTypes)[number];
 
 const exportedChatHistorySchema = z.object({
@@ -80,7 +94,7 @@ const exportedChatHistorySchema = z.object({
 			from: z
 				.string()
 				.nullable()
-				.transform((arg: string | null): string => (arg == null ? "Deleted Account" : arg)),
+				.transform((arg: string | null): string => arg ?? "Deleted Account"),
 			from_id: z.string(),
 			reply_to_message_id: z.number().optional(),
 			file: z.string().optional(),
@@ -182,14 +196,19 @@ export class Parser {
 			case "code":
 				result += "`" + text + "`";
 				break;
-			case "pre":
-				result += "```\n" + text + "```\n";
+			case "pre": {
+				const detected = flourite(text, { shiki: true });
+				result += "```" + detected.language + "\n" + text + "\n```\n";
 				break;
+			}
 			case "italic":
 				result += "*" + text + "*";
 				break;
 			case "bold":
 				result += "**" + text + "**";
+				break;
+			case "spoiler":
+				result += '<span class="spoiler">' + text + "</span>";
 				break;
 			default:
 				result += text;
@@ -197,8 +216,8 @@ export class Parser {
 		return result;
 	}
 
-	fromExportedChatHistory(rawInput: string): TelegramChat {
-		const exportedChatHistory = exportedChatHistorySchema.parse(JSON.parse(rawInput));
+	fromExportedChatHistory(input: string): TelegramChat {
+		const exportedChatHistory = exportedChatHistorySchema.parse(JSON.parse(input));
 
 		const telegramChat: TelegramChat = {
 			chatName: exportedChatHistory.name,

@@ -1,16 +1,114 @@
 @use "../../styles/variables.scss";
+@use "../../styles/mixins.scss";
 
-.chat-bubble {
-	font-family: variables.$font-heading;
-	font-weight: 400;
-	font-size: 1.5rem;
-	line-height: 1.8em;
-	background-color: variables.$white;
-	border: 0.2rem variables.$black solid;
-	width: fit-content;
-	max-width: 80rem;
-	padding: 2rem;
-	padding-left: 3rem;
-	border-radius: 0 3rem 3rem 3rem;
-	box-shadow: 0.4rem 0.4rem 0 0 variables.$teal, 0.4rem 0.4rem 0 0.2rem variables.$black;
+.chat {
+	&-bubble {
+		position: relative;
+		background-color: variables.$white;
+		border: 0.2rem variables.$black solid;
+		width: fit-content;
+		max-width: 80rem;
+		min-width: 10rem;
+		padding: 2.5rem 2rem 1.5rem 2rem;
+		border-radius: 0 3rem 3rem 3rem;
+		box-shadow: 0.4rem 0.4rem 0 0 variables.$teal, 0.4rem 0.4rem 0 0.2rem variables.$black;
+	}
+
+	&-sender {
+		@include mixins.white-box;
+		white-space: nowrap;
+		font-family: variables.$font-heading;
+		position: absolute;
+		padding: 0.25rem 1rem;
+		left: 1rem;
+		top: 0;
+		transform: translateY(-50%);
+		font-size: 1.25rem;
+		font-weight: 600;
+		width: fit-content;
+	}
+
+	&-reply {
+		&-box {
+			border-left: 0.2rem rgba($color: variables.$black, $alpha: 0.5) solid;
+			padding-left: 1rem;
+			margin-block: 1rem;
+			max-height: 5.8em;
+			overflow: hidden;
+		}
+
+		&-sender {
+			font-weight: 600;
+			opacity: 0.75;
+		}
+
+		&-content {
+			opacity: 0.75;
+
+			p {
+				display: block !important;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+			}
+		}
+
+		&-link {
+			text-decoration: none;
+		}
+	}
+
+	&-content {
+		font-family: variables.$font-body;
+		font-size: 1.75rem;
+		font-weight: 400;
+		line-height: 1.8em;
+		color: variables.$black;
+
+		p {
+			display: inline;
+		}
+
+		pre {
+			border-radius: 1rem;
+			background-color: variables.$code-bg;
+		}
+
+		pre code {
+			padding: 0;
+			background-color: variables.$white;
+		}
+
+		code {
+			border-radius: 1rem;
+			padding: 0.25rem 0.75rem;
+			background-color: variables.$code-bg;
+			color: variables.$code-fg;
+			font-family: variables.$font-mono;
+			font-size: 1.5rem;
+			font-weight: 600;
+		}
+
+		ul,
+		ol {
+			list-style-position: inside;
+		}
+	}
+
+	&-sticker,
+	&-photo {
+		display: block;
+		border-radius: 0 3rem 3rem 3rem;
+		overflow: hidden;
+	}
+
+	&-sticker {
+		width: 20rem;
+		height: auto;
+	}
+
+	&-photo {
+		height: 30rem;
+		width: auto;
+	}
 }

@@ -12,6 +12,11 @@
 	padding-top: 2rem;
 	box-shadow: 0.4rem 0.4rem 0 0 variables.$pink, 0.4rem 0.4rem 0 0.2rem variables.$black;
 	cursor: pointer;
+	transition: transform ease-out 250ms;
+
+	&-inactive {
+		transform: translateX(-80%);
+	}
 }
 
 .profile-image {
@@ -70,7 +75,7 @@
 .summary {
 	color: rgba($color: variables.$black, $alpha: 0.8);
 	font-family: variables.$font-body;
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 1.5rem;
 	line-height: 1.75em;
 	padding-right: 2rem;

@@ -1006,13 +1006,13 @@ test("parse from exported chat history", () => {
 			text:
 				"di db context kamu declare ini:\n" +
 				"\n" +
-				"```\n" +
+				"```csharp\n" +
 				"private static readonly TimeOnly ZeroTime = new(0);\n" +
 				"\n" +
 				"    private static readonly ValueConverter<DateOnly, DateTime> DateOnlyConverter = new(\n" +
 				"      convertToProviderExpression: dateOnly => dateOnly.ToDateTime(ZeroTime),\n" +
 				"      convertFromProviderExpression: dateTime => DateOnly.FromDateTime(dateTime)\n" +
-				"    );```\n",
+				"    );\n```\n",
 		},
 		{
 			date: new Date("2022-07-07T03:31:41.000Z"),
@@ -1039,10 +1039,10 @@ test("parse from exported chat history", () => {
 			text:
 				"lalu di OnModelCreating configure:\n" +
 				"\n" +
-				"```\n" +
+				"```cpp\n" +
 				"builder.Entity<TableName>()\n" +
 				".Property(t => t.PropertyName)\n" +
-				".HasConversion(DateOnlyConverter);```\n",
+				".HasConversion(DateOnlyConverter);\n```\n",
 		},
 		{
 			date: new Date("2022-07-07T03:32:21.000Z"),
@@ -1131,11 +1131,11 @@ test("parse from exported chat history", () => {
 			hasMedia: false,
 			replyToMessageId: undefined,
 			text:
-				"```\n" +
+				"```javascript\n" +
 				"var values = rows\n" +
 				"  .Select(row => row.PropertyYangDiambil)\n" +
 				"  .Distinct()\n" +
-				"  .ToHashSet();```\n",
+				"  .ToHashSet();\n```\n",
 		},
 	]);
 });
@@ -1638,7 +1638,6 @@ test("parse without text_entity", () => {
 
 	expect(telegramChat.chatId).toEqual(1712691810);
 	expect(telegramChat.chatName).toEqual("Teknologi Umum v2.0");
-	console.log(telegramChat.message);
 	expect(telegramChat.message).toStrictEqual([
 		{
 			date: new Date("2022-08-02T16:21:24.000Z"),
@@ -1664,13 +1663,13 @@ test("parse without text_entity", () => {
 			text:
 				"kadang orang suka nyampur2\n" +
 				"\n" +
-				"```\n" +
+				"```csharp\n" +
 				"public class Foo {\n" +
 				'  [JsonPropertyName("email")]\n' +
 				"  [Required, EmailAddress]\n" +
 				"  [Key, StringLength(50)]\n" +
 				"  public string Email { get; set; }\n" +
-				"}```\n",
+				"}\n```\n",
 			hasMedia: false,
 		},
 		{
