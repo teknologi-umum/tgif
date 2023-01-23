@@ -16,6 +16,7 @@ export function ChatBubble(props: ChatBubbleProps) {
 				"margin-top": !props.isTop && props.showSender ? "4rem" : "2rem",
 				"padding-top": props.showSender ? "3rem" : "1rem",
 			}}
+			id={props.messageId.toString()}
 		>
 			<Show when={props.showSender}>
 				<span class="chat-sender" style={{ color: props.from.colour ?? "black" }}>
@@ -23,12 +24,14 @@ export function ChatBubble(props: ChatBubbleProps) {
 				</span>
 			</Show>
 			<Show when={props.repliedTo !== undefined}>
-				<div class="chat-reply-box">
-					<span class="chat-reply-sender" style={{ color: props.repliedTo?.from.colour ?? "black" }}>
-						{props.repliedTo?.from.name}
-					</span>
-					<div class="chat-reply-content" innerHTML={props.repliedTo?.text ?? ""} />
-				</div>
+				<a href={"#" + props.repliedTo?.messageId.toString() ?? ""} class="chat-reply-link">
+					<div class="chat-reply-box">
+						<span class="chat-reply-sender" style={{ color: props.repliedTo?.from.colour ?? "black" }}>
+							{props.repliedTo?.from.name}
+						</span>
+						<div class="chat-reply-content" innerHTML={props.repliedTo?.text ?? ""} />
+					</div>
+				</a>
 			</Show>
 			<Switch>
 				<Match when={props.hasMedia}>

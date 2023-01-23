@@ -43,6 +43,10 @@
 		&-content {
 			color: rgba($color: variables.$black, $alpha: 0.75);
 		}
+
+		&-link {
+			text-decoration: none;
+		}
 	}
 
 	&-content {
