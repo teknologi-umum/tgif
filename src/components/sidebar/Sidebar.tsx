@@ -71,6 +71,7 @@ export function Sidebar(props: SidebarProps) {
 					class={`search-icon ${isPathEmpty() ? "" : "search-icon-active"}`}
 					onClick={() => {
 						if (!isPathEmpty()) {
+							document.title = "Home | TGIF";
 							window.location.replace("/");
 						}
 					}}
@@ -92,7 +93,7 @@ export function Sidebar(props: SidebarProps) {
 							<ChatCard
 								{...chat}
 								isActive={isPathEmpty() ? true : `/chat/${chat.slug}` === pathname()}
-								onClick={() => (document.title = chat.title)}
+								onClick={() => (document.title = `${chat.title} | TGIF`)}
 							/>
 						)}
 					</For>

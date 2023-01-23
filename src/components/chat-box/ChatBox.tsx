@@ -21,7 +21,7 @@ export function ChatBox(props: ChatBoxProps) {
 				</p>
 				<p class="placeholder-content">
 					Ingin kontribusi wejangan dan ilmu? Kunjungi{" "}
-					<a class="url" href="https://github.com/teknologi-umu/tgif">
+					<a class="url" href="https://github.com/teknologi-umum/tgif">
 						teknologi-umum/tgif
 					</a>
 				</p>
