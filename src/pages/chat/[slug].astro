@@ -16,6 +16,11 @@ export async function getStaticPaths() {
 }
 ---
 
-<Layout title={found?.metadata.title ?? "Not Found"}>
+<Layout
+	url={Astro.url + ""}
+	summary={found?.metadata.short_summary || "Not found"}
+	keywords={found?.metadata.tags || ["Chat not found"]}
+	title={found?.metadata.title ?? "Not Found"}
+>
 	<ChatBox chat={found?.chat} client:load slug={slug} />
 </Layout>

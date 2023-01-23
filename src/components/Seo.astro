@@ -2,10 +2,7 @@
 export type Props = {
 	title: string;
 	keywords: string[];
-	description: string;
-	copyright: string;
-	author: string;
-	owner: string;
+	summary: string;
 	url: string;
 };
 const props = Astro.props as Props;
@@ -15,13 +12,8 @@ const props = Astro.props as Props;
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="language" content="en-US" />
 <meta name="robots" content="index,follow" />
-<meta name="copyright" content={props.copyright} />
 <meta name="keywords" content={props.keywords.join(", ")} />
-<meta name="description" content={props.description} />
-<meta name="subject" content={props.description} />
-<meta name="summary" content={props.description} />
-<meta name="author" content={props.author} />
-<meta name="owner" content={props.owner} />
+<meta name="summary" content={props.summary} />
 
 <link rel="apple-touch-icon" sizes="180x180" href={"/meta/apple-touch-icon.png"} />
 <link rel="icon" type="image/x-icon" href={"/meta/favicon.ico"} />
@@ -37,9 +29,8 @@ const props = Astro.props as Props;
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content={props.url} />
-<meta name="twitter:creator" content={props.owner} />
 <meta name="twitter:title" content={props.title} />
-<meta name="twitter:description" content={props.description} />
+<meta name="twitter:description" content={props.summary} />
 <meta name="twitter:image" content={"/assets/thumbnail.png"} />
 
 <title>{props.title}</title>

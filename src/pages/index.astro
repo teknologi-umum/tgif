@@ -3,6 +3,11 @@ import { ChatBox } from "~/components/chat-box";
 import Layout from "~/components/Layout.astro";
 ---
 
-<Layout title="Home">
+<Layout
+	keywords={["Telegram", "Group programing", "indonesia"]}
+	url={Astro.url.origin}
+	summary="Kutipan chat dari berbagai group telegram progaming indonesia"
+	title="Home"
+>
 	<ChatBox slug="_" />
 </Layout>

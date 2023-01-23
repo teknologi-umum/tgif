@@ -53,10 +53,10 @@ export type Props = {
 	title: string;
 	keywords: string[];
 	summary: string;
+	url: string;
 };
 
-
-const { title, keywords, summary } = Astro.props as Props;
+const { title, keywords, summary, url } = Astro.props as Props;
 ---
 
 <html lang="en">
@@ -65,7 +65,7 @@ const { title, keywords, summary } = Astro.props as Props;
 		<link rel="icon" type="image/svg+xml" href="/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<Seo keywords={keywords}  />
+		<Seo keywords={keywords} summary={summary} url={url} title={title} />
 		<title>{title} | TGIF</title>
 		<script>
 			import "../scripts/spa-navigation";
@@ -78,26 +78,25 @@ const { title, keywords, summary } = Astro.props as Props;
 				<slot />
 			</div>
 		</div>
+		<style lang="scss">
+			@use "../styles/variables.scss";
+
+			.container {
+				position: relative;
+				max-width: 1400px;
+				height: 100%;
+				margin: 0 auto;
+				padding: 2rem;
+				display: grid;
+				gap: 2rem;
+				grid-template-columns: 42rem 1fr;
+			}
+
+			.chat-content {
+				position: relative;
+				height: 100%;
+				max-height: inherit;
+			}
+		</style>
 	</body>
 </html>
-
-<style lang="scss">
-	@use "../styles/variables.scss";
-
-	.container {
-		position: relative;
-		max-width: 1400px;
-		height: 100%;
-		margin: 0 auto;
-		padding: 2rem;
-		display: grid;
-		gap: 2rem;
-		grid-template-columns: 42rem 1fr;
-	}
-
-	.chat-content {
-		position: relative;
-		height: 100%;
-		max-height: inherit;
-	}
-</style>
