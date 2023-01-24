@@ -15,11 +15,11 @@ export async function getStaticPaths() {
 	return getPaths();
 }
 ---
-
+<!-- just because Astro.url return value with type URL, I do this way to make the type converted to string -->
 <Layout
-	url={Astro.url + ""}
-	summary={found?.metadata.short_summary || "Not found"}
-	keywords={found?.metadata.tags || ["Chat not found"]}
+	url={ Astro.url + ""}
+	summary={found?.metadata.short_summary ?? "Not found"}
+	keywords={found?.metadata.tags ?? ["Telegram", "Group programing", "indonesia"]}
 	title={found?.metadata.title ?? "Not Found"}
 >
 	<ChatBox chat={found?.chat} client:load slug={slug} />

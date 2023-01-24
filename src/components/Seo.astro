@@ -6,7 +6,8 @@ export type Props = {
 	url: string;
 };
 const props = Astro.props as Props;
-const thumbnail: string = Astro.url + "thumbnail.png"
+// the Astro.url return the whole url e.g ( https://www.tgif.teknologiumum.com/chat/database-isolation-level ), We're just need the origin url e.g (https://www.tgif.teknologiumum.com/)
+const thumbnail: string = Astro.site + "thumbnail.png"
 ---
 
 <meta charset="utf-8" />
