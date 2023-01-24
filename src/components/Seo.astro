@@ -6,31 +6,28 @@ export type Props = {
 	url: string;
 };
 const props = Astro.props as Props;
+const thumbnail: string = Astro.url + "thumbnail.png"
 ---
 
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="language" content="en-US" />
+<meta charset="utf-8" />
+<link rel="icon" type="image/svg+xml" href="/favicon.png" />
+<meta name="viewport" content="width=device-width" />
+<meta name="generator" content={Astro.generator} />
+<meta name="language" content="id-ID" />
 <meta name="robots" content="index,follow" />
 <meta name="keywords" content={props.keywords.join(", ")} />
 <meta name="summary" content={props.summary} />
 
-<link rel="apple-touch-icon" sizes="180x180" href={"/meta/apple-touch-icon.png"} />
-<link rel="icon" type="image/x-icon" href={"/meta/favicon.ico"} />
-<link rel="icon" type="image/png" sizes="32x32" href={"/meta/favicon-32x32.png"} />
-<link rel="icon" type="image/png" sizes="16x16" href={"/meta/favicon-16x16.png"} />
-<link rel="manifest" href={"/meta/site.webmanifest"} />
-
 <meta property="og:title" content={props.title} />
 <meta property="og:type" content="website" />
 <meta property="og:url" content={props.url} />
-<meta property="og:image" content={"/assets/thumbnail.png"} />
-<meta property="og:image:secure:url" content={"/assets/thumbnail.png"} />
+<meta property="og:image" content={thumbnail} />
+<meta property="og:image:secure:url" content={thumbnail} />
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content={props.url} />
 <meta name="twitter:title" content={props.title} />
 <meta name="twitter:description" content={props.summary} />
-<meta name="twitter:image" content={"/assets/thumbnail.png"} />
+<meta name="twitter:image" content={thumbnail} />
 
-<title>{props.title}</title>
+<title>{props.title} | TGIF</title>
