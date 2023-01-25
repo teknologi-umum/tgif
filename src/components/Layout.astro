@@ -50,7 +50,7 @@ const talks: Metadata[] = await Promise.all(
 const pathname = Astro.url.pathname;
 
 export type Props = {
-	title?: string  | undefined;
+	title?: string | undefined;
 	keywords?: string[] | undefined;
 	summary?: string | undefined;
 	url?: URL | undefined;
@@ -73,26 +73,24 @@ const { title, keywords, summary, url } = Astro.props as Props;
 				<slot />
 			</div>
 		</div>
-	</body>
+	</body><style lang="scss">
+		@use "../styles/variables.scss";
+
+		.container {
+			position: relative;
+			max-width: 1400px;
+			height: 100%;
+			margin: 0 auto;
+			padding: 2rem;
+			display: grid;
+			gap: 2rem;
+			grid-template-columns: 42rem 1fr;
+		}
+
+		.chat-content {
+			position: relative;
+			height: 100%;
+			max-height: inherit;
+		}
+	</style>
 </html>
-
-<style lang="scss">
-	@use "../styles/variables.scss";
-
-	.container {
-		position: relative;
-		max-width: 1400px;
-		height: 100%;
-		margin: 0 auto;
-		padding: 2rem;
-		display: grid;
-		gap: 2rem;
-		grid-template-columns: 42rem 1fr;
-	}
-
-	.chat-content {
-		position: relative;
-		height: 100%;
-		max-height: inherit;
-	}
-</style>
