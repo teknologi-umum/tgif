@@ -1,13 +1,18 @@
 ---
 export type Props = {
-	title: string;
-	keywords: string[];
-	summary: string;
-	url: string;
+	title: string | undefined;
+	keywords: string[] | undefined;
+	summary: string | undefined;
+	url: URL | undefined;
 };
 const props = Astro.props as Props;
-// the Astro.url return the whole url e.g ( https://www.tgif.teknologiumum.com/chat/database-isolation-level ), We're just need the origin url e.g (https://www.tgif.teknologiumum.com/)
-const thumbnail: string = Astro.site + "thumbnail.png"
+// We're just need the origin url e.g (https://www.tgif.teknologiumum.com/)
+const thumbnail: string = Astro.url.origin + "/thumbnail.png"
+// set default value when parent pass undefined
+const titleSEO = props?.title || "Home"
+const keywordsSEO = props?.keywords ? props?.keywords.join(", ") : ["Telegram", "Group programing", "indonesia"].join(", ")
+const summarySEO = props?.summary || "Kutipan chat dari berbagai group telegram progaming indonesia"
+const urlSEO = props?.url || Astro.url
 ---
 
 <meta charset="utf-8" />
@@ -16,19 +21,19 @@ const thumbnail: string = Astro.site + "thumbnail.png"
 <meta name="generator" content={Astro.generator} />
 <meta name="language" content="id-ID" />
 <meta name="robots" content="index,follow" />
-<meta name="keywords" content={props.keywords.join(", ")} />
-<meta name="summary" content={props.summary} />
+<meta name="keywords" content={keywordsSEO} />
+<meta name="summary" content={summarySEO} />
 
-<meta property="og:title" content={props.title} />
+<meta property="og:title" content={titleSEO} />
 <meta property="og:type" content="website" />
-<meta property="og:url" content={props.url} />
+<meta property="og:url" content={urlSEO} />
 <meta property="og:image" content={thumbnail} />
 <meta property="og:image:secure:url" content={thumbnail} />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content={props.url} />
-<meta name="twitter:title" content={props.title} />
-<meta name="twitter:description" content={props.summary} />
+<meta name="twitter:site" content={urlSEO} />
+<meta name="twitter:title" content={titleSEO} />
+<meta name="twitter:description" content={summarySEO} />
 <meta name="twitter:image" content={thumbnail} />
 
-<title>{props.title} | TGIF</title>
+<title>{titleSEO} | TGIF</title>

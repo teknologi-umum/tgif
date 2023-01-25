@@ -2,12 +2,7 @@
 import { ChatBox } from "~/components/chat-box";
 import Layout from "~/components/Layout.astro";
 ---
-<!-- just because Astro.site return value with type URL, I do this way to make the type converted to string -->
-<Layout
-	url={Astro.site + ""}
-	keywords={["Telegram", "Group programing", "indonesia"]}
-	summary="Kutipan chat dari berbagai group telegram progaming indonesia"
-	title="Home"
->
+<!-- The SEO content will be filled in automatically by SEO component -->
+<Layout >
 	<ChatBox slug="_" />
 </Layout>
