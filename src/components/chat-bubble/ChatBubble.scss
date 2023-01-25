@@ -65,6 +65,18 @@
 		line-height: 1.8em;
 		color: variables.$black;
 
+		.spoiler {
+			background-color: variables.$black;
+			color: variables.$black;
+			cursor: pointer;
+			transition: background-color .25s ease;
+
+			&:hover {
+				background-color: inherit;
+				color: inherit;
+			}
+		}
+
 		p {
 			display: inline;
 		}

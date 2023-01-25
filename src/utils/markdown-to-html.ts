@@ -18,7 +18,7 @@ async function createProcessor() {
 		.use(withBreaks)
 		.use(toHast, { allowDangerousHtml: true })
 		.use(withShiki, { highlighter })
-		.use(toHtml);
+		.use(toHtml, { allowDangerousHtml: true });
 	return markdownParser;
 }
 
