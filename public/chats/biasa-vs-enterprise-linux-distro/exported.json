@@ -1,0 +1,617 @@
+{
+	"name": "Teknologi Umum v2.0",
+	"type": "public_supergroup",
+	"id": 1712691810,
+	"messages": [
+		{
+			"id": 249636,
+			"type": "message",
+			"date": "2023-01-27T23:09:23",
+			"date_unixtime": "1674835763",
+			"from": "9Sense",
+			"from_id": "user5832490906",
+			"reply_to_message_id": 249630,
+			"text": "Sebenernya yang bedain distro \"biasa\" sama \"enterprise\" distro apa ya?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Sebenernya yang bedain distro \"biasa\" sama \"enterprise\" distro apa ya?"
+				}
+			]
+		},
+		{
+			"id": 249640,
+			"type": "message",
+			"date": "2023-01-27T23:11:06",
+			"date_unixtime": "1674835866",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"reply_to_message_id": 249636,
+			"text": "Bedanya di support level pak. Yang versi enterprise itu come with support, semua softwarenya diverifikasi.  Mereka hire orang untuk verifikasi dan patch source code.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Bedanya di support level pak. Yang versi enterprise itu come with support, semua softwarenya diverifikasi.  Mereka hire orang untuk verifikasi dan patch source code."
+				}
+			]
+		},
+		{
+			"id": 249641,
+			"type": "message",
+			"date": "2023-01-27T23:11:43",
+			"date_unixtime": "1674835903",
+			"from": "9Sense",
+			"from_id": "user5832490906",
+			"reply_to_message_id": 249640,
+			"text": "Support?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Support?"
+				}
+			]
+		},
+		{
+			"id": 249642,
+			"type": "message",
+			"date": "2023-01-27T23:12:04",
+			"date_unixtime": "1674835924",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"text": "Yang kedua ya itu, LTS. Makannya ga perlu selalu upgrade tiap ada update baru. Ini penting buat enterprise. Upgrade tiap ada versi baru ke 1000+ mesin itu capek.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Yang kedua ya itu, LTS. Makannya ga perlu selalu upgrade tiap ada update baru. Ini penting buat enterprise. Upgrade tiap ada versi baru ke 1000+ mesin itu capek."
+				}
+			]
+		},
+		{
+			"id": 249643,
+			"type": "message",
+			"date": "2023-01-27T23:12:23",
+			"date_unixtime": "1674835943",
+			"from": "9Sense",
+			"from_id": "user5832490906",
+			"reply_to_message_id": 249640,
+			"text": "La distro lain apa ga juga kaya gini (ketika ada update dari upstream bakalan di cek dan di patch)?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "La distro lain apa ga juga kaya gini (ketika ada update dari upstream bakalan di cek dan di patch)?"
+				}
+			]
+		},
+		{
+			"id": 249644,
+			"type": "message",
+			"date": "2023-01-27T23:12:42",
+			"date_unixtime": "1674835962",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"reply_to_message_id": 249643,
+			"text": "Lho kalo itu sih gampang, yang susah itu backport.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Lho kalo itu sih gampang, yang susah itu backport."
+				}
+			]
+		},
+		{
+			"id": 249645,
+			"type": "message",
+			"date": "2023-01-27T23:12:58",
+			"date_unixtime": "1674835978",
+			"from": "9Sense",
+			"from_id": "user5832490906",
+			"reply_to_message_id": 249644,
+			"text": "backport gimana tuh maksudnya",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "backport gimana tuh maksudnya"
+				}
+			]
+		},
+		{
+			"id": 249646,
+			"type": "message",
+			"date": "2023-01-27T23:13:32",
+			"date_unixtime": "1674836012",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"text": "Anggap misalnya Anda punya software yang jalan di GLIBC versi 2.93. Tapi ternyata vulnerable, fixnya ada di GLIBC 2.97 tapi 2.97 ini ga compatible ama 2.93. Maka kamu harus hire orang buat 'backport' patch tadi ke versi sebelumnya.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Anggap misalnya Anda punya software yang jalan di GLIBC versi 2.93. Tapi ternyata vulnerable, fixnya ada di GLIBC 2.97 tapi 2.97 ini ga compatible ama 2.93. Maka kamu harus hire orang buat 'backport' patch tadi ke versi sebelumnya."
+				}
+			]
+		},
+		{
+			"id": 249647,
+			"type": "message",
+			"date": "2023-01-27T23:14:08",
+			"date_unixtime": "1674836048",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"text": "Kenapa? Kalo cuma disuruh 'upgrade' tiap kali ada CVE ya pe-er. Upgrade ribuan atau ratusan ribu mesin itu ga mudah.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Kenapa? Kalo cuma disuruh 'upgrade' tiap kali ada CVE ya pe-er. Upgrade ribuan atau ratusan ribu mesin itu ga mudah."
+				}
+			]
+		},
+		{
+			"id": 249648,
+			"type": "message",
+			"date": "2023-01-27T23:14:46",
+			"date_unixtime": "1674836086",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"text": "Makannya di RH kalo mau akses reponya harus bayar. Apakah artinya ga open source? Enggak, tetep open source. Cuma ya kalo mau ambil binary ya bayar. Tidak melanggar GPL apapun.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Makannya di RH kalo mau akses reponya harus bayar. Apakah artinya ga open source? Enggak, tetep open source. Cuma ya kalo mau ambil binary ya bayar. Tidak melanggar GPL apapun."
+				}
+			]
+		},
+		{
+			"id": 249649,
+			"type": "message",
+			"date": "2023-01-27T23:14:57",
+			"date_unixtime": "1674836097",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"text": "GPL/Open Source != Gratis.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "GPL/Open Source != Gratis."
+				}
+			]
+		},
+		{
+			"id": 249650,
+			"type": "message",
+			"date": "2023-01-27T23:15:47",
+			"date_unixtime": "1674836147",
+			"from": "9Sense",
+			"from_id": "user5832490906",
+			"reply_to_message_id": 249647,
+			"text": "Oalah berarti di repo distro enterprise itu aplikasinya pada fork-an dengan fitur yang udah terpatch tersendiri gitu ya?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Oalah berarti di repo distro enterprise itu aplikasinya pada fork-an dengan fitur yang udah terpatch tersendiri gitu ya?"
+				}
+			]
+		},
+		{
+			"id": 249651,
+			"type": "message",
+			"date": "2023-01-27T23:16:05",
+			"date_unixtime": "1674836165",
+			"edited": "2023-01-27T23:17:00",
+			"edited_unixtime": "1674836220",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"text": "Keberadaan distro kaya AlmaLinux, Rocky Linux itu ngambil source code nya RH terus di-recompile dan dibuat distro yang sourcenya 1-1 dgn RH, tapi bebas ga pake bayar. Bedanya ya tidak ada 'support package' nya.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Keberadaan distro kaya AlmaLinux, Rocky Linux itu ngambil source code nya RH terus di-recompile dan dibuat distro yang sourcenya 1-1 dgn RH, tapi bebas ga pake bayar. Bedanya ya tidak ada 'support package' nya."
+				}
+			]
+		},
+		{
+			"id": 249652,
+			"type": "message",
+			"date": "2023-01-27T23:16:23",
+			"date_unixtime": "1674836183",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"text": "Yang baik banget itu ya Oracle Linux, ada supportnya kalo mau wkwkw.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Yang baik banget itu ya Oracle Linux, ada supportnya kalo mau wkwkw."
+				}
+			]
+		},
+		{
+			"id": 249653,
+			"type": "message",
+			"date": "2023-01-27T23:17:02",
+			"date_unixtime": "1674836222",
+			"edited": "2023-01-27T23:18:01",
+			"edited_unixtime": "1674836281",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"reply_to_message_id": 249650,
+			"text": [
+				"Iya, mungkin patch yang udah ada di upstream, bisa jadi patch yang belum di upstream juga ini berlaku buat ",
+				{
+					"type": "italic",
+					"text": "semua"
+				},
+				" software yang ada di distro tersebut. Ga cuma kernel, atau shell, semuanya."
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Iya, mungkin patch yang udah ada di upstream, bisa jadi patch yang belum di upstream juga ini berlaku buat "
+				},
+				{
+					"type": "italic",
+					"text": "semua"
+				},
+				{
+					"type": "plain",
+					"text": " software yang ada di distro tersebut. Ga cuma kernel, atau shell, semuanya."
+				}
+			]
+		},
+		{
+			"id": 249654,
+			"type": "message",
+			"date": "2023-01-27T23:17:28",
+			"date_unixtime": "1674836248",
+			"from": "9Sense",
+			"from_id": "user5832490906",
+			"reply_to_message_id": 249652,
+			"text": "Support yang dimaksud disini itu yang kaya gimana?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Support yang dimaksud disini itu yang kaya gimana?"
+				}
+			]
+		},
+		{
+			"id": 249655,
+			"type": "message",
+			"date": "2023-01-27T23:18:25",
+			"date_unixtime": "1674836305",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"reply_to_message_id": 249654,
+			"text": "Ya kamu bisa minta Oracle buat nge-patch misalnya, atau nyewa mereka ngerjain sasuatu yang khusus jalan buat use case kamu.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Ya kamu bisa minta Oracle buat nge-patch misalnya, atau nyewa mereka ngerjain sasuatu yang khusus jalan buat use case kamu."
+				}
+			]
+		},
+		{
+			"id": 249656,
+			"type": "message",
+			"date": "2023-01-27T23:19:01",
+			"date_unixtime": "1674836341",
+			"from": "9Sense",
+			"from_id": "user5832490906",
+			"reply_to_message_id": 249655,
+			"text": "Itu free?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Itu free?"
+				}
+			]
+		},
+		{
+			"id": 249657,
+			"type": "message",
+			"date": "2023-01-27T23:19:05",
+			"date_unixtime": "1674836345",
+			"edited": "2023-01-27T23:19:30",
+			"edited_unixtime": "1674836370",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"text": "Misal anggap kamu punya vendor yang bikin aplikasi internal proprietary, yang cuma jalan di Oracle Linux 7, tapi vulnerable karena ada dependensi ke satu paket di Oracle Linux 7. Ya minta oracle buat nolongin kamu biar softwarenya tetep jalan.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Misal anggap kamu punya vendor yang bikin aplikasi internal proprietary, yang cuma jalan di Oracle Linux 7, tapi vulnerable karena ada dependensi ke satu paket di Oracle Linux 7. Ya minta oracle buat nolongin kamu biar softwarenya tetep jalan."
+				}
+			]
+		},
+		{
+			"id": 249658,
+			"type": "message",
+			"date": "2023-01-27T23:19:10",
+			"date_unixtime": "1674836350",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"reply_to_message_id": 249656,
+			"text": "'nyewa' pak :))",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "'nyewa' pak :))"
+				}
+			]
+		},
+		{
+			"id": 249659,
+			"type": "message",
+			"date": "2023-01-27T23:19:33",
+			"date_unixtime": "1674836373",
+			"from": "9Sense",
+			"from_id": "user5832490906",
+			"reply_to_message_id": 249658,
+			"text": "Oalah, bedanya sama yang punyanya RH apa tuh?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Oalah, bedanya sama yang punyanya RH apa tuh?"
+				}
+			]
+		},
+		{
+			"id": 249660,
+			"type": "message",
+			"date": "2023-01-27T23:19:50",
+			"date_unixtime": "1674836390",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"reply_to_message_id": 249659,
+			"text": [
+				"bedanya Oracle Linux optional. RH ",
+				{
+					"type": "italic",
+					"text": "harus"
+				},
+				", kalo mau pake distronya."
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "bedanya Oracle Linux optional. RH "
+				},
+				{
+					"type": "italic",
+					"text": "harus"
+				},
+				{
+					"type": "plain",
+					"text": ", kalo mau pake distronya."
+				}
+			]
+		},
+		{
+			"id": 249661,
+			"type": "message",
+			"date": "2023-01-27T23:19:52",
+			"date_unixtime": "1674836392",
+			"from": "9Sense",
+			"from_id": "user5832490906",
+			"reply_to_message_id": 249658,
+			"text": "Jatohnya kaya hiring dev nya gitu ya?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Jatohnya kaya hiring dev nya gitu ya?"
+				}
+			]
+		},
+		{
+			"id": 249662,
+			"type": "message",
+			"date": "2023-01-27T23:20:07",
+			"date_unixtime": "1674836407",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"reply_to_message_id": 249661,
+			"text": "Nah itu namanya 'support'",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Nah itu namanya 'support'"
+				}
+			]
+		},
+		{
+			"id": 249663,
+			"type": "message",
+			"date": "2023-01-27T23:20:29",
+			"date_unixtime": "1674836429",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"text": "Dan enterprise itu juga sangat seneng kalo ada 'pihak lain yang bisa disalahkan'. Makannya mereka seneng beli support 😛",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Dan enterprise itu juga sangat seneng kalo ada 'pihak lain yang bisa disalahkan'. Makannya mereka seneng beli support 😛"
+				}
+			]
+		},
+		{
+			"id": 249664,
+			"type": "message",
+			"date": "2023-01-27T23:20:29",
+			"date_unixtime": "1674836429",
+			"from": "9Sense",
+			"from_id": "user5832490906",
+			"text": "Oalah",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Oalah"
+				}
+			]
+		},
+		{
+			"id": 249665,
+			"type": "message",
+			"date": "2023-01-27T23:20:43",
+			"date_unixtime": "1674836443",
+			"from": "9Sense",
+			"from_id": "user5832490906",
+			"reply_to_message_id": 249663,
+			"text": "Disalahkan?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Disalahkan?"
+				}
+			]
+		},
+		{
+			"id": 249666,
+			"type": "message",
+			"date": "2023-01-27T23:20:47",
+			"date_unixtime": "1674836447",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"text": "Kalo misalnya nda ada patch apa-apa gimana, ya itu keuntungannya RedHat.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Kalo misalnya nda ada patch apa-apa gimana, ya itu keuntungannya RedHat."
+				}
+			]
+		},
+		{
+			"id": 249667,
+			"type": "message",
+			"date": "2023-01-27T23:21:50",
+			"date_unixtime": "1674836510",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"reply_to_message_id": 249665,
+			"text": "Misal, kamu ada mission critical software, pake RHEL-8. Terus di-hack karena ada vulnerability di kernel yang dipake di RHEL-8. Kamu bisa 'salahkan' redhat.\n\nKalo kamu pake Fedora, ga bisa. Karena As-Is. \n\nApalagi pake arch kwkwkw, sono patch sendiri.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Misal, kamu ada mission critical software, pake RHEL-8. Terus di-hack karena ada vulnerability di kernel yang dipake di RHEL-8. Kamu bisa 'salahkan' redhat.\n\nKalo kamu pake Fedora, ga bisa. Karena As-Is. \n\nApalagi pake arch kwkwkw, sono patch sendiri."
+				}
+			]
+		},
+		{
+			"id": 249668,
+			"type": "message",
+			"date": "2023-01-27T23:24:19",
+			"date_unixtime": "1674836659",
+			"from": "9Sense",
+			"from_id": "user5832490906",
+			"reply_to_message_id": 249667,
+			"text": "Itu nanti dapet komisi ganti rugi nya atau gimana jadi?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Itu nanti dapet komisi ganti rugi nya atau gimana jadi?"
+				}
+			]
+		},
+		{
+			"id": 249669,
+			"type": "message",
+			"date": "2023-01-27T23:25:40",
+			"date_unixtime": "1674836740",
+			"edited": "2023-01-27T23:25:59",
+			"edited_unixtime": "1674836759",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"reply_to_message_id": 249668,
+			"text": "ada lah perjanjiannya 😄 kalo kamu beli barang kan ada TOSnya.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ada lah perjanjiannya 😄 kalo kamu beli barang kan ada TOSnya."
+				}
+			]
+		},
+		{
+			"id": 249670,
+			"type": "message",
+			"date": "2023-01-27T23:26:23",
+			"date_unixtime": "1674836783",
+			"from": "9Sense",
+			"from_id": "user5832490906",
+			"text": "Ok okey nice bang infonya, jadi tau tentang ginian",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Ok okey nice bang infonya, jadi tau tentang ginian"
+				}
+			]
+		},
+		{
+			"id": 249671,
+			"type": "message",
+			"date": "2023-01-27T23:26:43",
+			"date_unixtime": "1674836803",
+			"from": "9Sense",
+			"from_id": "user5832490906",
+			"text": "thanks bang",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "thanks bang"
+				}
+			]
+		},
+		{
+			"id": 249672,
+			"type": "message",
+			"date": "2023-01-27T23:27:02",
+			"date_unixtime": "1674836822",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"photo": "photos/photo_10398@27-01-2023_23-27-02.jpg",
+			"width": 795,
+			"height": 306,
+			"text": "Silahkan hasil prompt saya ke chatgpt",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Silahkan hasil prompt saya ke chatgpt"
+				}
+			]
+		},
+		{
+			"id": 249673,
+			"type": "message",
+			"date": "2023-01-27T23:27:02",
+			"date_unixtime": "1674836822",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"photo": "photos/photo_10399@27-01-2023_23-27-02.jpg",
+			"width": 818,
+			"height": 692,
+			"text": "",
+			"text_entities": []
+		},
+		{
+			"id": 249674,
+			"type": "message",
+			"date": "2023-01-27T23:27:02",
+			"date_unixtime": "1674836822",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"photo": "photos/photo_10400@27-01-2023_23-27-02.jpg",
+			"width": 793,
+			"height": 591,
+			"text": "",
+			"text_entities": []
+		},
+		{
+			"id": 249675,
+			"type": "message",
+			"date": "2023-01-27T23:27:02",
+			"date_unixtime": "1674836822",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"photo": "photos/photo_10401@27-01-2023_23-27-02.jpg",
+			"width": 838,
+			"height": 682,
+			"text": "",
+			"text_entities": []
+		}
+	]
+}
