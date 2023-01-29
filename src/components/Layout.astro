@@ -4,6 +4,7 @@ import { resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { Metadata, metadataSchema } from "~/service/Metadata";
 import { Sidebar } from "./sidebar";
+import Seo from "./Seo.astro";
 
 import "~/styles/global.scss";
 import "@fontsource/space-grotesk/400.css";
@@ -49,19 +50,18 @@ const talks: Metadata[] = await Promise.all(
 const pathname = Astro.url.pathname;
 
 export type Props = {
-	title: string;
+	title?: string | undefined;
+	keywords?: string[] | undefined;
+	summary?: string | undefined;
+	url?: URL | undefined;
 };
 
-const { title } = Astro.props as Props;
+const { title, keywords, summary, url } = Astro.props as Props;
 ---
 
 <html lang="en">
 	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.png" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title} | TGIF</title>
+		<Seo keywords={keywords} summary={summary} url={url} title={title} />
 		<script>
 			import "../scripts/spa-navigation";
 		</script>
@@ -73,26 +73,25 @@ const { title } = Astro.props as Props;
 				<slot />
 			</div>
 		</div>
+		<style lang="scss">
+			@use "../styles/variables.scss";
+
+			.container {
+				position: relative;
+				max-width: 1400px;
+				height: 100%;
+				margin: 0 auto;
+				padding: 2rem;
+				display: grid;
+				gap: 2rem;
+				grid-template-columns: 42rem 1fr;
+			}
+
+			.chat-content {
+				position: relative;
+				height: 100%;
+				max-height: inherit;
+			}
+		</style>
 	</body>
 </html>
-
-<style lang="scss">
-	@use "../styles/variables.scss";
-
-	.container {
-		position: relative;
-		max-width: 1400px;
-		height: 100%;
-		margin: 0 auto;
-		padding: 2rem;
-		display: grid;
-		gap: 2rem;
-		grid-template-columns: 42rem 1fr;
-	}
-
-	.chat-content {
-		position: relative;
-		height: 100%;
-		max-height: inherit;
-	}
-</style>
