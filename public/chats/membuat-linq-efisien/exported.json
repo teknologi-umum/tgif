@@ -1,0 +1,1005 @@
+{
+	"name": "Teknologi Umum v2.0",
+	"type": "public_supergroup",
+	"id": 1712691810,
+	"messages": [
+		{
+			"id": 249136,
+			"type": "message",
+			"date": "2023-01-27T08:43:50",
+			"date_unixtime": "1674783830",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"text": [
+				"ada yang pakai ",
+				{
+					"type": "link",
+					"text": "asp.net"
+				},
+				" MVC? kalau ada kira2 kenapa ya store procedur saat di execute sama linq kok kadang2 lambat? cuman setelah di alter sp nya cepat lagi"
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ada yang pakai "
+				},
+				{
+					"type": "link",
+					"text": "asp.net"
+				},
+				{
+					"type": "plain",
+					"text": " MVC? kalau ada kira2 kenapa ya store procedur saat di execute sama linq kok kadang2 lambat? cuman setelah di alter sp nya cepat lagi"
+				}
+			]
+		},
+		{
+			"id": 249139,
+			"type": "message",
+			"date": "2023-01-27T08:51:39",
+			"date_unixtime": "1674784299",
+			"from": "Raymond WP",
+			"from_id": "user755140638",
+			"reply_to_message_id": 249136,
+			"text": "Linq as in EFCore?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Linq as in EFCore?"
+				}
+			]
+		},
+		{
+			"id": 249140,
+			"type": "message",
+			"date": "2023-01-27T08:55:17",
+			"date_unixtime": "1674784517",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"reply_to_message_id": 249139,
+			"text": "iya pak",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "iya pak"
+				}
+			]
+		},
+		{
+			"id": 249141,
+			"type": "message",
+			"date": "2023-01-27T08:57:15",
+			"date_unixtime": "1674784635",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"text": "cuman ini muncul kadang2, tapi sp nya kalau saya execute di sql management studio aman2 aja cuman beberapa ms",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "cuman ini muncul kadang2, tapi sp nya kalau saya execute di sql management studio aman2 aja cuman beberapa ms"
+				}
+			]
+		},
+		{
+			"id": 249144,
+			"type": "message",
+			"date": "2023-01-27T09:07:52",
+			"date_unixtime": "1674785272",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 249141,
+			"text": "coba ke appsettings.json, set Logging.LogLevel.Default: \"Information\"\nLogging.LogLevel.Microsoft: \"Information\"",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "coba ke appsettings.json, set Logging.LogLevel.Default: \"Information\"\nLogging.LogLevel.Microsoft: \"Information\""
+				}
+			]
+		},
+		{
+			"id": 249145,
+			"type": "message",
+			"date": "2023-01-27T09:08:02",
+			"date_unixtime": "1674785282",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "terus query lagi. cek keluar berapa banyak query",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "terus query lagi. cek keluar berapa banyak query"
+				}
+			]
+		},
+		{
+			"id": 249146,
+			"type": "message",
+			"date": "2023-01-27T09:08:22",
+			"date_unixtime": "1674785302",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "kalau lebih dari 1, artinya coding kamu bermasalah, kena N+1 problem",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kalau lebih dari 1, artinya coding kamu bermasalah, kena N+1 problem"
+				}
+			]
+		},
+		{
+			"id": 249147,
+			"type": "message",
+			"date": "2023-01-27T09:08:34",
+			"date_unixtime": "1674785314",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"reply_to_message_id": 249144,
+			"text": [
+				"kalau di ",
+				{
+					"type": "link",
+					"text": "asp.net"
+				},
+				" mvc 5 ini enggak ada pak, cuman ada web.config"
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kalau di "
+				},
+				{
+					"type": "link",
+					"text": "asp.net"
+				},
+				{
+					"type": "plain",
+					"text": " mvc 5 ini enggak ada pak, cuman ada web.config"
+				}
+			]
+		},
+		{
+			"id": 249148,
+			"type": "message",
+			"date": "2023-01-27T09:08:54",
+			"date_unixtime": "1674785334",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "ya udah coba copas LINQ nya ke sini",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ya udah coba copas LINQ nya ke sini"
+				}
+			]
+		},
+		{
+			"id": 249149,
+			"type": "message",
+			"date": "2023-01-27T09:10:08",
+			"date_unixtime": "1674785408",
+			"edited": "2023-01-27T09:10:41",
+			"edited_unixtime": "1674785441",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"reply_to_message_id": 249148,
+			"text": "List<procGetPO_Result> datacount = (from d in db.procGetPO(roleId,startDate,endDate) select d).ToList();",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "List<procGetPO_Result> datacount = (from d in db.procGetPO(roleId,startDate,endDate) select d).ToList();"
+				}
+			]
+		},
+		{
+			"id": 249150,
+			"type": "message",
+			"date": "2023-01-27T09:10:46",
+			"date_unixtime": "1674785446",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"text": "disini yang lambat pak",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "disini yang lambat pak"
+				}
+			]
+		},
+		{
+			"id": 249154,
+			"type": "message",
+			"date": "2023-01-27T09:12:11",
+			"date_unixtime": "1674785531",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 249151,
+			"text": "mending masukin pastebin wkwkwkw",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "mending masukin pastebin wkwkwkw"
+				}
+			]
+		},
+		{
+			"id": 249155,
+			"type": "message",
+			"date": "2023-01-27T09:12:16",
+			"date_unixtime": "1674785536",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"text": "ini versi lengkap controllernya",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ini versi lengkap controllernya"
+				}
+			]
+		},
+		{
+			"id": 249156,
+			"type": "message",
+			"date": "2023-01-27T09:13:19",
+			"date_unixtime": "1674785599",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"reply_to_message_id": 249154,
+			"text": [
+				{
+					"type": "link",
+					"text": "https://pastebin.com/kp4kBAqt"
+				}
+			],
+			"text_entities": [
+				{
+					"type": "link",
+					"text": "https://pastebin.com/kp4kBAqt"
+				}
+			]
+		},
+		{
+			"id": 249157,
+			"type": "message",
+			"date": "2023-01-27T09:14:57",
+			"date_unixtime": "1674785697",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"reply_to_message_id": 249149,
+			"text": "lambatnya disini aja ketika saya debug",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "lambatnya disini aja ketika saya debug"
+				}
+			]
+		},
+		{
+			"id": 249158,
+			"type": "message",
+			"date": "2023-01-27T09:16:00",
+			"date_unixtime": "1674785760",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"photo": "photos/photo_10368@27-01-2023_09-16-00.jpg",
+			"width": 66,
+			"height": 31,
+			"text": "",
+			"text_entities": []
+		},
+		{
+			"id": 249160,
+			"type": "message",
+			"date": "2023-01-27T09:18:09",
+			"date_unixtime": "1674785889",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 249156,
+			"text": "dotnet berapa?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "dotnet berapa?"
+				}
+			]
+		},
+		{
+			"id": 249161,
+			"type": "message",
+			"date": "2023-01-27T09:18:25",
+			"date_unixtime": "1674785905",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"reply_to_message_id": 249160,
+			"text": "4.8 pak",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "4.8 pak"
+				}
+			]
+		},
+		{
+			"id": 249163,
+			"type": "message",
+			"date": "2023-01-27T09:18:54",
+			"date_unixtime": "1674785934",
+			"from": "Raymond WP",
+			"from_id": "user755140638",
+			"text": ".net framework ya berarti",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": ".net framework ya berarti"
+				}
+			]
+		},
+		{
+			"id": 249164,
+			"type": "message",
+			"date": "2023-01-27T09:19:23",
+			"date_unixtime": "1674785963",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"reply_to_message_id": 249162,
+			"text": "setelah saya check masih yg 4.5.2 rupanya",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "setelah saya check masih yg 4.5.2 rupanya"
+				}
+			]
+		},
+		{
+			"id": 249170,
+			"type": "message",
+			"date": "2023-01-27T09:23:55",
+			"date_unixtime": "1674786235",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "dulu saya pernah ngasih wejangan soal IQueryable vs IEnumerable vs ICollection tapi kayanya udah kehapus",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "dulu saya pernah ngasih wejangan soal IQueryable vs IEnumerable vs ICollection tapi kayanya udah kehapus"
+				}
+			]
+		},
+		{
+			"id": 249171,
+			"type": "message",
+			"date": "2023-01-27T09:25:57",
+			"date_unixtime": "1674786357",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 249167,
+			"text": "hati2 bikin complex where clause di LINQ",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "hati2 bikin complex where clause di LINQ"
+				}
+			]
+		},
+		{
+			"id": 249173,
+			"type": "message",
+			"date": "2023-01-27T09:26:19",
+			"date_unixtime": "1674786379",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "kamu harus tau kamu sedang apply LINQ operator di IEnumerable, IQueryable, atau ICollection",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kamu harus tau kamu sedang apply LINQ operator di IEnumerable, IQueryable, atau ICollection"
+				}
+			]
+		},
+		{
+			"id": 249174,
+			"type": "message",
+			"date": "2023-01-27T09:26:36",
+			"date_unixtime": "1674786396",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "depending on the target type, hasilnya beda2 biarpun kelihatan isomorphic",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "depending on the target type, hasilnya beda2 biarpun kelihatan isomorphic"
+				}
+			]
+		},
+		{
+			"id": 249175,
+			"type": "message",
+			"date": "2023-01-27T09:26:49",
+			"date_unixtime": "1674786409",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"reply_to_message_id": 249173,
+			"text": "Itu tiga2nya harus realised/collected atau engga om?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Itu tiga2nya harus realised/collected atau engga om?"
+				}
+			]
+		},
+		{
+			"id": 249176,
+			"type": "message",
+			"date": "2023-01-27T09:27:45",
+			"date_unixtime": "1674786465",
+			"edited": "2023-01-27T09:27:52",
+			"edited_unixtime": "1674786472",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 249175,
+			"text": [
+				{
+					"type": "code",
+					"text": "ICollection"
+				},
+				": materialized\n",
+				{
+					"type": "code",
+					"text": "IEnumerable"
+				},
+				": stream, reenumerated every time\n",
+				{
+					"type": "code",
+					"text": "IQueryable"
+				},
+				": expression (AST) builder. cuma build expression tree, lalu converted ke bentuk lain ketika dicompile"
+			],
+			"text_entities": [
+				{
+					"type": "code",
+					"text": "ICollection"
+				},
+				{
+					"type": "plain",
+					"text": ": materialized\n"
+				},
+				{
+					"type": "code",
+					"text": "IEnumerable"
+				},
+				{
+					"type": "plain",
+					"text": ": stream, reenumerated every time\n"
+				},
+				{
+					"type": "code",
+					"text": "IQueryable"
+				},
+				{
+					"type": "plain",
+					"text": ": expression (AST) builder. cuma build expression tree, lalu converted ke bentuk lain ketika dicompile"
+				}
+			]
+		},
+		{
+			"id": 249177,
+			"type": "message",
+			"date": "2023-01-27T09:28:20",
+			"date_unixtime": "1674786500",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"reply_to_message_id": 249176,
+			"text": "Woke, clear",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Woke, clear"
+				}
+			]
+		},
+		{
+			"id": 249179,
+			"type": "message",
+			"date": "2023-01-27T09:29:04",
+			"date_unixtime": "1674786544",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"reply_to_message_id": 249168,
+			"text": "btw enggak bisa",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "btw enggak bisa"
+				}
+			]
+		},
+		{
+			"id": 249180,
+			"type": "message",
+			"date": "2023-01-27T09:29:27",
+			"date_unixtime": "1674786567",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "common mistake ketika pake LINQ to SQL atau EF itu adalah bikin IQueryable yang di C# dianggap simple operation, tapi either nggak ada padanannya di SQL atau nggak efisien ketika ditranslate ke SQL",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "common mistake ketika pake LINQ to SQL atau EF itu adalah bikin IQueryable yang di C# dianggap simple operation, tapi either nggak ada padanannya di SQL atau nggak efisien ketika ditranslate ke SQL"
+				}
+			]
+		},
+		{
+			"id": 249181,
+			"type": "message",
+			"date": "2023-01-27T09:30:33",
+			"date_unixtime": "1674786633",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"reply_to_message_id": 249176,
+			"text": [
+				"iya saya pakai IEnumerable saat exec ",
+				{
+					"type": "link",
+					"text": "https://t.me/teknologi_umum_v2/249149"
+				},
+				", karena datatable butuh total rows"
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "iya saya pakai IEnumerable saat exec "
+				},
+				{
+					"type": "link",
+					"text": "https://t.me/teknologi_umum_v2/249149"
+				},
+				{
+					"type": "plain",
+					"text": ", karena datatable butuh total rows"
+				}
+			]
+		},
+		{
+			"id": 249184,
+			"type": "message",
+			"date": "2023-01-27T09:31:27",
+			"date_unixtime": "1674786687",
+			"from": "dicha?",
+			"from_id": "user925009191",
+			"reply_to_message_id": 249181,
+			"text": "ini udah jadi list, udah enumerated",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ini udah jadi list, udah enumerated"
+				}
+			]
+		},
+		{
+			"id": 249185,
+			"type": "message",
+			"date": "2023-01-27T09:31:32",
+			"date_unixtime": "1674786692",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 249180,
+			"text": [
+				"jadi instead of doing this:\n\n",
+				{
+					"type": "pre",
+					"text": "query = query.OrderBy(item => {\n  switch (sortkey) {\n    case 0: return item.Name;\n    case 1: return item.Price;\n    default: return item.Id;\n  }\n});",
+					"language": ""
+				},
+				"\n\ndo this:\n\n",
+				{
+					"type": "pre",
+					"text": "switch (sortkey) {\n  case 0:\n    query = query.OrderBy(x => x.Name);\n    break;\n  case 1:\n    query = query.OrderBy(x => x.Price);\n    break;\n  default:\n    query = query.OrderBy(x => x.Id);\n    break;\n}",
+					"language": ""
+				}
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "jadi instead of doing this:\n\n"
+				},
+				{
+					"type": "pre",
+					"text": "query = query.OrderBy(item => {\n  switch (sortkey) {\n    case 0: return item.Name;\n    case 1: return item.Price;\n    default: return item.Id;\n  }\n});",
+					"language": ""
+				},
+				{
+					"type": "plain",
+					"text": "\n\ndo this:\n\n"
+				},
+				{
+					"type": "pre",
+					"text": "switch (sortkey) {\n  case 0:\n    query = query.OrderBy(x => x.Name);\n    break;\n  case 1:\n    query = query.OrderBy(x => x.Price);\n    break;\n  default:\n    query = query.OrderBy(x => x.Id);\n    break;\n}",
+					"language": ""
+				}
+			]
+		},
+		{
+			"id": 249190,
+			"type": "message",
+			"date": "2023-01-27T09:32:20",
+			"date_unixtime": "1674786740",
+			"edited": "2023-01-27T09:33:23",
+			"edited_unixtime": "1674786803",
+			"from": "dicha?",
+			"from_id": "user925009191",
+			"text": "IEnumerable sama List beda, List implements IEnumerable, tapi ga semua IEnumerable itu List",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "IEnumerable sama List beda, List implements IEnumerable, tapi ga semua IEnumerable itu List"
+				}
+			]
+		},
+		{
+			"id": 249191,
+			"type": "message",
+			"date": "2023-01-27T09:32:31",
+			"date_unixtime": "1674786751",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 249185,
+			"text": "versi atas itu nambahin something complex ke dalam IQueryable. udah pasti chaos ensues. sedangkan versi bawah apply perubahan IQueryable tergantung sikon",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "versi atas itu nambahin something complex ke dalam IQueryable. udah pasti chaos ensues. sedangkan versi bawah apply perubahan IQueryable tergantung sikon"
+				}
+			]
+		},
+		{
+			"id": 249193,
+			"type": "message",
+			"date": "2023-01-27T09:32:43",
+			"date_unixtime": "1674786763",
+			"from": "Albilaga",
+			"from_id": "user219201706",
+			"reply_to_message_id": 249179,
+			"text": "Iya ngga bisa krn itu di c# baru si. Sedangkan km pake .net framework 4.5 bisa aja c# nya masi jadul juga",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Iya ngga bisa krn itu di c# baru si. Sedangkan km pake .net framework 4.5 bisa aja c# nya masi jadul juga"
+				}
+			]
+		},
+		{
+			"id": 249194,
+			"type": "message",
+			"date": "2023-01-27T09:32:58",
+			"date_unixtime": "1674786778",
+			"from": "dicha?",
+			"from_id": "user925009191",
+			"reply_to_message_id": 249185,
+			"text": "TIL",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "TIL"
+				}
+			]
+		},
+		{
+			"id": 249195,
+			"type": "message",
+			"date": "2023-01-27T09:32:59",
+			"date_unixtime": "1674786779",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"reply_to_message_id": 249185,
+			"text": "untuk nambah asc/descnya dimana pak?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "untuk nambah asc/descnya dimana pak?"
+				}
+			]
+		},
+		{
+			"id": 249196,
+			"type": "message",
+			"date": "2023-01-27T09:33:02",
+			"date_unixtime": "1674786782",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 249185,
+			"text": "di dalam IEnumerable dan ICollection memang kedua hal ini sama aja. tapi di IQueryable hasilnya beda jauh",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "di dalam IEnumerable dan ICollection memang kedua hal ini sama aja. tapi di IQueryable hasilnya beda jauh"
+				}
+			]
+		},
+		{
+			"id": 249197,
+			"type": "message",
+			"date": "2023-01-27T09:33:33",
+			"date_unixtime": "1674786813",
+			"edited": "2023-01-27T09:34:14",
+			"edited_unixtime": "1674786854",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"reply_to_message_id": 249193,
+			"text": "saya orang jadul :(",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "saya orang jadul :("
+				}
+			]
+		},
+		{
+			"id": 249198,
+			"type": "message",
+			"date": "2023-01-27T09:34:04",
+			"date_unixtime": "1674786844",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"reply_to_message_id": 249196,
+			"text": "bener pak, saya buat begitu karena datatablenya butuh total rows",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "bener pak, saya buat begitu karena datatablenya butuh total rows"
+				}
+			]
+		},
+		{
+			"id": 249199,
+			"type": "message",
+			"date": "2023-01-27T09:34:36",
+			"date_unixtime": "1674786876",
+			"edited": "2023-01-27T09:35:07",
+			"edited_unixtime": "1674786907",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 249195,
+			"text": [
+				{
+					"type": "pre",
+					"text": "switch (sortkey) {\n  case nameof(Foo.Name):\n    if (sortasc) {\n      query = query.OrderBy(x => x.Name);\n    } else {\n      query = query.OrderByDescending(x => x.Name);\n    }\n    break;\n  ....\n}",
+					"language": ""
+				}
+			],
+			"text_entities": [
+				{
+					"type": "pre",
+					"text": "switch (sortkey) {\n  case nameof(Foo.Name):\n    if (sortasc) {\n      query = query.OrderBy(x => x.Name);\n    } else {\n      query = query.OrderByDescending(x => x.Name);\n    }\n    break;\n  ....\n}",
+					"language": ""
+				}
+			]
+		},
+		{
+			"id": 249202,
+			"type": "message",
+			"date": "2023-01-27T09:35:39",
+			"date_unixtime": "1674786939",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"reply_to_message_id": 249199,
+			"photo": "photos/photo_10371@27-01-2023_09-35-39.jpg",
+			"width": 823,
+			"height": 389,
+			"text": "panjang jadi code nya ya pak",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "panjang jadi code nya ya pak"
+				}
+			]
+		},
+		{
+			"id": 249203,
+			"type": "message",
+			"date": "2023-01-27T09:35:58",
+			"date_unixtime": "1674786958",
+			"edited": "2023-01-27T09:42:36",
+			"edited_unixtime": "1674787356",
+			"from": "dicha?",
+			"from_id": "user925009191",
+			"reply_to_message_id": 249202,
+			"text": "panjang != ga efisien",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "panjang != ga efisien"
+				}
+			]
+		},
+		{
+			"id": 249204,
+			"type": "message",
+			"date": "2023-01-27T09:36:04",
+			"date_unixtime": "1674786964",
+			"from": "dicha?",
+			"from_id": "user925009191",
+			"text": "biarin aja panjang wkwkw",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "biarin aja panjang wkwkw"
+				}
+			]
+		},
+		{
+			"id": 249205,
+			"type": "message",
+			"date": "2023-01-27T09:36:11",
+			"date_unixtime": "1674786971",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 249202,
+			"text": "ordering function kamu complex",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ordering function kamu complex"
+				}
+			]
+		},
+		{
+			"id": 249209,
+			"type": "message",
+			"date": "2023-01-27T09:36:55",
+			"date_unixtime": "1674787015",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				"lagian harusnya kamu pakai ",
+				{
+					"type": "code",
+					"text": "Expression<Func<ModelName, string>>"
+				},
+				" bukan ",
+				{
+					"type": "code",
+					"text": "Func<ModelName, string>"
+				}
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "lagian harusnya kamu pakai "
+				},
+				{
+					"type": "code",
+					"text": "Expression<Func<ModelName, string>>"
+				},
+				{
+					"type": "plain",
+					"text": " bukan "
+				},
+				{
+					"type": "code",
+					"text": "Func<ModelName, string>"
+				}
+			]
+		},
+		{
+			"id": 249216,
+			"type": "message",
+			"date": "2023-01-27T09:39:09",
+			"date_unixtime": "1674787149",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"reply_to_message_id": 249209,
+			"text": "ini kalau pake IQueryAble pak",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ini kalau pake IQueryAble pak"
+				}
+			]
+		},
+		{
+			"id": 249217,
+			"type": "message",
+			"date": "2023-01-27T09:39:19",
+			"date_unixtime": "1674787159",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"photo": "photos/photo_10375@27-01-2023_09-39-19.jpg",
+			"width": 1237,
+			"height": 72,
+			"text": "",
+			"text_entities": []
+		},
+		{
+			"id": 249218,
+			"type": "message",
+			"date": "2023-01-27T09:39:21",
+			"date_unixtime": "1674787161",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 249216,
+			"text": "itu ICollection?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "itu ICollection?"
+				}
+			]
+		},
+		{
+			"id": 249219,
+			"type": "message",
+			"date": "2023-01-27T09:39:32",
+			"date_unixtime": "1674787172",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "oh enumerable",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "oh enumerable"
+				}
+			]
+		},
+		{
+			"id": 249220,
+			"type": "message",
+			"date": "2023-01-27T09:39:34",
+			"date_unixtime": "1674787174",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "aman kalo gitu",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "aman kalo gitu"
+				}
+			]
+		},
+		{
+			"id": 249232,
+			"type": "message",
+			"date": "2023-01-27T09:47:31",
+			"date_unixtime": "1674787651",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"reply_to_message_id": 249220,
+			"text": [
+				"aman berarti tetap pakai ",
+				{
+					"type": "code",
+					"text": "Func<ModelName, string>"
+				},
+				" kan pak?"
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "aman berarti tetap pakai "
+				},
+				{
+					"type": "code",
+					"text": "Func<ModelName, string>"
+				},
+				{
+					"type": "plain",
+					"text": " kan pak?"
+				}
+			]
+		},
+		{
+			"id": 249237,
+			"type": "message",
+			"date": "2023-01-27T10:21:03",
+			"date_unixtime": "1674789663",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 249232,
+			"text": "aman",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "aman"
+				}
+			]
+		}
+	]
+}
