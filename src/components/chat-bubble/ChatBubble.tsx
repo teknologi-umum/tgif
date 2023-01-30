@@ -49,6 +49,16 @@ export function ChatBubble(props: ChatBubbleProps) {
 						class={resolveMediaClassname()}
 						src={props.hasMedia ? `/chats/${props.slug}/${props.file}` : ""}
 					/>
+					<Show when={props.text.length}>
+						<div
+							class="chat-content"
+							style={{
+								"padding": props.repliedTo ? "0" : "1rem 2rem 1.5rem 2rem",
+								"padding-top": "1rem"
+							}}
+							innerHTML={props.text}
+						/>
+					</Show>
 				</Match>
 				<Match when={!props.hasMedia}>
 					<div class="chat-content" innerHTML={props.text} />
