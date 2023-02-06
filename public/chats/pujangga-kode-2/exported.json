@@ -1,0 +1,2335 @@
+{
+ "name": "JavaScript Indonesia",
+ "type": "public_supergroup",
+ "id": 1240569966,
+ "messages": [
+  {
+   "id": 235377,
+   "type": "message",
+   "date": "2021-09-13T18:35:24",
+   "date_unixtime": "1631532924",
+   "from": "R",
+   "from_id": "user828275495",
+   "text": "Referensi belajar javascript dimna yah?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Referensi belajar javascript dimna yah?"
+    }
+   ]
+  },
+  {
+   "id": 235378,
+   "type": "message",
+   "date": "2021-09-13T18:37:38",
+   "date_unixtime": "1631533058",
+   "from": "ahmadramadhan:~$",
+   "from_id": "user1010384977",
+   "reply_to_message_id": 235377,
+   "text": "pinned message",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "pinned message"
+    }
+   ]
+  },
+  {
+   "id": 235379,
+   "type": "message",
+   "date": "2021-09-13T18:38:18",
+   "date_unixtime": "1631533098",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235377,
+   "text": [
+    "kalo suka baca: ",
+    {
+     "type": "link",
+     "text": "https://javascript.info/"
+    },
+    "\n\nkalo suka nonton: youtube."
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "kalo suka baca: "
+    },
+    {
+     "type": "link",
+     "text": "https://javascript.info/"
+    },
+    {
+     "type": "plain",
+     "text": "\n\nkalo suka nonton: youtube."
+    }
+   ]
+  },
+  {
+   "id": 235380,
+   "type": "message",
+   "date": "2021-09-13T18:38:58",
+   "date_unixtime": "1631533138",
+   "from": "R",
+   "from_id": "user828275495",
+   "reply_to_message_id": 235379,
+   "text": "ini bahasa indo atau inggris yah?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "ini bahasa indo atau inggris yah?"
+    }
+   ]
+  },
+  {
+   "id": 235381,
+   "type": "message",
+   "date": "2021-09-13T18:39:09",
+   "date_unixtime": "1631533149",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235380,
+   "text": "inggris",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "inggris"
+    }
+   ]
+  },
+  {
+   "id": 235382,
+   "type": "message",
+   "date": "2021-09-13T18:39:22",
+   "date_unixtime": "1631533162",
+   "from": "R",
+   "from_id": "user828275495",
+   "reply_to_message_id": 235381,
+   "text": "kalo yang indonya dimna ya?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "kalo yang indonya dimna ya?"
+    }
+   ]
+  },
+  {
+   "id": 235383,
+   "type": "message",
+   "date": "2021-09-13T18:42:30",
+   "date_unixtime": "1631533350",
+   "from": "Zy.",
+   "from_id": "user832739974",
+   "reply_to_message_id": 235382,
+   "text": "Klik kanan translate..",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Klik kanan translate.."
+    }
+   ]
+  },
+  {
+   "id": 235386,
+   "type": "message",
+   "date": "2021-09-13T18:46:55",
+   "date_unixtime": "1631533615",
+   "from": "Ronny Gunawan ️",
+   "from_id": "user149994951",
+   "reply_to_message_id": 235382,
+   "text": "Selama ini saya tidak pernah menemukan pranala ke laman yang membahas soal pengenalan dasar-dasar pembubuhan kode naskah jawa dalam Bahasa Indonesia yang baik dan benar. Mungkin yang di bawah saya punya pranala yang dibutuhkan.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Selama ini saya tidak pernah menemukan pranala ke laman yang membahas soal pengenalan dasar-dasar pembubuhan kode naskah jawa dalam Bahasa Indonesia yang baik dan benar. Mungkin yang di bawah saya punya pranala yang dibutuhkan."
+    }
+   ]
+  },
+  {
+   "id": 235387,
+   "type": "message",
+   "date": "2021-09-13T18:47:19",
+   "date_unixtime": "1631533639",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "text": "Wah kebetulan saya juga tidak punya pranala yang dimaksud. Mungkin pujangga kode lain yang dibawah saya mempunyainya.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Wah kebetulan saya juga tidak punya pranala yang dimaksud. Mungkin pujangga kode lain yang dibawah saya mempunyainya."
+    }
+   ]
+  },
+  {
+   "id": 235388,
+   "type": "message",
+   "date": "2021-09-13T18:47:20",
+   "date_unixtime": "1631533640",
+   "edited": "2021-09-13T18:49:42",
+   "edited_unixtime": "1631533782",
+   "from": "Valian Masdani",
+   "from_id": "user714871055",
+   "text": "Saya terbiasa mendalami pembubuhan kode Naskah Jawa di pembubuhan kode jaring universitas pasundan",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Saya terbiasa mendalami pembubuhan kode Naskah Jawa di pembubuhan kode jaring universitas pasundan"
+    }
+   ]
+  },
+  {
+   "id": 235389,
+   "type": "message",
+   "date": "2021-09-13T18:48:45",
+   "date_unixtime": "1631533725",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235388,
+   "text": "Universitas Pasundan terdengar menarik, bagaimana pembubuhan Naskah Jawa dipelajari di universitas tersebut?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Universitas Pasundan terdengar menarik, bagaimana pembubuhan Naskah Jawa dipelajari di universitas tersebut?"
+    }
+   ]
+  },
+  {
+   "id": 235390,
+   "type": "message",
+   "date": "2021-09-13T18:49:34",
+   "date_unixtime": "1631533774",
+   "from": "Herlangga yusuf syailendra",
+   "from_id": "user1479018780",
+   "reply_to_message_id": 235388,
+   "text": "bukan skript bang itu naskah",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "bukan skript bang itu naskah"
+    }
+   ]
+  },
+  {
+   "id": 235391,
+   "type": "message",
+   "date": "2021-09-13T18:49:51",
+   "date_unixtime": "1631533791",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235390,
+   "text": "Maaf, pak Herlangga, mohon perhatikan EYD.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Maaf, pak Herlangga, mohon perhatikan EYD."
+    }
+   ]
+  },
+  {
+   "id": 235392,
+   "type": "message",
+   "date": "2021-09-13T18:50:00",
+   "date_unixtime": "1631533800",
+   "from": "Valian Masdani",
+   "from_id": "user714871055",
+   "reply_to_message_id": 235390,
+   "text": "Siap, telah saya sunting",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Siap, telah saya sunting"
+    }
+   ]
+  },
+  {
+   "id": 235393,
+   "type": "message",
+   "date": "2021-09-13T18:50:38",
+   "date_unixtime": "1631533838",
+   "from": "Valian Masdani",
+   "from_id": "user714871055",
+   "reply_to_message_id": 235389,
+   "text": "Sangat bagus. Pembubuhan kode yang diberikan instruktur sandika galih bak cenayang",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Sangat bagus. Pembubuhan kode yang diberikan instruktur sandika galih bak cenayang"
+    }
+   ]
+  },
+  {
+   "id": 235394,
+   "type": "message",
+   "date": "2021-09-13T18:50:40",
+   "date_unixtime": "1631533840",
+   "from": "Ronny Gunawan ️",
+   "from_id": "user149994951",
+   "reply_to_message_id": 235383,
+   "text": "Hasil dari google terjemahan sejatinya bukanlah bahasa Indonesia.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hasil dari google terjemahan sejatinya bukanlah bahasa Indonesia."
+    }
+   ]
+  },
+  {
+   "id": 235395,
+   "type": "message",
+   "date": "2021-09-13T18:52:57",
+   "date_unixtime": "1631533977",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235393,
+   "text": "Saya dengar ada berbagai bahasa lain yang dipelajari seperti bahasa Pengolahan Teks Berlebih dan Lembar Gaya Berjenjang",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Saya dengar ada berbagai bahasa lain yang dipelajari seperti bahasa Pengolahan Teks Berlebih dan Lembar Gaya Berjenjang"
+    }
+   ]
+  },
+  {
+   "id": 235396,
+   "type": "message",
+   "date": "2021-09-13T18:54:21",
+   "date_unixtime": "1631534061",
+   "edited": "2021-09-13T18:55:04",
+   "edited_unixtime": "1631534104",
+   "from": "Valian Masdani",
+   "from_id": "user714871055",
+   "reply_to_message_id": 235395,
+   "text": "Betul. Bukan spesifik kepada bahasa pembubuhan kode saja, tapi juga ada pembahasan tentang kerangka kerja",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Betul. Bukan spesifik kepada bahasa pembubuhan kode saja, tapi juga ada pembahasan tentang kerangka kerja"
+    }
+   ]
+  },
+  {
+   "id": 235397,
+   "type": "message",
+   "date": "2021-09-13T18:55:34",
+   "date_unixtime": "1631534134",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235396,
+   "text": [
+    "Dengar-dengar pak ",
+    {
+     "type": "mention",
+     "text": "@manusia_bernapas_ii"
+    },
+    " ingin mengajarkan kerangka kerja Ramping kalau beliau sudah lebih senggang nanti. Saya semakin tertarik."
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Dengar-dengar pak "
+    },
+    {
+     "type": "mention",
+     "text": "@manusia_bernapas_ii"
+    },
+    {
+     "type": "plain",
+     "text": " ingin mengajarkan kerangka kerja Ramping kalau beliau sudah lebih senggang nanti. Saya semakin tertarik."
+    }
+   ]
+  },
+  {
+   "id": 235398,
+   "type": "message",
+   "date": "2021-09-13T18:56:16",
+   "date_unixtime": "1631534176",
+   "from": "Ronny Gunawan ️",
+   "from_id": "user149994951",
+   "reply_to_message_id": 235395,
+   "text": "Ada juga bahasa pembubuhan kode kesukaan saya di permukaan titik jala. Salah satunya C Tajam.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ada juga bahasa pembubuhan kode kesukaan saya di permukaan titik jala. Salah satunya C Tajam."
+    }
+   ]
+  },
+  {
+   "id": 235399,
+   "type": "message",
+   "date": "2021-09-13T18:57:16",
+   "date_unixtime": "1631534236",
+   "from": "Model Komputasi",
+   "from_id": "user1354524888",
+   "text": "Halo, rekan.\n\nPerkenalan saya modestus, sedang belajar Javascript. \n\nMohon kerjasamanya dalam berkomunitas.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Halo, rekan.\n\nPerkenalan saya modestus, sedang belajar Javascript. \n\nMohon kerjasamanya dalam berkomunitas."
+    }
+   ]
+  },
+  {
+   "id": 235400,
+   "type": "message",
+   "date": "2021-09-13T18:58:02",
+   "date_unixtime": "1631534282",
+   "from": "Ronny Gunawan ️",
+   "from_id": "user149994951",
+   "reply_to_message_id": 235399,
+   "text": "Halo juga rekan. Selamat datang di paguyuban telegram ini. Kalau ada pertanyaan seputar naskah jawa bisa langsung ditanyakan.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Halo juga rekan. Selamat datang di paguyuban telegram ini. Kalau ada pertanyaan seputar naskah jawa bisa langsung ditanyakan."
+    }
+   ]
+  },
+  {
+   "id": 235401,
+   "type": "message",
+   "date": "2021-09-13T18:58:15",
+   "date_unixtime": "1631534295",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235398,
+   "text": "Berkat saran dari pak Ronny kemarin, saya jadi mencoba mempelajari pembubuhan kode C Tajam. Ternyata, mempelajari C Tajam lebih baik dalam hal pengalaman pembubuh kode dibandingkan dengan mempelajari pembubuhan kode Jawa ataupun C Tambah Tambah.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Berkat saran dari pak Ronny kemarin, saya jadi mencoba mempelajari pembubuhan kode C Tajam. Ternyata, mempelajari C Tajam lebih baik dalam hal pengalaman pembubuh kode dibandingkan dengan mempelajari pembubuhan kode Jawa ataupun C Tambah Tambah."
+    }
+   ]
+  },
+  {
+   "id": 235402,
+   "type": "message",
+   "date": "2021-09-13T18:58:53",
+   "date_unixtime": "1631534333",
+   "from": "dicha?",
+   "from_id": "user925009191",
+   "reply_to_message_id": 235399,
+   "text": "Halo juga. Semoga anda bisa mendapatkan ilmu yang berguna dari para pujangga kode disini.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Halo juga. Semoga anda bisa mendapatkan ilmu yang berguna dari para pujangga kode disini."
+    }
+   ]
+  },
+  {
+   "id": 235403,
+   "type": "message",
+   "date": "2021-09-13T18:59:07",
+   "date_unixtime": "1631534347",
+   "from": "Ronny Gunawan ️",
+   "from_id": "user149994951",
+   "text": [
+    "Narahubung yang terpercaya untuk berkonsultasi naskah jawa di antaranya ",
+    {
+     "type": "mention",
+     "text": "@jason_wihardja"
+    },
+    " dan ",
+    {
+     "type": "mention",
+     "text": "@aldy505"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Narahubung yang terpercaya untuk berkonsultasi naskah jawa di antaranya "
+    },
+    {
+     "type": "mention",
+     "text": "@jason_wihardja"
+    },
+    {
+     "type": "plain",
+     "text": " dan "
+    },
+    {
+     "type": "mention",
+     "text": "@aldy505"
+    }
+   ]
+  },
+  {
+   "id": 235404,
+   "type": "message",
+   "date": "2021-09-13T19:00:08",
+   "date_unixtime": "1631534408",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235403,
+   "text": "Ah, pak Ronny bisa saja.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ah, pak Ronny bisa saja."
+    }
+   ]
+  },
+  {
+   "id": 235405,
+   "type": "message",
+   "date": "2021-09-13T19:00:41",
+   "date_unixtime": "1631534441",
+   "edited": "2021-09-13T19:00:51",
+   "edited_unixtime": "1631534451",
+   "from": "Model Komputasi",
+   "from_id": "user1354524888",
+   "text": "Baik, Terima kasih atas pengantarnya pak Ronny dan pak Dicha.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Baik, Terima kasih atas pengantarnya pak Ronny dan pak Dicha."
+    }
+   ]
+  },
+  {
+   "id": 235406,
+   "type": "message",
+   "date": "2021-09-13T19:02:06",
+   "date_unixtime": "1631534526",
+   "from": "Valian Masdani",
+   "from_id": "user714871055",
+   "reply_to_message_id": 235403,
+   "text": "Tambah satu.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Tambah satu."
+    }
+   ]
+  },
+  {
+   "id": 235407,
+   "type": "message",
+   "date": "2021-09-13T19:02:14",
+   "date_unixtime": "1631534534",
+   "from": "artupardnahC ibuR",
+   "from_id": "user1905898432",
+   "reply_to_message_id": 235382,
+   "text": "Apakah ada masalah dengan pranalar naskah Jawa berbahasa Indonesia? Mungkin setiap orang berbeda, saya pribadi lebih menyukai pranala berbahasa inggris",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Apakah ada masalah dengan pranalar naskah Jawa berbahasa Indonesia? Mungkin setiap orang berbeda, saya pribadi lebih menyukai pranala berbahasa inggris"
+    }
+   ]
+  },
+  {
+   "id": 235408,
+   "type": "message",
+   "date": "2021-09-13T19:02:24",
+   "date_unixtime": "1631534544",
+   "from": "Ronny Gunawan ️",
+   "from_id": "user149994951",
+   "reply_to_message_id": 235401,
+   "text": "Bagaimana pengalamannya menjadi cendekiawan C tajam? mudah bukan membubuhkannya?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Bagaimana pengalamannya menjadi cendekiawan C tajam? mudah bukan membubuhkannya?"
+    }
+   ]
+  },
+  {
+   "id": 235409,
+   "type": "message",
+   "date": "2021-09-13T19:02:49",
+   "date_unixtime": "1631534569",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235408,
+   "text": "Cukup mudah, kebetulan kemarin saya mempelajarinya pada kecepatan mematahkan leher.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Cukup mudah, kebetulan kemarin saya mempelajarinya pada kecepatan mematahkan leher."
+    }
+   ]
+  },
+  {
+   "id": 235410,
+   "type": "message",
+   "date": "2021-09-13T19:04:58",
+   "date_unixtime": "1631534698",
+   "from": "artupardnahC ibuR",
+   "from_id": "user1905898432",
+   "reply_to_message_id": 235407,
+   "text": "Untuk pranala berbahasa Indonesia, mungkin dapat ditemukan di Sedang",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Untuk pranala berbahasa Indonesia, mungkin dapat ditemukan di Sedang"
+    }
+   ]
+  },
+  {
+   "id": 235411,
+   "type": "message",
+   "date": "2021-09-13T19:05:45",
+   "date_unixtime": "1631534745",
+   "edited": "2021-09-13T19:05:54",
+   "edited_unixtime": "1631534754",
+   "from": "Valian Masdani",
+   "from_id": "user714871055",
+   "reply_to_message_id": 235408,
+   "text": "C tajam mirip dengan bahasa Berdebar. Agak sulit karena data terbiasa dengan Naskah Jawa",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "C tajam mirip dengan bahasa Berdebar. Agak sulit karena data terbiasa dengan Naskah Jawa"
+    }
+   ]
+  },
+  {
+   "id": 235412,
+   "type": "message",
+   "date": "2021-09-13T19:06:59",
+   "date_unixtime": "1631534819",
+   "from": "Valian Masdani",
+   "from_id": "user714871055",
+   "reply_to_message_id": 235411,
+   "text": "Ralat: berdebar adalah kerangka kerja, namun bahasanya adalah anak panah.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ralat: berdebar adalah kerangka kerja, namun bahasanya adalah anak panah."
+    }
+   ]
+  },
+  {
+   "id": 235413,
+   "type": "message",
+   "date": "2021-09-13T19:07:46",
+   "date_unixtime": "1631534866",
+   "from": "Ronny Gunawan ️",
+   "from_id": "user149994951",
+   "reply_to_message_id": 235409,
+   "text": "Kalau sudah mencoba versi mutakhirnya, bisa juga mencoba versi pratinjaunya. Memang masih tepi berdarah kondisinya, tapi lebih perlente gaya pembubuhannya.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Kalau sudah mencoba versi mutakhirnya, bisa juga mencoba versi pratinjaunya. Memang masih tepi berdarah kondisinya, tapi lebih perlente gaya pembubuhannya."
+    }
+   ]
+  },
+  {
+   "id": 235414,
+   "type": "message",
+   "date": "2021-09-13T19:07:58",
+   "date_unixtime": "1631534878",
+   "from": "ㅤㅤㅤㅤㅤ Nime",
+   "from_id": "user333183134",
+   "text": [
+    {
+     "type": "hashtag",
+     "text": "#ask"
+    },
+    " cara menampilkan value d dlem modal boostrap gimana ya? dsini sya dpet value kosong atau tidak sama dengan yg sya input ",
+    {
+     "type": "link",
+     "text": "https://pastebin.com/XZxMzmXM"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "hashtag",
+     "text": "#ask"
+    },
+    {
+     "type": "plain",
+     "text": " cara menampilkan value d dlem modal boostrap gimana ya? dsini sya dpet value kosong atau tidak sama dengan yg sya input "
+    },
+    {
+     "type": "link",
+     "text": "https://pastebin.com/XZxMzmXM"
+    }
+   ]
+  },
+  {
+   "id": 235415,
+   "type": "message",
+   "date": "2021-09-13T19:08:01",
+   "date_unixtime": "1631534881",
+   "from": "dicha?",
+   "from_id": "user925009191",
+   "reply_to_message_id": 235409,
+   "text": "Saya dengar C tajam juga menggunakan Pisau Cukur",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Saya dengar C tajam juga menggunakan Pisau Cukur"
+    }
+   ]
+  },
+  {
+   "id": 235416,
+   "type": "message",
+   "date": "2021-09-13T19:08:40",
+   "date_unixtime": "1631534920",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235412,
+   "text": "Saya belum sampai membuat proyek dengan pembubuhan kode Anak Panah, namun dari membaca dokumentasinya, cukup mirip dengan Naskah Jawa yang berpengetikan keras.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Saya belum sampai membuat proyek dengan pembubuhan kode Anak Panah, namun dari membaca dokumentasinya, cukup mirip dengan Naskah Jawa yang berpengetikan keras."
+    }
+   ]
+  },
+  {
+   "id": 235417,
+   "type": "message",
+   "date": "2021-09-13T19:09:49",
+   "date_unixtime": "1631534989",
+   "from": "artupardnahC ibuR",
+   "from_id": "user1905898432",
+   "reply_to_message_id": 235414,
+   "text": "Mungkin teman teman sejawat bisa membantu masalah saudara kita?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Mungkin teman teman sejawat bisa membantu masalah saudara kita?"
+    }
+   ]
+  },
+  {
+   "id": 235418,
+   "type": "message",
+   "date": "2021-09-13T19:11:43",
+   "date_unixtime": "1631535103",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235413,
+   "text": "Saya belum berani mencoba versi pratinjau. Saya masih punya ketakutan bahwa seratus baris pengujian satuan saya akan hilang apabila terjadi galat.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Saya belum berani mencoba versi pratinjau. Saya masih punya ketakutan bahwa seratus baris pengujian satuan saya akan hilang apabila terjadi galat."
+    }
+   ]
+  },
+  {
+   "id": 235419,
+   "type": "message",
+   "date": "2021-09-13T19:12:47",
+   "date_unixtime": "1631535167",
+   "from": "ㅤㅤㅤㅤㅤ Nime",
+   "from_id": "user333183134",
+   "reply_to_message_id": 235417,
+   "text": "Iya om, soalnya masih pemula",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Iya om, soalnya masih pemula"
+    }
+   ]
+  },
+  {
+   "id": 235420,
+   "type": "message",
+   "date": "2021-09-13T19:13:02",
+   "date_unixtime": "1631535182",
+   "edited": "2021-09-13T19:17:39",
+   "edited_unixtime": "1631535459",
+   "from": "artupardnahC ibuR",
+   "from_id": "user1905898432",
+   "reply_to_message_id": 235419,
+   "text": "Baik",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Baik"
+    }
+   ]
+  },
+  {
+   "id": 235421,
+   "type": "message",
+   "date": "2021-09-13T19:13:45",
+   "date_unixtime": "1631535225",
+   "from": "artupardnahC ibuR",
+   "from_id": "user1905898432",
+   "text": "Maksud saya, agar cepat terbantu masalahnya",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Maksud saya, agar cepat terbantu masalahnya"
+    }
+   ]
+  },
+  {
+   "id": 235422,
+   "type": "message",
+   "date": "2021-09-13T19:13:48",
+   "date_unixtime": "1631535228",
+   "from": "Fachri Gobel",
+   "from_id": "user1288591086",
+   "text": [
+    {
+     "type": "hashtag",
+     "text": "#ASK"
+    },
+    "\nCara fetch data dari tag form untuk node js gimana ya kak? Kan kalau di php kita tangkap dengan $_POST untuk method post. Kalau di node js alurnya gimana ya? Makasih"
+   ],
+   "text_entities": [
+    {
+     "type": "hashtag",
+     "text": "#ASK"
+    },
+    {
+     "type": "plain",
+     "text": "\nCara fetch data dari tag form untuk node js gimana ya kak? Kan kalau di php kita tangkap dengan $_POST untuk method post. Kalau di node js alurnya gimana ya? Makasih"
+    }
+   ]
+  },
+  {
+   "id": 235423,
+   "type": "message",
+   "date": "2021-09-13T19:16:10",
+   "date_unixtime": "1631535370",
+   "from": "Model Komputasi",
+   "from_id": "user1354524888",
+   "reply_to_message_id": 235422,
+   "text": [
+    "Coba ikuti pranala ini, ",
+    {
+     "type": "link",
+     "text": "https://hapi.dev/tutorials/routing/?lang=en_US"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Coba ikuti pranala ini, "
+    },
+    {
+     "type": "link",
+     "text": "https://hapi.dev/tutorials/routing/?lang=en_US"
+    }
+   ]
+  },
+  {
+   "id": 235424,
+   "type": "message",
+   "date": "2021-09-13T19:17:00",
+   "date_unixtime": "1631535420",
+   "edited": "2021-09-13T19:18:34",
+   "edited_unixtime": "1631535514",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235422,
+   "text": [
+    "Pada Untai Naskah Jawa, bapak Fachri dapat menggunakan pustaka standar HTTP, adapun dokumentasi resmi ada pada kelas PesanYangDatang pada pranala berikut ",
+    {
+     "type": "link",
+     "text": "https://nodejs.org/api/http.html#http_class_http_incomingmessage"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Pada Untai Naskah Jawa, bapak Fachri dapat menggunakan pustaka standar HTTP, adapun dokumentasi resmi ada pada kelas PesanYangDatang pada pranala berikut "
+    },
+    {
+     "type": "link",
+     "text": "https://nodejs.org/api/http.html#http_class_http_incomingmessage"
+    }
+   ]
+  },
+  {
+   "id": 235425,
+   "type": "message",
+   "date": "2021-09-13T19:17:01",
+   "date_unixtime": "1631535421",
+   "from": "artupardnahC ibuR",
+   "from_id": "user1905898432",
+   "reply_to_message_id": 235423,
+   "text": "Sebaiknya berbahasa indonesia",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Sebaiknya berbahasa indonesia"
+    }
+   ]
+  },
+  {
+   "id": 235426,
+   "type": "message",
+   "date": "2021-09-13T19:17:13",
+   "date_unixtime": "1631535433",
+   "from": "artupardnahC ibuR",
+   "from_id": "user1905898432",
+   "reply_to_message_id": 235424,
+   "text": "Tolong berbahasa Indonesia pak aldy",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Tolong berbahasa Indonesia pak aldy"
+    }
+   ]
+  },
+  {
+   "id": 235427,
+   "type": "message",
+   "date": "2021-09-13T19:17:23",
+   "date_unixtime": "1631535443",
+   "from": "Naufal",
+   "from_id": "user1952442642",
+   "text": "Edisi Naskah Visual Dasar adalah sebuah bahasa naskah yang diinterpretasikan saat dieksekusi yang dikembangkan oleh perusahaan kecil lembut pada tahun 1996 yang seringnya digunakan, dalam penjelajah web penjelajah Internet (dapat digunakan mulai versi penjelajah Internet 3.0).",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Edisi Naskah Visual Dasar adalah sebuah bahasa naskah yang diinterpretasikan saat dieksekusi yang dikembangkan oleh perusahaan kecil lembut pada tahun 1996 yang seringnya digunakan, dalam penjelajah web penjelajah Internet (dapat digunakan mulai versi penjelajah Internet 3.0)."
+    }
+   ]
+  },
+  {
+   "id": 235428,
+   "type": "message",
+   "date": "2021-09-13T19:18:08",
+   "date_unixtime": "1631535488",
+   "edited": "2021-09-13T19:18:25",
+   "edited_unixtime": "1631535505",
+   "from": "Valian Masdani",
+   "from_id": "user714871055",
+   "reply_to_message_id": 235427,
+   "text": "# Hari Ini Saya Belajar",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "# Hari Ini Saya Belajar"
+    }
+   ]
+  },
+  {
+   "id": 235429,
+   "type": "message",
+   "date": "2021-09-13T19:18:13",
+   "date_unixtime": "1631535493",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235426,
+   "text": "Baik, saya suting.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Baik, saya suting."
+    }
+   ]
+  },
+  {
+   "id": 235430,
+   "type": "message",
+   "date": "2021-09-13T19:18:23",
+   "date_unixtime": "1631535503",
+   "edited": "2021-09-13T19:19:22",
+   "edited_unixtime": "1631535562",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235427,
+   "text": "# Hari Ini Saya Belajar",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "# Hari Ini Saya Belajar"
+    }
+   ]
+  },
+  {
+   "id": 235431,
+   "type": "message",
+   "date": "2021-09-13T19:21:11",
+   "date_unixtime": "1631535671",
+   "edited": "2021-09-13T19:22:46",
+   "edited_unixtime": "1631535766",
+   "from": "artupardnahC ibuR",
+   "from_id": "user1905898432",
+   "reply_to_message_id": 235414,
+   "text": "Saya telah membaca naskah jawa milik saudara. Pada baris ke berapa anda menetapkan nilai pada modal yang dimaksud?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Saya telah membaca naskah jawa milik saudara. Pada baris ke berapa anda menetapkan nilai pada modal yang dimaksud?"
+    }
+   ]
+  },
+  {
+   "id": 235432,
+   "type": "message",
+   "date": "2021-09-13T19:21:35",
+   "date_unixtime": "1631535695",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235431,
+   "text": "Perhatikan EYD, pak Rubi.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Perhatikan EYD, pak Rubi."
+    }
+   ]
+  },
+  {
+   "id": 235433,
+   "type": "message",
+   "date": "2021-09-13T19:22:34",
+   "date_unixtime": "1631535754",
+   "from": "artupardnahC ibuR",
+   "from_id": "user1905898432",
+   "reply_to_message_id": 235432,
+   "text": "Sudah saya sunting pak Aldy 🙏",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Sudah saya sunting pak Aldy 🙏"
+    }
+   ]
+  },
+  {
+   "id": 235435,
+   "type": "message",
+   "date": "2021-09-13T19:25:25",
+   "date_unixtime": "1631535925",
+   "from": "Naufal",
+   "from_id": "user1952442642",
+   "text": "Simpul Naskah Jawa adalah lingkungan waktu proses, untuk naskah jawa yang bersifat sumber-terbuka, dan menyebrang-panggung. Dengan kita dapat menjalankan kode simpul naskah jawa di mana pun, tidak hanya terbatas pada lingkungan seri alis.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Simpul Naskah Jawa adalah lingkungan waktu proses, untuk naskah jawa yang bersifat sumber-terbuka, dan menyebrang-panggung. Dengan kita dapat menjalankan kode simpul naskah jawa di mana pun, tidak hanya terbatas pada lingkungan seri alis."
+    }
+   ]
+  },
+  {
+   "id": 235436,
+   "type": "message",
+   "date": "2021-09-13T19:25:33",
+   "date_unixtime": "1631535933",
+   "from": "Zy.",
+   "from_id": "user832739974",
+   "reply_to_message_id": 235394,
+   "text": "Dipaksa untuk bahasa indonesia",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Dipaksa untuk bahasa indonesia"
+    }
+   ]
+  },
+  {
+   "id": 235437,
+   "type": "message",
+   "date": "2021-09-13T19:25:44",
+   "date_unixtime": "1631535944",
+   "from": "Zy.",
+   "from_id": "user832739974",
+   "text": "😂😂",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "😂😂"
+    }
+   ]
+  },
+  {
+   "id": 235438,
+   "type": "message",
+   "date": "2021-09-13T19:27:11",
+   "date_unixtime": "1631536031",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235436,
+   "text": "Sejatinya berbahasa Indonesia yang baik serta mengajarkan rekan-rekan lain menjadi pujangga kode yang dapat membubuhkan kode dalam bahasa Naskah Jawa adalah hal yang mulia.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Sejatinya berbahasa Indonesia yang baik serta mengajarkan rekan-rekan lain menjadi pujangga kode yang dapat membubuhkan kode dalam bahasa Naskah Jawa adalah hal yang mulia."
+    }
+   ]
+  },
+  {
+   "id": 235439,
+   "type": "message",
+   "date": "2021-09-13T19:27:42",
+   "date_unixtime": "1631536062",
+   "from": "Shiroi Kagami",
+   "from_id": "user856170360",
+   "reply_to_message_id": 235414,
+   "text": "Akan lebih baik jika menggunakan kerangka kerja seperti Reaksi atau Langsing daripada Naskah Jawa murni sehingga bisa terhindar dari kerentanan menyebrang naskah samping",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Akan lebih baik jika menggunakan kerangka kerja seperti Reaksi atau Langsing daripada Naskah Jawa murni sehingga bisa terhindar dari kerentanan menyebrang naskah samping"
+    }
+   ]
+  },
+  {
+   "id": 235440,
+   "type": "message",
+   "date": "2021-09-13T19:27:50",
+   "date_unixtime": "1631536070",
+   "from": "Jason Wihardja",
+   "from_id": "user230072954",
+   "reply_to_message_id": 235438,
+   "text": "Benar, itulah alasan saya bergabung di paguyuban naskah jawa ini",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Benar, itulah alasan saya bergabung di paguyuban naskah jawa ini"
+    }
+   ]
+  },
+  {
+   "id": 235441,
+   "type": "message",
+   "date": "2021-09-13T19:27:50",
+   "date_unixtime": "1631536070",
+   "from": "ㅤㅤㅤㅤㅤ Nime",
+   "from_id": "user333183134",
+   "reply_to_message_id": 235431,
+   "text": "Nilai pertama pak, hasil dri value nya itu tidak sesuai ketika sya pencet tombol button",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Nilai pertama pak, hasil dri value nya itu tidak sesuai ketika sya pencet tombol button"
+    }
+   ]
+  },
+  {
+   "id": 235442,
+   "type": "message",
+   "date": "2021-09-13T19:29:57",
+   "date_unixtime": "1631536197",
+   "from": "dicha?",
+   "from_id": "user925009191",
+   "reply_to_message_id": 235439,
+   "text": "Bingkai Merah sepertinya juga dapat dijadikan pilihan cadangan",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Bingkai Merah sepertinya juga dapat dijadikan pilihan cadangan"
+    }
+   ]
+  },
+  {
+   "id": 235443,
+   "type": "message",
+   "date": "2021-09-13T19:30:31",
+   "date_unixtime": "1631536231",
+   "from": "Zy.",
+   "from_id": "user832739974",
+   "reply_to_message_id": 235438,
+   "text": "Best practice.. \n✍ Noted.\n\nTp kalau baca docs berbahasa indo rasanya agak aneh, lebih sulit untuk dipahaminya",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Best practice.. \n✍ Noted.\n\nTp kalau baca docs berbahasa indo rasanya agak aneh, lebih sulit untuk dipahaminya"
+    }
+   ]
+  },
+  {
+   "id": 235444,
+   "type": "message",
+   "date": "2021-09-13T19:30:35",
+   "date_unixtime": "1631536235",
+   "from": "artupardnahC ibuR",
+   "from_id": "user1905898432",
+   "reply_to_message_id": 235441,
+   "text": "Baik saya mengerti masalah anda, ketika naskah jawa melakukan pemasukan unsur ke dalam Unsur Dokumen Obyek, anda tidak dapat melakukan pemanggilan peristiwa sebelum anda melakukan pernyataan ulang pada unsur tersebut",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Baik saya mengerti masalah anda, ketika naskah jawa melakukan pemasukan unsur ke dalam Unsur Dokumen Obyek, anda tidak dapat melakukan pemanggilan peristiwa sebelum anda melakukan pernyataan ulang pada unsur tersebut"
+    }
+   ]
+  },
+  {
+   "id": 235445,
+   "type": "message",
+   "date": "2021-09-13T19:31:55",
+   "date_unixtime": "1631536315",
+   "from": "Ronny Gunawan ️",
+   "from_id": "user149994951",
+   "reply_to_message_id": 235414,
+   "text": [
+    "Di kode yang ada di pranala itu sepertinya fungsi ",
+    {
+     "type": "code",
+     "text": ".DataTable"
+    },
+    " dipanggil sebelum model objek dokumennya dinyatakan. jadi pustaka yang kamu pakai tidak menemukan acuan di mana ",
+    {
+     "type": "code",
+     "text": "DataTable"
+    },
+    " itu akan diterapkan. Sebaiknya dibalik urutan pelaksanaannya."
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Di kode yang ada di pranala itu sepertinya fungsi "
+    },
+    {
+     "type": "code",
+     "text": ".DataTable"
+    },
+    {
+     "type": "plain",
+     "text": " dipanggil sebelum model objek dokumennya dinyatakan. jadi pustaka yang kamu pakai tidak menemukan acuan di mana "
+    },
+    {
+     "type": "code",
+     "text": "DataTable"
+    },
+    {
+     "type": "plain",
+     "text": " itu akan diterapkan. Sebaiknya dibalik urutan pelaksanaannya."
+    }
+   ]
+  },
+  {
+   "id": 235446,
+   "type": "message",
+   "date": "2021-09-13T19:33:15",
+   "date_unixtime": "1631536395",
+   "from": "Jason Wihardja",
+   "from_id": "user230072954",
+   "reply_to_message_id": 235439,
+   "text": "Atau bilamana lebih tertarik dengan yang sudah sepaket lengkap tetapi beropini, bisa mencoba kerangka kerja bersudut",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Atau bilamana lebih tertarik dengan yang sudah sepaket lengkap tetapi beropini, bisa mencoba kerangka kerja bersudut"
+    }
+   ]
+  },
+  {
+   "id": 235447,
+   "type": "message",
+   "date": "2021-09-13T19:33:51",
+   "date_unixtime": "1631536431",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235446,
+   "text": "Saya tidak suka kerangka kerja bersudut, setahu saya kerangka kerja tersebut mempunyai masa lalu yang cukup kelam.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Saya tidak suka kerangka kerja bersudut, setahu saya kerangka kerja tersebut mempunyai masa lalu yang cukup kelam."
+    }
+   ]
+  },
+  {
+   "id": 235448,
+   "type": "message",
+   "date": "2021-09-13T19:34:31",
+   "date_unixtime": "1631536471",
+   "from": "Zy.",
+   "from_id": "user832739974",
+   "text": "Ini orang2 pada kesurupan apa sih? Bingung bacanya.. 😂🙏🙏",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ini orang2 pada kesurupan apa sih? Bingung bacanya.. 😂🙏🙏"
+    }
+   ]
+  },
+  {
+   "id": 235449,
+   "type": "message",
+   "date": "2021-09-13T19:34:34",
+   "date_unixtime": "1631536474",
+   "edited": "2021-09-13T19:34:45",
+   "edited_unixtime": "1631536485",
+   "from": "Shiroi Kagami",
+   "from_id": "user856170360",
+   "reply_to_message_id": 235442,
+   "text": "Untuk saat ini Bingkai Merah sedang dalam pembangunan, saya rasa Terlihat juga bisa jadi cadangan yang serupa",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Untuk saat ini Bingkai Merah sedang dalam pembangunan, saya rasa Terlihat juga bisa jadi cadangan yang serupa"
+    }
+   ]
+  },
+  {
+   "id": 235450,
+   "type": "message",
+   "date": "2021-09-13T19:34:40",
+   "date_unixtime": "1631536480",
+   "from": "ahmadramadhan:~$",
+   "from_id": "user1010384977",
+   "text": "😂",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "😂"
+    }
+   ]
+  },
+  {
+   "id": 235451,
+   "type": "message",
+   "date": "2021-09-13T19:34:53",
+   "date_unixtime": "1631536493",
+   "from": "Ronny Gunawan ️",
+   "from_id": "user149994951",
+   "reply_to_message_id": 235446,
+   "text": "Pustaka beropini memang yang terbaik",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Pustaka beropini memang yang terbaik"
+    }
+   ]
+  },
+  {
+   "id": 235452,
+   "type": "message",
+   "date": "2021-09-13T19:35:09",
+   "date_unixtime": "1631536509",
+   "from": "Jason Wihardja",
+   "from_id": "user230072954",
+   "text": "Benar, masa lalunya pada versi 1 banyak sempat menimbulkan pergunjingan di kalangan pujangga kode",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Benar, masa lalunya pada versi 1 banyak sempat menimbulkan pergunjingan di kalangan pujangga kode"
+    }
+   ]
+  },
+  {
+   "id": 235453,
+   "type": "message",
+   "date": "2021-09-13T19:35:16",
+   "date_unixtime": "1631536516",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235451,
+   "text": "Saya pribadi yang tidak beropini, namun saya menyukai pustaka beropini Terlihat.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Saya pribadi yang tidak beropini, namun saya menyukai pustaka beropini Terlihat."
+    }
+   ]
+  },
+  {
+   "id": 235454,
+   "type": "message",
+   "date": "2021-09-13T19:35:35",
+   "date_unixtime": "1631536535",
+   "from": "dicha?",
+   "from_id": "user925009191",
+   "reply_to_message_id": 235448,
+   "text": "Loh, apakah anda berpikir bahwa penggunaan Bahasa Indonesia yang sesuai dengan EYD merupakan ciri seseorang sedang kerasukan?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Loh, apakah anda berpikir bahwa penggunaan Bahasa Indonesia yang sesuai dengan EYD merupakan ciri seseorang sedang kerasukan?"
+    }
+   ]
+  },
+  {
+   "id": 235455,
+   "type": "message",
+   "date": "2021-09-13T19:35:46",
+   "date_unixtime": "1631536546",
+   "from": "Jason Wihardja",
+   "from_id": "user230072954",
+   "text": "Tetapi semenjak perbaharuan terkini yang menggunakan naskah tipe, sudah lebih membaik",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Tetapi semenjak perbaharuan terkini yang menggunakan naskah tipe, sudah lebih membaik"
+    }
+   ]
+  },
+  {
+   "id": 235456,
+   "type": "message",
+   "date": "2021-09-13T19:36:28",
+   "date_unixtime": "1631536588",
+   "from": "Rian YW",
+   "from_id": "user37370715",
+   "text": "ini kenapa jadi aneh aja translate bahasa Inggris teknik ke bahasa Indonesia",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "ini kenapa jadi aneh aja translate bahasa Inggris teknik ke bahasa Indonesia"
+    }
+   ]
+  },
+  {
+   "id": 235457,
+   "type": "message",
+   "date": "2021-09-13T19:36:52",
+   "date_unixtime": "1631536612",
+   "from": "muhfaridzia",
+   "from_id": "user177091666",
+   "reply_to_message_id": 235443,
+   "text": "Gak semua term dalam programming itu diubah ke bahasa indo, kalo semua diubah ya makanya aneh aja bacanya",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Gak semua term dalam programming itu diubah ke bahasa indo, kalo semua diubah ya makanya aneh aja bacanya"
+    }
+   ]
+  },
+  {
+   "id": 235458,
+   "type": "message",
+   "date": "2021-09-13T19:37:03",
+   "date_unixtime": "1631536623",
+   "edited": "2021-09-13T19:37:09",
+   "edited_unixtime": "1631536629",
+   "from": "Shiroi Kagami",
+   "from_id": "user856170360",
+   "reply_to_message_id": 235455,
+   "text": "Saya harap kecepatan penyusun Naskah Tipe dapat lebih baik di perangkat saya",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Saya harap kecepatan penyusun Naskah Tipe dapat lebih baik di perangkat saya"
+    }
+   ]
+  },
+  {
+   "id": 235460,
+   "type": "message",
+   "date": "2021-09-13T19:37:46",
+   "date_unixtime": "1631536666",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235457,
+   "text": "Maaf, pak Farid, harap perhatikan EYD.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Maaf, pak Farid, harap perhatikan EYD."
+    }
+   ]
+  },
+  {
+   "id": 235461,
+   "type": "message",
+   "date": "2021-09-13T19:37:53",
+   "date_unixtime": "1631536673",
+   "from": "Zy.",
+   "from_id": "user832739974",
+   "reply_to_message_id": 235457,
+   "text": "Siapa yg bilang ngubah semuanyaaaa?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Siapa yg bilang ngubah semuanyaaaa?"
+    }
+   ]
+  },
+  {
+   "id": 235462,
+   "type": "message",
+   "date": "2021-09-13T19:38:05",
+   "date_unixtime": "1631536685",
+   "from": "muhfaridzia",
+   "from_id": "user177091666",
+   "reply_to_message_id": 235461,
+   "text": "Ya gak ada lah",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ya gak ada lah"
+    }
+   ]
+  },
+  {
+   "id": 235463,
+   "type": "message",
+   "date": "2021-09-13T19:38:34",
+   "date_unixtime": "1631536714",
+   "from": "muhfaridzia",
+   "from_id": "user177091666",
+   "text": "Maksud ane kalo diubah ke bahasa indo itu ya gak bener",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Maksud ane kalo diubah ke bahasa indo itu ya gak bener"
+    }
+   ]
+  },
+  {
+   "id": 235464,
+   "type": "message",
+   "date": "2021-09-13T19:39:02",
+   "date_unixtime": "1631536742",
+   "from": "dicha?",
+   "from_id": "user925009191",
+   "reply_to_message_id": 235458,
+   "text": "Sudah saatnya untuk meningkatkan perangkat anda menggunakan Penggerak Keadaan Padat",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Sudah saatnya untuk meningkatkan perangkat anda menggunakan Penggerak Keadaan Padat"
+    }
+   ]
+  },
+  {
+   "id": 235465,
+   "type": "message",
+   "date": "2021-09-13T19:39:19",
+   "date_unixtime": "1631536759",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235458,
+   "text": "Saya sangat senang apabila suatu pustaka ditulis dengan pembubuhan kode Naskah Tipe. Terdapat pemahaman tipe yang dapat membantu pembubuh kode agar proses pengembangan semakin pesat.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Saya sangat senang apabila suatu pustaka ditulis dengan pembubuhan kode Naskah Tipe. Terdapat pemahaman tipe yang dapat membantu pembubuh kode agar proses pengembangan semakin pesat."
+    }
+   ]
+  },
+  {
+   "id": 235466,
+   "type": "message",
+   "date": "2021-09-13T19:40:21",
+   "date_unixtime": "1631536821",
+   "from": "Jason Wihardja",
+   "from_id": "user230072954",
+   "text": "Benar, apalagi ketika ditambah dengan adanya peladen bahasa sehingga bisa dipasang pada lingkungan pengembangan terintegrasi",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Benar, apalagi ketika ditambah dengan adanya peladen bahasa sehingga bisa dipasang pada lingkungan pengembangan terintegrasi"
+    }
+   ]
+  },
+  {
+   "id": 235467,
+   "type": "message",
+   "date": "2021-09-13T19:40:30",
+   "date_unixtime": "1631536830",
+   "from": "ㅤㅤㅤㅤㅤ Nime",
+   "from_id": "user333183134",
+   "reply_to_message_id": 235445,
+   "text": "Hampura paduka, hamba tak paham bacanya 🙏",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hampura paduka, hamba tak paham bacanya 🙏"
+    }
+   ]
+  },
+  {
+   "id": 235468,
+   "type": "message",
+   "date": "2021-09-13T19:40:53",
+   "date_unixtime": "1631536853",
+   "from": "Zy.",
+   "from_id": "user832739974",
+   "reply_to_message_id": 235467,
+   "text": "wkwk 😂 udah tak tungguin keluar juga kata2 bginian",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "wkwk 😂 udah tak tungguin keluar juga kata2 bginian"
+    }
+   ]
+  },
+  {
+   "id": 235469,
+   "type": "message",
+   "date": "2021-09-13T19:40:58",
+   "date_unixtime": "1631536858",
+   "from": "Ronny Gunawan ️",
+   "from_id": "user149994951",
+   "reply_to_message_id": 235467,
+   "text": "Apakah perlu saya jawab dalam bahasa inggris?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Apakah perlu saya jawab dalam bahasa inggris?"
+    }
+   ]
+  },
+  {
+   "id": 235470,
+   "type": "message",
+   "date": "2021-09-13T19:41:18",
+   "date_unixtime": "1631536878",
+   "edited": "2021-09-13T19:41:23",
+   "edited_unixtime": "1631536883",
+   "from": "Zy.",
+   "from_id": "user832739974",
+   "reply_to_message_id": 235469,
+   "text": "jawa halus aja paduka",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "jawa halus aja paduka"
+    }
+   ]
+  },
+  {
+   "id": 235471,
+   "type": "message",
+   "date": "2021-09-13T19:41:26",
+   "date_unixtime": "1631536886",
+   "from": "ㅤㅤㅤㅤㅤ Nime",
+   "from_id": "user333183134",
+   "reply_to_message_id": 235468,
+   "text": "Mereka2 ini perlu x ruqyah spertinya 😂",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Mereka2 ini perlu x ruqyah spertinya 😂"
+    }
+   ]
+  },
+  {
+   "id": 235472,
+   "type": "message",
+   "date": "2021-09-13T19:41:58",
+   "date_unixtime": "1631536918",
+   "from": "ㅤㅤㅤㅤㅤ Nime",
+   "from_id": "user333183134",
+   "reply_to_message_id": 235469,
+   "text": "Tidak bisa bahasa engres 🙈",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Tidak bisa bahasa engres 🙈"
+    }
+   ]
+  },
+  {
+   "id": 235473,
+   "type": "message",
+   "date": "2021-09-13T19:42:45",
+   "date_unixtime": "1631536965",
+   "from": "ㅤㅤㅤㅤㅤ Nime",
+   "from_id": "user333183134",
+   "reply_to_message_id": 235470,
+   "text": "Wkwk ilmunya santet 😂",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Wkwk ilmunya santet 😂"
+    }
+   ]
+  },
+  {
+   "id": 235474,
+   "type": "message",
+   "date": "2021-09-13T19:42:47",
+   "date_unixtime": "1631536967",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235472,
+   "text": "Loh, kalau seperti itu bagaimana? Dari tadi kami berbicara dalam bahasa Indonesia yang sesuai dengan EYD.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Loh, kalau seperti itu bagaimana? Dari tadi kami berbicara dalam bahasa Indonesia yang sesuai dengan EYD."
+    }
+   ]
+  },
+  {
+   "id": 235475,
+   "type": "message",
+   "date": "2021-09-13T19:43:29",
+   "date_unixtime": "1631537009",
+   "from": "Naufal",
+   "from_id": "user1952442642",
+   "reply_to_message_id": 235474,
+   "text": "Benar pak Aldy, kita harus belajar bahasa Indonesia yang baik sesuai dengan EYD",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Benar pak Aldy, kita harus belajar bahasa Indonesia yang baik sesuai dengan EYD"
+    }
+   ]
+  },
+  {
+   "id": 235476,
+   "type": "message",
+   "date": "2021-09-13T19:43:46",
+   "date_unixtime": "1631537026",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235475,
+   "text": "Salam, pak Fal🤝",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Salam, pak Fal🤝"
+    }
+   ]
+  },
+  {
+   "id": 235477,
+   "type": "message",
+   "date": "2021-09-13T19:43:53",
+   "date_unixtime": "1631537033",
+   "from": "dicha?",
+   "from_id": "user925009191",
+   "reply_to_message_id": 235475,
+   "text": "Setuju.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Setuju."
+    }
+   ]
+  },
+  {
+   "id": 235478,
+   "type": "message",
+   "date": "2021-09-13T19:43:54",
+   "date_unixtime": "1631537034",
+   "from": "SH | S (miyama.bch)",
+   "from_id": "user1315431398",
+   "text": "am i",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "am i"
+    }
+   ]
+  },
+  {
+   "id": 235479,
+   "type": "message",
+   "date": "2021-09-13T19:43:55",
+   "date_unixtime": "1631537035",
+   "from": "Zy.",
+   "from_id": "user832739974",
+   "reply_to_message_id": 235475,
+   "text": "Kalau menurut saya ada penempatannya sih",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Kalau menurut saya ada penempatannya sih"
+    }
+   ]
+  },
+  {
+   "id": 235480,
+   "type": "message",
+   "date": "2021-09-13T19:44:19",
+   "date_unixtime": "1631537059",
+   "from": "ㅤㅤㅤㅤㅤ Nime",
+   "from_id": "user333183134",
+   "reply_to_message_id": 235474,
+   "text": "Iya paham dkit, tpi blum bsa all in one",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Iya paham dkit, tpi blum bsa all in one"
+    }
+   ]
+  },
+  {
+   "id": 235481,
+   "type": "message",
+   "date": "2021-09-13T19:44:19",
+   "date_unixtime": "1631537059",
+   "from": "artupardnahC ibuR",
+   "from_id": "user1905898432",
+   "file": "files/raycast-untitled.png",
+   "thumbnail": "files/raycast-untitled.png_thumb.jpg",
+   "mime_type": "image/png",
+   "width": 1840,
+   "height": 1288,
+   "text": "Mohon maaf, saya baru belajar pemanggilan asinkron, apakah sudah benar?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Mohon maaf, saya baru belajar pemanggilan asinkron, apakah sudah benar?"
+    }
+   ]
+  },
+  {
+   "id": 235482,
+   "type": "message",
+   "date": "2021-09-13T19:44:20",
+   "date_unixtime": "1631537060",
+   "from": "SH | S (miyama.bch)",
+   "from_id": "user1315431398",
+   "text": "h3ll0 1 l1k3 m0n3y",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "h3ll0 1 l1k3 m0n3y"
+    }
+   ]
+  },
+  {
+   "id": 235483,
+   "type": "message",
+   "date": "2021-09-13T19:44:23",
+   "date_unixtime": "1631537063",
+   "from": "Zy.",
+   "from_id": "user832739974",
+   "text": "Tidak salah, hanya saja tidak efektif, kalau untuk perpesanan yg bersifat tidak resmi.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Tidak salah, hanya saja tidak efektif, kalau untuk perpesanan yg bersifat tidak resmi."
+    }
+   ]
+  },
+  {
+   "id": 235484,
+   "type": "message",
+   "date": "2021-09-13T19:44:56",
+   "date_unixtime": "1631537096",
+   "edited": "2021-09-13T19:45:07",
+   "edited_unixtime": "1631537107",
+   "from": "Naufal",
+   "from_id": "user1952442642",
+   "reply_to_message_id": 235480,
+   "text": "Apa perlu di buat website untuk menerjemahkan bahasa Inggris ke bahasa Indonesia yang sesuai dengan EYD?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Apa perlu di buat website untuk menerjemahkan bahasa Inggris ke bahasa Indonesia yang sesuai dengan EYD?"
+    }
+   ]
+  },
+  {
+   "id": 235485,
+   "type": "message",
+   "date": "2021-09-13T19:45:11",
+   "date_unixtime": "1631537111",
+   "from": "ㅤㅤㅤㅤㅤ Nime",
+   "from_id": "user333183134",
+   "reply_to_message_id": 235484,
+   "text": "Google translate ?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Google translate ?"
+    }
+   ]
+  },
+  {
+   "id": 235486,
+   "type": "message",
+   "date": "2021-09-13T19:45:36",
+   "date_unixtime": "1631537136",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235481,
+   "text": [
+    "Ilmu sihir saya mengatakan bahwa terdapat galat pada ",
+    {
+     "type": "code",
+     "text": "data.untukTiap"
+    },
+    ", seharusnya bapak menggunakan ",
+    {
+     "type": "code",
+     "text": "data.untukSetiap"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ilmu sihir saya mengatakan bahwa terdapat galat pada "
+    },
+    {
+     "type": "code",
+     "text": "data.untukTiap"
+    },
+    {
+     "type": "plain",
+     "text": ", seharusnya bapak menggunakan "
+    },
+    {
+     "type": "code",
+     "text": "data.untukSetiap"
+    }
+   ]
+  },
+  {
+   "id": 235488,
+   "type": "message",
+   "date": "2021-09-13T19:45:49",
+   "date_unixtime": "1631537149",
+   "from": "dicha?",
+   "from_id": "user925009191",
+   "reply_to_message_id": 235481,
+   "text": "Nampaknya anda lupa memanggil fungsi notasi objek naskah jawa",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Nampaknya anda lupa memanggil fungsi notasi objek naskah jawa"
+    }
+   ]
+  },
+  {
+   "id": 235489,
+   "type": "message",
+   "date": "2021-09-13T19:46:11",
+   "date_unixtime": "1631537171",
+   "from": "Zy.",
+   "from_id": "user832739974",
+   "reply_to_message_id": 235485,
+   "text": "Ujung2 nya kesini lagii",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ujung2 nya kesini lagii"
+    }
+   ]
+  },
+  {
+   "id": 235490,
+   "type": "message",
+   "date": "2021-09-13T19:46:14",
+   "date_unixtime": "1631537174",
+   "from": "artupardnahC ibuR",
+   "from_id": "user1905898432",
+   "reply_to_message_id": 235488,
+   "text": "Terima kasih",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Terima kasih"
+    }
+   ]
+  },
+  {
+   "id": 235491,
+   "type": "message",
+   "date": "2021-09-13T19:46:20",
+   "date_unixtime": "1631537180",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235488,
+   "text": [
+    "Betul apa yang dikatakan pak Dicha. Jangan lupa juga untuk menambahkan klausa ",
+    {
+     "type": "code",
+     "text": ".tangkap"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Betul apa yang dikatakan pak Dicha. Jangan lupa juga untuk menambahkan klausa "
+    },
+    {
+     "type": "code",
+     "text": ".tangkap"
+    }
+   ]
+  },
+  {
+   "id": 235492,
+   "type": "message",
+   "date": "2021-09-13T19:46:39",
+   "date_unixtime": "1631537199",
+   "from": "dicha?",
+   "from_id": "user925009191",
+   "reply_to_message_id": 235491,
+   "text": "Betul, untuk mengatasi galat yang tidak diharapkan",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Betul, untuk mengatasi galat yang tidak diharapkan"
+    }
+   ]
+  },
+  {
+   "id": 235493,
+   "type": "message",
+   "date": "2021-09-13T19:46:59",
+   "date_unixtime": "1631537219",
+   "from": "Zy.",
+   "from_id": "user832739974",
+   "text": "sebelum kumbang berterbangan.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "sebelum kumbang berterbangan."
+    }
+   ]
+  },
+  {
+   "id": 235494,
+   "type": "message",
+   "date": "2021-09-13T19:47:01",
+   "date_unixtime": "1631537221",
+   "from": "ㅤㅤㅤㅤㅤ Nime",
+   "from_id": "user333183134",
+   "reply_to_message_id": 235489,
+   "text": "Wkwk biarlah para suhu2 disini menggukannya, \nKita sbagai pemula hanya jadi penyimak yg baik",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Wkwk biarlah para suhu2 disini menggukannya, \nKita sbagai pemula hanya jadi penyimak yg baik"
+    }
+   ]
+  },
+  {
+   "id": 235495,
+   "type": "message",
+   "date": "2021-09-13T19:47:13",
+   "date_unixtime": "1631537233",
+   "from": "ㅤㅤㅤㅤㅤ Nime",
+   "from_id": "user333183134",
+   "reply_to_message_id": 235493,
+   "text": "Eakk",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Eakk"
+    }
+   ]
+  },
+  {
+   "id": 235496,
+   "type": "message",
+   "date": "2021-09-13T19:47:17",
+   "date_unixtime": "1631537237",
+   "from": "Zy.",
+   "from_id": "user832739974",
+   "reply_to_message_id": 235494,
+   "text": "Iyaa mas.. 👍👍",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Iyaa mas.. 👍👍"
+    }
+   ]
+  },
+  {
+   "id": 235497,
+   "type": "message",
+   "date": "2021-09-13T19:47:29",
+   "date_unixtime": "1631537249",
+   "from": "Zy.",
+   "from_id": "user832739974",
+   "text": "Saya tertawa",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Saya tertawa"
+    }
+   ]
+  },
+  {
+   "id": 235498,
+   "type": "message",
+   "date": "2021-09-13T19:48:55",
+   "date_unixtime": "1631537335",
+   "edited": "2021-09-13T20:08:23",
+   "edited_unixtime": "1631538503",
+   "from": "Jason Wihardja",
+   "from_id": "user230072954",
+   "text": "Sesungguhnya semua galat pada hakekatnya tidak diharapkan, namun kita bisa mencegah galat tak tertangkap terjadi, yang mana dapat menimbulkan kejatuhan aplikasi secara menyeluruh",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Sesungguhnya semua galat pada hakekatnya tidak diharapkan, namun kita bisa mencegah galat tak tertangkap terjadi, yang mana dapat menimbulkan kejatuhan aplikasi secara menyeluruh"
+    }
+   ]
+  },
+  {
+   "id": 235499,
+   "type": "message",
+   "date": "2021-09-13T19:49:39",
+   "date_unixtime": "1631537379",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235498,
+   "text": "# Hari Ini Saya Belajar",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "# Hari Ini Saya Belajar"
+    }
+   ]
+  },
+  {
+   "id": 235500,
+   "type": "message",
+   "date": "2021-09-13T19:50:12",
+   "date_unixtime": "1631537412",
+   "from": "Zy.",
+   "from_id": "user832739974",
+   "text": "sebentar lagi ppkm naik pangkat",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "sebentar lagi ppkm naik pangkat"
+    }
+   ]
+  },
+  {
+   "id": 235501,
+   "type": "message",
+   "date": "2021-09-13T19:57:12",
+   "date_unixtime": "1631537832",
+   "from": "artupardnahC ibuR",
+   "from_id": "user1905898432",
+   "file": "files/raycast-untitled (1).png",
+   "thumbnail": "files/raycast-untitled (1).png_thumb.jpg",
+   "mime_type": "image/png",
+   "width": 1840,
+   "height": 1420,
+   "text": "apakah sudah benar? 🙏",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "apakah sudah benar? 🙏"
+    }
+   ]
+  },
+  {
+   "id": 235502,
+   "type": "message",
+   "date": "2021-09-13T19:58:53",
+   "date_unixtime": "1631537933",
+   "from": "artupardnahC ibuR",
+   "from_id": "user1905898432",
+   "reply_to_message_id": 235498,
+   "text": "sepertinya om jason jago, boleh aku DM om 🙏",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "sepertinya om jason jago, boleh aku DM om 🙏"
+    }
+   ]
+  },
+  {
+   "id": 235503,
+   "type": "message",
+   "date": "2021-09-13T20:01:09",
+   "date_unixtime": "1631538069",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235501,
+   "text": "Sudah lebih baik pak Rubi. Semangat selalu!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Sudah lebih baik pak Rubi. Semangat selalu!"
+    }
+   ]
+  },
+  {
+   "id": 235504,
+   "type": "message",
+   "date": "2021-09-13T20:01:37",
+   "date_unixtime": "1631538097",
+   "from": "artupardnahC ibuR",
+   "from_id": "user1905898432",
+   "reply_to_message_id": 235503,
+   "text": "Terima kasih banyak om Aldy. Saya akan terus belajar 🙏",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Terima kasih banyak om Aldy. Saya akan terus belajar 🙏"
+    }
+   ]
+  },
+  {
+   "id": 235505,
+   "type": "message",
+   "date": "2021-09-13T20:02:31",
+   "date_unixtime": "1631538151",
+   "from": "Zy.",
+   "from_id": "user832739974",
+   "reply_to_message_id": 235501,
+   "text": "Jaminan galat 100%",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Jaminan galat 100%"
+    }
+   ]
+  },
+  {
+   "id": 235506,
+   "type": "message",
+   "date": "2021-09-13T20:04:22",
+   "date_unixtime": "1631538262",
+   "from": "Rijal bin Husen",
+   "from_id": "user802716263",
+   "reply_to_message_id": 235501,
+   "text": "Apakah kumpulan naskah tersebut bisa berlari diatas naskah jawa pelariwaktu biasa? Atau perlu perlu perlariwaktu khusus? Sepertinya kumpulan naskah tersebut akan menyebabkan galat.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Apakah kumpulan naskah tersebut bisa berlari diatas naskah jawa pelariwaktu biasa? Atau perlu perlu perlariwaktu khusus? Sepertinya kumpulan naskah tersebut akan menyebabkan galat."
+    }
+   ]
+  },
+  {
+   "id": 235507,
+   "type": "message",
+   "date": "2021-09-13T20:07:26",
+   "date_unixtime": "1631538446",
+   "from": "Rian YW",
+   "from_id": "user37370715",
+   "text": "kenapa jadi pusing lihat teks bahasa Indonesia baku gini ya 😂",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "kenapa jadi pusing lihat teks bahasa Indonesia baku gini ya 😂"
+    }
+   ]
+  },
+  {
+   "id": 235508,
+   "type": "message",
+   "date": "2021-09-13T20:07:27",
+   "date_unixtime": "1631538447",
+   "from": "Ronny Gunawan ️",
+   "from_id": "user149994951",
+   "reply_to_message_id": 235498,
+   "text": "Kalimat bijak seorang cendekiawan penggiat ilmu sains komputer",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Kalimat bijak seorang cendekiawan penggiat ilmu sains komputer"
+    }
+   ]
+  },
+  {
+   "id": 235509,
+   "type": "message",
+   "date": "2021-09-13T20:11:08",
+   "date_unixtime": "1631538668",
+   "from": "Reinaldy",
+   "from_id": "user1462097294",
+   "reply_to_message_id": 235507,
+   "text": "Mungkin pak Rian belum terbiasa, mungkin apabila nanti pak Rian lebih giat lagi melakukan awakutu kode, akan terbiasa juga.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Mungkin pak Rian belum terbiasa, mungkin apabila nanti pak Rian lebih giat lagi melakukan awakutu kode, akan terbiasa juga."
+    }
+   ]
+  },
+  {
+   "id": 235510,
+   "type": "message",
+   "date": "2021-09-13T20:11:17",
+   "date_unixtime": "1631538677",
+   "from": "Zy.",
+   "from_id": "user832739974",
+   "reply_to_message_id": 235508,
+   "text": "saya fokus di Kejatuhan aplikasi..",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "saya fokus di Kejatuhan aplikasi.."
+    }
+   ]
+  },
+  {
+   "id": 235511,
+   "type": "message",
+   "date": "2021-09-13T20:11:48",
+   "date_unixtime": "1631538708",
+   "from": "Rian YW",
+   "from_id": "user37370715",
+   "text": "kaya bahasa Google translate semua ini 😂",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "kaya bahasa Google translate semua ini 😂"
+    }
+   ]
+  },
+  {
+   "id": 235512,
+   "type": "message",
+   "date": "2021-09-13T20:16:55",
+   "date_unixtime": "1631539015",
+   "from": "Rijal bin Husen",
+   "from_id": "user802716263",
+   "reply_to_message_id": 235511,
+   "text": "Sayangnya memang demikian, bagi para cendikiawan sekelas kak ronny juga kak jason, lebih mudah untuk mereka bersurat dalam bahasa inggris, sehingga mereka melakukannya di laman alih bahasa, setelahnya dikutip dipaguyuban naskah jawa ini.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Sayangnya memang demikian, bagi para cendikiawan sekelas kak ronny juga kak jason, lebih mudah untuk mereka bersurat dalam bahasa inggris, sehingga mereka melakukannya di laman alih bahasa, setelahnya dikutip dipaguyuban naskah jawa ini."
+    }
+   ]
+  },
+  {
+   "id": 235513,
+   "type": "message",
+   "date": "2021-09-13T20:21:03",
+   "date_unixtime": "1631539263",
+   "from": "artupardnahC ibuR",
+   "from_id": "user1905898432",
+   "text": "Sebetulnya para cendikiawan melakukan hal seperti ini, agar kita semua tersadar, daripada menyerah dari pranala berbahasa inggris, lebih baik mencoba dan berlatih untuk mengerti. Karena seluruh sintaksis naskah jawa berbahasa inggris",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Sebetulnya para cendikiawan melakukan hal seperti ini, agar kita semua tersadar, daripada menyerah dari pranala berbahasa inggris, lebih baik mencoba dan berlatih untuk mengerti. Karena seluruh sintaksis naskah jawa berbahasa inggris"
+    }
+   ]
+  },
+  {
+   "id": 235514,
+   "type": "message",
+   "date": "2021-09-13T20:22:53",
+   "date_unixtime": "1631539373",
+   "from": "Van",
+   "from_id": "user1145422948",
+   "text": "Teman\" cara nge load halaman baru didalam load ajax, tetapi di div parent nya. gimana?Apakah bisa?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Teman\" cara nge load halaman baru didalam load ajax, tetapi di div parent nya. gimana?Apakah bisa?"
+    }
+   ]
+  },
+  {
+   "id": 235515,
+   "type": "message",
+   "date": "2021-09-13T20:25:06",
+   "date_unixtime": "1631539506",
+   "from": "Zy.",
+   "from_id": "user832739974",
+   "reply_to_message_id": 235514,
+   "text": "Harap gunakan bahasa indonesia yang benar sesuai EYD yg disempurkan",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Harap gunakan bahasa indonesia yang benar sesuai EYD yg disempurkan"
+    }
+   ]
+  },
+  {
+   "id": 235516,
+   "type": "message",
+   "date": "2021-09-13T20:25:50",
+   "date_unixtime": "1631539550",
+   "from": "Rijal bin Husen",
+   "from_id": "user802716263",
+   "reply_to_message_id": 235514,
+   "text": "Akan lebih baik apabila menyertakan potongan kode, kemudian para pengguna temu bual disini dapat meneliti bersama.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Akan lebih baik apabila menyertakan potongan kode, kemudian para pengguna temu bual disini dapat meneliti bersama."
+    }
+   ]
+  }
+ ]
+}
