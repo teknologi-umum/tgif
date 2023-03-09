@@ -53,7 +53,7 @@ export type Props = {
 	title?: string | undefined;
 	keywords?: string[] | undefined;
 	summary?: string | undefined;
-	url?: URL | undefined;
+	url?: URL | string;
 };
 
 const { title, keywords, summary, url } = Astro.props as Props;
