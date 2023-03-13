@@ -64,6 +64,7 @@ const { title, keywords, summary, url } = Astro.props as Props;
 		<Seo keywords={keywords} summary={summary} url={url} title={title} />
 		<script>
 			import "../scripts/spa-navigation";
+			import "../scripts/mobile-mode-switcher"
 		</script>
 	</head>
 	<body>
