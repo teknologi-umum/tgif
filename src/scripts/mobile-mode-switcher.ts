@@ -3,13 +3,31 @@ export const isMobile = (): boolean => {
     return screenWidth <= 768;
 }
 
-// delete element #chat-content if mobile mode
-const switchToMobile = () => {
-	isMobile()
-		? document.querySelector('#chat-content')?.remove()
-		: false;
+const isPathNameNull = ():boolean => location.pathname === '/'
+
+const toggleHideElement = (elm: HTMLElement, isShow: boolean): void => {
+    elm.style.display = isShow ? 'block' : 'none'
 }
 
-window.addEventListener('resize', switchToMobile)
+export const switchToMobile = ():void => {
+	const chats = document.getElementsByTagName('aside')[0]
+	const chatContent = document.getElementById("chat-content")
+	if(chats && chatContent) {
+		if(isMobile()) {
+			if(!isPathNameNull()) {
+				toggleHideElement(chats, false)
+				toggleHideElement(chatContent, true)
+			} else {
+				toggleHideElement(chats, true)
+				toggleHideElement(chatContent, false)
+			}
+		}
+		else {
+			toggleHideElement(chats, true)
+			toggleHideElement(chatContent, true)
+		}
+    } 
+}
 
 switchToMobile()
+window.addEventListener('resize', () => switchToMobile())

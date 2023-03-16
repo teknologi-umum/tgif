@@ -1,4 +1,5 @@
 // ref: https://github.com/Charca/astro-music
+import { switchToMobile } from "../scripts/mobile-mode-switcher"
 
 export class SpaNavigator {
 	private shouldNotIntercept(navigationEvent: NavigateEvent) {
@@ -41,6 +42,7 @@ export class SpaNavigator {
 				this.render(loadingFragment);
 				const chatFragment = await this.getFragment((toPath === "/" ? "/chat/_" : toPath) + "/");
 				this.render(chatFragment);
+				switchToMobile()
 			},
 		});
 	}
