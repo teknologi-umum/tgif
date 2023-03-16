@@ -6,7 +6,7 @@ export const isMobile = (): boolean => {
 const isPathNameNull = ():boolean => location.pathname === '/'
 
 const toggleHideElement = (elm: HTMLElement, isShow: boolean): void => {
-    elm.style.display = isShow ? 'block' : 'none'
+    elm.style.display = isShow ? '' : 'none'
 }
 
 export const switchToMobile = ():void => {
