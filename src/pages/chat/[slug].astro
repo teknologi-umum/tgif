@@ -16,7 +16,7 @@ export async function getStaticPaths() {
 }
 
 // https://tgif.teknologiumum.com + /the-path-name
-const url: string = Astro.site + Astro.url.pathname.replace("/", "")
+const url: string = Astro.site + Astro.url.pathname.replace("/", "");
 ---
 
 <!-- just because Astro.url return value with type URL, I do this way to make the type converted to string -->

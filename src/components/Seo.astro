@@ -9,8 +9,8 @@ const props = Astro.props as Props;
 // set default value when parent pass undefined
 const titleSEO = props?.title || "Home";
 const keywordsSEO = props?.keywords
-? props?.keywords.join(", ")
-: ["Telegram", "Group programing", "indonesia"].join(", ");
+	? props?.keywords.join(", ")
+	: ["Telegram", "Group programing", "indonesia"].join(", ");
 const summarySEO = props?.summary || "Kutipan chat dari berbagai group telegram progaming indonesia";
 const urlSEO = props?.url || Astro.site;
 // We're just need the origin url e.g (https://www.tgif.teknologiumum.com/)
