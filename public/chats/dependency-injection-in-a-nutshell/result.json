@@ -1,2502 +1,2502 @@
 {
- "name": "C# Indonesia",
- "type": "public_supergroup",
- "id": 1730156619,
- "messages": [
-  {
-   "id": 2371,
-   "type": "message",
-   "date": "2022-04-04T17:07:32",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "sore om\n\nada yang bisa bantu gak ngasih tutor signalr realtime update counter otomatis tanpa trigger user om ane udah coba sampe chat signalr\n\npas ane aplikasiin untuk get data saja tanpa trigger, triggernya setiap ada perubahan data gitu om"
-  },
-  {
-   "id": 2372,
-   "type": "message",
-   "date": "2022-04-04T17:08:02",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "ane udah coba aplikasiin begini tapi masih nihil"
-  },
-  {
-   "id": 2373,
-   "type": "message",
-   "date": "2022-04-04T17:08:02",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "forwarded_from": "Kiro Honjou",
-   "photo": "photos/photo_45@04-04-2022_17-08-02.jpg",
-   "width": 1068,
-   "height": 202,
-   "text": "saya bikin seperti ini di kontroller"
-  },
-  {
-   "id": 2374,
-   "type": "message",
-   "date": "2022-04-04T17:08:02",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "forwarded_from": "Kiro Honjou",
-   "photo": "photos/photo_46@04-04-2022_17-08-02.jpg",
-   "width": 608,
-   "height": 444,
-   "text": ""
-  },
-  {
-   "id": 2375,
-   "type": "message",
-   "date": "2022-04-04T17:08:02",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "forwarded_from": "Kiro Honjou",
-   "photo": "photos/photo_47@04-04-2022_17-08-02.jpg",
-   "width": 835,
-   "height": 269,
-   "text": ""
-  },
-  {
-   "id": 2376,
-   "type": "message",
-   "date": "2022-04-04T17:09:23",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "Adakah om2 yang berbaik hati memberikan pencerahannya 🙏😢"
-  },
-  {
-   "id": 2377,
-   "type": "message",
-   "date": "2022-04-04T17:16:20",
-   "edited": "2022-04-04T17:18:15",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 2371,
-   "text": [
-    "1. di sisi hub, bikin method khusus untuk server to client streaming. yaitu method yang return typenya ",
-    {
-     "type": "code",
-     "text": "IAsyncEnumerable<T>\n\n"
-    },
-    "2. backend kamu harus reactive. bikinlah observable yang emit setiap kali ada data baru, lalu hub method kamu yang tadi (",
-    {
-     "type": "code",
-     "text": "IAsyncEnumerable<T>"
-    },
-    ") subscribe ke observable yang dibutuhkan. tiap kali ada data baru kamu yield return"
-   ]
-  },
-  {
-   "id": 2378,
-   "type": "message",
-   "date": "2022-04-04T17:16:45",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "untuk konsep reactive sudah pernah belajar?"
-  },
-  {
-   "id": 2379,
-   "type": "message",
-   "date": "2022-04-04T17:18:16",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2378,
-   "text": "di c# belum om"
-  },
-  {
-   "id": 2380,
-   "type": "message",
-   "date": "2022-04-04T17:20:34",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 2379,
-   "text": [
-    "ok yang penting sudah paham dasarnya. kamu install ini dulu ",
-    {
-     "type": "link",
-     "text": "https://github.com/dotnet/reactive"
-    },
-    "\n\nlalu untuk emit data kamu siapkan singleton bertipe ",
-    {
-     "type": "code",
-     "text": "BehaviorSubject"
-    },
-    " sebagai sumber observablenya. untuk subscribenya tinggal kamu panggil ",
-    {
-     "type": "code",
-     "text": ".Subscribe"
-    },
-    " di observablenya"
-   ]
-  },
-  {
-   "id": 2382,
-   "type": "message",
-   "date": "2022-04-04T17:28:09",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2381,
-   "text": "baik om saya pelajari dulu lagi"
-  },
-  {
-   "id": 2384,
-   "type": "message",
-   "date": "2022-04-04T17:35:35",
-   "from": "LaodeBot",
-   "from_id": "user1813145338",
-   "photo": "photos/photo_48@04-04-2022_17-35-35.jpg",
-   "width": 2560,
-   "height": 1145,
-   "text": ""
-  },
-  {
-   "id": 2385,
-   "type": "message",
-   "date": "2022-04-04T18:14:02",
-   "from": "Reinaldy",
-   "from_id": "user1462097294",
-   "reply_to_message_id": 2384,
-   "text": "kok ada bot ini disini"
-  },
-  {
-   "id": 2386,
-   "type": "message",
-   "date": "2022-04-04T18:14:43",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "kan grup ini part of teknologi umum group wkwkwk"
-  },
-  {
-   "id": 2387,
-   "type": "message",
-   "date": "2022-04-04T18:15:09",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": [
-    {
-     "type": "bot_command",
-     "text": "/help"
-    }
-   ]
-  },
-  {
-   "id": 2388,
-   "type": "message",
-   "date": "2022-04-04T18:15:10",
-   "from": "LaodeBot",
-   "from_id": "user1813145338",
-   "text": [
-    "Hi there! I am a bot made and developed by the people of Teknologi Umum group.\n\nFor available commands, type / and browse through the autocomplete or browse through the ",
-    {
-     "type": "text_link",
-     "text": "usage documentation",
-     "href": "https://github.com/teknologi-umum/bot/tree/master/docs/USAGE.md"
-    },
-    ".\n\nI'm also an open source bot! If you want to add me into your group or have any feature request, please refer to the ",
-    {
-     "type": "text_link",
-     "text": "Github repository",
-     "href": "https://github.com/teknologi-umum/bot"
-    },
-    "."
-   ]
-  },
-  {
-   "id": 2389,
-   "type": "message",
-   "date": "2022-04-04T23:42:17",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2386,
-   "text": "om"
-  },
-  {
-   "id": 2390,
-   "type": "message",
-   "date": "2022-04-04T23:42:31",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "dokumentasi dotnetreactive dimane ye"
-  },
-  {
-   "id": 2391,
-   "type": "message",
-   "date": "2022-04-05T00:35:42",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": [
-    {
-     "type": "link",
-     "text": "https://reactivex.io/"
-    }
-   ]
-  },
-  {
-   "id": 2392,
-   "type": "message",
-   "date": "2022-04-05T00:36:07",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": [
-    {
-     "type": "link",
-     "text": "https://reactivex.io/documentation/operators.html"
-    }
-   ]
-  },
-  {
-   "id": 2393,
-   "type": "message",
-   "date": "2022-04-05T02:31:29",
-   "from": "dotnet Dev",
-   "from_id": "user810191841",
-   "text": [
-    ".NET Framework 4.5.2, 4.6, and 4.6.1 will reach End of Support on Apr 26, 2022\n",
-    {
-     "type": "link",
-     "text": "https://devblogs.microsoft.com/dotnet/dotnet-framework-45-46-461-end-of-support/"
-    },
-    "\n\nAs part of our effort to retire SHA-1 content, in April 2021 we announced that .NET Framework 4.5.2, 4.6, and 4.6.1 will reach End of Support on April 26, 2022. After this date, we will no longer provide updates including security fixes or technical support for these versions.\nThe post .NET Framework 4.5.2, 4.6, and 4.6.1 will reach End of Support on Apr 26, 2022 (",
-    {
-     "type": "link",
-     "text": "https://devblogs.microsoft.com/dotnet/dotnet-framework-45-46-461-end-of-support/"
-    },
-    ") appeared first on .NET Blog (",
-    {
-     "type": "link",
-     "text": "https://devblogs.microsoft.com/dotnet"
-    },
-    ")."
-   ]
-  },
-  {
-   "id": 2394,
-   "type": "message",
-   "date": "2022-04-05T08:53:52",
-   "from": "No",
-   "from_id": "user1438368743",
-   "text": "Pagi . Mau tanya bisa gak program c# kita kunci atau di hide..\nTerima kasih"
-  },
-  {
-   "id": 2395,
-   "type": "message",
-   "date": "2022-04-05T09:27:59",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2384,
-   "text": "ini gak perlu pake publisher om?"
-  },
-  {
-   "id": 2396,
-   "type": "message",
-   "date": "2022-04-05T10:34:38",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 2395,
-   "text": "BehaviorSubject itu \"publisher\", kita sebutnya observable"
-  },
-  {
-   "id": 2397,
-   "type": "message",
-   "date": "2022-04-05T10:35:41",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "coba lihat link yang saya kasih soal operators, scroll ke bawah ada decision tree. pelajari dari situ aja lebih gampang"
-  },
-  {
-   "id": 2398,
-   "type": "message",
-   "date": "2022-04-05T10:35:56",
-   "from": "dolby studio",
-   "from_id": "user1106019694",
-   "text": "Mau nanya gais cara reschudule yg baik interview apa ya ? Kebetulan saya ada interview di jam yg sama"
-  },
-  {
-   "id": 2399,
-   "type": "message",
-   "date": "2022-04-05T10:38:42",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 2398,
-   "text": "tergantung kamu skill level junior atau senior. kalau kamu senior kamu bisa jujur aja lagi interviewing di perusahaan lain di jam yang sama lalu minta reschedule. kalau junior, sebenernya ngga ada cara yang baik. best bet kamu bisa bilang aja sedang ada halangan jadi mesti reschedule"
-  },
-  {
-   "id": 2400,
-   "type": "message",
-   "date": "2022-04-05T10:39:39",
-   "from": "dolby studio",
-   "from_id": "user1106019694",
-   "reply_to_message_id": 2399,
-   "text": "Halangan nya apa ya om baiknya ?🤣"
-  },
-  {
-   "id": 2401,
-   "type": "message",
-   "date": "2022-04-05T10:39:49",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": [
-    "untuk lebih enaknya kita bahas di grup sebelah yuk di\n",
-    {
-     "type": "link",
-     "text": "https://t.me/teknologi_umum"
-    },
-    "\n\ndi sana banyak yang bisa tukar pengalaman soal interview"
-   ]
-  },
-  {
-   "id": 2402,
-   "type": "message",
-   "date": "2022-04-05T10:40:21",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 2400,
-   "text": "ngga perlu disebut. ngga perlu spesifik, dan jangan bohong. lebih baik general aja"
-  },
-  {
-   "id": 2403,
-   "type": "message",
-   "date": "2022-04-05T12:37:11",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2396,
-   "text": [
-    {
-     "type": "link",
-     "text": "https://www.gokhan-gokalp.com/en/asp-net-core-series-05-dont-block-your-code-be-reactive/"
-    },
-    "\n\nane liat disini publishernya butuh tigger juga om"
-   ]
-  },
-  {
-   "id": 2404,
-   "type": "message",
-   "date": "2022-04-05T12:38:07",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 2403,
-   "text": "ya memang"
-  },
-  {
-   "id": 2405,
-   "type": "message",
-   "date": "2022-04-05T12:38:14",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "code saya di atas juga kan"
-  },
-  {
-   "id": 2406,
-   "type": "message",
-   "date": "2022-04-05T12:38:32",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "cuma bedanya di code saya BehaviorSubject nya langsung saya pake ngga pake dibungkus2 lagi"
-  },
-  {
-   "id": 2407,
-   "type": "message",
-   "date": "2022-04-05T12:52:28",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2406,
-   "text": "implementasi di saya masih bingung om 😢"
-  },
-  {
-   "id": 2408,
-   "type": "message",
-   "date": "2022-04-05T12:53:43",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 2407,
-   "text": "pernah pakai redux ngga? atau layanan pub sub?"
-  },
-  {
-   "id": 2409,
-   "type": "message",
-   "date": "2022-04-05T12:57:03",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2408,
-   "text": "layanan pub sub pernah pake mqtt ane om"
-  },
-  {
-   "id": 2410,
-   "type": "message",
-   "date": "2022-04-05T12:57:07",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "redux juga pernah direact"
-  },
-  {
-   "id": 2411,
-   "type": "message",
-   "date": "2022-04-05T12:57:11",
-   "edited": "2022-04-05T12:57:15",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "web ane pake redux"
-  },
-  {
-   "id": 2412,
-   "type": "message",
-   "date": "2022-04-05T12:57:21",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "ok kita pakai analogi redux"
-  },
-  {
-   "id": 2413,
-   "type": "message",
-   "date": "2022-04-05T12:58:17",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": [
-    "object yang tipenya ",
-    {
-     "type": "code",
-     "text": "BehaviorSubject<Foo>"
-    },
-    " itu basically sebuah \"store\" yang setiap kali kita panggil ",
-    {
-     "type": "code",
-     "text": "OnNext(foo)"
-    },
-    " akan ngebroadcast ",
-    {
-     "type": "code",
-     "text": "foo"
-    },
-    " itu ke semua subscriber"
-   ]
-  },
-  {
-   "id": 2414,
-   "type": "message",
-   "date": "2022-04-05T12:58:29",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2413,
-   "text": "nah iyah om"
-  },
-  {
-   "id": 2415,
-   "type": "message",
-   "date": "2022-04-05T12:59:13",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": [
-    "misal kita ada ",
-    {
-     "type": "code",
-     "text": "BehaviorSubject<Foo>"
-    },
-    " namanya ",
-    {
-     "type": "code",
-     "text": "fooStore"
-    },
-    ", maka kita bisa subscribe:\n\n",
-    {
-     "type": "pre",
-     "text": "fooStore.Subscribe(foo => {\n  // ini bakal dipanggil tiap kali foo dibroadcast\n});",
-     "language": ""
-    }
-   ]
-  },
-  {
-   "id": 2416,
-   "type": "message",
-   "date": "2022-04-05T13:00:30",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": [
-    "jadi idealnya di SignalR hub kamu ketika ada new server-to-client-streaming connection, handlernya subscribe ke ",
-    {
-     "type": "code",
-     "text": "fooStore"
-    },
-    " ini untuk terima value2 baru. tiap ada value baru langsung kirim ke client"
-   ]
-  },
-  {
-   "id": 2417,
-   "type": "message",
-   "date": "2022-04-05T13:00:40",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "sesimple itu"
-  },
-  {
-   "id": 2418,
-   "type": "message",
-   "date": "2022-04-05T13:01:20",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "tapi karena observable perlu dimanage asynchrony dan disposable resourcenya, makanya codenya jadi ada extra ceremony kaya contoh saya di atas"
-  },
-  {
-   "id": 2419,
-   "type": "message",
-   "date": "2022-04-05T13:04:44",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2415,
-   "text": "nah ini nih saya masih belum ngerti om wait deh saya ketik dulu semuanya nnti saya ss"
-  },
-  {
-   "id": 2420,
-   "type": "message",
-   "date": "2022-04-05T13:16:14",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2418,
-   "photo": "photos/photo_49@05-04-2022_13-16-14.jpg",
-   "width": 1280,
-   "height": 623,
-   "text": ""
-  },
-  {
-   "id": 2421,
-   "type": "message",
-   "date": "2022-04-05T13:17:00",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "photo": "photos/photo_50@05-04-2022_13-17-00.jpg",
-   "width": 1280,
-   "height": 700,
-   "text": ""
-  },
-  {
-   "id": 2422,
-   "type": "message",
-   "date": "2022-04-05T13:17:13",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 2420,
-   "text": [
-    "yes. simplenya gini. tapi kalau butuh 2 atau lebih subject bertipe ",
-    {
-     "type": "code",
-     "text": "BehaviorSubject<PlcData>"
-    },
-    ", maka harus dibungkus class lagi"
-   ]
-  },
-  {
-   "id": 2424,
-   "type": "message",
-   "date": "2022-04-05T13:17:34",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2422,
-   "text": "tapi itu error om"
-  },
-  {
-   "id": 2425,
-   "type": "message",
-   "date": "2022-04-05T13:17:47",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "photo": "photos/photo_51@05-04-2022_13-17-47.jpg",
-   "width": 1280,
-   "height": 616,
-   "text": ""
-  },
-  {
-   "id": 2426,
-   "type": "message",
-   "date": "2022-04-05T13:17:58",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "apa yah kurang dan apa yah yang salah"
-  },
-  {
-   "id": 2427,
-   "type": "message",
-   "date": "2022-04-05T13:18:22",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": [
-    "ok kamu ganti registrationnya jadi:\n\n",
-    {
-     "type": "code",
-     "text": "builder.Services.AddSingleton<IPlcEventHandler, PlcEventHandler>();"
-    }
-   ]
-  },
-  {
-   "id": 2428,
-   "type": "message",
-   "date": "2022-04-05T13:18:47",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "photo": "photos/photo_52@05-04-2022_13-18-47.jpg",
-   "width": 1280,
-   "height": 616,
-   "text": ""
-  },
-  {
-   "id": 2429,
-   "type": "message",
-   "date": "2022-04-05T13:18:55",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2427,
-   "text": "oke wait om"
-  },
-  {
-   "id": 2430,
-   "type": "message",
-   "date": "2022-04-05T13:19:09",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": [
-    "nanti yang kamu ambil dari DI bukan lagi instance dari subject itu tapi ",
-    {
-     "type": "code",
-     "text": "IPlcEventHandler"
-    }
-   ]
-  },
-  {
-   "id": 2431,
-   "type": "message",
-   "date": "2022-04-05T13:20:09",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2430,
-   "photo": "photos/photo_53@05-04-2022_13-20-09.jpg",
-   "width": 940,
-   "height": 165,
-   "text": "tetep gak jalan om lognya"
-  },
-  {
-   "id": 2432,
-   "type": "message",
-   "date": "2022-04-05T13:20:35",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2430,
-   "text": "eh sebentar om DI ini apa yah"
-  },
-  {
-   "id": 2433,
-   "type": "message",
-   "date": "2022-04-05T13:20:50",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "dependency injection"
-  },
-  {
-   "id": 2434,
-   "type": "message",
-   "date": "2022-04-05T13:21:45",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "hub method kamu yang untuk streaming server ke client mana?"
-  },
-  {
-   "id": 2435,
-   "type": "message",
-   "date": "2022-04-05T13:23:22",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2434,
-   "photo": "photos/photo_54@05-04-2022_13-23-22.jpg",
-   "width": 629,
-   "height": 195,
-   "text": "yang ini om"
-  },
-  {
-   "id": 2436,
-   "type": "message",
-   "date": "2022-04-05T13:23:38",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "itu untuk publishnya doang. yang subscribe belum ada"
-  },
-  {
-   "id": 2437,
-   "type": "message",
-   "date": "2022-04-05T13:24:26",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 2428,
-   "text": "pattern ini juga kurang bagus sebenernya. subscribe method harusnya return disposable. tapi okelah, yang penting works dulu"
-  },
-  {
-   "id": 2438,
-   "type": "message",
-   "date": "2022-04-05T13:24:52",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2436,
-   "text": "wait om ane bikin dulu"
-  },
-  {
-   "id": 2439,
-   "type": "message",
-   "date": "2022-04-05T13:25:06",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2437,
-   "text": "nah bener om biar saya tau aja cara kerja reactive ini gimana"
-  },
-  {
-   "id": 2440,
-   "type": "message",
-   "date": "2022-04-05T13:26:37",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "kalao mau dibikin dictionary, biasanya key nya itu topic"
-  },
-  {
-   "id": 2441,
-   "type": "message",
-   "date": "2022-04-05T13:36:00",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2440,
-   "photo": "photos/photo_55@05-04-2022_13-36-00.jpg",
-   "width": 1280,
-   "height": 688,
-   "text": ""
-  },
-  {
-   "id": 2442,
-   "type": "message",
-   "date": "2022-04-05T13:36:05",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "iyah om gampang itu mah"
-  },
-  {
-   "id": 2443,
-   "type": "message",
-   "date": "2022-04-05T13:36:08",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "ane cuman pengen bisa gimana"
-  },
-  {
-   "id": 2444,
-   "type": "message",
-   "date": "2022-04-05T13:36:28",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "datanya otomatis ke publish setiap ada perubahan data om"
-  },
-  {
-   "id": 2445,
-   "type": "message",
-   "date": "2022-04-05T13:36:47",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2441,
-   "text": [
-    {
-     "type": "mention",
-     "text": "@RonnyGunawan"
-    },
-    " ini apa yah om masalahnya"
-   ]
-  },
-  {
-   "id": 2446,
-   "type": "message",
-   "date": "2022-04-05T13:37:22",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 2441,
-   "text": "parameter pertamanya harusnya string. cek deh"
-  },
-  {
-   "id": 2447,
-   "type": "message",
-   "date": "2022-04-05T13:37:33",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "kamu sendiri yang bikin methodnya"
-  },
-  {
-   "id": 2448,
-   "type": "message",
-   "date": "2022-04-05T13:40:00",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2446,
-   "text": "iyah om emang string"
-  },
-  {
-   "id": 2449,
-   "type": "message",
-   "date": "2022-04-05T13:40:11",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "eh wait2"
-  },
-  {
-   "id": 2450,
-   "type": "message",
-   "date": "2022-04-05T13:40:28",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "nah tambahin aja first parameter"
-  },
-  {
-   "id": 2451,
-   "type": "message",
-   "date": "2022-04-05T13:42:44",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2450,
-   "photo": "photos/photo_56@05-04-2022_13-42-44.jpg",
-   "width": 1225,
-   "height": 259,
-   "text": ""
-  },
-  {
-   "id": 2452,
-   "type": "message",
-   "date": "2022-04-05T13:42:53",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "photo": "photos/photo_57@05-04-2022_13-42-53.jpg",
-   "width": 668,
-   "height": 58,
-   "text": ""
-  },
-  {
-   "id": 2453,
-   "type": "message",
-   "date": "2022-04-05T13:42:56",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "masih error om"
-  },
-  {
-   "id": 2454,
-   "type": "message",
-   "date": "2022-04-05T13:46:35",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": [
-    "method kamu cara panggilnya gini:\n\n",
-    {
-     "type": "pre",
-     "text": "_plcEventHandler.Subscribe(\n  subscriberName: $\"PlcHub-{data.dmMemory}\",\n  predicate: plcData => plcData.dmMemory == data.dmMemory,\n  action: plcData => {\n    yield return plcData;\n  }\n);",
-     "language": ""
-    }
-   ]
-  },
-  {
-   "id": 2455,
-   "type": "message",
-   "date": "2022-04-05T13:49:14",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2454,
-   "file": "stickers/sticker.webp",
-   "thumbnail": "stickers/sticker.webp_thumb.jpg",
-   "media_type": "sticker",
-   "sticker_emoji": "😭",
-   "width": 512,
-   "height": 512,
-   "text": ""
-  },
-  {
-   "id": 2456,
-   "type": "message",
-   "date": "2022-04-05T13:49:16",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "photo": "photos/photo_58@05-04-2022_13-49-16.jpg",
-   "width": 811,
-   "height": 239,
-   "text": ""
-  },
-  {
-   "id": 2457,
-   "type": "message",
-   "date": "2022-04-05T13:49:20",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "maaf om merepotkan"
-  },
-  {
-   "id": 2458,
-   "type": "message",
-   "date": "2022-04-05T13:49:24",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "saya masih bener2 bingung"
-  },
-  {
-   "id": 2459,
-   "type": "message",
-   "date": "2022-04-05T13:49:38",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 2456,
-   "text": "itu bukan static method. jadi targetnya harus instance"
-  },
-  {
-   "id": 2460,
-   "type": "message",
-   "date": "2022-04-05T13:50:14",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": [
-    {
-     "type": "code",
-     "text": "PlcEventHandler"
-    },
-    " ganti jadi ",
-    {
-     "type": "code",
-     "text": "_plcEventHandler"
-    },
-    " (kamu sudah declare di atas)"
-   ]
-  },
-  {
-   "id": 2461,
-   "type": "message",
-   "date": "2022-04-05T13:51:42",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "photo": "photos/photo_59@05-04-2022_13-51-42.jpg",
-   "width": 1089,
-   "height": 236,
-   "text": "'"
-  },
-  {
-   "id": 2462,
-   "type": "message",
-   "date": "2022-04-05T13:52:05",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "photo": "photos/photo_60@05-04-2022_13-52-05.jpg",
-   "width": 1176,
-   "height": 308,
-   "text": ""
-  },
-  {
-   "id": 2463,
-   "type": "message",
-   "date": "2022-04-05T13:52:10",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "udah om kayak gini tetep error"
-  },
-  {
-   "id": 2464,
-   "type": "message",
-   "date": "2022-04-05T13:52:30",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "photo": "photos/photo_61@05-04-2022_13-52-30.jpg",
-   "width": 490,
-   "height": 118,
-   "text": "aku gak bikin instance sih disininya"
-  },
-  {
-   "id": 2465,
-   "type": "message",
-   "date": "2022-04-05T13:54:36",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "photo": "photos/photo_62@05-04-2022_13-54-36.jpg",
-   "width": 333,
-   "height": 39,
-   "text": "deklarenya pun begini"
-  },
-  {
-   "id": 2466,
-   "type": "message",
-   "date": "2022-04-05T13:55:15",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "photo": "photos/photo_63@05-04-2022_13-55-15.jpg",
-   "width": 579,
-   "height": 157,
-   "text": ""
-  },
-  {
-   "id": 2467,
-   "type": "message",
-   "date": "2022-04-05T13:57:11",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2460,
-   "text": "udah om tapi masih error karena interfaceny void juga om"
-  },
-  {
-   "id": 2468,
-   "type": "message",
-   "date": "2022-04-05T13:59:56",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 2467,
-   "text": "dibuang aja assignmentnya"
-  },
-  {
-   "id": 2469,
-   "type": "message",
-   "date": "2022-04-05T14:00:05",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "jadi cukup panggil subcribe"
-  },
-  {
-   "id": 2470,
-   "type": "message",
-   "date": "2022-04-05T14:01:14",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 2428,
-   "text": "di class ini ada unsubscribe atau dispose ngga?"
-  },
-  {
-   "id": 2471,
-   "type": "message",
-   "date": "2022-04-05T14:01:49",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2470,
-   "text": "ada om"
-  },
-  {
-   "id": 2472,
-   "type": "message",
-   "date": "2022-04-05T14:01:53",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2469,
-   "photo": "photos/photo_64@05-04-2022_14-01-53.jpg",
-   "width": 1248,
-   "height": 500,
-   "text": ""
-  },
-  {
-   "id": 2473,
-   "type": "message",
-   "date": "2022-04-05T14:02:12",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "kalau berkenan bisa remote aja om biar jelas"
-  },
-  {
-   "id": 2474,
-   "type": "message",
-   "date": "2022-04-05T14:03:45",
-   "edited": "2022-04-05T14:03:53",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": [
-    "kalau mau properly disposed, gini:\n\n",
-    {
-     "type": "pre",
-     "text": "var subscriberName = Guid.NewGuid().ToString();",
-     "language": ""
-    },
-    "\n\n",
-    {
-     "type": "pre",
-     "text": "_plcEventHandler.Subscribe(\n  subscriberName: subscriberName,\n  predicate: plcData => plcData.dmMemory == data.dmMemory,\n  action: plcData => {\n    yield return plcData;\n  }\n);\n\nusing var _ = new Disposable(() => _plcEventHandler.Unsubscribe(subscriberName));",
-     "language": ""
-    }
-   ]
-  },
-  {
-   "id": 2475,
-   "type": "message",
-   "date": "2022-04-05T14:04:23",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "tapi aneh sih harus dispose by string"
-  },
-  {
-   "id": 2476,
-   "type": "message",
-   "date": "2022-04-05T14:04:31",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "ngga apa2 yang penting works dulu"
-  },
-  {
-   "id": 2477,
-   "type": "message",
-   "date": "2022-04-05T14:05:30",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "photo": "photos/photo_65@05-04-2022_14-05-30.jpg",
-   "width": 1280,
-   "height": 536,
-   "text": ""
-  },
-  {
-   "id": 2478,
-   "type": "message",
-   "date": "2022-04-05T14:09:48",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2476,
-   "text": "mungkin kalau gak keberatan bisa bantu remote om buat memberikan sample sederhana aja yang penting bisa jalan"
-  },
-  {
-   "id": 2479,
-   "type": "message",
-   "date": "2022-04-05T14:09:52",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "file": "stickers/sticker.webp",
-   "thumbnail": "stickers/sticker.webp_thumb.jpg",
-   "media_type": "sticker",
-   "sticker_emoji": "😭",
-   "width": 512,
-   "height": 512,
-   "text": ""
-  },
-  {
-   "id": 2480,
-   "type": "message",
-   "date": "2022-04-05T14:14:44",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": [
-    {
-     "type": "link",
-     "text": "https://github.com/ronnygunawan/maui-redux"
-    }
-   ]
-  },
-  {
-   "id": 2481,
-   "type": "message",
-   "date": "2022-04-05T14:14:53",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "lihat bagian Subscribing to Store updates"
-  },
-  {
-   "id": 2482,
-   "type": "message",
-   "date": "2022-04-05T14:15:09",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "store di situ mirip cara kerjanya dengan BehaviorSubject"
-  },
-  {
-   "id": 2483,
-   "type": "message",
-   "date": "2022-04-05T14:23:06",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2482,
-   "text": "iyah om thanks"
-  },
-  {
-   "id": 2484,
-   "type": "message",
-   "date": "2022-04-05T14:23:22",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "masih struggle ane"
-  },
-  {
-   "id": 2485,
-   "type": "message",
-   "date": "2022-04-05T14:39:56",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "photo": "photos/photo_66@05-04-2022_14-39-56.jpg",
-   "width": 865,
-   "height": 239,
-   "text": "cuman pengen ngerubah ini supaya ngetriggernya gak lewat js susah amat yah"
-  },
-  {
-   "id": 2486,
-   "type": "message",
-   "date": "2022-04-05T14:40:10",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "photo": "photos/photo_67@05-04-2022_14-40-10.jpg",
-   "width": 960,
-   "height": 1040,
-   "text": ""
-  },
-  {
-   "id": 2487,
-   "type": "message",
-   "date": "2022-04-05T14:40:34",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "file": "stickers/sticker (1).webp",
-   "thumbnail": "stickers/sticker (1).webp_thumb.jpg",
-   "media_type": "sticker",
-   "sticker_emoji": "🔫",
-   "width": 512,
-   "height": 512,
-   "text": ""
-  },
-  {
-   "id": 2488,
-   "type": "message",
-   "date": "2022-04-05T14:56:34",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 2485,
-   "text": "nice"
-  },
-  {
-   "id": 2489,
-   "type": "message",
-   "date": "2022-04-05T14:56:49",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2488,
-   "text": "iyah om tapi itu masih pake cara lama"
-  },
-  {
-   "id": 2490,
-   "type": "message",
-   "date": "2022-04-05T14:56:53",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "ngetrigger lewat js"
-  },
-  {
-   "id": 2491,
-   "type": "message",
-   "date": "2022-04-05T14:57:13",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "saya pengennya bener2 serverside realtime gitu kek yang om jelasin"
-  },
-  {
-   "id": 2492,
-   "type": "message",
-   "date": "2022-04-05T14:57:15",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "pake reactive"
-  },
-  {
-   "id": 2493,
-   "type": "message",
-   "date": "2022-04-05T14:57:18",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "file": "stickers/sticker.webp",
-   "thumbnail": "stickers/sticker.webp_thumb.jpg",
-   "media_type": "sticker",
-   "sticker_emoji": "😭",
-   "width": 512,
-   "height": 512,
-   "text": ""
-  },
-  {
-   "id": 2494,
-   "type": "message",
-   "date": "2022-04-05T15:16:00",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2488,
-   "text": "mungkin kalau om free mau berbaik hati memberikan contoh integrasi reactive dengan signalr di githubnya sangat berguna sekali buat pemula seperti saya"
-  },
-  {
-   "id": 2495,
-   "type": "message",
-   "date": "2022-04-05T17:06:44",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "wah susah. project saya proprietary semua"
-  },
-  {
-   "id": 2496,
-   "type": "message",
-   "date": "2022-04-05T17:07:34",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2495,
-   "text": "bukan gitu om maksudnya 🤣"
-  },
-  {
-   "id": 2497,
-   "type": "message",
-   "date": "2022-04-05T17:07:42",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "paling deket ke reactive cuma redux itu"
-  },
-  {
-   "id": 2498,
-   "type": "message",
-   "date": "2022-04-05T17:08:16",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2497,
-   "text": "oke deh om"
-  },
-  {
-   "id": 2499,
-   "type": "message",
-   "date": "2022-04-05T17:08:21",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": [
-    "atau coba baca ini biar paham alurnya ",
-    {
-     "type": "link",
-     "text": "https://github.com/ronnygunawan/maui-redux/blob/master/test/PreferenceSubjectTests.cs"
-    }
-   ]
-  },
-  {
-   "id": 2500,
-   "type": "message",
-   "date": "2022-04-05T17:08:42",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "mulai baris 51 ke bawah"
-  },
-  {
-   "id": 2501,
-   "type": "message",
-   "date": "2022-04-05T17:08:52",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "nggih om nnti saya pelajari lagi"
-  },
-  {
-   "id": 2502,
-   "type": "message",
-   "date": "2022-04-05T17:09:02",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "udah nangkep sih maksud si reactive ini"
-  },
-  {
-   "id": 2503,
-   "type": "message",
-   "date": "2022-04-05T17:09:09",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "cuman implementnya aja masih kurang"
-  },
-  {
-   "id": 2504,
-   "type": "message",
-   "date": "2022-04-05T17:09:36",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "oh lebih ke soal signalr nya ya?"
-  },
-  {
-   "id": 2505,
-   "type": "message",
-   "date": "2022-04-05T17:09:45",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2504,
-   "text": "benar om"
-  },
-  {
-   "id": 2506,
-   "type": "message",
-   "date": "2022-04-05T17:10:12",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "implement signalr sendiri udah bisa, implement reactive diconsole juga udah"
-  },
-  {
-   "id": 2507,
-   "type": "message",
-   "date": "2022-04-05T17:10:20",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "tapi pas disatuin malah mbingung"
-  },
-  {
-   "id": 2508,
-   "type": "message",
-   "date": "2022-04-05T17:10:26",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "file": "stickers/sticker (1).webp",
-   "thumbnail": "stickers/sticker (1).webp_thumb.jpg",
-   "media_type": "sticker",
-   "sticker_emoji": "🔫",
-   "width": 512,
-   "height": 512,
-   "text": ""
-  },
-  {
-   "id": 2509,
-   "type": "message",
-   "date": "2022-04-05T17:11:07",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": [
-    "coba pelajari ini dulu ",
-    {
-     "type": "link",
-     "text": "https://docs.microsoft.com/en-us/aspnet/core/signalr/streaming?view=aspnetcore-6.0"
-    }
-   ]
-  },
-  {
-   "id": 2510,
-   "type": "message",
-   "date": "2022-04-05T17:11:27",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "photo": "photos/photo_68@05-04-2022_17-11-27.jpg",
-   "width": 612,
-   "height": 311,
-   "text": "oh iyah om nanya lagi ini ada cara yang lebih baik gak sih om? i mean koneksinya itu cukup sekali aja kayak bikin koneksi mysql di php gitu loh om"
-  },
-  {
-   "id": 2511,
-   "type": "message",
-   "date": "2022-04-05T17:11:37",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "kalo mau enak coba bikin dummy project aja yang kirim sesuatu ke client tiap 1 detik"
-  },
-  {
-   "id": 2512,
-   "type": "message",
-   "date": "2022-04-05T17:11:51",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2510,
-   "text": "saya masih agak gimana gitu kalau pake cara ini buat komunikasi ke plc"
-  },
-  {
-   "id": 2513,
-   "type": "message",
-   "date": "2022-04-05T17:12:08",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "gini2"
-  },
-  {
-   "id": 2514,
-   "type": "message",
-   "date": "2022-04-05T17:12:17",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "saya coba tebak masalahnya ya"
-  },
-  {
-   "id": 2515,
-   "type": "message",
-   "date": "2022-04-05T17:12:47",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "function yang tipenya IAsyncEnumerable itu bakal selesai enumerationnya kalau methodnya sudah selesai diexecute"
-  },
-  {
-   "id": 2516,
-   "type": "message",
-   "date": "2022-04-05T17:14:26",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": [
-    "misal:\n\n",
-    {
-     "type": "pre",
-     "text": "public async IAsyncEnumerable<Foo> StreamFoo() {\n  _store.Subscribe(foo => {\n    yield return foo;\n  });\n}",
-     "language": ""
-    },
-    "\n\ndi code ini setelah kita subscribe, functionnya selesai. jadi subscriber belum sempat kepake, enumeration udah selesai duluan"
-   ]
-  },
-  {
-   "id": 2517,
-   "type": "message",
-   "date": "2022-04-05T17:14:51",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": [
-    "makanya kita harus block executionnya di akhir function biar ngga langsung exit. caranya pakai ",
-    {
-     "type": "code",
-     "text": "TaskCompletionSource"
-    }
-   ]
-  },
-  {
-   "id": 2518,
-   "type": "message",
-   "date": "2022-04-05T17:16:18",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": [
-    {
-     "type": "code",
-     "text": "TaskCompletionSource"
-    },
-    " itu mirip Promise di javascript. kita bisa set result (resolve), kita bisa set exception (reject)"
-   ]
-  },
-  {
-   "id": 2519,
-   "type": "message",
-   "date": "2022-04-05T17:17:20",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": [
-    "jadi ketika kita tambahin kaya di bawah ini, function bakal stop di await tanpa keluar\n\n",
-    {
-     "type": "pre",
-     "text": "public async IAsyncEnumerable<Foo> StreamFoo() {\n  var completion = new TaskCompletionSource();\n\n  _store.Subscribe(foo => {\n    yield return foo;\n  });\n\n  await completion.Task;\n}",
-     "language": ""
-    }
-   ]
-  },
-  {
-   "id": 2520,
-   "type": "message",
-   "date": "2022-04-05T17:18:00",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "tapi itu belum rapi. kita harus eventually resolve atau reject completion source itu"
-  },
-  {
-   "id": 2521,
-   "type": "message",
-   "date": "2022-04-05T17:18:26",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2520,
-   "text": "iyah om nnti ane pelajari lagi soal ini"
-  },
-  {
-   "id": 2522,
-   "type": "message",
-   "date": "2022-04-05T17:18:31",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "untuk sementara via client dulu om"
-  },
-  {
-   "id": 2523,
-   "type": "message",
-   "date": "2022-04-05T17:18:36",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "soalnya deadline minggu depan"
-  },
-  {
-   "id": 2524,
-   "type": "message",
-   "date": "2022-04-05T17:18:38",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "file": "stickers/sticker.webp",
-   "thumbnail": "stickers/sticker.webp_thumb.jpg",
-   "media_type": "sticker",
-   "sticker_emoji": "😭",
-   "width": 512,
-   "height": 512,
-   "text": ""
-  },
-  {
-   "id": 2525,
-   "type": "message",
-   "date": "2022-04-05T17:19:00",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2519,
-   "text": "makasih banyak om ane dapet banyak ilmu baru ini, csharp emang gg"
-  },
-  {
-   "id": 2526,
-   "type": "message",
-   "date": "2022-04-05T17:19:08",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 2384,
-   "text": "lengkapnya di sini sih"
-  },
-  {
-   "id": 2527,
-   "type": "message",
-   "date": "2022-04-05T17:19:14",
-   "from": null,
-   "from_id": "user1168523623",
-   "reply_to_message_id": 2523,
-   "text": "sebelum ini udah bisa C#?"
-  },
-  {
-   "id": 2528,
-   "type": "message",
-   "date": "2022-04-05T17:19:28",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2527,
-   "text": "udah om"
-  },
-  {
-   "id": 2529,
-   "type": "message",
-   "date": "2022-04-05T17:19:30",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 2527,
-   "text": "looks experienced enough sih"
-  },
-  {
-   "id": 2530,
-   "type": "message",
-   "date": "2022-04-05T17:19:30",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "apa baru pas project roro jonggrang ini belajar C#?"
-  },
-  {
-   "id": 2531,
-   "type": "message",
-   "date": "2022-04-05T17:19:34",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "ooo.."
-  },
-  {
-   "id": 2532,
-   "type": "message",
-   "date": "2022-04-05T17:19:43",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2530,
-   "text": "sebenarnya kalau asp roro jongrang"
-  },
-  {
-   "id": 2533,
-   "type": "message",
-   "date": "2022-04-05T17:19:55",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "sebelumnya console2 or desktop gitu"
-  },
-  {
-   "id": 2534,
-   "type": "message",
-   "date": "2022-04-05T17:19:56",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "ane bisa sebatas c#nya aja"
-  },
-  {
-   "id": 2535,
-   "type": "message",
-   "date": "2022-04-05T17:20:01",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2533,
-   "text": "console2 doang"
-  },
-  {
-   "id": 2536,
-   "type": "message",
-   "date": "2022-04-05T17:20:07",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "I see"
-  },
-  {
-   "id": 2537,
-   "type": "message",
-   "date": "2022-04-05T17:21:08",
-   "edited": "2022-04-05T17:21:16",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2533,
-   "text": [
-    "ane belajar banyak paradigma c# dari sini om ",
-    {
-     "type": "link",
-     "text": "https://mahirkoding.id/seri-belajar-dasar-pemrograman-bahasa-c-sharp/"
-    },
-    "\n\nawalnya sih karena penasaran sama konkuresnsinya"
-   ]
-  },
-  {
-   "id": 2538,
-   "type": "message",
-   "date": "2022-04-05T17:22:06",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "dan ada project yang biasa orang vb kerjain banyak masalah ane inisiatif kalau ada project lagi ane aja yang handle pake c#"
-  },
-  {
-   "id": 2539,
-   "type": "message",
-   "date": "2022-04-05T17:22:11",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "concurrent di C# tu macem2, dan kadang bikin bingung"
-  },
-  {
-   "id": 2540,
-   "type": "message",
-   "date": "2022-04-05T17:22:20",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "dari yang paling primitive, pake Thread"
-  },
-  {
-   "id": 2541,
-   "type": "message",
-   "date": "2022-04-05T17:22:25",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2538,
-   "text": "eh malah jadi bandung bondowoso"
-  },
-  {
-   "id": 2542,
-   "type": "message",
-   "date": "2022-04-05T17:22:29",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "terus BeginXXX EndXXX"
-  },
-  {
-   "id": 2543,
-   "type": "message",
-   "date": "2022-04-05T17:22:30",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "file": "stickers/sticker (1).webp",
-   "thumbnail": "stickers/sticker (1).webp_thumb.jpg",
-   "media_type": "sticker",
-   "sticker_emoji": "🔫",
-   "width": 512,
-   "height": 512,
-   "text": ""
-  },
-  {
-   "id": 2544,
-   "type": "message",
-   "date": "2022-04-05T17:22:42",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2540,
-   "text": "nah itu makanya ane tertarik"
-  },
-  {
-   "id": 2545,
-   "type": "message",
-   "date": "2022-04-05T17:22:54",
-   "edited": "2022-04-05T17:24:12",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "buat dalamin OOP juga sama design pattern"
-  },
-  {
-   "id": 2546,
-   "type": "message",
-   "date": "2022-04-05T17:22:58",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "bisa threading, thread pool, async, PLINQ"
-  },
-  {
-   "id": 2547,
-   "type": "message",
-   "date": "2022-04-05T17:23:04",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "macem2"
-  },
-  {
-   "id": 2548,
-   "type": "message",
-   "date": "2022-04-05T17:23:07",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": [
-    {
-     "type": "link",
-     "text": "https://www.albahari.com/threading/"
-    }
-   ]
-  },
-  {
-   "id": 2549,
-   "type": "message",
-   "date": "2022-04-05T17:24:05",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": [
-    "code signalr yang saya taruh di github cuma sebatas ini ",
-    {
-     "type": "link",
-     "text": "https://github.com/ronnygunawan/protobuf-converters"
-    }
-   ]
-  },
-  {
-   "id": 2550,
-   "type": "message",
-   "date": "2022-04-05T17:24:12",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "itu pun cuma di readme"
-  },
-  {
-   "id": 2551,
-   "type": "message",
-   "date": "2022-04-05T17:24:13",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "-_-"
-  },
-  {
-   "id": 2552,
-   "type": "message",
-   "date": "2022-04-05T17:25:08",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2549,
-   "text": "entar deh ane kalau dah lumayan paham bikin apiskeleton + implemen realtime apps serta reactive backend"
-  },
-  {
-   "id": 2553,
-   "type": "message",
-   "date": "2022-04-05T17:25:10",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "ane jujur"
-  },
-  {
-   "id": 2554,
-   "type": "message",
-   "date": "2022-04-05T17:25:18",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "baru nemu soal reactive backend ini"
-  },
-  {
-   "id": 2555,
-   "type": "message",
-   "date": "2022-04-05T17:25:27",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "oh reactive backend is beautiful"
-  },
-  {
-   "id": 2556,
-   "type": "message",
-   "date": "2022-04-05T17:25:53",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2510,
-   "text": [
-    "oh iyah om masalah ane yang ini gimana yah ",
-    {
-     "type": "mention",
-     "text": "@RonnyGunawan"
-    }
-   ]
-  },
-  {
-   "id": 2557,
-   "type": "message",
-   "date": "2022-04-05T17:26:13",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "ada gak sih cara supaya koneksinya itu sekali eksekusi aja"
-  },
-  {
-   "id": 2558,
-   "type": "message",
-   "date": "2022-04-05T17:26:17",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "dan bisa dipakai berulang"
-  },
-  {
-   "id": 2559,
-   "type": "message",
-   "date": "2022-04-05T17:26:54",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "photo": "photos/photo_69@05-04-2022_17-26-54.jpg",
-   "width": 1180,
-   "height": 808,
-   "text": "dalemnya begini om"
-  },
-  {
-   "id": 2560,
-   "type": "message",
-   "date": "2022-04-05T17:29:06",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 2510,
-   "text": [
-    "biasanya patternnya gini\n\n",
-    {
-     "type": "pre",
-     "text": "builder.Services.AddSingleton<FooConnection>(() => {\n  var connectionString = // ambil dari configuration\n  return new FooConnection(connectionString);\n});",
-     "language": ""
-    }
-   ]
-  },
-  {
-   "id": 2561,
-   "type": "message",
-   "date": "2022-04-05T17:29:53",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2560,
-   "text": "Bjirrr"
-  },
-  {
-   "id": 2562,
-   "type": "message",
-   "date": "2022-04-05T17:29:56",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": [
-    "jadi ",
-    {
-     "type": "code",
-     "text": "AddSingleton"
-    },
-    " itu terima function untuk instantiate instancenya"
-   ]
-  },
-  {
-   "id": 2563,
-   "type": "message",
-   "date": "2022-04-05T17:30:13",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2560,
-   "text": "Pake services builder juga yah"
-  },
-  {
-   "id": 2564,
-   "type": "message",
-   "date": "2022-04-05T17:30:23",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "yup"
-  },
-  {
-   "id": 2565,
-   "type": "message",
-   "date": "2022-04-05T17:30:35",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "Kirain ane services builder itu untuk hal2 yang berkaitan sama aspnya doang"
-  },
-  {
-   "id": 2566,
-   "type": "message",
-   "date": "2022-04-05T17:31:25",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2560,
-   "text": "Ini manggil singletonnya gimana om?"
-  },
-  {
-   "id": 2567,
-   "type": "message",
-   "date": "2022-04-05T17:31:34",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "itu namanya dependency injection"
-  },
-  {
-   "id": 2568,
-   "type": "message",
-   "date": "2022-04-05T17:33:23",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2567,
-   "file": "stickers/sticker (2).webp",
-   "thumbnail": "stickers/sticker (2).webp_thumb.jpg",
-   "media_type": "sticker",
-   "sticker_emoji": "😳",
-   "width": 512,
-   "height": 512,
-   "text": ""
-  },
-  {
-   "id": 2569,
-   "type": "message",
-   "date": "2022-04-05T17:37:23",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": [
-    "dependency injection in a nutshell gini:\n\n1. semua class dan interface bisa didaftarkan ke service collection. anggap service collection adalah dictionary dengan key = type of the instance, dan value = the instance atau cara bikin instancenya. cara daftarinnya gini:\n\n",
-    {
-     "type": "pre",
-     "text": "builder.Services.AddSingleton<Foo>();\nbuilder.Services.AddTransient<Bar>();\nbuilder.Services.AddScoped<Baz>(() => new Baz());",
-     "language": ""
-    },
-    "\n\n2. semua yang sudah didaftarkan di service collection bisa di-inject ke constructor dari class lain ",
-    {
-     "type": "underline",
-     "text": "yang juga sudah didaftarkan"
-    },
-    " ke service collection. ini namanya dependency injection.\n\n",
-    {
-     "type": "pre",
-     "text": "class Bar {\n  private readonly Foo _foo;\n\n  public Bar(Foo foo) {\n    _foo = foo;\n  }\n}",
-     "language": ""
-    },
-    "\n\nconstructor dari Bar di sini ngga pernah kita panggil sama sekali pakai ",
-    {
-     "type": "code",
-     "text": "new"
-    },
-    " statement. ",
-    {
-     "type": "code",
-     "text": "Bar"
-    },
-    " itu sendiri bakal kita inject ke constructor dari class lain, yang mana class lain itu juga bakal diinject ke something else. pokoknya berantai saling inject gitu tanpa ada yang pakai keyword ",
-    {
-     "type": "code",
-     "text": "new"
-    },
-    "\n\n3. ada beberapa hal yang invoked by framework. misalnya aspnetcore framework, misalnya controller. controller ini ngga diinject ke constructor class lain, tapi just trust the framework. semua yang kita taruh di constructornya controller akan diinject"
-   ]
-  },
-  {
-   "id": 2570,
-   "type": "message",
-   "date": "2022-04-05T17:38:34",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "Transient = setiap kali injected create new instance\nScoped = 1 instance dibuat per scope (di aspnetcore, 1 scope = 1 http request)\nSingleton = 1 instance dibuat per app instance"
-  },
-  {
-   "id": 2571,
-   "type": "message",
-   "date": "2022-04-05T17:49:25",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": [
-    {
-     "type": "link",
-     "text": "https://markheath.net/post/constraining-concurrent-threads-csharp"
-    }
-   ]
-  },
-  {
-   "id": 2572,
-   "type": "message",
-   "date": "2022-04-05T17:52:13",
-   "edited": "2022-04-05T17:52:34",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 2571,
-   "text": "RX is missing"
-  },
-  {
-   "id": 2573,
-   "type": "message",
-   "date": "2022-04-05T17:53:09",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "lock missing, volatile missing, interlocked missing"
-  },
-  {
-   "id": 2574,
-   "type": "message",
-   "date": "2022-04-05T17:53:14",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "masih banyak sih"
-  },
-  {
-   "id": 2575,
-   "type": "message",
-   "date": "2022-04-05T17:53:33",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "oh iya ada Channel juga"
-  },
-  {
-   "id": 2576,
-   "type": "message",
-   "date": "2022-04-05T17:53:48",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": [
-    {
-     "type": "link",
-     "text": "https://docs.microsoft.com/en-us/dotnet/api/system.threading.channels.channel-1?view=net-6.0"
-    }
-   ]
-  },
-  {
-   "id": 2577,
-   "type": "message",
-   "date": "2022-04-05T17:55:02",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2569,
-   "text": "Wew"
-  },
-  {
-   "id": 2578,
-   "type": "message",
-   "date": "2022-04-05T17:55:14",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2570,
-   "text": "Thanks om"
-  },
-  {
-   "id": 2579,
-   "type": "message",
-   "date": "2022-04-05T17:55:46",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2570,
-   "text": "Per app instance ini kalau dalam asp mvc itu percontroller bukan sih om?"
-  },
-  {
-   "id": 2580,
-   "type": "message",
-   "date": "2022-04-05T17:55:50",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "Atau entire?"
-  },
-  {
-   "id": 2581,
-   "type": "message",
-   "date": "2022-04-05T17:55:56",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "entire app"
-  },
-  {
-   "id": 2582,
-   "type": "message",
-   "date": "2022-04-05T17:56:35",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "kalau mau global singleton (1 instance per planet) bisa pake orleans"
-  },
-  {
-   "id": 2583,
-   "type": "message",
-   "date": "2022-04-05T17:56:48",
-   "from": null,
-   "from_id": "user1168523623",
-   "reply_to_message_id": 2571,
-   "text": "di artikel ini ada 4 cara, dan itu masih jauh dari lengkap, wkwkwkw"
-  },
-  {
-   "id": 2584,
-   "type": "message",
-   "date": "2022-04-05T17:57:28",
-   "from": null,
-   "from_id": "user1168523623",
-   "reply_to_message_id": 2576,
-   "text": "eh ini rrelatif baru ya"
-  },
-  {
-   "id": 2585,
-   "type": "message",
-   "date": "2022-04-05T17:57:43",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 2584,
-   "text": "yup. baru"
-  },
-  {
-   "id": 2586,
-   "type": "message",
-   "date": "2022-04-05T17:58:37",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "sekilas kayaknya bisa gantiin BlockingCollection<T>"
-  },
-  {
-   "id": 2587,
-   "type": "message",
-   "date": "2022-04-05T17:58:47",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": [
-    "nih artikelnya stephen toub ",
-    {
-     "type": "link",
-     "text": "https://devblogs.microsoft.com/dotnet/an-introduction-to-system-threading-channels/"
-    }
-   ]
-  },
-  {
-   "id": 2588,
-   "type": "message",
-   "date": "2022-04-05T18:01:10",
-   "edited": "2022-04-05T18:01:25",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2582,
-   "text": "Bjirrrr nyesel juga ane baru nyebur di c#"
-  },
-  {
-   "id": 2589,
-   "type": "message",
-   "date": "2022-04-05T18:14:33",
-   "from": "Soto seger",
-   "from_id": "channel1758589293",
-   "reply_to_message_id": 2588,
-   "text": "kenapa wkwkk"
-  },
-  {
-   "id": 2590,
-   "type": "message",
-   "date": "2022-04-05T18:23:16",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "common reaction seseorang yang baru pertama kali melihat cantiknya reactive backend. silauw"
-  },
-  {
-   "id": 2591,
-   "type": "message",
-   "date": "2022-04-05T18:23:42",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "though, reactive backend bisa diimplement di bahasa lain juga"
-  },
-  {
-   "id": 2592,
-   "type": "message",
-   "date": "2022-04-05T18:39:57",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2589,
-   "text": "dulu ane anti sama produk mikocok bukan soal idealisme tapi ekosistemnya yang kurang"
-  },
-  {
-   "id": 2593,
-   "type": "message",
-   "date": "2022-04-05T18:40:46",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "tapi semenjak dotnet jadi open source"
-  },
-  {
-   "id": 2594,
-   "type": "message",
-   "date": "2022-04-05T18:42:28",
-   "from": "Soto seger",
-   "from_id": "channel1758589293",
-   "text": "beritakanlah kebaikan ini WKKWKWK"
-  },
-  {
-   "id": 2595,
-   "type": "message",
-   "date": "2022-04-05T18:43:13",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "disisi lain enterprise grade programming itu masih dipegang java dan c#"
-  },
-  {
-   "id": 2596,
-   "type": "message",
-   "date": "2022-04-05T18:46:06",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 2592,
-   "text": "ekosistem? saya nuget packagenya keluaran microsoft semua hampir ngga ada 3rd party wkwkwkwk"
-  },
-  {
-   "id": 2597,
-   "type": "message",
-   "date": "2022-04-05T18:46:21",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "I feel safer that way"
-  },
-  {
-   "id": 2598,
-   "type": "message",
-   "date": "2022-04-05T18:46:25",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2596,
-   "text": "gak flexibel om"
-  },
-  {
-   "id": 2599,
-   "type": "message",
-   "date": "2022-04-05T18:46:35",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "maksudnya yah harus jalan diserver asp"
-  },
-  {
-   "id": 2600,
-   "type": "message",
-   "date": "2022-04-05T18:46:35",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "daripada package manager sebelah. security risk di mana2"
-  },
-  {
-   "id": 2601,
-   "type": "message",
-   "date": "2022-04-05T18:46:48",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "kalau kayak php, ruby, perl dkknya"
-  },
-  {
-   "id": 2602,
-   "type": "message",
-   "date": "2022-04-05T18:46:52",
-   "from": "Soto seger",
-   "from_id": "channel1758589293",
-   "reply_to_message_id": 2600,
-   "text": "*boom roasted*"
-  },
-  {
-   "id": 2603,
-   "type": "message",
-   "date": "2022-04-05T18:46:53",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "itu kan bisa jalan dimana aja"
-  },
-  {
-   "id": 2604,
-   "type": "message",
-   "date": "2022-04-05T18:47:05",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2600,
-   "text": "bjirrrr sebelah mana tuh om"
-  },
-  {
-   "id": 2605,
-   "type": "message",
-   "date": "2022-04-05T18:47:13",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "banyak lah"
-  },
-  {
-   "id": 2606,
-   "type": "message",
-   "date": "2022-04-05T18:47:50",
-   "from": "Soto seger",
-   "from_id": "channel1758589293",
-   "reply_to_message_id": 2601,
-   "text": [
-    {
-     "type": "link",
-     "text": "https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-apache?view=aspnetcore-6.0"
-    },
-    "\n\nsekarang revolusioner :v"
-   ]
-  },
-  {
-   "id": 2607,
-   "type": "message",
-   "date": "2022-04-05T18:48:06",
-   "from": "Soto seger",
-   "from_id": "channel1758589293",
-   "text": [
-    "nggak suka apache??\nNginx\n",
-    {
-     "type": "link",
-     "text": "https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-nginx?view=aspnetcore-6.0"
-    }
-   ]
-  },
-  {
-   "id": 2608,
-   "type": "message",
-   "date": "2022-04-05T18:49:06",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": [
-    {
-     "type": "bot_command",
-     "text": "/ask"
-    },
-    " help"
-   ]
-  },
-  {
-   "id": 2609,
-   "type": "message",
-   "date": "2022-04-05T18:49:10",
-   "from": "TEKNUM™",
-   "from_id": "user1982832072",
-   "reply_to_message_id": 2608,
-   "text": "I am a highly intelligent question answering bot. If you ask me a question that is rooted in truth, I will give you the answer. If you ask me a question that is nonsense, trickery, or has no clear answer, I will respond with \"Unknown\"."
-  },
-  {
-   "id": 2610,
-   "type": "message",
-   "date": "2022-04-05T18:49:16",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "reply_to_message_id": 2607,
-   "text": "wanjer"
-  },
-  {
-   "id": 2611,
-   "type": "message",
-   "date": "2022-04-05T18:49:17",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "cok"
-  },
-  {
-   "id": 2612,
-   "type": "message",
-   "date": "2022-04-05T18:49:20",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "WAKAKAKA"
-  },
-  {
-   "id": 2613,
-   "type": "message",
-   "date": "2022-04-05T18:49:25",
-   "from": "Kiro Honjou",
-   "from_id": "user719119535",
-   "text": "kudet banget gw"
-  },
-  {
-   "id": 2614,
-   "type": "message",
-   "date": "2022-04-05T18:49:31",
-   "from": "Soto seger",
-   "from_id": "channel1758589293",
-   "text": "isoke, namanya juga belajar"
-  },
-  {
-   "id": 2615,
-   "type": "message",
-   "date": "2022-04-05T18:49:39",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": [
-    "bot ini written in C#, buildnya pake docker, deploy ke linux di ",
-    {
-     "type": "link",
-     "text": "fly.io"
-    },
-    " gratisan"
-   ]
-  }  
- ]
+	"name": "C# Indonesia",
+	"type": "public_supergroup",
+	"id": 1730156619,
+	"messages": [
+		{
+			"id": 2371,
+			"type": "message",
+			"date": "2022-04-04T17:07:32",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "sore om\n\nada yang bisa bantu gak ngasih tutor signalr realtime update counter otomatis tanpa trigger user om ane udah coba sampe chat signalr\n\npas ane aplikasiin untuk get data saja tanpa trigger, triggernya setiap ada perubahan data gitu om"
+		},
+		{
+			"id": 2372,
+			"type": "message",
+			"date": "2022-04-04T17:08:02",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "ane udah coba aplikasiin begini tapi masih nihil"
+		},
+		{
+			"id": 2373,
+			"type": "message",
+			"date": "2022-04-04T17:08:02",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"forwarded_from": "Kiro Honjou",
+			"photo": "photos/photo_45@04-04-2022_17-08-02.jpg",
+			"width": 1068,
+			"height": 202,
+			"text": "saya bikin seperti ini di kontroller"
+		},
+		{
+			"id": 2374,
+			"type": "message",
+			"date": "2022-04-04T17:08:02",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"forwarded_from": "Kiro Honjou",
+			"photo": "photos/photo_46@04-04-2022_17-08-02.jpg",
+			"width": 608,
+			"height": 444,
+			"text": ""
+		},
+		{
+			"id": 2375,
+			"type": "message",
+			"date": "2022-04-04T17:08:02",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"forwarded_from": "Kiro Honjou",
+			"photo": "photos/photo_47@04-04-2022_17-08-02.jpg",
+			"width": 835,
+			"height": 269,
+			"text": ""
+		},
+		{
+			"id": 2376,
+			"type": "message",
+			"date": "2022-04-04T17:09:23",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "Adakah om2 yang berbaik hati memberikan pencerahannya 🙏😢"
+		},
+		{
+			"id": 2377,
+			"type": "message",
+			"date": "2022-04-04T17:16:20",
+			"edited": "2022-04-04T17:18:15",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 2371,
+			"text": [
+				"1. di sisi hub, bikin method khusus untuk server to client streaming. yaitu method yang return typenya ",
+				{
+					"type": "code",
+					"text": "IAsyncEnumerable<T>\n\n"
+				},
+				"2. backend kamu harus reactive. bikinlah observable yang emit setiap kali ada data baru, lalu hub method kamu yang tadi (",
+				{
+					"type": "code",
+					"text": "IAsyncEnumerable<T>"
+				},
+				") subscribe ke observable yang dibutuhkan. tiap kali ada data baru kamu yield return"
+			]
+		},
+		{
+			"id": 2378,
+			"type": "message",
+			"date": "2022-04-04T17:16:45",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "untuk konsep reactive sudah pernah belajar?"
+		},
+		{
+			"id": 2379,
+			"type": "message",
+			"date": "2022-04-04T17:18:16",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2378,
+			"text": "di c# belum om"
+		},
+		{
+			"id": 2380,
+			"type": "message",
+			"date": "2022-04-04T17:20:34",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 2379,
+			"text": [
+				"ok yang penting sudah paham dasarnya. kamu install ini dulu ",
+				{
+					"type": "link",
+					"text": "https://github.com/dotnet/reactive"
+				},
+				"\n\nlalu untuk emit data kamu siapkan singleton bertipe ",
+				{
+					"type": "code",
+					"text": "BehaviorSubject"
+				},
+				" sebagai sumber observablenya. untuk subscribenya tinggal kamu panggil ",
+				{
+					"type": "code",
+					"text": ".Subscribe"
+				},
+				" di observablenya"
+			]
+		},
+		{
+			"id": 2382,
+			"type": "message",
+			"date": "2022-04-04T17:28:09",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2381,
+			"text": "baik om saya pelajari dulu lagi"
+		},
+		{
+			"id": 2384,
+			"type": "message",
+			"date": "2022-04-04T17:35:35",
+			"from": "LaodeBot",
+			"from_id": "user1813145338",
+			"photo": "photos/photo_48@04-04-2022_17-35-35.jpg",
+			"width": 2560,
+			"height": 1145,
+			"text": ""
+		},
+		{
+			"id": 2385,
+			"type": "message",
+			"date": "2022-04-04T18:14:02",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 2384,
+			"text": "kok ada bot ini disini"
+		},
+		{
+			"id": 2386,
+			"type": "message",
+			"date": "2022-04-04T18:14:43",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "kan grup ini part of teknologi umum group wkwkwk"
+		},
+		{
+			"id": 2387,
+			"type": "message",
+			"date": "2022-04-04T18:15:09",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				{
+					"type": "bot_command",
+					"text": "/help"
+				}
+			]
+		},
+		{
+			"id": 2388,
+			"type": "message",
+			"date": "2022-04-04T18:15:10",
+			"from": "LaodeBot",
+			"from_id": "user1813145338",
+			"text": [
+				"Hi there! I am a bot made and developed by the people of Teknologi Umum group.\n\nFor available commands, type / and browse through the autocomplete or browse through the ",
+				{
+					"type": "text_link",
+					"text": "usage documentation",
+					"href": "https://github.com/teknologi-umum/bot/tree/master/docs/USAGE.md"
+				},
+				".\n\nI'm also an open source bot! If you want to add me into your group or have any feature request, please refer to the ",
+				{
+					"type": "text_link",
+					"text": "Github repository",
+					"href": "https://github.com/teknologi-umum/bot"
+				},
+				"."
+			]
+		},
+		{
+			"id": 2389,
+			"type": "message",
+			"date": "2022-04-04T23:42:17",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2386,
+			"text": "om"
+		},
+		{
+			"id": 2390,
+			"type": "message",
+			"date": "2022-04-04T23:42:31",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "dokumentasi dotnetreactive dimane ye"
+		},
+		{
+			"id": 2391,
+			"type": "message",
+			"date": "2022-04-05T00:35:42",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				{
+					"type": "link",
+					"text": "https://reactivex.io/"
+				}
+			]
+		},
+		{
+			"id": 2392,
+			"type": "message",
+			"date": "2022-04-05T00:36:07",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				{
+					"type": "link",
+					"text": "https://reactivex.io/documentation/operators.html"
+				}
+			]
+		},
+		{
+			"id": 2393,
+			"type": "message",
+			"date": "2022-04-05T02:31:29",
+			"from": "dotnet Dev",
+			"from_id": "user810191841",
+			"text": [
+				".NET Framework 4.5.2, 4.6, and 4.6.1 will reach End of Support on Apr 26, 2022\n",
+				{
+					"type": "link",
+					"text": "https://devblogs.microsoft.com/dotnet/dotnet-framework-45-46-461-end-of-support/"
+				},
+				"\n\nAs part of our effort to retire SHA-1 content, in April 2021 we announced that .NET Framework 4.5.2, 4.6, and 4.6.1 will reach End of Support on April 26, 2022. After this date, we will no longer provide updates including security fixes or technical support for these versions.\nThe post .NET Framework 4.5.2, 4.6, and 4.6.1 will reach End of Support on Apr 26, 2022 (",
+				{
+					"type": "link",
+					"text": "https://devblogs.microsoft.com/dotnet/dotnet-framework-45-46-461-end-of-support/"
+				},
+				") appeared first on .NET Blog (",
+				{
+					"type": "link",
+					"text": "https://devblogs.microsoft.com/dotnet"
+				},
+				")."
+			]
+		},
+		{
+			"id": 2394,
+			"type": "message",
+			"date": "2022-04-05T08:53:52",
+			"from": "No",
+			"from_id": "user1438368743",
+			"text": "Pagi . Mau tanya bisa gak program c# kita kunci atau di hide..\nTerima kasih"
+		},
+		{
+			"id": 2395,
+			"type": "message",
+			"date": "2022-04-05T09:27:59",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2384,
+			"text": "ini gak perlu pake publisher om?"
+		},
+		{
+			"id": 2396,
+			"type": "message",
+			"date": "2022-04-05T10:34:38",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 2395,
+			"text": "BehaviorSubject itu \"publisher\", kita sebutnya observable"
+		},
+		{
+			"id": 2397,
+			"type": "message",
+			"date": "2022-04-05T10:35:41",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "coba lihat link yang saya kasih soal operators, scroll ke bawah ada decision tree. pelajari dari situ aja lebih gampang"
+		},
+		{
+			"id": 2398,
+			"type": "message",
+			"date": "2022-04-05T10:35:56",
+			"from": "dolby studio",
+			"from_id": "user1106019694",
+			"text": "Mau nanya gais cara reschudule yg baik interview apa ya ? Kebetulan saya ada interview di jam yg sama"
+		},
+		{
+			"id": 2399,
+			"type": "message",
+			"date": "2022-04-05T10:38:42",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 2398,
+			"text": "tergantung kamu skill level junior atau senior. kalau kamu senior kamu bisa jujur aja lagi interviewing di perusahaan lain di jam yang sama lalu minta reschedule. kalau junior, sebenernya ngga ada cara yang baik. best bet kamu bisa bilang aja sedang ada halangan jadi mesti reschedule"
+		},
+		{
+			"id": 2400,
+			"type": "message",
+			"date": "2022-04-05T10:39:39",
+			"from": "dolby studio",
+			"from_id": "user1106019694",
+			"reply_to_message_id": 2399,
+			"text": "Halangan nya apa ya om baiknya ?🤣"
+		},
+		{
+			"id": 2401,
+			"type": "message",
+			"date": "2022-04-05T10:39:49",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				"untuk lebih enaknya kita bahas di grup sebelah yuk di\n",
+				{
+					"type": "link",
+					"text": "https://t.me/teknologi_umum"
+				},
+				"\n\ndi sana banyak yang bisa tukar pengalaman soal interview"
+			]
+		},
+		{
+			"id": 2402,
+			"type": "message",
+			"date": "2022-04-05T10:40:21",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 2400,
+			"text": "ngga perlu disebut. ngga perlu spesifik, dan jangan bohong. lebih baik general aja"
+		},
+		{
+			"id": 2403,
+			"type": "message",
+			"date": "2022-04-05T12:37:11",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2396,
+			"text": [
+				{
+					"type": "link",
+					"text": "https://www.gokhan-gokalp.com/en/asp-net-core-series-05-dont-block-your-code-be-reactive/"
+				},
+				"\n\nane liat disini publishernya butuh tigger juga om"
+			]
+		},
+		{
+			"id": 2404,
+			"type": "message",
+			"date": "2022-04-05T12:38:07",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 2403,
+			"text": "ya memang"
+		},
+		{
+			"id": 2405,
+			"type": "message",
+			"date": "2022-04-05T12:38:14",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "code saya di atas juga kan"
+		},
+		{
+			"id": 2406,
+			"type": "message",
+			"date": "2022-04-05T12:38:32",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "cuma bedanya di code saya BehaviorSubject nya langsung saya pake ngga pake dibungkus2 lagi"
+		},
+		{
+			"id": 2407,
+			"type": "message",
+			"date": "2022-04-05T12:52:28",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2406,
+			"text": "implementasi di saya masih bingung om 😢"
+		},
+		{
+			"id": 2408,
+			"type": "message",
+			"date": "2022-04-05T12:53:43",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 2407,
+			"text": "pernah pakai redux ngga? atau layanan pub sub?"
+		},
+		{
+			"id": 2409,
+			"type": "message",
+			"date": "2022-04-05T12:57:03",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2408,
+			"text": "layanan pub sub pernah pake mqtt ane om"
+		},
+		{
+			"id": 2410,
+			"type": "message",
+			"date": "2022-04-05T12:57:07",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "redux juga pernah direact"
+		},
+		{
+			"id": 2411,
+			"type": "message",
+			"date": "2022-04-05T12:57:11",
+			"edited": "2022-04-05T12:57:15",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "web ane pake redux"
+		},
+		{
+			"id": 2412,
+			"type": "message",
+			"date": "2022-04-05T12:57:21",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "ok kita pakai analogi redux"
+		},
+		{
+			"id": 2413,
+			"type": "message",
+			"date": "2022-04-05T12:58:17",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				"object yang tipenya ",
+				{
+					"type": "code",
+					"text": "BehaviorSubject<Foo>"
+				},
+				" itu basically sebuah \"store\" yang setiap kali kita panggil ",
+				{
+					"type": "code",
+					"text": "OnNext(foo)"
+				},
+				" akan ngebroadcast ",
+				{
+					"type": "code",
+					"text": "foo"
+				},
+				" itu ke semua subscriber"
+			]
+		},
+		{
+			"id": 2414,
+			"type": "message",
+			"date": "2022-04-05T12:58:29",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2413,
+			"text": "nah iyah om"
+		},
+		{
+			"id": 2415,
+			"type": "message",
+			"date": "2022-04-05T12:59:13",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				"misal kita ada ",
+				{
+					"type": "code",
+					"text": "BehaviorSubject<Foo>"
+				},
+				" namanya ",
+				{
+					"type": "code",
+					"text": "fooStore"
+				},
+				", maka kita bisa subscribe:\n\n",
+				{
+					"type": "pre",
+					"text": "fooStore.Subscribe(foo => {\n  // ini bakal dipanggil tiap kali foo dibroadcast\n});",
+					"language": ""
+				}
+			]
+		},
+		{
+			"id": 2416,
+			"type": "message",
+			"date": "2022-04-05T13:00:30",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				"jadi idealnya di SignalR hub kamu ketika ada new server-to-client-streaming connection, handlernya subscribe ke ",
+				{
+					"type": "code",
+					"text": "fooStore"
+				},
+				" ini untuk terima value2 baru. tiap ada value baru langsung kirim ke client"
+			]
+		},
+		{
+			"id": 2417,
+			"type": "message",
+			"date": "2022-04-05T13:00:40",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "sesimple itu"
+		},
+		{
+			"id": 2418,
+			"type": "message",
+			"date": "2022-04-05T13:01:20",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "tapi karena observable perlu dimanage asynchrony dan disposable resourcenya, makanya codenya jadi ada extra ceremony kaya contoh saya di atas"
+		},
+		{
+			"id": 2419,
+			"type": "message",
+			"date": "2022-04-05T13:04:44",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2415,
+			"text": "nah ini nih saya masih belum ngerti om wait deh saya ketik dulu semuanya nnti saya ss"
+		},
+		{
+			"id": 2420,
+			"type": "message",
+			"date": "2022-04-05T13:16:14",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2418,
+			"photo": "photos/photo_49@05-04-2022_13-16-14.jpg",
+			"width": 1280,
+			"height": 623,
+			"text": ""
+		},
+		{
+			"id": 2421,
+			"type": "message",
+			"date": "2022-04-05T13:17:00",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"photo": "photos/photo_50@05-04-2022_13-17-00.jpg",
+			"width": 1280,
+			"height": 700,
+			"text": ""
+		},
+		{
+			"id": 2422,
+			"type": "message",
+			"date": "2022-04-05T13:17:13",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 2420,
+			"text": [
+				"yes. simplenya gini. tapi kalau butuh 2 atau lebih subject bertipe ",
+				{
+					"type": "code",
+					"text": "BehaviorSubject<PlcData>"
+				},
+				", maka harus dibungkus class lagi"
+			]
+		},
+		{
+			"id": 2424,
+			"type": "message",
+			"date": "2022-04-05T13:17:34",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2422,
+			"text": "tapi itu error om"
+		},
+		{
+			"id": 2425,
+			"type": "message",
+			"date": "2022-04-05T13:17:47",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"photo": "photos/photo_51@05-04-2022_13-17-47.jpg",
+			"width": 1280,
+			"height": 616,
+			"text": ""
+		},
+		{
+			"id": 2426,
+			"type": "message",
+			"date": "2022-04-05T13:17:58",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "apa yah kurang dan apa yah yang salah"
+		},
+		{
+			"id": 2427,
+			"type": "message",
+			"date": "2022-04-05T13:18:22",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				"ok kamu ganti registrationnya jadi:\n\n",
+				{
+					"type": "code",
+					"text": "builder.Services.AddSingleton<IPlcEventHandler, PlcEventHandler>();"
+				}
+			]
+		},
+		{
+			"id": 2428,
+			"type": "message",
+			"date": "2022-04-05T13:18:47",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"photo": "photos/photo_52@05-04-2022_13-18-47.jpg",
+			"width": 1280,
+			"height": 616,
+			"text": ""
+		},
+		{
+			"id": 2429,
+			"type": "message",
+			"date": "2022-04-05T13:18:55",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2427,
+			"text": "oke wait om"
+		},
+		{
+			"id": 2430,
+			"type": "message",
+			"date": "2022-04-05T13:19:09",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				"nanti yang kamu ambil dari DI bukan lagi instance dari subject itu tapi ",
+				{
+					"type": "code",
+					"text": "IPlcEventHandler"
+				}
+			]
+		},
+		{
+			"id": 2431,
+			"type": "message",
+			"date": "2022-04-05T13:20:09",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2430,
+			"photo": "photos/photo_53@05-04-2022_13-20-09.jpg",
+			"width": 940,
+			"height": 165,
+			"text": "tetep gak jalan om lognya"
+		},
+		{
+			"id": 2432,
+			"type": "message",
+			"date": "2022-04-05T13:20:35",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2430,
+			"text": "eh sebentar om DI ini apa yah"
+		},
+		{
+			"id": 2433,
+			"type": "message",
+			"date": "2022-04-05T13:20:50",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "dependency injection"
+		},
+		{
+			"id": 2434,
+			"type": "message",
+			"date": "2022-04-05T13:21:45",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "hub method kamu yang untuk streaming server ke client mana?"
+		},
+		{
+			"id": 2435,
+			"type": "message",
+			"date": "2022-04-05T13:23:22",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2434,
+			"photo": "photos/photo_54@05-04-2022_13-23-22.jpg",
+			"width": 629,
+			"height": 195,
+			"text": "yang ini om"
+		},
+		{
+			"id": 2436,
+			"type": "message",
+			"date": "2022-04-05T13:23:38",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "itu untuk publishnya doang. yang subscribe belum ada"
+		},
+		{
+			"id": 2437,
+			"type": "message",
+			"date": "2022-04-05T13:24:26",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 2428,
+			"text": "pattern ini juga kurang bagus sebenernya. subscribe method harusnya return disposable. tapi okelah, yang penting works dulu"
+		},
+		{
+			"id": 2438,
+			"type": "message",
+			"date": "2022-04-05T13:24:52",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2436,
+			"text": "wait om ane bikin dulu"
+		},
+		{
+			"id": 2439,
+			"type": "message",
+			"date": "2022-04-05T13:25:06",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2437,
+			"text": "nah bener om biar saya tau aja cara kerja reactive ini gimana"
+		},
+		{
+			"id": 2440,
+			"type": "message",
+			"date": "2022-04-05T13:26:37",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "kalao mau dibikin dictionary, biasanya key nya itu topic"
+		},
+		{
+			"id": 2441,
+			"type": "message",
+			"date": "2022-04-05T13:36:00",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2440,
+			"photo": "photos/photo_55@05-04-2022_13-36-00.jpg",
+			"width": 1280,
+			"height": 688,
+			"text": ""
+		},
+		{
+			"id": 2442,
+			"type": "message",
+			"date": "2022-04-05T13:36:05",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "iyah om gampang itu mah"
+		},
+		{
+			"id": 2443,
+			"type": "message",
+			"date": "2022-04-05T13:36:08",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "ane cuman pengen bisa gimana"
+		},
+		{
+			"id": 2444,
+			"type": "message",
+			"date": "2022-04-05T13:36:28",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "datanya otomatis ke publish setiap ada perubahan data om"
+		},
+		{
+			"id": 2445,
+			"type": "message",
+			"date": "2022-04-05T13:36:47",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2441,
+			"text": [
+				{
+					"type": "mention",
+					"text": "@RonnyGunawan"
+				},
+				" ini apa yah om masalahnya"
+			]
+		},
+		{
+			"id": 2446,
+			"type": "message",
+			"date": "2022-04-05T13:37:22",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 2441,
+			"text": "parameter pertamanya harusnya string. cek deh"
+		},
+		{
+			"id": 2447,
+			"type": "message",
+			"date": "2022-04-05T13:37:33",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "kamu sendiri yang bikin methodnya"
+		},
+		{
+			"id": 2448,
+			"type": "message",
+			"date": "2022-04-05T13:40:00",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2446,
+			"text": "iyah om emang string"
+		},
+		{
+			"id": 2449,
+			"type": "message",
+			"date": "2022-04-05T13:40:11",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "eh wait2"
+		},
+		{
+			"id": 2450,
+			"type": "message",
+			"date": "2022-04-05T13:40:28",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "nah tambahin aja first parameter"
+		},
+		{
+			"id": 2451,
+			"type": "message",
+			"date": "2022-04-05T13:42:44",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2450,
+			"photo": "photos/photo_56@05-04-2022_13-42-44.jpg",
+			"width": 1225,
+			"height": 259,
+			"text": ""
+		},
+		{
+			"id": 2452,
+			"type": "message",
+			"date": "2022-04-05T13:42:53",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"photo": "photos/photo_57@05-04-2022_13-42-53.jpg",
+			"width": 668,
+			"height": 58,
+			"text": ""
+		},
+		{
+			"id": 2453,
+			"type": "message",
+			"date": "2022-04-05T13:42:56",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "masih error om"
+		},
+		{
+			"id": 2454,
+			"type": "message",
+			"date": "2022-04-05T13:46:35",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				"method kamu cara panggilnya gini:\n\n",
+				{
+					"type": "pre",
+					"text": "_plcEventHandler.Subscribe(\n  subscriberName: $\"PlcHub-{data.dmMemory}\",\n  predicate: plcData => plcData.dmMemory == data.dmMemory,\n  action: plcData => {\n    yield return plcData;\n  }\n);",
+					"language": ""
+				}
+			]
+		},
+		{
+			"id": 2455,
+			"type": "message",
+			"date": "2022-04-05T13:49:14",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2454,
+			"file": "stickers/sticker.webp",
+			"thumbnail": "stickers/sticker.webp_thumb.jpg",
+			"media_type": "sticker",
+			"sticker_emoji": "😭",
+			"width": 512,
+			"height": 512,
+			"text": ""
+		},
+		{
+			"id": 2456,
+			"type": "message",
+			"date": "2022-04-05T13:49:16",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"photo": "photos/photo_58@05-04-2022_13-49-16.jpg",
+			"width": 811,
+			"height": 239,
+			"text": ""
+		},
+		{
+			"id": 2457,
+			"type": "message",
+			"date": "2022-04-05T13:49:20",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "maaf om merepotkan"
+		},
+		{
+			"id": 2458,
+			"type": "message",
+			"date": "2022-04-05T13:49:24",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "saya masih bener2 bingung"
+		},
+		{
+			"id": 2459,
+			"type": "message",
+			"date": "2022-04-05T13:49:38",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 2456,
+			"text": "itu bukan static method. jadi targetnya harus instance"
+		},
+		{
+			"id": 2460,
+			"type": "message",
+			"date": "2022-04-05T13:50:14",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				{
+					"type": "code",
+					"text": "PlcEventHandler"
+				},
+				" ganti jadi ",
+				{
+					"type": "code",
+					"text": "_plcEventHandler"
+				},
+				" (kamu sudah declare di atas)"
+			]
+		},
+		{
+			"id": 2461,
+			"type": "message",
+			"date": "2022-04-05T13:51:42",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"photo": "photos/photo_59@05-04-2022_13-51-42.jpg",
+			"width": 1089,
+			"height": 236,
+			"text": "'"
+		},
+		{
+			"id": 2462,
+			"type": "message",
+			"date": "2022-04-05T13:52:05",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"photo": "photos/photo_60@05-04-2022_13-52-05.jpg",
+			"width": 1176,
+			"height": 308,
+			"text": ""
+		},
+		{
+			"id": 2463,
+			"type": "message",
+			"date": "2022-04-05T13:52:10",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "udah om kayak gini tetep error"
+		},
+		{
+			"id": 2464,
+			"type": "message",
+			"date": "2022-04-05T13:52:30",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"photo": "photos/photo_61@05-04-2022_13-52-30.jpg",
+			"width": 490,
+			"height": 118,
+			"text": "aku gak bikin instance sih disininya"
+		},
+		{
+			"id": 2465,
+			"type": "message",
+			"date": "2022-04-05T13:54:36",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"photo": "photos/photo_62@05-04-2022_13-54-36.jpg",
+			"width": 333,
+			"height": 39,
+			"text": "deklarenya pun begini"
+		},
+		{
+			"id": 2466,
+			"type": "message",
+			"date": "2022-04-05T13:55:15",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"photo": "photos/photo_63@05-04-2022_13-55-15.jpg",
+			"width": 579,
+			"height": 157,
+			"text": ""
+		},
+		{
+			"id": 2467,
+			"type": "message",
+			"date": "2022-04-05T13:57:11",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2460,
+			"text": "udah om tapi masih error karena interfaceny void juga om"
+		},
+		{
+			"id": 2468,
+			"type": "message",
+			"date": "2022-04-05T13:59:56",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 2467,
+			"text": "dibuang aja assignmentnya"
+		},
+		{
+			"id": 2469,
+			"type": "message",
+			"date": "2022-04-05T14:00:05",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "jadi cukup panggil subcribe"
+		},
+		{
+			"id": 2470,
+			"type": "message",
+			"date": "2022-04-05T14:01:14",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 2428,
+			"text": "di class ini ada unsubscribe atau dispose ngga?"
+		},
+		{
+			"id": 2471,
+			"type": "message",
+			"date": "2022-04-05T14:01:49",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2470,
+			"text": "ada om"
+		},
+		{
+			"id": 2472,
+			"type": "message",
+			"date": "2022-04-05T14:01:53",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2469,
+			"photo": "photos/photo_64@05-04-2022_14-01-53.jpg",
+			"width": 1248,
+			"height": 500,
+			"text": ""
+		},
+		{
+			"id": 2473,
+			"type": "message",
+			"date": "2022-04-05T14:02:12",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "kalau berkenan bisa remote aja om biar jelas"
+		},
+		{
+			"id": 2474,
+			"type": "message",
+			"date": "2022-04-05T14:03:45",
+			"edited": "2022-04-05T14:03:53",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				"kalau mau properly disposed, gini:\n\n",
+				{
+					"type": "pre",
+					"text": "var subscriberName = Guid.NewGuid().ToString();",
+					"language": ""
+				},
+				"\n\n",
+				{
+					"type": "pre",
+					"text": "_plcEventHandler.Subscribe(\n  subscriberName: subscriberName,\n  predicate: plcData => plcData.dmMemory == data.dmMemory,\n  action: plcData => {\n    yield return plcData;\n  }\n);\n\nusing var _ = new Disposable(() => _plcEventHandler.Unsubscribe(subscriberName));",
+					"language": ""
+				}
+			]
+		},
+		{
+			"id": 2475,
+			"type": "message",
+			"date": "2022-04-05T14:04:23",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "tapi aneh sih harus dispose by string"
+		},
+		{
+			"id": 2476,
+			"type": "message",
+			"date": "2022-04-05T14:04:31",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "ngga apa2 yang penting works dulu"
+		},
+		{
+			"id": 2477,
+			"type": "message",
+			"date": "2022-04-05T14:05:30",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"photo": "photos/photo_65@05-04-2022_14-05-30.jpg",
+			"width": 1280,
+			"height": 536,
+			"text": ""
+		},
+		{
+			"id": 2478,
+			"type": "message",
+			"date": "2022-04-05T14:09:48",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2476,
+			"text": "mungkin kalau gak keberatan bisa bantu remote om buat memberikan sample sederhana aja yang penting bisa jalan"
+		},
+		{
+			"id": 2479,
+			"type": "message",
+			"date": "2022-04-05T14:09:52",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"file": "stickers/sticker.webp",
+			"thumbnail": "stickers/sticker.webp_thumb.jpg",
+			"media_type": "sticker",
+			"sticker_emoji": "😭",
+			"width": 512,
+			"height": 512,
+			"text": ""
+		},
+		{
+			"id": 2480,
+			"type": "message",
+			"date": "2022-04-05T14:14:44",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				{
+					"type": "link",
+					"text": "https://github.com/ronnygunawan/maui-redux"
+				}
+			]
+		},
+		{
+			"id": 2481,
+			"type": "message",
+			"date": "2022-04-05T14:14:53",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "lihat bagian Subscribing to Store updates"
+		},
+		{
+			"id": 2482,
+			"type": "message",
+			"date": "2022-04-05T14:15:09",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "store di situ mirip cara kerjanya dengan BehaviorSubject"
+		},
+		{
+			"id": 2483,
+			"type": "message",
+			"date": "2022-04-05T14:23:06",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2482,
+			"text": "iyah om thanks"
+		},
+		{
+			"id": 2484,
+			"type": "message",
+			"date": "2022-04-05T14:23:22",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "masih struggle ane"
+		},
+		{
+			"id": 2485,
+			"type": "message",
+			"date": "2022-04-05T14:39:56",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"photo": "photos/photo_66@05-04-2022_14-39-56.jpg",
+			"width": 865,
+			"height": 239,
+			"text": "cuman pengen ngerubah ini supaya ngetriggernya gak lewat js susah amat yah"
+		},
+		{
+			"id": 2486,
+			"type": "message",
+			"date": "2022-04-05T14:40:10",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"photo": "photos/photo_67@05-04-2022_14-40-10.jpg",
+			"width": 960,
+			"height": 1040,
+			"text": ""
+		},
+		{
+			"id": 2487,
+			"type": "message",
+			"date": "2022-04-05T14:40:34",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"file": "stickers/sticker (1).webp",
+			"thumbnail": "stickers/sticker (1).webp_thumb.jpg",
+			"media_type": "sticker",
+			"sticker_emoji": "🔫",
+			"width": 512,
+			"height": 512,
+			"text": ""
+		},
+		{
+			"id": 2488,
+			"type": "message",
+			"date": "2022-04-05T14:56:34",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 2485,
+			"text": "nice"
+		},
+		{
+			"id": 2489,
+			"type": "message",
+			"date": "2022-04-05T14:56:49",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2488,
+			"text": "iyah om tapi itu masih pake cara lama"
+		},
+		{
+			"id": 2490,
+			"type": "message",
+			"date": "2022-04-05T14:56:53",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "ngetrigger lewat js"
+		},
+		{
+			"id": 2491,
+			"type": "message",
+			"date": "2022-04-05T14:57:13",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "saya pengennya bener2 serverside realtime gitu kek yang om jelasin"
+		},
+		{
+			"id": 2492,
+			"type": "message",
+			"date": "2022-04-05T14:57:15",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "pake reactive"
+		},
+		{
+			"id": 2493,
+			"type": "message",
+			"date": "2022-04-05T14:57:18",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"file": "stickers/sticker.webp",
+			"thumbnail": "stickers/sticker.webp_thumb.jpg",
+			"media_type": "sticker",
+			"sticker_emoji": "😭",
+			"width": 512,
+			"height": 512,
+			"text": ""
+		},
+		{
+			"id": 2494,
+			"type": "message",
+			"date": "2022-04-05T15:16:00",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2488,
+			"text": "mungkin kalau om free mau berbaik hati memberikan contoh integrasi reactive dengan signalr di githubnya sangat berguna sekali buat pemula seperti saya"
+		},
+		{
+			"id": 2495,
+			"type": "message",
+			"date": "2022-04-05T17:06:44",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "wah susah. project saya proprietary semua"
+		},
+		{
+			"id": 2496,
+			"type": "message",
+			"date": "2022-04-05T17:07:34",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2495,
+			"text": "bukan gitu om maksudnya 🤣"
+		},
+		{
+			"id": 2497,
+			"type": "message",
+			"date": "2022-04-05T17:07:42",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "paling deket ke reactive cuma redux itu"
+		},
+		{
+			"id": 2498,
+			"type": "message",
+			"date": "2022-04-05T17:08:16",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2497,
+			"text": "oke deh om"
+		},
+		{
+			"id": 2499,
+			"type": "message",
+			"date": "2022-04-05T17:08:21",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				"atau coba baca ini biar paham alurnya ",
+				{
+					"type": "link",
+					"text": "https://github.com/ronnygunawan/maui-redux/blob/master/test/PreferenceSubjectTests.cs"
+				}
+			]
+		},
+		{
+			"id": 2500,
+			"type": "message",
+			"date": "2022-04-05T17:08:42",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "mulai baris 51 ke bawah"
+		},
+		{
+			"id": 2501,
+			"type": "message",
+			"date": "2022-04-05T17:08:52",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "nggih om nnti saya pelajari lagi"
+		},
+		{
+			"id": 2502,
+			"type": "message",
+			"date": "2022-04-05T17:09:02",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "udah nangkep sih maksud si reactive ini"
+		},
+		{
+			"id": 2503,
+			"type": "message",
+			"date": "2022-04-05T17:09:09",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "cuman implementnya aja masih kurang"
+		},
+		{
+			"id": 2504,
+			"type": "message",
+			"date": "2022-04-05T17:09:36",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "oh lebih ke soal signalr nya ya?"
+		},
+		{
+			"id": 2505,
+			"type": "message",
+			"date": "2022-04-05T17:09:45",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2504,
+			"text": "benar om"
+		},
+		{
+			"id": 2506,
+			"type": "message",
+			"date": "2022-04-05T17:10:12",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "implement signalr sendiri udah bisa, implement reactive diconsole juga udah"
+		},
+		{
+			"id": 2507,
+			"type": "message",
+			"date": "2022-04-05T17:10:20",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "tapi pas disatuin malah mbingung"
+		},
+		{
+			"id": 2508,
+			"type": "message",
+			"date": "2022-04-05T17:10:26",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"file": "stickers/sticker (1).webp",
+			"thumbnail": "stickers/sticker (1).webp_thumb.jpg",
+			"media_type": "sticker",
+			"sticker_emoji": "🔫",
+			"width": 512,
+			"height": 512,
+			"text": ""
+		},
+		{
+			"id": 2509,
+			"type": "message",
+			"date": "2022-04-05T17:11:07",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				"coba pelajari ini dulu ",
+				{
+					"type": "link",
+					"text": "https://docs.microsoft.com/en-us/aspnet/core/signalr/streaming?view=aspnetcore-6.0"
+				}
+			]
+		},
+		{
+			"id": 2510,
+			"type": "message",
+			"date": "2022-04-05T17:11:27",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"photo": "photos/photo_68@05-04-2022_17-11-27.jpg",
+			"width": 612,
+			"height": 311,
+			"text": "oh iyah om nanya lagi ini ada cara yang lebih baik gak sih om? i mean koneksinya itu cukup sekali aja kayak bikin koneksi mysql di php gitu loh om"
+		},
+		{
+			"id": 2511,
+			"type": "message",
+			"date": "2022-04-05T17:11:37",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "kalo mau enak coba bikin dummy project aja yang kirim sesuatu ke client tiap 1 detik"
+		},
+		{
+			"id": 2512,
+			"type": "message",
+			"date": "2022-04-05T17:11:51",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2510,
+			"text": "saya masih agak gimana gitu kalau pake cara ini buat komunikasi ke plc"
+		},
+		{
+			"id": 2513,
+			"type": "message",
+			"date": "2022-04-05T17:12:08",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "gini2"
+		},
+		{
+			"id": 2514,
+			"type": "message",
+			"date": "2022-04-05T17:12:17",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "saya coba tebak masalahnya ya"
+		},
+		{
+			"id": 2515,
+			"type": "message",
+			"date": "2022-04-05T17:12:47",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "function yang tipenya IAsyncEnumerable itu bakal selesai enumerationnya kalau methodnya sudah selesai diexecute"
+		},
+		{
+			"id": 2516,
+			"type": "message",
+			"date": "2022-04-05T17:14:26",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				"misal:\n\n",
+				{
+					"type": "pre",
+					"text": "public async IAsyncEnumerable<Foo> StreamFoo() {\n  _store.Subscribe(foo => {\n    yield return foo;\n  });\n}",
+					"language": ""
+				},
+				"\n\ndi code ini setelah kita subscribe, functionnya selesai. jadi subscriber belum sempat kepake, enumeration udah selesai duluan"
+			]
+		},
+		{
+			"id": 2517,
+			"type": "message",
+			"date": "2022-04-05T17:14:51",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				"makanya kita harus block executionnya di akhir function biar ngga langsung exit. caranya pakai ",
+				{
+					"type": "code",
+					"text": "TaskCompletionSource"
+				}
+			]
+		},
+		{
+			"id": 2518,
+			"type": "message",
+			"date": "2022-04-05T17:16:18",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				{
+					"type": "code",
+					"text": "TaskCompletionSource"
+				},
+				" itu mirip Promise di javascript. kita bisa set result (resolve), kita bisa set exception (reject)"
+			]
+		},
+		{
+			"id": 2519,
+			"type": "message",
+			"date": "2022-04-05T17:17:20",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				"jadi ketika kita tambahin kaya di bawah ini, function bakal stop di await tanpa keluar\n\n",
+				{
+					"type": "pre",
+					"text": "public async IAsyncEnumerable<Foo> StreamFoo() {\n  var completion = new TaskCompletionSource();\n\n  _store.Subscribe(foo => {\n    yield return foo;\n  });\n\n  await completion.Task;\n}",
+					"language": ""
+				}
+			]
+		},
+		{
+			"id": 2520,
+			"type": "message",
+			"date": "2022-04-05T17:18:00",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "tapi itu belum rapi. kita harus eventually resolve atau reject completion source itu"
+		},
+		{
+			"id": 2521,
+			"type": "message",
+			"date": "2022-04-05T17:18:26",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2520,
+			"text": "iyah om nnti ane pelajari lagi soal ini"
+		},
+		{
+			"id": 2522,
+			"type": "message",
+			"date": "2022-04-05T17:18:31",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "untuk sementara via client dulu om"
+		},
+		{
+			"id": 2523,
+			"type": "message",
+			"date": "2022-04-05T17:18:36",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "soalnya deadline minggu depan"
+		},
+		{
+			"id": 2524,
+			"type": "message",
+			"date": "2022-04-05T17:18:38",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"file": "stickers/sticker.webp",
+			"thumbnail": "stickers/sticker.webp_thumb.jpg",
+			"media_type": "sticker",
+			"sticker_emoji": "😭",
+			"width": 512,
+			"height": 512,
+			"text": ""
+		},
+		{
+			"id": 2525,
+			"type": "message",
+			"date": "2022-04-05T17:19:00",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2519,
+			"text": "makasih banyak om ane dapet banyak ilmu baru ini, csharp emang gg"
+		},
+		{
+			"id": 2526,
+			"type": "message",
+			"date": "2022-04-05T17:19:08",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 2384,
+			"text": "lengkapnya di sini sih"
+		},
+		{
+			"id": 2527,
+			"type": "message",
+			"date": "2022-04-05T17:19:14",
+			"from": null,
+			"from_id": "user1168523623",
+			"reply_to_message_id": 2523,
+			"text": "sebelum ini udah bisa C#?"
+		},
+		{
+			"id": 2528,
+			"type": "message",
+			"date": "2022-04-05T17:19:28",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2527,
+			"text": "udah om"
+		},
+		{
+			"id": 2529,
+			"type": "message",
+			"date": "2022-04-05T17:19:30",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 2527,
+			"text": "looks experienced enough sih"
+		},
+		{
+			"id": 2530,
+			"type": "message",
+			"date": "2022-04-05T17:19:30",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "apa baru pas project roro jonggrang ini belajar C#?"
+		},
+		{
+			"id": 2531,
+			"type": "message",
+			"date": "2022-04-05T17:19:34",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "ooo.."
+		},
+		{
+			"id": 2532,
+			"type": "message",
+			"date": "2022-04-05T17:19:43",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2530,
+			"text": "sebenarnya kalau asp roro jongrang"
+		},
+		{
+			"id": 2533,
+			"type": "message",
+			"date": "2022-04-05T17:19:55",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "sebelumnya console2 or desktop gitu"
+		},
+		{
+			"id": 2534,
+			"type": "message",
+			"date": "2022-04-05T17:19:56",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "ane bisa sebatas c#nya aja"
+		},
+		{
+			"id": 2535,
+			"type": "message",
+			"date": "2022-04-05T17:20:01",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2533,
+			"text": "console2 doang"
+		},
+		{
+			"id": 2536,
+			"type": "message",
+			"date": "2022-04-05T17:20:07",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "I see"
+		},
+		{
+			"id": 2537,
+			"type": "message",
+			"date": "2022-04-05T17:21:08",
+			"edited": "2022-04-05T17:21:16",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2533,
+			"text": [
+				"ane belajar banyak paradigma c# dari sini om ",
+				{
+					"type": "link",
+					"text": "https://mahirkoding.id/seri-belajar-dasar-pemrograman-bahasa-c-sharp/"
+				},
+				"\n\nawalnya sih karena penasaran sama konkuresnsinya"
+			]
+		},
+		{
+			"id": 2538,
+			"type": "message",
+			"date": "2022-04-05T17:22:06",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "dan ada project yang biasa orang vb kerjain banyak masalah ane inisiatif kalau ada project lagi ane aja yang handle pake c#"
+		},
+		{
+			"id": 2539,
+			"type": "message",
+			"date": "2022-04-05T17:22:11",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "concurrent di C# tu macem2, dan kadang bikin bingung"
+		},
+		{
+			"id": 2540,
+			"type": "message",
+			"date": "2022-04-05T17:22:20",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "dari yang paling primitive, pake Thread"
+		},
+		{
+			"id": 2541,
+			"type": "message",
+			"date": "2022-04-05T17:22:25",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2538,
+			"text": "eh malah jadi bandung bondowoso"
+		},
+		{
+			"id": 2542,
+			"type": "message",
+			"date": "2022-04-05T17:22:29",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "terus BeginXXX EndXXX"
+		},
+		{
+			"id": 2543,
+			"type": "message",
+			"date": "2022-04-05T17:22:30",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"file": "stickers/sticker (1).webp",
+			"thumbnail": "stickers/sticker (1).webp_thumb.jpg",
+			"media_type": "sticker",
+			"sticker_emoji": "🔫",
+			"width": 512,
+			"height": 512,
+			"text": ""
+		},
+		{
+			"id": 2544,
+			"type": "message",
+			"date": "2022-04-05T17:22:42",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2540,
+			"text": "nah itu makanya ane tertarik"
+		},
+		{
+			"id": 2545,
+			"type": "message",
+			"date": "2022-04-05T17:22:54",
+			"edited": "2022-04-05T17:24:12",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "buat dalamin OOP juga sama design pattern"
+		},
+		{
+			"id": 2546,
+			"type": "message",
+			"date": "2022-04-05T17:22:58",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "bisa threading, thread pool, async, PLINQ"
+		},
+		{
+			"id": 2547,
+			"type": "message",
+			"date": "2022-04-05T17:23:04",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "macem2"
+		},
+		{
+			"id": 2548,
+			"type": "message",
+			"date": "2022-04-05T17:23:07",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": [
+				{
+					"type": "link",
+					"text": "https://www.albahari.com/threading/"
+				}
+			]
+		},
+		{
+			"id": 2549,
+			"type": "message",
+			"date": "2022-04-05T17:24:05",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				"code signalr yang saya taruh di github cuma sebatas ini ",
+				{
+					"type": "link",
+					"text": "https://github.com/ronnygunawan/protobuf-converters"
+				}
+			]
+		},
+		{
+			"id": 2550,
+			"type": "message",
+			"date": "2022-04-05T17:24:12",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "itu pun cuma di readme"
+		},
+		{
+			"id": 2551,
+			"type": "message",
+			"date": "2022-04-05T17:24:13",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "-_-"
+		},
+		{
+			"id": 2552,
+			"type": "message",
+			"date": "2022-04-05T17:25:08",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2549,
+			"text": "entar deh ane kalau dah lumayan paham bikin apiskeleton + implemen realtime apps serta reactive backend"
+		},
+		{
+			"id": 2553,
+			"type": "message",
+			"date": "2022-04-05T17:25:10",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "ane jujur"
+		},
+		{
+			"id": 2554,
+			"type": "message",
+			"date": "2022-04-05T17:25:18",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "baru nemu soal reactive backend ini"
+		},
+		{
+			"id": 2555,
+			"type": "message",
+			"date": "2022-04-05T17:25:27",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "oh reactive backend is beautiful"
+		},
+		{
+			"id": 2556,
+			"type": "message",
+			"date": "2022-04-05T17:25:53",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2510,
+			"text": [
+				"oh iyah om masalah ane yang ini gimana yah ",
+				{
+					"type": "mention",
+					"text": "@RonnyGunawan"
+				}
+			]
+		},
+		{
+			"id": 2557,
+			"type": "message",
+			"date": "2022-04-05T17:26:13",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "ada gak sih cara supaya koneksinya itu sekali eksekusi aja"
+		},
+		{
+			"id": 2558,
+			"type": "message",
+			"date": "2022-04-05T17:26:17",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "dan bisa dipakai berulang"
+		},
+		{
+			"id": 2559,
+			"type": "message",
+			"date": "2022-04-05T17:26:54",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"photo": "photos/photo_69@05-04-2022_17-26-54.jpg",
+			"width": 1180,
+			"height": 808,
+			"text": "dalemnya begini om"
+		},
+		{
+			"id": 2560,
+			"type": "message",
+			"date": "2022-04-05T17:29:06",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 2510,
+			"text": [
+				"biasanya patternnya gini\n\n",
+				{
+					"type": "pre",
+					"text": "builder.Services.AddSingleton<FooConnection>(() => {\n  var connectionString = // ambil dari configuration\n  return new FooConnection(connectionString);\n});",
+					"language": ""
+				}
+			]
+		},
+		{
+			"id": 2561,
+			"type": "message",
+			"date": "2022-04-05T17:29:53",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2560,
+			"text": "Bjirrr"
+		},
+		{
+			"id": 2562,
+			"type": "message",
+			"date": "2022-04-05T17:29:56",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				"jadi ",
+				{
+					"type": "code",
+					"text": "AddSingleton"
+				},
+				" itu terima function untuk instantiate instancenya"
+			]
+		},
+		{
+			"id": 2563,
+			"type": "message",
+			"date": "2022-04-05T17:30:13",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2560,
+			"text": "Pake services builder juga yah"
+		},
+		{
+			"id": 2564,
+			"type": "message",
+			"date": "2022-04-05T17:30:23",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "yup"
+		},
+		{
+			"id": 2565,
+			"type": "message",
+			"date": "2022-04-05T17:30:35",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "Kirain ane services builder itu untuk hal2 yang berkaitan sama aspnya doang"
+		},
+		{
+			"id": 2566,
+			"type": "message",
+			"date": "2022-04-05T17:31:25",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2560,
+			"text": "Ini manggil singletonnya gimana om?"
+		},
+		{
+			"id": 2567,
+			"type": "message",
+			"date": "2022-04-05T17:31:34",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "itu namanya dependency injection"
+		},
+		{
+			"id": 2568,
+			"type": "message",
+			"date": "2022-04-05T17:33:23",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2567,
+			"file": "stickers/sticker (2).webp",
+			"thumbnail": "stickers/sticker (2).webp_thumb.jpg",
+			"media_type": "sticker",
+			"sticker_emoji": "😳",
+			"width": 512,
+			"height": 512,
+			"text": ""
+		},
+		{
+			"id": 2569,
+			"type": "message",
+			"date": "2022-04-05T17:37:23",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				"dependency injection in a nutshell gini:\n\n1. semua class dan interface bisa didaftarkan ke service collection. anggap service collection adalah dictionary dengan key = type of the instance, dan value = the instance atau cara bikin instancenya. cara daftarinnya gini:\n\n",
+				{
+					"type": "pre",
+					"text": "builder.Services.AddSingleton<Foo>();\nbuilder.Services.AddTransient<Bar>();\nbuilder.Services.AddScoped<Baz>(() => new Baz());",
+					"language": ""
+				},
+				"\n\n2. semua yang sudah didaftarkan di service collection bisa di-inject ke constructor dari class lain ",
+				{
+					"type": "underline",
+					"text": "yang juga sudah didaftarkan"
+				},
+				" ke service collection. ini namanya dependency injection.\n\n",
+				{
+					"type": "pre",
+					"text": "class Bar {\n  private readonly Foo _foo;\n\n  public Bar(Foo foo) {\n    _foo = foo;\n  }\n}",
+					"language": ""
+				},
+				"\n\nconstructor dari Bar di sini ngga pernah kita panggil sama sekali pakai ",
+				{
+					"type": "code",
+					"text": "new"
+				},
+				" statement. ",
+				{
+					"type": "code",
+					"text": "Bar"
+				},
+				" itu sendiri bakal kita inject ke constructor dari class lain, yang mana class lain itu juga bakal diinject ke something else. pokoknya berantai saling inject gitu tanpa ada yang pakai keyword ",
+				{
+					"type": "code",
+					"text": "new"
+				},
+				"\n\n3. ada beberapa hal yang invoked by framework. misalnya aspnetcore framework, misalnya controller. controller ini ngga diinject ke constructor class lain, tapi just trust the framework. semua yang kita taruh di constructornya controller akan diinject"
+			]
+		},
+		{
+			"id": 2570,
+			"type": "message",
+			"date": "2022-04-05T17:38:34",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "Transient = setiap kali injected create new instance\nScoped = 1 instance dibuat per scope (di aspnetcore, 1 scope = 1 http request)\nSingleton = 1 instance dibuat per app instance"
+		},
+		{
+			"id": 2571,
+			"type": "message",
+			"date": "2022-04-05T17:49:25",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": [
+				{
+					"type": "link",
+					"text": "https://markheath.net/post/constraining-concurrent-threads-csharp"
+				}
+			]
+		},
+		{
+			"id": 2572,
+			"type": "message",
+			"date": "2022-04-05T17:52:13",
+			"edited": "2022-04-05T17:52:34",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 2571,
+			"text": "RX is missing"
+		},
+		{
+			"id": 2573,
+			"type": "message",
+			"date": "2022-04-05T17:53:09",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "lock missing, volatile missing, interlocked missing"
+		},
+		{
+			"id": 2574,
+			"type": "message",
+			"date": "2022-04-05T17:53:14",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "masih banyak sih"
+		},
+		{
+			"id": 2575,
+			"type": "message",
+			"date": "2022-04-05T17:53:33",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "oh iya ada Channel juga"
+		},
+		{
+			"id": 2576,
+			"type": "message",
+			"date": "2022-04-05T17:53:48",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				{
+					"type": "link",
+					"text": "https://docs.microsoft.com/en-us/dotnet/api/system.threading.channels.channel-1?view=net-6.0"
+				}
+			]
+		},
+		{
+			"id": 2577,
+			"type": "message",
+			"date": "2022-04-05T17:55:02",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2569,
+			"text": "Wew"
+		},
+		{
+			"id": 2578,
+			"type": "message",
+			"date": "2022-04-05T17:55:14",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2570,
+			"text": "Thanks om"
+		},
+		{
+			"id": 2579,
+			"type": "message",
+			"date": "2022-04-05T17:55:46",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2570,
+			"text": "Per app instance ini kalau dalam asp mvc itu percontroller bukan sih om?"
+		},
+		{
+			"id": 2580,
+			"type": "message",
+			"date": "2022-04-05T17:55:50",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "Atau entire?"
+		},
+		{
+			"id": 2581,
+			"type": "message",
+			"date": "2022-04-05T17:55:56",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "entire app"
+		},
+		{
+			"id": 2582,
+			"type": "message",
+			"date": "2022-04-05T17:56:35",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "kalau mau global singleton (1 instance per planet) bisa pake orleans"
+		},
+		{
+			"id": 2583,
+			"type": "message",
+			"date": "2022-04-05T17:56:48",
+			"from": null,
+			"from_id": "user1168523623",
+			"reply_to_message_id": 2571,
+			"text": "di artikel ini ada 4 cara, dan itu masih jauh dari lengkap, wkwkwkw"
+		},
+		{
+			"id": 2584,
+			"type": "message",
+			"date": "2022-04-05T17:57:28",
+			"from": null,
+			"from_id": "user1168523623",
+			"reply_to_message_id": 2576,
+			"text": "eh ini rrelatif baru ya"
+		},
+		{
+			"id": 2585,
+			"type": "message",
+			"date": "2022-04-05T17:57:43",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 2584,
+			"text": "yup. baru"
+		},
+		{
+			"id": 2586,
+			"type": "message",
+			"date": "2022-04-05T17:58:37",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "sekilas kayaknya bisa gantiin BlockingCollection<T>"
+		},
+		{
+			"id": 2587,
+			"type": "message",
+			"date": "2022-04-05T17:58:47",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				"nih artikelnya stephen toub ",
+				{
+					"type": "link",
+					"text": "https://devblogs.microsoft.com/dotnet/an-introduction-to-system-threading-channels/"
+				}
+			]
+		},
+		{
+			"id": 2588,
+			"type": "message",
+			"date": "2022-04-05T18:01:10",
+			"edited": "2022-04-05T18:01:25",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2582,
+			"text": "Bjirrrr nyesel juga ane baru nyebur di c#"
+		},
+		{
+			"id": 2589,
+			"type": "message",
+			"date": "2022-04-05T18:14:33",
+			"from": "Soto seger",
+			"from_id": "channel1758589293",
+			"reply_to_message_id": 2588,
+			"text": "kenapa wkwkk"
+		},
+		{
+			"id": 2590,
+			"type": "message",
+			"date": "2022-04-05T18:23:16",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "common reaction seseorang yang baru pertama kali melihat cantiknya reactive backend. silauw"
+		},
+		{
+			"id": 2591,
+			"type": "message",
+			"date": "2022-04-05T18:23:42",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "though, reactive backend bisa diimplement di bahasa lain juga"
+		},
+		{
+			"id": 2592,
+			"type": "message",
+			"date": "2022-04-05T18:39:57",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2589,
+			"text": "dulu ane anti sama produk mikocok bukan soal idealisme tapi ekosistemnya yang kurang"
+		},
+		{
+			"id": 2593,
+			"type": "message",
+			"date": "2022-04-05T18:40:46",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "tapi semenjak dotnet jadi open source"
+		},
+		{
+			"id": 2594,
+			"type": "message",
+			"date": "2022-04-05T18:42:28",
+			"from": "Soto seger",
+			"from_id": "channel1758589293",
+			"text": "beritakanlah kebaikan ini WKKWKWK"
+		},
+		{
+			"id": 2595,
+			"type": "message",
+			"date": "2022-04-05T18:43:13",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "disisi lain enterprise grade programming itu masih dipegang java dan c#"
+		},
+		{
+			"id": 2596,
+			"type": "message",
+			"date": "2022-04-05T18:46:06",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 2592,
+			"text": "ekosistem? saya nuget packagenya keluaran microsoft semua hampir ngga ada 3rd party wkwkwkwk"
+		},
+		{
+			"id": 2597,
+			"type": "message",
+			"date": "2022-04-05T18:46:21",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "I feel safer that way"
+		},
+		{
+			"id": 2598,
+			"type": "message",
+			"date": "2022-04-05T18:46:25",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2596,
+			"text": "gak flexibel om"
+		},
+		{
+			"id": 2599,
+			"type": "message",
+			"date": "2022-04-05T18:46:35",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "maksudnya yah harus jalan diserver asp"
+		},
+		{
+			"id": 2600,
+			"type": "message",
+			"date": "2022-04-05T18:46:35",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "daripada package manager sebelah. security risk di mana2"
+		},
+		{
+			"id": 2601,
+			"type": "message",
+			"date": "2022-04-05T18:46:48",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "kalau kayak php, ruby, perl dkknya"
+		},
+		{
+			"id": 2602,
+			"type": "message",
+			"date": "2022-04-05T18:46:52",
+			"from": "Soto seger",
+			"from_id": "channel1758589293",
+			"reply_to_message_id": 2600,
+			"text": "*boom roasted*"
+		},
+		{
+			"id": 2603,
+			"type": "message",
+			"date": "2022-04-05T18:46:53",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "itu kan bisa jalan dimana aja"
+		},
+		{
+			"id": 2604,
+			"type": "message",
+			"date": "2022-04-05T18:47:05",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2600,
+			"text": "bjirrrr sebelah mana tuh om"
+		},
+		{
+			"id": 2605,
+			"type": "message",
+			"date": "2022-04-05T18:47:13",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "banyak lah"
+		},
+		{
+			"id": 2606,
+			"type": "message",
+			"date": "2022-04-05T18:47:50",
+			"from": "Soto seger",
+			"from_id": "channel1758589293",
+			"reply_to_message_id": 2601,
+			"text": [
+				{
+					"type": "link",
+					"text": "https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-apache?view=aspnetcore-6.0"
+				},
+				"\n\nsekarang revolusioner :v"
+			]
+		},
+		{
+			"id": 2607,
+			"type": "message",
+			"date": "2022-04-05T18:48:06",
+			"from": "Soto seger",
+			"from_id": "channel1758589293",
+			"text": [
+				"nggak suka apache??\nNginx\n",
+				{
+					"type": "link",
+					"text": "https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-nginx?view=aspnetcore-6.0"
+				}
+			]
+		},
+		{
+			"id": 2608,
+			"type": "message",
+			"date": "2022-04-05T18:49:06",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				{
+					"type": "bot_command",
+					"text": "/ask"
+				},
+				" help"
+			]
+		},
+		{
+			"id": 2609,
+			"type": "message",
+			"date": "2022-04-05T18:49:10",
+			"from": "TEKNUM™",
+			"from_id": "user1982832072",
+			"reply_to_message_id": 2608,
+			"text": "I am a highly intelligent question answering bot. If you ask me a question that is rooted in truth, I will give you the answer. If you ask me a question that is nonsense, trickery, or has no clear answer, I will respond with \"Unknown\"."
+		},
+		{
+			"id": 2610,
+			"type": "message",
+			"date": "2022-04-05T18:49:16",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2607,
+			"text": "wanjer"
+		},
+		{
+			"id": 2611,
+			"type": "message",
+			"date": "2022-04-05T18:49:17",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "cok"
+		},
+		{
+			"id": 2612,
+			"type": "message",
+			"date": "2022-04-05T18:49:20",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "WAKAKAKA"
+		},
+		{
+			"id": 2613,
+			"type": "message",
+			"date": "2022-04-05T18:49:25",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "kudet banget gw"
+		},
+		{
+			"id": 2614,
+			"type": "message",
+			"date": "2022-04-05T18:49:31",
+			"from": "Soto seger",
+			"from_id": "channel1758589293",
+			"text": "isoke, namanya juga belajar"
+		},
+		{
+			"id": 2615,
+			"type": "message",
+			"date": "2022-04-05T18:49:39",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				"bot ini written in C#, buildnya pake docker, deploy ke linux di ",
+				{
+					"type": "link",
+					"text": "fly.io"
+				},
+				" gratisan"
+			]
+		}
+	]
 }
