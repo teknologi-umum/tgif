@@ -44,11 +44,10 @@ export function ChatBox(props: ChatBoxProps) {
 			</div>
 			<a href="/">
 				<button
-					class={`search-icon home-button`}
+					class={`home-button`}
 					onClick={() => {
 						document.title = "Home | TGIF";
 						window.location.replace("/");
-						console.log('clicked')
 					}}
 				>
 						<HomeIcon />
