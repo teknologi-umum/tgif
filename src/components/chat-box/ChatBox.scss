@@ -87,3 +87,20 @@
 		scroll-behavior: smooth;
 	}
 }
+
+.home-button {
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	outline: none;
+	font-weight: bold;
+	display: block;
+}
+
+@media screen and (max-width: 768px) {
+	.home-button {
+	  display: none;
+	}
+  }
