@@ -48,6 +48,7 @@ export function ChatBubble(props: ChatBubbleProps) {
 					<img
 						class={resolveMediaClassname()}
 						src={props.hasMedia ? `/chats/${props.slug}/${props.file}` : ""}
+						style={{ 'width': '100%', 'padding': '0.8rem'}}
 					/>
 					<Show when={props.text.length}>
 						<div
