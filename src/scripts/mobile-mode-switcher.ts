@@ -6,9 +6,9 @@ export const isMobile = (): boolean => {
 const isPathNameNull = (): boolean => location.pathname === "/";
 
 const toggleHideElement = (elm: HTMLElement, isShow: boolean): void => {
-	elm.style.display = isShow ? '' : 'none'
-	// isShow 
-	// ? elm.classList.remove('hidden') 
+	elm.style.display = isShow ? "" : "none";
+	// isShow
+	// ? elm.classList.remove('hidden')
 	// : elm.classList.add('hidden');
 };
 
