@@ -93,6 +93,22 @@ const { title, keywords, summary, url } = Astro.props as Props;
 				height: 100%;
 				max-height: inherit;
 			}
+
+			.hidden {
+				display: none;
+			}
+
+			
+			@media screen and (max-width: 768px) {
+				.container {
+					width: 100%;
+					margin: 0;
+					grid-template-columns: none;
+				}
+				.chat-content {
+					width: 100%;
+				}
+			}
 		</style>
 	</body>
 </html>
