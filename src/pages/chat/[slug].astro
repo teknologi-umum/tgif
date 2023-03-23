@@ -14,9 +14,12 @@ const found = await findChatBySlug(slug);
 export async function getStaticPaths() {
 	return getPaths();
 }
+
+// https://tgif.teknologiumum.com + /the-path-name
+const url = Astro.site + Astro.url.pathname.replace("/", "");
 ---
 
 <!-- just because Astro.url return value with type URL, I do this way to make the type converted to string -->
-<Layout summary={found?.metadata.short_summary} keywords={found?.metadata.tags} title={found?.metadata.title}>
+<Layout summary={found?.metadata.short_summary} keywords={found?.metadata.tags} title={found?.metadata.title} url={url}>
 	<ChatBox chat={found?.chat} client:load slug={slug} />
 </Layout>

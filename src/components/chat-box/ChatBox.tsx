@@ -1,6 +1,7 @@
 import type { TelegramChat } from "~/service/Parser";
 import { ChatBubble } from "../chat-bubble";
 import "./ChatBox.scss";
+import HomeIcon from "~icons/fluent/home-24-filled";
 
 type ChatBoxProps = {
 	chat?: TelegramChat | undefined;
@@ -41,6 +42,17 @@ export function ChatBox(props: ChatBoxProps) {
 					})}
 				</div>
 			</div>
+			<a href="/">
+				<button
+					class={`home-button`}
+					onClick={() => {
+						document.title = "Home | TGIF";
+						window.location.replace("/");
+					}}
+				>
+						<HomeIcon />
+				</button>
+			</a>
 		</div>
 	);
 }

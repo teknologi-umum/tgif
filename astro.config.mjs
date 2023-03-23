@@ -13,4 +13,5 @@ export default defineConfig({
 		},
 		plugins: [Icons({ compiler: "solid" })],
 	},
+	site: "https://tgif.teknologiumum.com",
 });

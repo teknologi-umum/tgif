@@ -87,3 +87,29 @@
 		scroll-behavior: smooth;
 	}
 }
+
+.home-button {
+	position: fixed;
+	bottom: 3rem;
+	right: 3rem;
+	z-index: 99;
+	font-size: 18px;
+	outline: none;
+	font-weight: bold;    
+	align-items: center;
+    background-color: #93b5ff;
+    border: .2rem solid #3a383c;
+    border-radius: 99rem;
+    color: #3a383c;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    width: auto;
+}
+
+@media screen and (min-width: 768px) {
+	.home-button {
+	  display: none;
+	}
+  }

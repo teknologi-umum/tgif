@@ -35,6 +35,8 @@
 			margin-block: 1rem;
 			max-height: 5.8em;
 			overflow: hidden;
+			max-width: 30rem;
+			word-wrap: break-word;
 		}
 
 		&-sender {
@@ -126,3 +128,16 @@
 		object-fit: contain;
 	}
 }
+
+@media screen and (max-width: 768px) {
+	.chat {
+		&-bubble {
+			width: auto;
+			word-break: break-word;
+		}
+		
+		&-photo {
+			height: auto;
+		}
+	}
+ }
