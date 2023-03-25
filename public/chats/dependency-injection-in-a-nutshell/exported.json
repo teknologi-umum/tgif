@@ -1,0 +1,326 @@
+{
+	"name": "C# Indonesia",
+	"type": "public_supergroup",
+	"id": 1730156619,
+	"messages": [
+		{
+			"id": 2510,
+			"type": "message",
+			"date": "2022-04-05T17:11:27",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"photo": "photos/photo_68@05-04-2022_17-11-27.jpg",
+			"width": 612,
+			"height": 311,
+			"text": "oh iyah om nanya lagi ini ada cara yang lebih baik gak sih om? i mean koneksinya itu cukup sekali aja kayak bikin koneksi mysql di php gitu loh om"
+		},
+		{
+			"id": 2511,
+			"type": "message",
+			"date": "2022-04-05T17:11:37",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "kalo mau enak coba bikin dummy project aja yang kirim sesuatu ke client tiap 1 detik"
+		},
+		{
+			"id": 2556,
+			"type": "message",
+			"date": "2022-04-05T17:25:53",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2510,
+			"text": [
+				"oh iyah om masalah ane yang ini gimana yah ",
+				{
+					"type": "mention",
+					"text": "@RonnyGunawan"
+				}
+			]
+		},
+		{
+			"id": 2557,
+			"type": "message",
+			"date": "2022-04-05T17:26:13",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "ada gak sih cara supaya koneksinya itu sekali eksekusi aja"
+		},
+		{
+			"id": 2558,
+			"type": "message",
+			"date": "2022-04-05T17:26:17",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "dan bisa dipakai berulang"
+		},
+		{
+			"id": 2559,
+			"type": "message",
+			"date": "2022-04-05T17:26:54",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"photo": "photos/photo_69@05-04-2022_17-26-54.jpg",
+			"width": 1180,
+			"height": 808,
+			"text": "dalemnya begini om"
+		},
+		{
+			"id": 2560,
+			"type": "message",
+			"date": "2022-04-05T17:29:06",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 2510,
+			"text": [
+				"biasanya patternnya gini\n\n",
+				{
+					"type": "pre",
+					"text": "builder.Services.AddSingleton<FooConnection>(() => {\n  var connectionString = // ambil dari configuration\n  return new FooConnection(connectionString);\n});",
+					"language": ""
+				}
+			]
+		},
+		{
+			"id": 2561,
+			"type": "message",
+			"date": "2022-04-05T17:29:53",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2560,
+			"text": "Bjirrr"
+		},
+		{
+			"id": 2562,
+			"type": "message",
+			"date": "2022-04-05T17:29:56",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				"jadi ",
+				{
+					"type": "code",
+					"text": "AddSingleton"
+				},
+				" itu terima function untuk instantiate instancenya"
+			]
+		},
+		{
+			"id": 2563,
+			"type": "message",
+			"date": "2022-04-05T17:30:13",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2560,
+			"text": "Pake services builder juga yah"
+		},
+		{
+			"id": 2564,
+			"type": "message",
+			"date": "2022-04-05T17:30:23",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "yup"
+		},
+		{
+			"id": 2565,
+			"type": "message",
+			"date": "2022-04-05T17:30:35",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "Kirain ane services builder itu untuk hal2 yang berkaitan sama aspnya doang"
+		},
+		{
+			"id": 2566,
+			"type": "message",
+			"date": "2022-04-05T17:31:25",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2560,
+			"text": "Ini manggil singletonnya gimana om?"
+		},
+		{
+			"id": 2567,
+			"type": "message",
+			"date": "2022-04-05T17:31:34",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "itu namanya dependency injection"
+		},
+		{
+			"id": 2568,
+			"type": "message",
+			"date": "2022-04-05T17:33:23",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2567,
+			"file": "stickers/sticker (2).webp",
+			"thumbnail": "stickers/sticker (2).webp_thumb.jpg",
+			"media_type": "sticker",
+			"sticker_emoji": "😳",
+			"width": 512,
+			"height": 512,
+			"text": ""
+		},
+		{
+			"id": 2569,
+			"type": "message",
+			"date": "2022-04-05T17:37:23",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				"dependency injection in a nutshell gini:\n\n1. semua class dan interface bisa didaftarkan ke service collection. anggap service collection adalah dictionary dengan key = type of the instance, dan value = the instance atau cara bikin instancenya. cara daftarinnya gini:\n\n",
+				{
+					"type": "pre",
+					"text": "builder.Services.AddSingleton<Foo>();\nbuilder.Services.AddTransient<Bar>();\nbuilder.Services.AddScoped<Baz>(() => new Baz());",
+					"language": ""
+				},
+				"\n\n2. semua yang sudah didaftarkan di service collection bisa di-inject ke constructor dari class lain ",
+				{
+					"type": "underline",
+					"text": "yang juga sudah didaftarkan"
+				},
+				" ke service collection. ini namanya dependency injection.\n\n",
+				{
+					"type": "pre",
+					"text": "class Bar {\n  private readonly Foo _foo;\n\n  public Bar(Foo foo) {\n    _foo = foo;\n  }\n}",
+					"language": ""
+				},
+				"\n\nconstructor dari Bar di sini ngga pernah kita panggil sama sekali pakai ",
+				{
+					"type": "code",
+					"text": "new"
+				},
+				" statement. ",
+				{
+					"type": "code",
+					"text": "Bar"
+				},
+				" itu sendiri bakal kita inject ke constructor dari class lain, yang mana class lain itu juga bakal diinject ke something else. pokoknya berantai saling inject gitu tanpa ada yang pakai keyword ",
+				{
+					"type": "code",
+					"text": "new"
+				},
+				"\n\n3. ada beberapa hal yang invoked by framework. misalnya aspnetcore framework, misalnya controller. controller ini ngga diinject ke constructor class lain, tapi just trust the framework. semua yang kita taruh di constructornya controller akan diinject"
+			]
+		},
+		{
+			"id": 2570,
+			"type": "message",
+			"date": "2022-04-05T17:38:34",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "Transient = setiap kali injected create new instance\nScoped = 1 instance dibuat per scope (di aspnetcore, 1 scope = 1 http request)\nSingleton = 1 instance dibuat per app instance"
+		},
+		{
+			"id": 2571,
+			"type": "message",
+			"date": "2022-04-05T17:49:25",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": [
+				{
+					"type": "link",
+					"text": "https://markheath.net/post/constraining-concurrent-threads-csharp"
+				}
+			]
+		},
+		{
+			"id": 2572,
+			"type": "message",
+			"date": "2022-04-05T17:52:13",
+			"edited": "2022-04-05T17:52:34",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 2571,
+			"text": "RX is missing"
+		},
+		{
+			"id": 2573,
+			"type": "message",
+			"date": "2022-04-05T17:53:09",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "lock missing, volatile missing, interlocked missing"
+		},
+		{
+			"id": 2574,
+			"type": "message",
+			"date": "2022-04-05T17:53:14",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "masih banyak sih"
+		},
+		{
+			"id": 2575,
+			"type": "message",
+			"date": "2022-04-05T17:53:33",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "oh iya ada Channel juga"
+		},
+		{
+			"id": 2576,
+			"type": "message",
+			"date": "2022-04-05T17:53:48",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				{
+					"type": "link",
+					"text": "https://docs.microsoft.com/en-us/dotnet/api/system.threading.channels.channel-1?view=net-6.0"
+				}
+			]
+		},
+		{
+			"id": 2577,
+			"type": "message",
+			"date": "2022-04-05T17:55:02",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2569,
+			"text": "Wew"
+		},
+		{
+			"id": 2578,
+			"type": "message",
+			"date": "2022-04-05T17:55:14",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2570,
+			"text": "Thanks om"
+		},
+		{
+			"id": 2579,
+			"type": "message",
+			"date": "2022-04-05T17:55:46",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"reply_to_message_id": 2570,
+			"text": "Per app instance ini kalau dalam asp mvc itu percontroller bukan sih om?"
+		},
+		{
+			"id": 2580,
+			"type": "message",
+			"date": "2022-04-05T17:55:50",
+			"from": "Kiro Honjou",
+			"from_id": "user719119535",
+			"text": "Atau entire?"
+		},
+		{
+			"id": 2581,
+			"type": "message",
+			"date": "2022-04-05T17:55:56",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "entire app"
+		},
+		{
+			"id": 2582,
+			"type": "message",
+			"date": "2022-04-05T17:56:35",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "kalau mau global singleton (1 instance per planet) bisa pake orleans"
+		}
+	]
+}
