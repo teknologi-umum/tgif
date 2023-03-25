@@ -78,6 +78,7 @@ const messageTypes = [
 	"link",
 	"hashtag",
 	"spoiler",
+	"underline",
 ] as const;
 type MessageType = (typeof messageTypes)[number];
 
@@ -209,6 +210,9 @@ export class Parser {
 				break;
 			case "spoiler":
 				result += '<span class="spoiler">' + text + "</span>";
+				break;
+			case "underline":
+				result += "<u>" + text + "</u>";
 				break;
 			default:
 				result += text;
