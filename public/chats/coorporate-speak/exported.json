@@ -1,2543 +1,2543 @@
 {
- "name": "Teknologi Umum v2.0",
- "type": "public_supergroup",
- "id": 1712691810,
- "messages": [
-  {
-   "id": 10821,
-   "type": "message",
-   "date": "2022-06-05T15:42:59",
-   "date_unixtime": "1654418579",
-   "edited": "2022-06-05T16:02:30",
-   "edited_unixtime": "1654419750",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": [
-    {
-     "type": "link",
-     "text": "https://howtoprofessionallysay.akashrajpurohit.com/"
-    }
-   ],
-   "text_entities": [
-    {
-     "type": "link",
-     "text": "https://howtoprofessionallysay.akashrajpurohit.com/"
-    }
-   ]
-  },
-  {
-   "id": 10822,
-   "type": "message",
-   "date": "2022-06-05T15:43:13",
-   "date_unixtime": "1654418593",
-   "from": null,
-   "from_id": "user1168523623",
-   "photo": "photos/photo_317@05-06-2022_15-43-13.jpg",
-   "width": 1280,
-   "height": 601,
-   "text": "",
-   "text_entities": []
-  },
-  {
-   "id": 10823,
-   "type": "message",
-   "date": "2022-06-05T15:43:45",
-   "date_unixtime": "1654418625",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "Jason speak, oowokwokwokw",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Jason speak, oowokwokwokw"
-    }
-   ]
-  },
-  {
-   "id": 10824,
-   "type": "message",
-   "date": "2022-06-05T15:43:46",
-   "date_unixtime": "1654418626",
-   "from": "Reinaldy",
-   "from_id": "user1462097294",
-   "reply_to_message_id": 10821,
-   "text": "bagus banget ini",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "bagus banget ini"
-    }
-   ]
-  },
-  {
-   "id": 10825,
-   "type": "message",
-   "date": "2022-06-05T15:44:00",
-   "date_unixtime": "1654418640",
-   "from": "dicha?",
-   "from_id": "user925009191",
-   "reply_to_message_id": 10821,
-   "text": "WKWKWK",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "WKWKWK"
-    }
-   ]
-  },
-  {
-   "id": 10826,
-   "type": "message",
-   "date": "2022-06-05T15:44:02",
-   "date_unixtime": "1654418642",
-   "edited": "2022-06-05T15:44:09",
-   "edited_unixtime": "1654418649",
-   "from": "Reinaldy",
-   "from_id": "user1462097294",
-   "text": "kalo ada versi indonesia + open source, entah sih bisa jadi keren banget atau malah ga di hire sama orang orang",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "kalo ada versi indonesia + open source, entah sih bisa jadi keren banget atau malah ga di hire sama orang orang"
-    }
-   ]
-  },
-  {
-   "id": 10827,
-   "type": "message",
-   "date": "2022-06-05T15:44:22",
-   "date_unixtime": "1654418662",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 10819,
-   "text": "bagian paling selow dari sebuah bot kan di network call. dari telegram ke backend, lalu ke telegram lagi",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "bagian paling selow dari sebuah bot kan di network call. dari telegram ke backend, lalu ke telegram lagi"
-    }
-   ]
-  },
-  {
-   "id": 10828,
-   "type": "message",
-   "date": "2022-06-05T15:44:33",
-   "date_unixtime": "1654418673",
-   "from": null,
-   "from_id": "user1168523623",
-   "reply_to_message_id": 10824,
-   "text": "As per my prediction, this outcome does not come as a surprise.",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "As per my prediction, this outcome does not come as a surprise."
-    }
-   ]
-  },
-  {
-   "id": 10829,
-   "type": "message",
-   "date": "2022-06-05T15:46:38",
-   "date_unixtime": "1654418798",
-   "from": "Albilaga",
-   "from_id": "user219201706",
-   "reply_to_message_id": 10828,
-   "text": "lebih cepet bilang “kan….”",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "lebih cepet bilang “kan….”"
-    }
-   ]
-  },
-  {
-   "id": 10830,
-   "type": "message",
-   "date": "2022-06-05T15:47:01",
-   "date_unixtime": "1654418821",
-   "from": null,
-   "from_id": "user1168523623",
-   "reply_to_message_id": 10829,
-   "text": "bahasa inggrisnya —> see..?",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "bahasa inggrisnya —> see..?"
-    }
-   ]
-  },
-  {
-   "id": 10831,
-   "type": "message",
-   "date": "2022-06-05T15:47:38",
-   "date_unixtime": "1654418858",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "eh, gw harus latihan",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "eh, gw harus latihan"
-    }
-   ]
-  },
-  {
-   "id": 10832,
-   "type": "message",
-   "date": "2022-06-05T15:47:42",
-   "date_unixtime": "1654418862",
-   "from": null,
-   "from_id": "user1168523623",
-   "reply_to_message_id": 10829,
-   "text": [
-    {
-     "type": "italic",
-     "text": "Thank you for your input. I’ll keep that in mind as I move forward with decisions that fall within my responsibilities."
-    },
-    ""
-   ],
-   "text_entities": [
-    {
-     "type": "italic",
-     "text": "Thank you for your input. I’ll keep that in mind as I move forward with decisions that fall within my responsibilities."
-    },
-    {
-     "type": "plain",
-     "text": ""
-    }
-   ]
-  },
-  {
-   "id": 10833,
-   "type": "message",
-   "date": "2022-06-05T15:49:55",
-   "date_unixtime": "1654418995",
-   "edited": "2022-06-05T15:50:35",
-   "edited_unixtime": "1654419035",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 10822,
-   "text": "Terima kasih atas bapak dan ibu yang memungkinkan terselenggaranya meeting ini. Saya juga mengapresiasi kontribusi teman-teman di meeting ini, biarpun saya belum bisa banyak menambahkan kontribusi saya di dalam meeting ini. Saya akan dengan senang hati mereview notulen meetingnya nanti.",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Terima kasih atas bapak dan ibu yang memungkinkan terselenggaranya meeting ini. Saya juga mengapresiasi kontribusi teman-teman di meeting ini, biarpun saya belum bisa banyak menambahkan kontribusi saya di dalam meeting ini. Saya akan dengan senang hati mereview notulen meetingnya nanti."
-    }
-   ]
-  },
-  {
-   "id": 10834,
-   "type": "message",
-   "date": "2022-06-05T15:50:11",
-   "date_unixtime": "1654419011",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "reply_to_message_id": 10833,
-   "text": "Pro sekali pak",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Pro sekali pak"
-    }
-   ]
-  },
-  {
-   "id": 10835,
-   "type": "message",
-   "date": "2022-06-05T15:50:58",
-   "date_unixtime": "1654419058",
-   "from": "Reinaldy",
-   "from_id": "user1462097294",
-   "text": "master nya sedang typing",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "master nya sedang typing"
-    }
-   ]
-  },
-  {
-   "id": 10836,
-   "type": "message",
-   "date": "2022-06-05T15:50:59",
-   "date_unixtime": "1654419059",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "reply_to_message_id": 10823,
-   "text": "Yah gw lg yg kena wkwkwk",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Yah gw lg yg kena wkwkwk"
-    }
-   ]
-  },
-  {
-   "id": 10837,
-   "type": "message",
-   "date": "2022-06-05T15:51:26",
-   "date_unixtime": "1654419086",
-   "from": null,
-   "from_id": "user1168523623",
-   "file": "stickers/sticker (1).webp",
-   "thumbnail": "stickers/sticker (1).webp_thumb.jpg",
-   "media_type": "sticker",
-   "sticker_emoji": "✨",
-   "width": 512,
-   "height": 204,
-   "text": "",
-   "text_entities": []
-  },
-  {
-   "id": 10838,
-   "type": "message",
-   "date": "2022-06-05T15:51:34",
-   "date_unixtime": "1654419094",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 10834,
-   "text": "itu masih level noob. I've seen some masters in action",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "itu masih level noob. I've seen some masters in action"
-    }
-   ]
-  },
-  {
-   "id": 10839,
-   "type": "message",
-   "date": "2022-06-05T15:54:07",
-   "date_unixtime": "1654419247",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "seorang master bisa manjangin \"good morning guys\" jadi kata sambutan 30 menit",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "seorang master bisa manjangin \"good morning guys\" jadi kata sambutan 30 menit"
-    }
-   ]
-  },
-  {
-   "id": 10840,
-   "type": "message",
-   "date": "2022-06-05T15:54:22",
-   "date_unixtime": "1654419262",
-   "from": "Reinaldy",
-   "from_id": "user1462097294",
-   "reply_to_message_id": 10839,
-   "text": "Wah, siraman pagi yang sangat baik",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Wah, siraman pagi yang sangat baik"
-    }
-   ]
-  },
-  {
-   "id": 10841,
-   "type": "message",
-   "date": "2022-06-05T15:54:29",
-   "date_unixtime": "1654419269",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "reply_to_message_id": 10839,
-   "text": "Karena bapacc coding .NET saya bisa mengira2 mendengar dari mana *eh",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Karena bapacc coding .NET saya bisa mengira2 mendengar dari mana *eh"
-    }
-   ]
-  },
-  {
-   "id": 10842,
-   "type": "message",
-   "date": "2022-06-05T15:55:24",
-   "date_unixtime": "1654419324",
-   "edited": "2022-06-05T15:55:41",
-   "edited_unixtime": "1654419341",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "reply_to_message_id": 10833,
-   "text": "Nanti akan kita bawa gagasan2nya ke rapat internal lanjutan",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Nanti akan kita bawa gagasan2nya ke rapat internal lanjutan"
-    }
-   ]
-  },
-  {
-   "id": 10843,
-   "type": "message",
-   "date": "2022-06-05T15:55:25",
-   "date_unixtime": "1654419325",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "text": "Wkwkwk",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Wkwkwk"
-    }
-   ]
-  },
-  {
-   "id": 10844,
-   "type": "message",
-   "date": "2022-06-05T15:55:38",
-   "date_unixtime": "1654419338",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "master has spoken",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "master has spoken"
-    }
-   ]
-  },
-  {
-   "id": 10845,
-   "type": "message",
-   "date": "2022-06-05T15:56:44",
-   "date_unixtime": "1654419404",
-   "from": "dicha?",
-   "from_id": "user925009191",
-   "text": [
-    "the infamous ",
-    {
-     "type": "italic",
-     "text": "tim internal"
-    }
-   ],
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "the infamous "
-    },
-    {
-     "type": "italic",
-     "text": "tim internal"
-    }
-   ]
-  },
-  {
-   "id": 10846,
-   "type": "message",
-   "date": "2022-06-05T15:57:05",
-   "date_unixtime": "1654419425",
-   "from": null,
-   "from_id": "user1168523623",
-   "reply_to_message_id": 10842,
-   "text": "njir gagasan",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "njir gagasan"
-    }
-   ]
-  },
-  {
-   "id": 10847,
-   "type": "message",
-   "date": "2022-06-05T15:59:46",
-   "date_unixtime": "1654419586",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "reply_to_message_id": 10846,
-   "text": "Magic word ini. Never say ide",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Magic word ini. Never say ide"
-    }
-   ]
-  },
-  {
-   "id": 10848,
-   "type": "message",
-   "date": "2022-06-05T16:00:12",
-   "date_unixtime": "1654419612",
-   "from": "Albilaga",
-   "from_id": "user219201706",
-   "reply_to_message_id": 10842,
-   "text": "jadi inget biasanya bilang “let’s take it offline”. Dulu awal banget ga ngerti maksudnya ini gmn pas timnya remote semua. wkwkwk",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "jadi inget biasanya bilang “let’s take it offline”. Dulu awal banget ga ngerti maksudnya ini gmn pas timnya remote semua. wkwkwk"
-    }
-   ]
-  },
-  {
-   "id": 10849,
-   "type": "message",
-   "date": "2022-06-05T16:00:23",
-   "date_unixtime": "1654419623",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "text": "Ada 1 magic word lagi, good corporate governance",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Ada 1 magic word lagi, good corporate governance"
-    }
-   ]
-  },
-  {
-   "id": 10850,
-   "type": "message",
-   "date": "2022-06-05T16:00:49",
-   "date_unixtime": "1654419649",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "gak gcg",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "gak gcg"
-    }
-   ]
-  },
-  {
-   "id": 10851,
-   "type": "message",
-   "date": "2022-06-05T16:00:53",
-   "date_unixtime": "1654419653",
-   "edited": "2022-06-05T16:04:39",
-   "edited_unixtime": "1654419879",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "reply_to_message_id": 10848,
-   "text": "silahkan copy magic word saya ya. Tapi jangan ke saya karena saya udah tau akal bulus kamu.",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "silahkan copy magic word saya ya. Tapi jangan ke saya karena saya udah tau akal bulus kamu."
-    }
-   ]
-  },
-  {
-   "id": 10852,
-   "type": "message",
-   "date": "2022-06-05T16:00:54",
-   "date_unixtime": "1654419654",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "text": "*eh",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "*eh"
-    }
-   ]
-  },
-  {
-   "id": 10853,
-   "type": "message",
-   "date": "2022-06-05T16:00:56",
-   "date_unixtime": "1654419656",
-   "edited": "2022-06-05T16:01:26",
-   "edited_unixtime": "1654419686",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "text": "Jadi kyk \"tentunya segala keputusan yang nantinya kita ambil harus mempertimbangkan faktor good corporate governance yang berlaku\"",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Jadi kyk \"tentunya segala keputusan yang nantinya kita ambil harus mempertimbangkan faktor good corporate governance yang berlaku\""
-    }
-   ]
-  },
-  {
-   "id": 10854,
-   "type": "message",
-   "date": "2022-06-05T16:01:34",
-   "date_unixtime": "1654419694",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "reply_to_message_id": 10848,
-   "text": "Dikira matiin internet ya? Wkwkwk",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Dikira matiin internet ya? Wkwkwk"
-    }
-   ]
-  },
-  {
-   "id": 10855,
-   "type": "message",
-   "date": "2022-06-05T16:01:45",
-   "date_unixtime": "1654419705",
-   "from": "Albilaga",
-   "from_id": "user219201706",
-   "reply_to_message_id": 10849,
-   "text": "sekarang jualannya bukannya carbon neutral om? *eh",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "sekarang jualannya bukannya carbon neutral om? *eh"
-    }
-   ]
-  },
-  {
-   "id": 10856,
-   "type": "message",
-   "date": "2022-06-05T16:01:53",
-   "date_unixtime": "1654419713",
-   "from": "Albilaga",
-   "from_id": "user219201706",
-   "reply_to_message_id": 10851,
-   "text": "wkwkwk…. 😄",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "wkwkwk…. 😄"
-    }
-   ]
-  },
-  {
-   "id": 10857,
-   "type": "message",
-   "date": "2022-06-05T16:02:03",
-   "date_unixtime": "1654419723",
-   "from": "Albilaga",
-   "from_id": "user219201706",
-   "reply_to_message_id": 10854,
-   "text": "dikirain gak jadi diobrolin. wkwkkw 😄",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "dikirain gak jadi diobrolin. wkwkkw 😄"
-    }
-   ]
-  },
-  {
-   "id": 10858,
-   "type": "message",
-   "date": "2022-06-05T16:03:40",
-   "date_unixtime": "1654419820",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "\"sleep on it\" = your idea sucks. come up with a new one first thing in the morning",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "\"sleep on it\" = your idea sucks. come up with a new one first thing in the morning"
-    }
-   ]
-  },
-  {
-   "id": 10859,
-   "type": "message",
-   "date": "2022-06-05T16:04:09",
-   "date_unixtime": "1654419849",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "eh ini bahasa startup ya bukan corpo",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "eh ini bahasa startup ya bukan corpo"
-    }
-   ]
-  },
-  {
-   "id": 10860,
-   "type": "message",
-   "date": "2022-06-05T16:05:50",
-   "date_unixtime": "1654419950",
-   "edited": "2022-06-05T16:05:59",
-   "edited_unixtime": "1654419959",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "istilah di corpo/startup yang paling penting menurut gw tu \"value\"",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "istilah di corpo/startup yang paling penting menurut gw tu \"value\""
-    }
-   ]
-  },
-  {
-   "id": 10861,
-   "type": "message",
-   "date": "2022-06-05T16:06:11",
-   "date_unixtime": "1654419971",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "pahami, pelajari, gunakan sebanyak mungkin 😶‍🌫️",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "pahami, pelajari, gunakan sebanyak mungkin 😶‍🌫️"
-    }
-   ]
-  },
-  {
-   "id": 10862,
-   "type": "message",
-   "date": "2022-06-05T16:06:13",
-   "date_unixtime": "1654419973",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "istilah startup yang haram di corpo: burnout",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "istilah startup yang haram di corpo: burnout"
-    }
-   ]
-  },
-  {
-   "id": 10863,
-   "type": "message",
-   "date": "2022-06-05T16:06:38",
-   "date_unixtime": "1654419998",
-   "from": "Reinaldy",
-   "from_id": "user1462097294",
-   "reply_to_message_id": 10862,
-   "text": "another istilah yang mulai haram: healing",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "another istilah yang mulai haram: healing"
-    }
-   ]
-  },
-  {
-   "id": 10864,
-   "type": "message",
-   "date": "2022-06-05T16:06:59",
-   "date_unixtime": "1654420019",
-   "from": "dicha?",
-   "from_id": "user925009191",
-   "text": "hiling mulu kapan kerjanya",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "hiling mulu kapan kerjanya"
-    }
-   ]
-  },
-  {
-   "id": 10865,
-   "type": "message",
-   "date": "2022-06-05T16:07:27",
-   "date_unixtime": "1654420047",
-   "edited": "2022-06-05T16:07:33",
-   "edited_unixtime": "1654420053",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "jangan nyebut lembur, gunakan \"going extra mile\"",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "jangan nyebut lembur, gunakan \"going extra mile\""
-    }
-   ]
-  },
-  {
-   "id": 10866,
-   "type": "message",
-   "date": "2022-06-05T16:07:51",
-   "date_unixtime": "1654420071",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "text": "Putting in your blood, sweat, and tears",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Putting in your blood, sweat, and tears"
-    }
-   ]
-  },
-  {
-   "id": 10867,
-   "type": "message",
-   "date": "2022-06-05T16:07:55",
-   "date_unixtime": "1654420075",
-   "from": "Reinaldy",
-   "from_id": "user1462097294",
-   "reply_to_message_id": 10865,
-   "text": "\"aduh tanggung nih\"",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "\"aduh tanggung nih\""
-    }
-   ]
-  },
-  {
-   "id": 10868,
-   "type": "message",
-   "date": "2022-06-05T16:08:02",
-   "date_unixtime": "1654420082",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "text": "Atau sense of ownership",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Atau sense of ownership"
-    }
-   ]
-  },
-  {
-   "id": 10869,
-   "type": "message",
-   "date": "2022-06-05T16:08:05",
-   "date_unixtime": "1654420085",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "text": "Wkwkwk",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Wkwkwk"
-    }
-   ]
-  },
-  {
-   "id": 10870,
-   "type": "message",
-   "date": "2022-06-05T16:08:10",
-   "date_unixtime": "1654420090",
-   "from": "Reinaldy",
-   "from_id": "user1462097294",
-   "text": "kayaknya jason cocok jadi HR deh",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "kayaknya jason cocok jadi HR deh"
-    }
-   ]
-  },
-  {
-   "id": 10871,
-   "type": "message",
-   "date": "2022-06-05T16:08:14",
-   "date_unixtime": "1654420094",
-   "from": "Reinaldy",
-   "from_id": "user1462097294",
-   "text": "udah cukup ilmunya",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "udah cukup ilmunya"
-    }
-   ]
-  },
-  {
-   "id": 10872,
-   "type": "message",
-   "date": "2022-06-05T16:08:14",
-   "date_unixtime": "1654420094",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "text": "Kata2 yg sering dipake buat ngajak lembur",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Kata2 yg sering dipake buat ngajak lembur"
-    }
-   ]
-  },
-  {
-   "id": 10873,
-   "type": "message",
-   "date": "2022-06-05T16:08:30",
-   "date_unixtime": "1654420110",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "kalau yang disuruh lembur team support —> kita harus kejar operational excellence",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "kalau yang disuruh lembur team support —> kita harus kejar operational excellence"
-    }
-   ]
-  },
-  {
-   "id": 10874,
-   "type": "message",
-   "date": "2022-06-05T16:08:48",
-   "date_unixtime": "1654420128",
-   "from": "Albilaga",
-   "from_id": "user219201706",
-   "reply_to_message_id": 10872,
-   "text": "biasanya si tambah pizza 1...",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "biasanya si tambah pizza 1..."
-    }
-   ]
-  },
-  {
-   "id": 10875,
-   "type": "message",
-   "date": "2022-06-05T16:09:12",
-   "date_unixtime": "1654420152",
-   "edited": "2022-06-05T16:13:51",
-   "edited_unixtime": "1654420431",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "reply_to_message_id": 10870,
-   "text": "Tentunya hal ini perlu melalui pertimbangan yang matang dari seluruh pemangku kepentingan terkait agar tidak menimbulkan polemik diantara karyawan",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Tentunya hal ini perlu melalui pertimbangan yang matang dari seluruh pemangku kepentingan terkait agar tidak menimbulkan polemik diantara karyawan"
-    }
-   ]
-  },
-  {
-   "id": 10876,
-   "type": "message",
-   "date": "2022-06-05T16:09:25",
-   "date_unixtime": "1654420165",
-   "from": "Albilaga",
-   "from_id": "user219201706",
-   "reply_to_message_id": 10863,
-   "text": "healing kok di kantor *eh",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "healing kok di kantor *eh"
-    }
-   ]
-  },
-  {
-   "id": 10877,
-   "type": "message",
-   "date": "2022-06-05T16:09:30",
-   "date_unixtime": "1654420170",
-   "from": null,
-   "from_id": "user1168523623",
-   "reply_to_message_id": 10868,
-   "text": "klo lagi banyak masalah —> sense of crisis",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "klo lagi banyak masalah —> sense of crisis"
-    }
-   ]
-  },
-  {
-   "id": 10878,
-   "type": "message",
-   "date": "2022-06-05T16:10:05",
-   "date_unixtime": "1654420205",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "text": "Seru ya corporate speak wkwkwk",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Seru ya corporate speak wkwkwk"
-    }
-   ]
-  },
-  {
-   "id": 10879,
-   "type": "message",
-   "date": "2022-06-05T16:10:18",
-   "date_unixtime": "1654420218",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "seru cuy",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "seru cuy"
-    }
-   ]
-  },
-  {
-   "id": 10880,
-   "type": "message",
-   "date": "2022-06-05T16:10:30",
-   "date_unixtime": "1654420230",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "yang masih pada sekolah gak akan ngerti gimana indahnya, wkwkwk",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "yang masih pada sekolah gak akan ngerti gimana indahnya, wkwkwk"
-    }
-   ]
-  },
-  {
-   "id": 10881,
-   "type": "message",
-   "date": "2022-06-05T16:10:33",
-   "date_unixtime": "1654420233",
-   "from": "Reinaldy",
-   "from_id": "user1462097294",
-   "text": "seru, until your HR or director comes in",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "seru, until your HR or director comes in"
-    }
-   ]
-  },
-  {
-   "id": 10882,
-   "type": "message",
-   "date": "2022-06-05T16:10:59",
-   "date_unixtime": "1654420259",
-   "from": "Reinaldy",
-   "from_id": "user1462097294",
-   "text": "\"Jason bisa ke ruangan saya sebentar?\"",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "\"Jason bisa ke ruangan saya sebentar?\""
-    }
-   ]
-  },
-  {
-   "id": 10883,
-   "type": "message",
-   "date": "2022-06-05T16:11:41",
-   "date_unixtime": "1654420301",
-   "from": "Albilaga",
-   "from_id": "user219201706",
-   "reply_to_message_id": 10881,
-   "text": "atau atasan yg ga pernah muncul tiba2 muncul. wkwkwk",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "atau atasan yg ga pernah muncul tiba2 muncul. wkwkwk"
-    }
-   ]
-  },
-  {
-   "id": 10884,
-   "type": "message",
-   "date": "2022-06-05T16:12:14",
-   "date_unixtime": "1654420334",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": [
-    {
-     "type": "italic",
-     "text": "saya mendengar desas-desus di lapangan"
-    }
-   ],
-   "text_entities": [
-    {
-     "type": "italic",
-     "text": "saya mendengar desas-desus di lapangan"
-    }
-   ]
-  },
-  {
-   "id": 10885,
-   "type": "message",
-   "date": "2022-06-05T16:14:04",
-   "date_unixtime": "1654420444",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "reply_to_message_id": 10868,
-   "text": "another magic word sih ini.",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "another magic word sih ini."
-    }
-   ]
-  },
-  {
-   "id": 10886,
-   "type": "message",
-   "date": "2022-06-05T16:14:05",
-   "date_unixtime": "1654420445",
-   "from": "dicha?",
-   "from_id": "user925009191",
-   "text": "WKWKW DESAS DESUS",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "WKWKW DESAS DESUS"
-    }
-   ]
-  },
-  {
-   "id": 10887,
-   "type": "message",
-   "date": "2022-06-05T16:14:26",
-   "date_unixtime": "1654420466",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "kita ambil win win solution aja —> win buat gw, lo sih bodo amat",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "kita ambil win win solution aja —> win buat gw, lo sih bodo amat"
-    }
-   ]
-  },
-  {
-   "id": 10888,
-   "type": "message",
-   "date": "2022-06-05T16:14:38",
-   "date_unixtime": "1654420478",
-   "edited": "2022-06-05T21:58:30",
-   "edited_unixtime": "1654441110",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "reply_to_message_id": 10887,
-   "text": "win win solution nobody wins.",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "win win solution nobody wins."
-    }
-   ]
-  },
-  {
-   "id": 10889,
-   "type": "message",
-   "date": "2022-06-05T16:14:45",
-   "date_unixtime": "1654420485",
-   "from": "Reinaldy",
-   "from_id": "user1462097294",
-   "reply_to_message_id": 10888,
-   "text": "the company wins",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "the company wins"
-    }
-   ]
-  },
-  {
-   "id": 10890,
-   "type": "message",
-   "date": "2022-06-05T16:15:04",
-   "date_unixtime": "1654420504",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "text": "banyak akal bulus dari corporate speak yang pernah bikin saya dipecat karena saying out loud what's between lines.",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "banyak akal bulus dari corporate speak yang pernah bikin saya dipecat karena saying out loud what's between lines."
-    }
-   ]
-  },
-  {
-   "id": 10891,
-   "type": "message",
-   "date": "2022-06-05T16:15:18",
-   "date_unixtime": "1654420518",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "text": [
-    "Aku harus berguru ama ",
-    {
-     "type": "mention",
-     "text": "@jason_wihardja"
-    }
-   ],
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Aku harus berguru ama "
-    },
-    {
-     "type": "mention",
-     "text": "@jason_wihardja"
-    }
-   ]
-  },
-  {
-   "id": 10892,
-   "type": "message",
-   "date": "2022-06-05T16:16:12",
-   "date_unixtime": "1654420572",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "text": "Karena pas meeting antar C level, mereka ini sebeenrnya saling hostile, komunikasinya corp speak banget, terus saya buka satu-satu, lalu saya dilayoff karena saya bukan 'team player yang baik'",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Karena pas meeting antar C level, mereka ini sebeenrnya saling hostile, komunikasinya corp speak banget, terus saya buka satu-satu, lalu saya dilayoff karena saya bukan 'team player yang baik'"
-    }
-   ]
-  },
-  {
-   "id": 10893,
-   "type": "message",
-   "date": "2022-06-05T16:16:27",
-   "date_unixtime": "1654420587",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "wkwwkwkwk",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "wkwwkwkwk"
-    }
-   ]
-  },
-  {
-   "id": 10894,
-   "type": "message",
-   "date": "2022-06-05T16:16:31",
-   "date_unixtime": "1654420591",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "text": "Jangan ditiru ya guys, kamu cuma pegawe, ga usah sok2an asertif ke C level.",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Jangan ditiru ya guys, kamu cuma pegawe, ga usah sok2an asertif ke C level."
-    }
-   ]
-  },
-  {
-   "id": 10895,
-   "type": "message",
-   "date": "2022-06-05T16:17:00",
-   "date_unixtime": "1654420620",
-   "from": "Albilaga",
-   "from_id": "user219201706",
-   "reply_to_message_id": 10892,
-   "text": "“team player” -> harus ngikut apa kata atasan….",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "“team player” -> harus ngikut apa kata atasan…."
-    }
-   ]
-  },
-  {
-   "id": 10896,
-   "type": "message",
-   "date": "2022-06-05T16:17:19",
-   "date_unixtime": "1654420639",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "reply_to_message_id": 10895,
-   "text": "nah, next time saya bilang gitu artinya itu kira2, dah paham kan?",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "nah, next time saya bilang gitu artinya itu kira2, dah paham kan?"
-    }
-   ]
-  },
-  {
-   "id": 10897,
-   "type": "message",
-   "date": "2022-06-05T16:17:26",
-   "date_unixtime": "1654420646",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "text": "Lah, saya juga di layoff karena berantem melulu wkwkwk",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Lah, saya juga di layoff karena berantem melulu wkwkwk"
-    }
-   ]
-  },
-  {
-   "id": 10898,
-   "type": "message",
-   "date": "2022-06-05T16:17:36",
-   "date_unixtime": "1654420656",
-   "from": "Albilaga",
-   "from_id": "user219201706",
-   "reply_to_message_id": 10894,
-   "text": "iya. aku ngikut mas Didiet aja. wkwkw 😄",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "iya. aku ngikut mas Didiet aja. wkwkw 😄"
-    }
-   ]
-  },
-  {
-   "id": 10899,
-   "type": "message",
-   "date": "2022-06-05T16:17:44",
-   "date_unixtime": "1654420664",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "kalau mau ngomong kayak gitu, kasih pembukaan dulu.. harus ada kata2 \"brutal truth\"",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "kalau mau ngomong kayak gitu, kasih pembukaan dulu.. harus ada kata2 \"brutal truth\""
-    }
-   ]
-  },
-  {
-   "id": 10900,
-   "type": "message",
-   "date": "2022-06-05T16:18:00",
-   "date_unixtime": "1654420680",
-   "edited": "2022-06-05T16:58:46",
-   "edited_unixtime": "1654423126",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "text": "Sampe gw pernah di satu meeting bilang \"apakah perlu kita membahas hal2 retorika seperti ini?\"",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Sampe gw pernah di satu meeting bilang \"apakah perlu kita membahas hal2 retorika seperti ini?\""
-    }
-   ]
-  },
-  {
-   "id": 10901,
-   "type": "message",
-   "date": "2022-06-05T16:18:07",
-   "date_unixtime": "1654420687",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "owokwokwowkowk",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "owokwokwowkowk"
-    }
-   ]
-  },
-  {
-   "id": 10902,
-   "type": "message",
-   "date": "2022-06-05T16:18:12",
-   "date_unixtime": "1654420692",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "text": "Soalnya udah mau 1 jam semua orang muter2 terus",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Soalnya udah mau 1 jam semua orang muter2 terus"
-    }
-   ]
-  },
-  {
-   "id": 10903,
-   "type": "message",
-   "date": "2022-06-05T16:18:18",
-   "date_unixtime": "1654420698",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "text": "Ga ada yg addressing the real issue",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Ga ada yg addressing the real issue"
-    }
-   ]
-  },
-  {
-   "id": 10904,
-   "type": "message",
-   "date": "2022-06-05T16:18:31",
-   "date_unixtime": "1654420711",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "text": "Muter aja dibawa kemana mana",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Muter aja dibawa kemana mana"
-    }
-   ]
-  },
-  {
-   "id": 10905,
-   "type": "message",
-   "date": "2022-06-05T16:18:42",
-   "date_unixtime": "1654420722",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "ya jangan bilang gitu..",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "ya jangan bilang gitu.."
-    }
-   ]
-  },
-  {
-   "id": 10906,
-   "type": "message",
-   "date": "2022-06-05T16:18:43",
-   "date_unixtime": "1654420723",
-   "from": "Albilaga",
-   "from_id": "user219201706",
-   "reply_to_message_id": 10896,
-   "via_bot": "@gif",
-   "file": "video_files/kiki-kikicat.mp4",
-   "thumbnail": "video_files/kiki-kikicat.mp4_thumb.jpg",
-   "media_type": "animation",
-   "mime_type": "video/mp4",
-   "duration_seconds": 1,
-   "width": 320,
-   "height": 320,
-   "text": "",
-   "text_entities": []
-  },
-  {
-   "id": 10907,
-   "type": "message",
-   "date": "2022-06-05T16:19:10",
-   "date_unixtime": "1654420750",
-   "from": "Albilaga",
-   "from_id": "user219201706",
-   "reply_to_message_id": 10902,
-   "text": "la bukannya biasanya emang gini akhirnya endingnya “lets take it offline” ya? 😄",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "la bukannya biasanya emang gini akhirnya endingnya “lets take it offline” ya? 😄"
-    }
-   ]
-  },
-  {
-   "id": 10908,
-   "type": "message",
-   "date": "2022-06-05T16:19:14",
-   "date_unixtime": "1654420754",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "kalau udah muter2, ni beberapa kalimat yang harus dibawa:\n\n- tidak bermaksud menyalahkan siapa-siapa\n- mari kita diskusikan \"root cause\"nya",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "kalau udah muter2, ni beberapa kalimat yang harus dibawa:\n\n- tidak bermaksud menyalahkan siapa-siapa\n- mari kita diskusikan \"root cause\"nya"
-    }
-   ]
-  },
-  {
-   "id": 10909,
-   "type": "message",
-   "date": "2022-06-05T16:19:27",
-   "date_unixtime": "1654420767",
-   "from": "Reinaldy",
-   "from_id": "user1462097294",
-   "text": "orang orang sini pro semua ya",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "orang orang sini pro semua ya"
-    }
-   ]
-  },
-  {
-   "id": 10910,
-   "type": "message",
-   "date": "2022-06-05T16:19:47",
-   "date_unixtime": "1654420787",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "text": "Baru gw mau bawa ke jalan yg bener, langsung \"maaf sebelumnya pak saya potong tapi <balik lg muter2 15 menit>\"",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Baru gw mau bawa ke jalan yg bener, langsung \"maaf sebelumnya pak saya potong tapi <balik lg muter2 15 menit>\""
-    }
-   ]
-  },
-  {
-   "id": 10911,
-   "type": "message",
-   "date": "2022-06-05T16:19:49",
-   "date_unixtime": "1654420789",
-   "from": "A JI Mode Signal Putus - Put",
-   "from_id": "user224998752",
-   "text": "Aamiin",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Aamiin"
-    }
-   ]
-  },
-  {
-   "id": 10912,
-   "type": "message",
-   "date": "2022-06-05T16:19:57",
-   "date_unixtime": "1654420797",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "text": "Dahlah no hope meeting gituan",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Dahlah no hope meeting gituan"
-    }
-   ]
-  },
-  {
-   "id": 10913,
-   "type": "message",
-   "date": "2022-06-05T16:20:29",
-   "date_unixtime": "1654420829",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "reply_to_message_id": 10897,
-   "text": "Lah, salah dong nyari gurunya saya.",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Lah, salah dong nyari gurunya saya."
-    }
-   ]
-  },
-  {
-   "id": 10914,
-   "type": "message",
-   "date": "2022-06-05T16:20:52",
-   "date_unixtime": "1654420852",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": [
-    "cara lain kalau meeting gak jelas: ",
-    {
-     "type": "italic",
-     "text": "rasanya kita harus buka sesi meeting tersendiri untuk bahas ini"
-    },
-    ", ",
-    {
-     "type": "italic",
-     "text": "sekarang kita pending saja dulu"
-    }
-   ],
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "cara lain kalau meeting gak jelas: "
-    },
-    {
-     "type": "italic",
-     "text": "rasanya kita harus buka sesi meeting tersendiri untuk bahas ini"
-    },
-    {
-     "type": "plain",
-     "text": ", "
-    },
-    {
-     "type": "italic",
-     "text": "sekarang kita pending saja dulu"
-    }
-   ]
-  },
-  {
-   "id": 10915,
-   "type": "message",
-   "date": "2022-06-05T16:20:54",
-   "date_unixtime": "1654420854",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "reply_to_message_id": 10909,
-   "text": [
-    "Saya enggak, udah kebaca ama ",
-    {
-     "type": "mention",
-     "text": "@albilaga"
-    },
-    " akal bulus saya."
-   ],
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Saya enggak, udah kebaca ama "
-    },
-    {
-     "type": "mention",
-     "text": "@albilaga"
-    },
-    {
-     "type": "plain",
-     "text": " akal bulus saya."
-    }
-   ]
-  },
-  {
-   "id": 10916,
-   "type": "message",
-   "date": "2022-06-05T16:21:06",
-   "date_unixtime": "1654420866",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "reply_to_message_id": 10914,
-   "text": "OUGH I LOVE THIS",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "OUGH I LOVE THIS"
-    }
-   ]
-  },
-  {
-   "id": 10917,
-   "type": "message",
-   "date": "2022-06-05T16:21:06",
-   "date_unixtime": "1654420866",
-   "from": "A JI Mode Signal Putus - Put",
-   "from_id": "user224998752",
-   "text": [
-    {
-     "type": "italic",
-     "text": "enggak"
-    }
-   ],
-   "text_entities": [
-    {
-     "type": "italic",
-     "text": "enggak"
-    }
-   ]
-  },
-  {
-   "id": 10918,
-   "type": "message",
-   "date": "2022-06-05T16:21:10",
-   "date_unixtime": "1654420870",
-   "from": "A JI Mode Signal Putus - Put",
-   "from_id": "user224998752",
-   "file": "stickers/sticker (2).webp",
-   "thumbnail": "stickers/sticker (2).webp_thumb.jpg",
-   "media_type": "sticker",
-   "sticker_emoji": "✨",
-   "width": 512,
-   "height": 512,
-   "text": "",
-   "text_entities": []
-  },
-  {
-   "id": 10919,
-   "type": "message",
-   "date": "2022-06-05T16:21:55",
-   "date_unixtime": "1654420915",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "text": "Sekarang saya baik kok, ga corp speak tapi identifikasi decision maker, terus kita ajakin ngopi.",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Sekarang saya baik kok, ga corp speak tapi identifikasi decision maker, terus kita ajakin ngopi."
-    }
-   ]
-  },
-  {
-   "id": 10920,
-   "type": "message",
-   "date": "2022-06-05T16:22:13",
-   "date_unixtime": "1654420933",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "text": "Biasanya biar kalo pas lidah kepleset bisa dimaklumi *ngakak",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Biasanya biar kalo pas lidah kepleset bisa dimaklumi *ngakak"
-    }
-   ]
-  },
-  {
-   "id": 10921,
-   "type": "message",
-   "date": "2022-06-05T16:22:32",
-   "date_unixtime": "1654420952",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "next level itu..",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "next level itu.."
-    }
-   ]
-  },
-  {
-   "id": 10922,
-   "type": "message",
-   "date": "2022-06-05T16:22:39",
-   "date_unixtime": "1654420959",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "next level lagi: cari hobi dia, terus lu ikutin hobi yang sama",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "next level lagi: cari hobi dia, terus lu ikutin hobi yang sama"
-    }
-   ]
-  },
-  {
-   "id": 10923,
-   "type": "message",
-   "date": "2022-06-05T16:22:54",
-   "date_unixtime": "1654420974",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "moga aja bukan golf, wkwkwkwk",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "moga aja bukan golf, wkwkwkwk"
-    }
-   ]
-  },
-  {
-   "id": 10924,
-   "type": "message",
-   "date": "2022-06-05T16:23:01",
-   "date_unixtime": "1654420981",
-   "from": "A JI Mode Signal Putus - Put",
-   "from_id": "user224998752",
-   "text": "baru mau bilang golf",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "baru mau bilang golf"
-    }
-   ]
-  },
-  {
-   "id": 10925,
-   "type": "message",
-   "date": "2022-06-05T16:23:05",
-   "date_unixtime": "1654420985",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "text": "Makannya WFO membantu sekali buat ini, saya seneng ke kantor sebab banyak ngobrol2 ama decision maker dan dapat insight2 penting di luar meeting.",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Makannya WFO membantu sekali buat ini, saya seneng ke kantor sebab banyak ngobrol2 ama decision maker dan dapat insight2 penting di luar meeting."
-    }
-   ]
-  },
-  {
-   "id": 10926,
-   "type": "message",
-   "date": "2022-06-05T16:23:20",
-   "date_unixtime": "1654421000",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "reply_to_message_id": 10924,
-   "text": [
-    "Nyah enggak, yang penting dapat ",
-    {
-     "type": "italic",
-     "text": "trust"
-    },
-    " nya aja dulu."
-   ],
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Nyah enggak, yang penting dapat "
-    },
-    {
-     "type": "italic",
-     "text": "trust"
-    },
-    {
-     "type": "plain",
-     "text": " nya aja dulu."
-    }
-   ]
-  },
-  {
-   "id": 10927,
-   "type": "message",
-   "date": "2022-06-05T16:23:20",
-   "date_unixtime": "1654421000",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "anjay... \"insight\" juga kata penting tu, no 2 sehabis value",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "anjay... \"insight\" juga kata penting tu, no 2 sehabis value"
-    }
-   ]
-  },
-  {
-   "id": 10928,
-   "type": "message",
-   "date": "2022-06-05T16:23:29",
-   "date_unixtime": "1654421009",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "text": "Kalo gw dulu udah bisa identify mana meeting yg beneran minta pendapat gw vs mana yg sebenernya udah decided, tapi asking for my buy in",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Kalo gw dulu udah bisa identify mana meeting yg beneran minta pendapat gw vs mana yg sebenernya udah decided, tapi asking for my buy in"
-    }
-   ]
-  },
-  {
-   "id": 10929,
-   "type": "message",
-   "date": "2022-06-05T16:23:40",
-   "date_unixtime": "1654421020",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "kwkwkwk, seni itu",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "kwkwkwk, seni itu"
-    }
-   ]
-  },
-  {
-   "id": 10930,
-   "type": "message",
-   "date": "2022-06-05T16:24:12",
-   "date_unixtime": "1654421052",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "text": "Jadi ada kejadian pas pandemi alot2 banget decisionnya, habis bisa WFO kudatengin aja satu-satu mejanya sambil halal-bihalal.",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Jadi ada kejadian pas pandemi alot2 banget decisionnya, habis bisa WFO kudatengin aja satu-satu mejanya sambil halal-bihalal."
-    }
-   ]
-  },
-  {
-   "id": 10931,
-   "type": "message",
-   "date": "2022-06-05T16:24:17",
-   "date_unixtime": "1654421057",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "gw pernah gedeg tapi karena diulang2 mulu, sampai gw bilang: \"pak, klo emang udah ada keputusan ma ya saya ikut aja, gak usah harus meyakinkan saya\"",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "gw pernah gedeg tapi karena diulang2 mulu, sampai gw bilang: \"pak, klo emang udah ada keputusan ma ya saya ikut aja, gak usah harus meyakinkan saya\""
-    }
-   ]
-  },
-  {
-   "id": 10932,
-   "type": "message",
-   "date": "2022-06-05T16:24:35",
-   "date_unixtime": "1654421075",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "tapi nyesel gw, noob mistake ngomong gitu. harus2nya gw pura2 terpengaruh aja",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "tapi nyesel gw, noob mistake ngomong gitu. harus2nya gw pura2 terpengaruh aja"
-    }
-   ]
-  },
-  {
-   "id": 10933,
-   "type": "message",
-   "date": "2022-06-05T16:24:51",
-   "date_unixtime": "1654421091",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "reply_to_message_id": 10932,
-   "text": "\"Iya pacc, saya setuju\"",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "\"Iya pacc, saya setuju\""
-    }
-   ]
-  },
-  {
-   "id": 10934,
-   "type": "message",
-   "date": "2022-06-05T16:25:03",
-   "date_unixtime": "1654421103",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": [
-    {
-     "type": "italic",
-     "text": "oh iya ya.. saya gak kepikiran ampe situ.."
-    }
-   ],
-   "text_entities": [
-    {
-     "type": "italic",
-     "text": "oh iya ya.. saya gak kepikiran ampe situ.."
-    }
-   ]
-  },
-  {
-   "id": 10935,
-   "type": "message",
-   "date": "2022-06-05T16:25:13",
-   "date_unixtime": "1654421113",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "reply_to_message_id": 10928,
-   "text": "Caranya tinggal coba aja throw 1 idea, liat reaksinya. Apakah lo digiring ke ide mereka apa ga",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Caranya tinggal coba aja throw 1 idea, liat reaksinya. Apakah lo digiring ke ide mereka apa ga"
-    }
-   ]
-  },
-  {
-   "id": 10936,
-   "type": "message",
-   "date": "2022-06-05T16:25:23",
-   "date_unixtime": "1654421123",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "text": "Atau downright resistive",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Atau downright resistive"
-    }
-   ]
-  },
-  {
-   "id": 10937,
-   "type": "message",
-   "date": "2022-06-05T16:25:33",
-   "date_unixtime": "1654421133",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "text": "Pas halal-bihalal ya ga pada alot, decision di tempat, pulang2 kenyang karena disuruh makan terus ahahha",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Pas halal-bihalal ya ga pada alot, decision di tempat, pulang2 kenyang karena disuruh makan terus ahahha"
-    }
-   ]
-  },
-  {
-   "id": 10938,
-   "type": "message",
-   "date": "2022-06-05T16:25:46",
-   "date_unixtime": "1654421146",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "text": "Kayak \"tapi sebelumnya sudah tertuang di surat keputusan meeting nomor X dan sudah berjalan\"",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Kayak \"tapi sebelumnya sudah tertuang di surat keputusan meeting nomor X dan sudah berjalan\""
-    }
-   ]
-  },
-  {
-   "id": 10939,
-   "type": "message",
-   "date": "2022-06-05T16:25:50",
-   "date_unixtime": "1654421150",
-   "from": null,
-   "from_id": "user1168523623",
-   "reply_to_message_id": 10935,
-   "text": [
-    {
-     "type": "italic",
-     "text": "tapi begini Jason.. ada faktor lain yang harus kita pertimbangkan juga.."
-    }
-   ],
-   "text_entities": [
-    {
-     "type": "italic",
-     "text": "tapi begini Jason.. ada faktor lain yang harus kita pertimbangkan juga.."
-    }
-   ]
-  },
-  {
-   "id": 10940,
-   "type": "message",
-   "date": "2022-06-05T16:25:58",
-   "date_unixtime": "1654421158",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "text": "Nah kalo gini udah tau gw, cuma looking for my approval",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Nah kalo gini udah tau gw, cuma looking for my approval"
-    }
-   ]
-  },
-  {
-   "id": 10941,
-   "type": "message",
-   "date": "2022-06-05T16:26:04",
-   "date_unixtime": "1654421164",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "text": "Looking for my sign on that paper",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Looking for my sign on that paper"
-    }
-   ]
-  },
-  {
-   "id": 10942,
-   "type": "message",
-   "date": "2022-06-05T16:26:05",
-   "date_unixtime": "1654421165",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": [
-    {
-     "type": "italic",
-     "text": "secara prinsip saya setuju dengan kamu.."
-    }
-   ],
-   "text_entities": [
-    {
-     "type": "italic",
-     "text": "secara prinsip saya setuju dengan kamu.."
-    }
-   ]
-  },
-  {
-   "id": 10943,
-   "type": "message",
-   "date": "2022-06-05T16:26:16",
-   "date_unixtime": "1654421176",
-   "from": "Reinaldy",
-   "from_id": "user1462097294",
-   "reply_to_message_id": 10928,
-   "text": "damn gw merasa bersalah",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "damn gw merasa bersalah"
-    }
-   ]
-  },
-  {
-   "id": 10944,
-   "type": "message",
-   "date": "2022-06-05T16:26:19",
-   "date_unixtime": "1654421179",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "file": "video_files/roll-safe-clever.mp4",
-   "media_type": "animation",
-   "mime_type": "video/mp4",
-   "duration_seconds": 2,
-   "width": 320,
-   "height": 180,
-   "text": "",
-   "text_entities": []
-  },
-  {
-   "id": 10945,
-   "type": "message",
-   "date": "2022-06-05T16:26:44",
-   "date_unixtime": "1654421204",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "reply_to_message_id": 10943,
-   "text": "HAHAHAHAA",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "HAHAHAHAA"
-    }
-   ]
-  },
-  {
-   "id": 10946,
-   "type": "message",
-   "date": "2022-06-05T16:26:58",
-   "date_unixtime": "1654421218",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "text": "Ini kenapa custom titlenya jadi dukun dah.",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Ini kenapa custom titlenya jadi dukun dah."
-    }
-   ]
-  },
-  {
-   "id": 10947,
-   "type": "message",
-   "date": "2022-06-05T16:27:01",
-   "date_unixtime": "1654421221",
-   "from": "Reinaldy",
-   "from_id": "user1462097294",
-   "reply_to_message_id": 10945,
-   "text": "ga ke jason, tapi ke orang lain",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "ga ke jason, tapi ke orang lain"
-    }
-   ]
-  },
-  {
-   "id": 10948,
-   "type": "message",
-   "date": "2022-06-05T16:27:18",
-   "date_unixtime": "1654421238",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "text": "kebanyakan praktek di grup sebelah kah? 😂",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "kebanyakan praktek di grup sebelah kah? 😂"
-    }
-   ]
-  },
-  {
-   "id": 10949,
-   "type": "message",
-   "date": "2022-06-05T16:27:25",
-   "date_unixtime": "1654421245",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "text": "Ga tau tuh siapa yg pertama kali menobatkan gw dukun wkwkwk",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Ga tau tuh siapa yg pertama kali menobatkan gw dukun wkwkwk"
-    }
-   ]
-  },
-  {
-   "id": 10950,
-   "type": "message",
-   "date": "2022-06-05T16:27:26",
-   "date_unixtime": "1654421246",
-   "from": "dicha?",
-   "from_id": "user925009191",
-   "text": [
-    {
-     "type": "bot_command",
-     "text": "/dukun@TeknologiUmumBot"
-    }
-   ],
-   "text_entities": [
-    {
-     "type": "bot_command",
-     "text": "/dukun@TeknologiUmumBot"
-    }
-   ]
-  },
-  {
-   "id": 10951,
-   "type": "message",
-   "date": "2022-06-05T16:27:27",
-   "date_unixtime": "1654421247",
-   "from": "LaodeBot",
-   "from_id": "user1813145338",
-   "text": [
-    {
-     "type": "bold",
-     "text": "Paguyuban Dukun Jason Wihardja"
-    },
-    "\n\n1. Jason Wihardja (463 poin)\n2. Ronny Gunawan ★ (455 poin)\n3. Reinaldy  (417 poin)\n4. dicha?  (197 poin)\n5. Wind Blade (123 poin)\n6. Rubi Chandraputra (113 poin)\n7. Maple Syrup  (112 poin)\n8. Valian Masdani (97 poin)\n9. ㅤ ㅤ (69 poin)\n10. Raymond WP (66 poin)\n11. Muhammad Al Fatih (59 poin)\n12. Farhan Aditya (54 poin)\n13. Kemum⁢‍‌‌‌‍⁢⁡⁢⁡‌⁤⁢⁢‍⁢⁣⁤⁢⁤⁢‍‌⁤‌⁣‌‍⁢⁤⁡⁢⁣‌⁢⁢⁡⁢⁢⁢‍‌‍‌‍‌‌⁢⁢‍⁡àki 🌿  (45 poin)\n14. Krishna  (40 poin)\n15. Lao ⁢‍‌‌‌‍⁢⁡⁢⁡‌⁤⁢⁢‍⁢⁣⁤⁢⁤⁢‍‌Dee  (30 poin)\n\ndan 40 dukun lainnya.."
-   ],
-   "text_entities": [
-    {
-     "type": "bold",
-     "text": "Paguyuban Dukun Jason Wihardja"
-    },
-    {
-     "type": "plain",
-     "text": "\n\n1. Jason Wihardja (463 poin)\n2. Ronny Gunawan ★ (455 poin)\n3. Reinaldy  (417 poin)\n4. dicha?  (197 poin)\n5. Wind Blade (123 poin)\n6. Rubi Chandraputra (113 poin)\n7. Maple Syrup  (112 poin)\n8. Valian Masdani (97 poin)\n9. ㅤ ㅤ (69 poin)\n10. Raymond WP (66 poin)\n11. Muhammad Al Fatih (59 poin)\n12. Farhan Aditya (54 poin)\n13. Kemum⁢‍‌‌‌‍⁢⁡⁢⁡‌⁤⁢⁢‍⁢⁣⁤⁢⁤⁢‍‌⁤‌⁣‌‍⁢⁤⁡⁢⁣‌⁢⁢⁡⁢⁢⁢‍‌‍‌‍‌‌⁢⁢‍⁡àki 🌿  (45 poin)\n14. Krishna  (40 poin)\n15. Lao ⁢‍‌‌‌‍⁢⁡⁢⁡‌⁤⁢⁢‍⁢⁣⁤⁢⁤⁢‍‌Dee  (30 poin)\n\ndan 40 dukun lainnya.."
-    }
-   ]
-  },
-  {
-   "id": 10952,
-   "type": "message",
-   "date": "2022-06-05T16:28:05",
-   "date_unixtime": "1654421285",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "text": "Jadi kesimpulannya, masuk ke perusahaana cuma jadi engineer dan ga aware politik ga sip ya.",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Jadi kesimpulannya, masuk ke perusahaana cuma jadi engineer dan ga aware politik ga sip ya."
-    }
-   ]
-  },
-  {
-   "id": 10953,
-   "type": "message",
-   "date": "2022-06-05T16:28:16",
-   "date_unixtime": "1654421296",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "text": "Ga bisa meroket karirnya, yang ada di-layoff LOL.",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Ga bisa meroket karirnya, yang ada di-layoff LOL."
-    }
-   ]
-  },
-  {
-   "id": 10954,
-   "type": "message",
-   "date": "2022-06-05T16:28:23",
-   "date_unixtime": "1654421303",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "iyo",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "iyo"
-    }
-   ]
-  },
-  {
-   "id": 10955,
-   "type": "message",
-   "date": "2022-06-05T16:28:38",
-   "date_unixtime": "1654421318",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "gk ngerti politik tuh kayak barang bagus gak ada marketing",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "gk ngerti politik tuh kayak barang bagus gak ada marketing"
-    }
-   ]
-  },
-  {
-   "id": 10956,
-   "type": "message",
-   "date": "2022-06-05T16:28:49",
-   "date_unixtime": "1654421329",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "text": "Ga semua orang bisa take hard truth tanpa sakit hati",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Ga semua orang bisa take hard truth tanpa sakit hati"
-    }
-   ]
-  },
-  {
-   "id": 10957,
-   "type": "message",
-   "date": "2022-06-05T16:29:03",
-   "date_unixtime": "1654421343",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "text": "Ada yang PR di reject aja baper",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Ada yang PR di reject aja baper"
-    }
-   ]
-  },
-  {
-   "id": 10958,
-   "type": "message",
-   "date": "2022-06-05T16:29:03",
-   "date_unixtime": "1654421343",
-   "from": "Reinaldy",
-   "from_id": "user1462097294",
-   "reply_to_message_id": 10949,
-   "text": "yourself",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "yourself"
-    }
-   ]
-  },
-  {
-   "id": 10959,
-   "type": "message",
-   "date": "2022-06-05T16:29:07",
-   "date_unixtime": "1654421347",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "text": "Saya skrg lebih ke : kalo selip lidah dimaklumi. Kalo udah ada yg bilang 'Didiet emang gitu' posisi saya udah aman haha",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Saya skrg lebih ke : kalo selip lidah dimaklumi. Kalo udah ada yg bilang 'Didiet emang gitu' posisi saya udah aman haha"
-    }
-   ]
-  },
-  {
-   "id": 10960,
-   "type": "message",
-   "date": "2022-06-05T16:29:16",
-   "date_unixtime": "1654421356",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "lama2 gw juga ngerasa, man.. gak semua perang harus dimenangkan. kadang2 bisa tidur nyenyak lebih berharga",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "lama2 gw juga ngerasa, man.. gak semua perang harus dimenangkan. kadang2 bisa tidur nyenyak lebih berharga"
-    }
-   ]
-  },
-  {
-   "id": 10961,
-   "type": "message",
-   "date": "2022-06-05T16:29:25",
-   "date_unixtime": "1654421365",
-   "edited": "2022-06-05T16:29:26",
-   "edited_unixtime": "1654421366",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "reply_to_message_id": 10959,
-   "text": "Menarik. Berarti udah accept the truth ya",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Menarik. Berarti udah accept the truth ya"
-    }
-   ]
-  },
-  {
-   "id": 10962,
-   "type": "message",
-   "date": "2022-06-05T16:29:39",
-   "date_unixtime": "1654421379",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "reply_to_message_id": 10961,
-   "text": "Iyo karena saya punya personal relationship ama YBS.",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Iyo karena saya punya personal relationship ama YBS."
-    }
-   ]
-  },
-  {
-   "id": 10963,
-   "type": "message",
-   "date": "2022-06-05T16:30:16",
-   "date_unixtime": "1654421416",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "text": "Apalagi kalo ybsnya lebih sepuh. Just act like their kid. Jangan mendikte, mintanya kaya kita minta ama ortu aja.",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Apalagi kalo ybsnya lebih sepuh. Just act like their kid. Jangan mendikte, mintanya kaya kita minta ama ortu aja."
-    }
-   ]
-  },
-  {
-   "id": 10964,
-   "type": "message",
-   "date": "2022-06-05T16:31:04",
-   "date_unixtime": "1654421464",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "text": "So far works. Kalo buat yang segenerasi ya udah komunikasi biasa aja.",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "So far works. Kalo buat yang segenerasi ya udah komunikasi biasa aja."
-    }
-   ]
-  },
-  {
-   "id": 10965,
-   "type": "message",
-   "date": "2022-06-05T16:31:14",
-   "date_unixtime": "1654421474",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "text": "Gw selama pandemi ini udah 2x di layoff. Dan keduanya gw sebetulnya lumayan yakin bakal layoff anyway without pandemi sih. Cuma pandemi menambah extra excuse aja",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Gw selama pandemi ini udah 2x di layoff. Dan keduanya gw sebetulnya lumayan yakin bakal layoff anyway without pandemi sih. Cuma pandemi menambah extra excuse aja"
-    }
-   ]
-  },
-  {
-   "id": 10966,
-   "type": "message",
-   "date": "2022-06-05T16:31:15",
-   "date_unixtime": "1654421475",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "text": "Kalo generasinya di bawah saya, ya berarti suka2 saya HAHAHA.",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Kalo generasinya di bawah saya, ya berarti suka2 saya HAHAHA."
-    }
-   ]
-  },
-  {
-   "id": 10967,
-   "type": "message",
-   "date": "2022-06-05T16:31:31",
-   "date_unixtime": "1654421491",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "reply_to_message_id": 10965,
-   "text": "Padahal tadi udah master",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Padahal tadi udah master"
-    }
-   ]
-  },
-  {
-   "id": 10968,
-   "type": "message",
-   "date": "2022-06-05T16:31:46",
-   "date_unixtime": "1654421506",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "text": "omong2 soal layoff sebenernya kondisi ekonomi cukup gawat sih buat startup yang masih bakar2 uang.",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "omong2 soal layoff sebenernya kondisi ekonomi cukup gawat sih buat startup yang masih bakar2 uang."
-    }
-   ]
-  },
-  {
-   "id": 10969,
-   "type": "message",
-   "date": "2022-06-05T16:31:55",
-   "date_unixtime": "1654421515",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "medan perang Jason berat",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "medan perang Jason berat"
-    }
-   ]
-  },
-  {
-   "id": 10970,
-   "type": "message",
-   "date": "2022-06-05T16:31:57",
-   "date_unixtime": "1654421517",
-   "from": "D Noor",
-   "from_id": "user217465963",
-   "text": "Saranku kalo mau bikin startup yang B2B.",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Saranku kalo mau bikin startup yang B2B."
-    }
-   ]
-  },
-  {
-   "id": 10971,
-   "type": "message",
-   "date": "2022-06-05T16:32:20",
-   "date_unixtime": "1654421540",
-   "from": null,
-   "from_id": "user1168523623",
-   "text": "btw, selain corporate speak, ada satu lagi. corporate wall",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "btw, selain corporate speak, ada satu lagi. corporate wall"
-    }
-   ]
-  },
-  {
-   "id": 10972,
-   "type": "message",
-   "date": "2022-06-05T16:32:21",
-   "date_unixtime": "1654421541",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "reply_to_message_id": 10967,
-   "text": "Yang pertama masih noob. Gw main confront aja kalo ada issue. Jadi terjadi masalah, let's talk about it. But learned the hard truth ternyata sebagian orang pengen keep the problem to save their own position",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Yang pertama masih noob. Gw main confront aja kalo ada issue. Jadi terjadi masalah, let's talk about it. But learned the hard truth ternyata sebagian orang pengen keep the problem to save their own position"
-    }
-   ]
-  },
-  {
-   "id": 10973,
-   "type": "message",
-   "date": "2022-06-05T16:32:35",
-   "date_unixtime": "1654421555",
-   "from": null,
-   "from_id": "user1168523623",
-   "photo": "photos/photo_318@05-06-2022_16-32-35.jpg",
-   "width": 700,
-   "height": 466,
-   "text": "tada.. siapa yang dikantornya ada ginian, wkwkwk",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "tada.. siapa yang dikantornya ada ginian, wkwkwk"
-    }
-   ]
-  },
-  {
-   "id": 10974,
-   "type": "message",
-   "date": "2022-06-05T16:32:51",
-   "date_unixtime": "1654421571",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "text": "Yang kedua ya fighting ageism + politics level BUMN",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Yang kedua ya fighting ageism + politics level BUMN"
-    }
-   ]
-  },
-  {
-   "id": 10975,
-   "type": "message",
-   "date": "2022-06-05T16:33:00",
-   "date_unixtime": "1654421580",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "text": "Baru learn macem2 corporate speak itu",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Baru learn macem2 corporate speak itu"
-    }
-   ]
-  }
- ]
+	"name": "Teknologi Umum v2.0",
+	"type": "public_supergroup",
+	"id": 1712691810,
+	"messages": [
+		{
+			"id": 10821,
+			"type": "message",
+			"date": "2022-06-05T15:42:59",
+			"date_unixtime": "1654418579",
+			"edited": "2022-06-05T16:02:30",
+			"edited_unixtime": "1654419750",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": [
+				{
+					"type": "link",
+					"text": "https://howtoprofessionallysay.akashrajpurohit.com/"
+				}
+			],
+			"text_entities": [
+				{
+					"type": "link",
+					"text": "https://howtoprofessionallysay.akashrajpurohit.com/"
+				}
+			]
+		},
+		{
+			"id": 10822,
+			"type": "message",
+			"date": "2022-06-05T15:43:13",
+			"date_unixtime": "1654418593",
+			"from": null,
+			"from_id": "user1168523623",
+			"photo": "photos/photo_317@05-06-2022_15-43-13.jpg",
+			"width": 1280,
+			"height": 601,
+			"text": "",
+			"text_entities": []
+		},
+		{
+			"id": 10823,
+			"type": "message",
+			"date": "2022-06-05T15:43:45",
+			"date_unixtime": "1654418625",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "Jason speak, oowokwokwokw",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Jason speak, oowokwokwokw"
+				}
+			]
+		},
+		{
+			"id": 10824,
+			"type": "message",
+			"date": "2022-06-05T15:43:46",
+			"date_unixtime": "1654418626",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 10821,
+			"text": "bagus banget ini",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "bagus banget ini"
+				}
+			]
+		},
+		{
+			"id": 10825,
+			"type": "message",
+			"date": "2022-06-05T15:44:00",
+			"date_unixtime": "1654418640",
+			"from": "dicha?",
+			"from_id": "user925009191",
+			"reply_to_message_id": 10821,
+			"text": "WKWKWK",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "WKWKWK"
+				}
+			]
+		},
+		{
+			"id": 10826,
+			"type": "message",
+			"date": "2022-06-05T15:44:02",
+			"date_unixtime": "1654418642",
+			"edited": "2022-06-05T15:44:09",
+			"edited_unixtime": "1654418649",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "kalo ada versi indonesia + open source, entah sih bisa jadi keren banget atau malah ga di hire sama orang orang",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kalo ada versi indonesia + open source, entah sih bisa jadi keren banget atau malah ga di hire sama orang orang"
+				}
+			]
+		},
+		{
+			"id": 10827,
+			"type": "message",
+			"date": "2022-06-05T15:44:22",
+			"date_unixtime": "1654418662",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 10819,
+			"text": "bagian paling selow dari sebuah bot kan di network call. dari telegram ke backend, lalu ke telegram lagi",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "bagian paling selow dari sebuah bot kan di network call. dari telegram ke backend, lalu ke telegram lagi"
+				}
+			]
+		},
+		{
+			"id": 10828,
+			"type": "message",
+			"date": "2022-06-05T15:44:33",
+			"date_unixtime": "1654418673",
+			"from": null,
+			"from_id": "user1168523623",
+			"reply_to_message_id": 10824,
+			"text": "As per my prediction, this outcome does not come as a surprise.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "As per my prediction, this outcome does not come as a surprise."
+				}
+			]
+		},
+		{
+			"id": 10829,
+			"type": "message",
+			"date": "2022-06-05T15:46:38",
+			"date_unixtime": "1654418798",
+			"from": "Albilaga",
+			"from_id": "user219201706",
+			"reply_to_message_id": 10828,
+			"text": "lebih cepet bilang “kan….”",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "lebih cepet bilang “kan….”"
+				}
+			]
+		},
+		{
+			"id": 10830,
+			"type": "message",
+			"date": "2022-06-05T15:47:01",
+			"date_unixtime": "1654418821",
+			"from": null,
+			"from_id": "user1168523623",
+			"reply_to_message_id": 10829,
+			"text": "bahasa inggrisnya —> see..?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "bahasa inggrisnya —> see..?"
+				}
+			]
+		},
+		{
+			"id": 10831,
+			"type": "message",
+			"date": "2022-06-05T15:47:38",
+			"date_unixtime": "1654418858",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "eh, gw harus latihan",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "eh, gw harus latihan"
+				}
+			]
+		},
+		{
+			"id": 10832,
+			"type": "message",
+			"date": "2022-06-05T15:47:42",
+			"date_unixtime": "1654418862",
+			"from": null,
+			"from_id": "user1168523623",
+			"reply_to_message_id": 10829,
+			"text": [
+				{
+					"type": "italic",
+					"text": "Thank you for your input. I’ll keep that in mind as I move forward with decisions that fall within my responsibilities."
+				},
+				""
+			],
+			"text_entities": [
+				{
+					"type": "italic",
+					"text": "Thank you for your input. I’ll keep that in mind as I move forward with decisions that fall within my responsibilities."
+				},
+				{
+					"type": "plain",
+					"text": ""
+				}
+			]
+		},
+		{
+			"id": 10833,
+			"type": "message",
+			"date": "2022-06-05T15:49:55",
+			"date_unixtime": "1654418995",
+			"edited": "2022-06-05T15:50:35",
+			"edited_unixtime": "1654419035",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 10822,
+			"text": "Terima kasih atas bapak dan ibu yang memungkinkan terselenggaranya meeting ini. Saya juga mengapresiasi kontribusi teman-teman di meeting ini, biarpun saya belum bisa banyak menambahkan kontribusi saya di dalam meeting ini. Saya akan dengan senang hati mereview notulen meetingnya nanti.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Terima kasih atas bapak dan ibu yang memungkinkan terselenggaranya meeting ini. Saya juga mengapresiasi kontribusi teman-teman di meeting ini, biarpun saya belum bisa banyak menambahkan kontribusi saya di dalam meeting ini. Saya akan dengan senang hati mereview notulen meetingnya nanti."
+				}
+			]
+		},
+		{
+			"id": 10834,
+			"type": "message",
+			"date": "2022-06-05T15:50:11",
+			"date_unixtime": "1654419011",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"reply_to_message_id": 10833,
+			"text": "Pro sekali pak",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Pro sekali pak"
+				}
+			]
+		},
+		{
+			"id": 10835,
+			"type": "message",
+			"date": "2022-06-05T15:50:58",
+			"date_unixtime": "1654419058",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "master nya sedang typing",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "master nya sedang typing"
+				}
+			]
+		},
+		{
+			"id": 10836,
+			"type": "message",
+			"date": "2022-06-05T15:50:59",
+			"date_unixtime": "1654419059",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"reply_to_message_id": 10823,
+			"text": "Yah gw lg yg kena wkwkwk",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Yah gw lg yg kena wkwkwk"
+				}
+			]
+		},
+		{
+			"id": 10837,
+			"type": "message",
+			"date": "2022-06-05T15:51:26",
+			"date_unixtime": "1654419086",
+			"from": null,
+			"from_id": "user1168523623",
+			"file": "stickers/sticker (1).webp",
+			"thumbnail": "stickers/sticker (1).webp_thumb.jpg",
+			"media_type": "sticker",
+			"sticker_emoji": "✨",
+			"width": 512,
+			"height": 204,
+			"text": "",
+			"text_entities": []
+		},
+		{
+			"id": 10838,
+			"type": "message",
+			"date": "2022-06-05T15:51:34",
+			"date_unixtime": "1654419094",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 10834,
+			"text": "itu masih level noob. I've seen some masters in action",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "itu masih level noob. I've seen some masters in action"
+				}
+			]
+		},
+		{
+			"id": 10839,
+			"type": "message",
+			"date": "2022-06-05T15:54:07",
+			"date_unixtime": "1654419247",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "seorang master bisa manjangin \"good morning guys\" jadi kata sambutan 30 menit",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "seorang master bisa manjangin \"good morning guys\" jadi kata sambutan 30 menit"
+				}
+			]
+		},
+		{
+			"id": 10840,
+			"type": "message",
+			"date": "2022-06-05T15:54:22",
+			"date_unixtime": "1654419262",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 10839,
+			"text": "Wah, siraman pagi yang sangat baik",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Wah, siraman pagi yang sangat baik"
+				}
+			]
+		},
+		{
+			"id": 10841,
+			"type": "message",
+			"date": "2022-06-05T15:54:29",
+			"date_unixtime": "1654419269",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"reply_to_message_id": 10839,
+			"text": "Karena bapacc coding .NET saya bisa mengira2 mendengar dari mana *eh",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Karena bapacc coding .NET saya bisa mengira2 mendengar dari mana *eh"
+				}
+			]
+		},
+		{
+			"id": 10842,
+			"type": "message",
+			"date": "2022-06-05T15:55:24",
+			"date_unixtime": "1654419324",
+			"edited": "2022-06-05T15:55:41",
+			"edited_unixtime": "1654419341",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"reply_to_message_id": 10833,
+			"text": "Nanti akan kita bawa gagasan2nya ke rapat internal lanjutan",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Nanti akan kita bawa gagasan2nya ke rapat internal lanjutan"
+				}
+			]
+		},
+		{
+			"id": 10843,
+			"type": "message",
+			"date": "2022-06-05T15:55:25",
+			"date_unixtime": "1654419325",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Wkwkwk",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Wkwkwk"
+				}
+			]
+		},
+		{
+			"id": 10844,
+			"type": "message",
+			"date": "2022-06-05T15:55:38",
+			"date_unixtime": "1654419338",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "master has spoken",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "master has spoken"
+				}
+			]
+		},
+		{
+			"id": 10845,
+			"type": "message",
+			"date": "2022-06-05T15:56:44",
+			"date_unixtime": "1654419404",
+			"from": "dicha?",
+			"from_id": "user925009191",
+			"text": [
+				"the infamous ",
+				{
+					"type": "italic",
+					"text": "tim internal"
+				}
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "the infamous "
+				},
+				{
+					"type": "italic",
+					"text": "tim internal"
+				}
+			]
+		},
+		{
+			"id": 10846,
+			"type": "message",
+			"date": "2022-06-05T15:57:05",
+			"date_unixtime": "1654419425",
+			"from": null,
+			"from_id": "user1168523623",
+			"reply_to_message_id": 10842,
+			"text": "njir gagasan",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "njir gagasan"
+				}
+			]
+		},
+		{
+			"id": 10847,
+			"type": "message",
+			"date": "2022-06-05T15:59:46",
+			"date_unixtime": "1654419586",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"reply_to_message_id": 10846,
+			"text": "Magic word ini. Never say ide",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Magic word ini. Never say ide"
+				}
+			]
+		},
+		{
+			"id": 10848,
+			"type": "message",
+			"date": "2022-06-05T16:00:12",
+			"date_unixtime": "1654419612",
+			"from": "Albilaga",
+			"from_id": "user219201706",
+			"reply_to_message_id": 10842,
+			"text": "jadi inget biasanya bilang “let’s take it offline”. Dulu awal banget ga ngerti maksudnya ini gmn pas timnya remote semua. wkwkwk",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "jadi inget biasanya bilang “let’s take it offline”. Dulu awal banget ga ngerti maksudnya ini gmn pas timnya remote semua. wkwkwk"
+				}
+			]
+		},
+		{
+			"id": 10849,
+			"type": "message",
+			"date": "2022-06-05T16:00:23",
+			"date_unixtime": "1654419623",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Ada 1 magic word lagi, good corporate governance",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Ada 1 magic word lagi, good corporate governance"
+				}
+			]
+		},
+		{
+			"id": 10850,
+			"type": "message",
+			"date": "2022-06-05T16:00:49",
+			"date_unixtime": "1654419649",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "gak gcg",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "gak gcg"
+				}
+			]
+		},
+		{
+			"id": 10851,
+			"type": "message",
+			"date": "2022-06-05T16:00:53",
+			"date_unixtime": "1654419653",
+			"edited": "2022-06-05T16:04:39",
+			"edited_unixtime": "1654419879",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"reply_to_message_id": 10848,
+			"text": "silahkan copy magic word saya ya. Tapi jangan ke saya karena saya udah tau akal bulus kamu.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "silahkan copy magic word saya ya. Tapi jangan ke saya karena saya udah tau akal bulus kamu."
+				}
+			]
+		},
+		{
+			"id": 10852,
+			"type": "message",
+			"date": "2022-06-05T16:00:54",
+			"date_unixtime": "1654419654",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"text": "*eh",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "*eh"
+				}
+			]
+		},
+		{
+			"id": 10853,
+			"type": "message",
+			"date": "2022-06-05T16:00:56",
+			"date_unixtime": "1654419656",
+			"edited": "2022-06-05T16:01:26",
+			"edited_unixtime": "1654419686",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Jadi kyk \"tentunya segala keputusan yang nantinya kita ambil harus mempertimbangkan faktor good corporate governance yang berlaku\"",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Jadi kyk \"tentunya segala keputusan yang nantinya kita ambil harus mempertimbangkan faktor good corporate governance yang berlaku\""
+				}
+			]
+		},
+		{
+			"id": 10854,
+			"type": "message",
+			"date": "2022-06-05T16:01:34",
+			"date_unixtime": "1654419694",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"reply_to_message_id": 10848,
+			"text": "Dikira matiin internet ya? Wkwkwk",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Dikira matiin internet ya? Wkwkwk"
+				}
+			]
+		},
+		{
+			"id": 10855,
+			"type": "message",
+			"date": "2022-06-05T16:01:45",
+			"date_unixtime": "1654419705",
+			"from": "Albilaga",
+			"from_id": "user219201706",
+			"reply_to_message_id": 10849,
+			"text": "sekarang jualannya bukannya carbon neutral om? *eh",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "sekarang jualannya bukannya carbon neutral om? *eh"
+				}
+			]
+		},
+		{
+			"id": 10856,
+			"type": "message",
+			"date": "2022-06-05T16:01:53",
+			"date_unixtime": "1654419713",
+			"from": "Albilaga",
+			"from_id": "user219201706",
+			"reply_to_message_id": 10851,
+			"text": "wkwkwk…. 😄",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "wkwkwk…. 😄"
+				}
+			]
+		},
+		{
+			"id": 10857,
+			"type": "message",
+			"date": "2022-06-05T16:02:03",
+			"date_unixtime": "1654419723",
+			"from": "Albilaga",
+			"from_id": "user219201706",
+			"reply_to_message_id": 10854,
+			"text": "dikirain gak jadi diobrolin. wkwkkw 😄",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "dikirain gak jadi diobrolin. wkwkkw 😄"
+				}
+			]
+		},
+		{
+			"id": 10858,
+			"type": "message",
+			"date": "2022-06-05T16:03:40",
+			"date_unixtime": "1654419820",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "\"sleep on it\" = your idea sucks. come up with a new one first thing in the morning",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "\"sleep on it\" = your idea sucks. come up with a new one first thing in the morning"
+				}
+			]
+		},
+		{
+			"id": 10859,
+			"type": "message",
+			"date": "2022-06-05T16:04:09",
+			"date_unixtime": "1654419849",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "eh ini bahasa startup ya bukan corpo",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "eh ini bahasa startup ya bukan corpo"
+				}
+			]
+		},
+		{
+			"id": 10860,
+			"type": "message",
+			"date": "2022-06-05T16:05:50",
+			"date_unixtime": "1654419950",
+			"edited": "2022-06-05T16:05:59",
+			"edited_unixtime": "1654419959",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "istilah di corpo/startup yang paling penting menurut gw tu \"value\"",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "istilah di corpo/startup yang paling penting menurut gw tu \"value\""
+				}
+			]
+		},
+		{
+			"id": 10861,
+			"type": "message",
+			"date": "2022-06-05T16:06:11",
+			"date_unixtime": "1654419971",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "pahami, pelajari, gunakan sebanyak mungkin 😶‍🌫️",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "pahami, pelajari, gunakan sebanyak mungkin 😶‍🌫️"
+				}
+			]
+		},
+		{
+			"id": 10862,
+			"type": "message",
+			"date": "2022-06-05T16:06:13",
+			"date_unixtime": "1654419973",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "istilah startup yang haram di corpo: burnout",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "istilah startup yang haram di corpo: burnout"
+				}
+			]
+		},
+		{
+			"id": 10863,
+			"type": "message",
+			"date": "2022-06-05T16:06:38",
+			"date_unixtime": "1654419998",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 10862,
+			"text": "another istilah yang mulai haram: healing",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "another istilah yang mulai haram: healing"
+				}
+			]
+		},
+		{
+			"id": 10864,
+			"type": "message",
+			"date": "2022-06-05T16:06:59",
+			"date_unixtime": "1654420019",
+			"from": "dicha?",
+			"from_id": "user925009191",
+			"text": "hiling mulu kapan kerjanya",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "hiling mulu kapan kerjanya"
+				}
+			]
+		},
+		{
+			"id": 10865,
+			"type": "message",
+			"date": "2022-06-05T16:07:27",
+			"date_unixtime": "1654420047",
+			"edited": "2022-06-05T16:07:33",
+			"edited_unixtime": "1654420053",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "jangan nyebut lembur, gunakan \"going extra mile\"",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "jangan nyebut lembur, gunakan \"going extra mile\""
+				}
+			]
+		},
+		{
+			"id": 10866,
+			"type": "message",
+			"date": "2022-06-05T16:07:51",
+			"date_unixtime": "1654420071",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Putting in your blood, sweat, and tears",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Putting in your blood, sweat, and tears"
+				}
+			]
+		},
+		{
+			"id": 10867,
+			"type": "message",
+			"date": "2022-06-05T16:07:55",
+			"date_unixtime": "1654420075",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 10865,
+			"text": "\"aduh tanggung nih\"",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "\"aduh tanggung nih\""
+				}
+			]
+		},
+		{
+			"id": 10868,
+			"type": "message",
+			"date": "2022-06-05T16:08:02",
+			"date_unixtime": "1654420082",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Atau sense of ownership",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Atau sense of ownership"
+				}
+			]
+		},
+		{
+			"id": 10869,
+			"type": "message",
+			"date": "2022-06-05T16:08:05",
+			"date_unixtime": "1654420085",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Wkwkwk",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Wkwkwk"
+				}
+			]
+		},
+		{
+			"id": 10870,
+			"type": "message",
+			"date": "2022-06-05T16:08:10",
+			"date_unixtime": "1654420090",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "kayaknya jason cocok jadi HR deh",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kayaknya jason cocok jadi HR deh"
+				}
+			]
+		},
+		{
+			"id": 10871,
+			"type": "message",
+			"date": "2022-06-05T16:08:14",
+			"date_unixtime": "1654420094",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "udah cukup ilmunya",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "udah cukup ilmunya"
+				}
+			]
+		},
+		{
+			"id": 10872,
+			"type": "message",
+			"date": "2022-06-05T16:08:14",
+			"date_unixtime": "1654420094",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Kata2 yg sering dipake buat ngajak lembur",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Kata2 yg sering dipake buat ngajak lembur"
+				}
+			]
+		},
+		{
+			"id": 10873,
+			"type": "message",
+			"date": "2022-06-05T16:08:30",
+			"date_unixtime": "1654420110",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "kalau yang disuruh lembur team support —> kita harus kejar operational excellence",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kalau yang disuruh lembur team support —> kita harus kejar operational excellence"
+				}
+			]
+		},
+		{
+			"id": 10874,
+			"type": "message",
+			"date": "2022-06-05T16:08:48",
+			"date_unixtime": "1654420128",
+			"from": "Albilaga",
+			"from_id": "user219201706",
+			"reply_to_message_id": 10872,
+			"text": "biasanya si tambah pizza 1...",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "biasanya si tambah pizza 1..."
+				}
+			]
+		},
+		{
+			"id": 10875,
+			"type": "message",
+			"date": "2022-06-05T16:09:12",
+			"date_unixtime": "1654420152",
+			"edited": "2022-06-05T16:13:51",
+			"edited_unixtime": "1654420431",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"reply_to_message_id": 10870,
+			"text": "Tentunya hal ini perlu melalui pertimbangan yang matang dari seluruh pemangku kepentingan terkait agar tidak menimbulkan polemik diantara karyawan",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Tentunya hal ini perlu melalui pertimbangan yang matang dari seluruh pemangku kepentingan terkait agar tidak menimbulkan polemik diantara karyawan"
+				}
+			]
+		},
+		{
+			"id": 10876,
+			"type": "message",
+			"date": "2022-06-05T16:09:25",
+			"date_unixtime": "1654420165",
+			"from": "Albilaga",
+			"from_id": "user219201706",
+			"reply_to_message_id": 10863,
+			"text": "healing kok di kantor *eh",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "healing kok di kantor *eh"
+				}
+			]
+		},
+		{
+			"id": 10877,
+			"type": "message",
+			"date": "2022-06-05T16:09:30",
+			"date_unixtime": "1654420170",
+			"from": null,
+			"from_id": "user1168523623",
+			"reply_to_message_id": 10868,
+			"text": "klo lagi banyak masalah —> sense of crisis",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "klo lagi banyak masalah —> sense of crisis"
+				}
+			]
+		},
+		{
+			"id": 10878,
+			"type": "message",
+			"date": "2022-06-05T16:10:05",
+			"date_unixtime": "1654420205",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Seru ya corporate speak wkwkwk",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Seru ya corporate speak wkwkwk"
+				}
+			]
+		},
+		{
+			"id": 10879,
+			"type": "message",
+			"date": "2022-06-05T16:10:18",
+			"date_unixtime": "1654420218",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "seru cuy",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "seru cuy"
+				}
+			]
+		},
+		{
+			"id": 10880,
+			"type": "message",
+			"date": "2022-06-05T16:10:30",
+			"date_unixtime": "1654420230",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "yang masih pada sekolah gak akan ngerti gimana indahnya, wkwkwk",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "yang masih pada sekolah gak akan ngerti gimana indahnya, wkwkwk"
+				}
+			]
+		},
+		{
+			"id": 10881,
+			"type": "message",
+			"date": "2022-06-05T16:10:33",
+			"date_unixtime": "1654420233",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "seru, until your HR or director comes in",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "seru, until your HR or director comes in"
+				}
+			]
+		},
+		{
+			"id": 10882,
+			"type": "message",
+			"date": "2022-06-05T16:10:59",
+			"date_unixtime": "1654420259",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "\"Jason bisa ke ruangan saya sebentar?\"",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "\"Jason bisa ke ruangan saya sebentar?\""
+				}
+			]
+		},
+		{
+			"id": 10883,
+			"type": "message",
+			"date": "2022-06-05T16:11:41",
+			"date_unixtime": "1654420301",
+			"from": "Albilaga",
+			"from_id": "user219201706",
+			"reply_to_message_id": 10881,
+			"text": "atau atasan yg ga pernah muncul tiba2 muncul. wkwkwk",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "atau atasan yg ga pernah muncul tiba2 muncul. wkwkwk"
+				}
+			]
+		},
+		{
+			"id": 10884,
+			"type": "message",
+			"date": "2022-06-05T16:12:14",
+			"date_unixtime": "1654420334",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": [
+				{
+					"type": "italic",
+					"text": "saya mendengar desas-desus di lapangan"
+				}
+			],
+			"text_entities": [
+				{
+					"type": "italic",
+					"text": "saya mendengar desas-desus di lapangan"
+				}
+			]
+		},
+		{
+			"id": 10885,
+			"type": "message",
+			"date": "2022-06-05T16:14:04",
+			"date_unixtime": "1654420444",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"reply_to_message_id": 10868,
+			"text": "another magic word sih ini.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "another magic word sih ini."
+				}
+			]
+		},
+		{
+			"id": 10886,
+			"type": "message",
+			"date": "2022-06-05T16:14:05",
+			"date_unixtime": "1654420445",
+			"from": "dicha?",
+			"from_id": "user925009191",
+			"text": "WKWKW DESAS DESUS",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "WKWKW DESAS DESUS"
+				}
+			]
+		},
+		{
+			"id": 10887,
+			"type": "message",
+			"date": "2022-06-05T16:14:26",
+			"date_unixtime": "1654420466",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "kita ambil win win solution aja —> win buat gw, lo sih bodo amat",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kita ambil win win solution aja —> win buat gw, lo sih bodo amat"
+				}
+			]
+		},
+		{
+			"id": 10888,
+			"type": "message",
+			"date": "2022-06-05T16:14:38",
+			"date_unixtime": "1654420478",
+			"edited": "2022-06-05T21:58:30",
+			"edited_unixtime": "1654441110",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"reply_to_message_id": 10887,
+			"text": "win win solution nobody wins.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "win win solution nobody wins."
+				}
+			]
+		},
+		{
+			"id": 10889,
+			"type": "message",
+			"date": "2022-06-05T16:14:45",
+			"date_unixtime": "1654420485",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 10888,
+			"text": "the company wins",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "the company wins"
+				}
+			]
+		},
+		{
+			"id": 10890,
+			"type": "message",
+			"date": "2022-06-05T16:15:04",
+			"date_unixtime": "1654420504",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"text": "banyak akal bulus dari corporate speak yang pernah bikin saya dipecat karena saying out loud what's between lines.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "banyak akal bulus dari corporate speak yang pernah bikin saya dipecat karena saying out loud what's between lines."
+				}
+			]
+		},
+		{
+			"id": 10891,
+			"type": "message",
+			"date": "2022-06-05T16:15:18",
+			"date_unixtime": "1654420518",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"text": [
+				"Aku harus berguru ama ",
+				{
+					"type": "mention",
+					"text": "@jason_wihardja"
+				}
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Aku harus berguru ama "
+				},
+				{
+					"type": "mention",
+					"text": "@jason_wihardja"
+				}
+			]
+		},
+		{
+			"id": 10892,
+			"type": "message",
+			"date": "2022-06-05T16:16:12",
+			"date_unixtime": "1654420572",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"text": "Karena pas meeting antar C level, mereka ini sebeenrnya saling hostile, komunikasinya corp speak banget, terus saya buka satu-satu, lalu saya dilayoff karena saya bukan 'team player yang baik'",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Karena pas meeting antar C level, mereka ini sebeenrnya saling hostile, komunikasinya corp speak banget, terus saya buka satu-satu, lalu saya dilayoff karena saya bukan 'team player yang baik'"
+				}
+			]
+		},
+		{
+			"id": 10893,
+			"type": "message",
+			"date": "2022-06-05T16:16:27",
+			"date_unixtime": "1654420587",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "wkwwkwkwk",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "wkwwkwkwk"
+				}
+			]
+		},
+		{
+			"id": 10894,
+			"type": "message",
+			"date": "2022-06-05T16:16:31",
+			"date_unixtime": "1654420591",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"text": "Jangan ditiru ya guys, kamu cuma pegawe, ga usah sok2an asertif ke C level.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Jangan ditiru ya guys, kamu cuma pegawe, ga usah sok2an asertif ke C level."
+				}
+			]
+		},
+		{
+			"id": 10895,
+			"type": "message",
+			"date": "2022-06-05T16:17:00",
+			"date_unixtime": "1654420620",
+			"from": "Albilaga",
+			"from_id": "user219201706",
+			"reply_to_message_id": 10892,
+			"text": "“team player” -> harus ngikut apa kata atasan….",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "“team player” -> harus ngikut apa kata atasan…."
+				}
+			]
+		},
+		{
+			"id": 10896,
+			"type": "message",
+			"date": "2022-06-05T16:17:19",
+			"date_unixtime": "1654420639",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"reply_to_message_id": 10895,
+			"text": "nah, next time saya bilang gitu artinya itu kira2, dah paham kan?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "nah, next time saya bilang gitu artinya itu kira2, dah paham kan?"
+				}
+			]
+		},
+		{
+			"id": 10897,
+			"type": "message",
+			"date": "2022-06-05T16:17:26",
+			"date_unixtime": "1654420646",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Lah, saya juga di layoff karena berantem melulu wkwkwk",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Lah, saya juga di layoff karena berantem melulu wkwkwk"
+				}
+			]
+		},
+		{
+			"id": 10898,
+			"type": "message",
+			"date": "2022-06-05T16:17:36",
+			"date_unixtime": "1654420656",
+			"from": "Albilaga",
+			"from_id": "user219201706",
+			"reply_to_message_id": 10894,
+			"text": "iya. aku ngikut mas Didiet aja. wkwkw 😄",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "iya. aku ngikut mas Didiet aja. wkwkw 😄"
+				}
+			]
+		},
+		{
+			"id": 10899,
+			"type": "message",
+			"date": "2022-06-05T16:17:44",
+			"date_unixtime": "1654420664",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "kalau mau ngomong kayak gitu, kasih pembukaan dulu.. harus ada kata2 \"brutal truth\"",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kalau mau ngomong kayak gitu, kasih pembukaan dulu.. harus ada kata2 \"brutal truth\""
+				}
+			]
+		},
+		{
+			"id": 10900,
+			"type": "message",
+			"date": "2022-06-05T16:18:00",
+			"date_unixtime": "1654420680",
+			"edited": "2022-06-05T16:58:46",
+			"edited_unixtime": "1654423126",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Sampe gw pernah di satu meeting bilang \"apakah perlu kita membahas hal2 retorika seperti ini?\"",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Sampe gw pernah di satu meeting bilang \"apakah perlu kita membahas hal2 retorika seperti ini?\""
+				}
+			]
+		},
+		{
+			"id": 10901,
+			"type": "message",
+			"date": "2022-06-05T16:18:07",
+			"date_unixtime": "1654420687",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "owokwokwowkowk",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "owokwokwowkowk"
+				}
+			]
+		},
+		{
+			"id": 10902,
+			"type": "message",
+			"date": "2022-06-05T16:18:12",
+			"date_unixtime": "1654420692",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Soalnya udah mau 1 jam semua orang muter2 terus",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Soalnya udah mau 1 jam semua orang muter2 terus"
+				}
+			]
+		},
+		{
+			"id": 10903,
+			"type": "message",
+			"date": "2022-06-05T16:18:18",
+			"date_unixtime": "1654420698",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Ga ada yg addressing the real issue",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Ga ada yg addressing the real issue"
+				}
+			]
+		},
+		{
+			"id": 10904,
+			"type": "message",
+			"date": "2022-06-05T16:18:31",
+			"date_unixtime": "1654420711",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Muter aja dibawa kemana mana",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Muter aja dibawa kemana mana"
+				}
+			]
+		},
+		{
+			"id": 10905,
+			"type": "message",
+			"date": "2022-06-05T16:18:42",
+			"date_unixtime": "1654420722",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "ya jangan bilang gitu..",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ya jangan bilang gitu.."
+				}
+			]
+		},
+		{
+			"id": 10906,
+			"type": "message",
+			"date": "2022-06-05T16:18:43",
+			"date_unixtime": "1654420723",
+			"from": "Albilaga",
+			"from_id": "user219201706",
+			"reply_to_message_id": 10896,
+			"via_bot": "@gif",
+			"file": "video_files/kiki-kikicat.mp4",
+			"thumbnail": "video_files/kiki-kikicat.mp4_thumb.jpg",
+			"media_type": "animation",
+			"mime_type": "video/mp4",
+			"duration_seconds": 1,
+			"width": 320,
+			"height": 320,
+			"text": "",
+			"text_entities": []
+		},
+		{
+			"id": 10907,
+			"type": "message",
+			"date": "2022-06-05T16:19:10",
+			"date_unixtime": "1654420750",
+			"from": "Albilaga",
+			"from_id": "user219201706",
+			"reply_to_message_id": 10902,
+			"text": "la bukannya biasanya emang gini akhirnya endingnya “lets take it offline” ya? 😄",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "la bukannya biasanya emang gini akhirnya endingnya “lets take it offline” ya? 😄"
+				}
+			]
+		},
+		{
+			"id": 10908,
+			"type": "message",
+			"date": "2022-06-05T16:19:14",
+			"date_unixtime": "1654420754",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "kalau udah muter2, ni beberapa kalimat yang harus dibawa:\n\n- tidak bermaksud menyalahkan siapa-siapa\n- mari kita diskusikan \"root cause\"nya",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kalau udah muter2, ni beberapa kalimat yang harus dibawa:\n\n- tidak bermaksud menyalahkan siapa-siapa\n- mari kita diskusikan \"root cause\"nya"
+				}
+			]
+		},
+		{
+			"id": 10909,
+			"type": "message",
+			"date": "2022-06-05T16:19:27",
+			"date_unixtime": "1654420767",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "orang orang sini pro semua ya",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "orang orang sini pro semua ya"
+				}
+			]
+		},
+		{
+			"id": 10910,
+			"type": "message",
+			"date": "2022-06-05T16:19:47",
+			"date_unixtime": "1654420787",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Baru gw mau bawa ke jalan yg bener, langsung \"maaf sebelumnya pak saya potong tapi <balik lg muter2 15 menit>\"",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Baru gw mau bawa ke jalan yg bener, langsung \"maaf sebelumnya pak saya potong tapi <balik lg muter2 15 menit>\""
+				}
+			]
+		},
+		{
+			"id": 10911,
+			"type": "message",
+			"date": "2022-06-05T16:19:49",
+			"date_unixtime": "1654420789",
+			"from": "A JI Mode Signal Putus - Put",
+			"from_id": "user224998752",
+			"text": "Aamiin",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Aamiin"
+				}
+			]
+		},
+		{
+			"id": 10912,
+			"type": "message",
+			"date": "2022-06-05T16:19:57",
+			"date_unixtime": "1654420797",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Dahlah no hope meeting gituan",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Dahlah no hope meeting gituan"
+				}
+			]
+		},
+		{
+			"id": 10913,
+			"type": "message",
+			"date": "2022-06-05T16:20:29",
+			"date_unixtime": "1654420829",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"reply_to_message_id": 10897,
+			"text": "Lah, salah dong nyari gurunya saya.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Lah, salah dong nyari gurunya saya."
+				}
+			]
+		},
+		{
+			"id": 10914,
+			"type": "message",
+			"date": "2022-06-05T16:20:52",
+			"date_unixtime": "1654420852",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": [
+				"cara lain kalau meeting gak jelas: ",
+				{
+					"type": "italic",
+					"text": "rasanya kita harus buka sesi meeting tersendiri untuk bahas ini"
+				},
+				", ",
+				{
+					"type": "italic",
+					"text": "sekarang kita pending saja dulu"
+				}
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "cara lain kalau meeting gak jelas: "
+				},
+				{
+					"type": "italic",
+					"text": "rasanya kita harus buka sesi meeting tersendiri untuk bahas ini"
+				},
+				{
+					"type": "plain",
+					"text": ", "
+				},
+				{
+					"type": "italic",
+					"text": "sekarang kita pending saja dulu"
+				}
+			]
+		},
+		{
+			"id": 10915,
+			"type": "message",
+			"date": "2022-06-05T16:20:54",
+			"date_unixtime": "1654420854",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"reply_to_message_id": 10909,
+			"text": [
+				"Saya enggak, udah kebaca ama ",
+				{
+					"type": "mention",
+					"text": "@albilaga"
+				},
+				" akal bulus saya."
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Saya enggak, udah kebaca ama "
+				},
+				{
+					"type": "mention",
+					"text": "@albilaga"
+				},
+				{
+					"type": "plain",
+					"text": " akal bulus saya."
+				}
+			]
+		},
+		{
+			"id": 10916,
+			"type": "message",
+			"date": "2022-06-05T16:21:06",
+			"date_unixtime": "1654420866",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"reply_to_message_id": 10914,
+			"text": "OUGH I LOVE THIS",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "OUGH I LOVE THIS"
+				}
+			]
+		},
+		{
+			"id": 10917,
+			"type": "message",
+			"date": "2022-06-05T16:21:06",
+			"date_unixtime": "1654420866",
+			"from": "A JI Mode Signal Putus - Put",
+			"from_id": "user224998752",
+			"text": [
+				{
+					"type": "italic",
+					"text": "enggak"
+				}
+			],
+			"text_entities": [
+				{
+					"type": "italic",
+					"text": "enggak"
+				}
+			]
+		},
+		{
+			"id": 10918,
+			"type": "message",
+			"date": "2022-06-05T16:21:10",
+			"date_unixtime": "1654420870",
+			"from": "A JI Mode Signal Putus - Put",
+			"from_id": "user224998752",
+			"file": "stickers/sticker (2).webp",
+			"thumbnail": "stickers/sticker (2).webp_thumb.jpg",
+			"media_type": "sticker",
+			"sticker_emoji": "✨",
+			"width": 512,
+			"height": 512,
+			"text": "",
+			"text_entities": []
+		},
+		{
+			"id": 10919,
+			"type": "message",
+			"date": "2022-06-05T16:21:55",
+			"date_unixtime": "1654420915",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"text": "Sekarang saya baik kok, ga corp speak tapi identifikasi decision maker, terus kita ajakin ngopi.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Sekarang saya baik kok, ga corp speak tapi identifikasi decision maker, terus kita ajakin ngopi."
+				}
+			]
+		},
+		{
+			"id": 10920,
+			"type": "message",
+			"date": "2022-06-05T16:22:13",
+			"date_unixtime": "1654420933",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"text": "Biasanya biar kalo pas lidah kepleset bisa dimaklumi *ngakak",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Biasanya biar kalo pas lidah kepleset bisa dimaklumi *ngakak"
+				}
+			]
+		},
+		{
+			"id": 10921,
+			"type": "message",
+			"date": "2022-06-05T16:22:32",
+			"date_unixtime": "1654420952",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "next level itu..",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "next level itu.."
+				}
+			]
+		},
+		{
+			"id": 10922,
+			"type": "message",
+			"date": "2022-06-05T16:22:39",
+			"date_unixtime": "1654420959",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "next level lagi: cari hobi dia, terus lu ikutin hobi yang sama",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "next level lagi: cari hobi dia, terus lu ikutin hobi yang sama"
+				}
+			]
+		},
+		{
+			"id": 10923,
+			"type": "message",
+			"date": "2022-06-05T16:22:54",
+			"date_unixtime": "1654420974",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "moga aja bukan golf, wkwkwkwk",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "moga aja bukan golf, wkwkwkwk"
+				}
+			]
+		},
+		{
+			"id": 10924,
+			"type": "message",
+			"date": "2022-06-05T16:23:01",
+			"date_unixtime": "1654420981",
+			"from": "A JI Mode Signal Putus - Put",
+			"from_id": "user224998752",
+			"text": "baru mau bilang golf",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "baru mau bilang golf"
+				}
+			]
+		},
+		{
+			"id": 10925,
+			"type": "message",
+			"date": "2022-06-05T16:23:05",
+			"date_unixtime": "1654420985",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"text": "Makannya WFO membantu sekali buat ini, saya seneng ke kantor sebab banyak ngobrol2 ama decision maker dan dapat insight2 penting di luar meeting.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Makannya WFO membantu sekali buat ini, saya seneng ke kantor sebab banyak ngobrol2 ama decision maker dan dapat insight2 penting di luar meeting."
+				}
+			]
+		},
+		{
+			"id": 10926,
+			"type": "message",
+			"date": "2022-06-05T16:23:20",
+			"date_unixtime": "1654421000",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"reply_to_message_id": 10924,
+			"text": [
+				"Nyah enggak, yang penting dapat ",
+				{
+					"type": "italic",
+					"text": "trust"
+				},
+				" nya aja dulu."
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Nyah enggak, yang penting dapat "
+				},
+				{
+					"type": "italic",
+					"text": "trust"
+				},
+				{
+					"type": "plain",
+					"text": " nya aja dulu."
+				}
+			]
+		},
+		{
+			"id": 10927,
+			"type": "message",
+			"date": "2022-06-05T16:23:20",
+			"date_unixtime": "1654421000",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "anjay... \"insight\" juga kata penting tu, no 2 sehabis value",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "anjay... \"insight\" juga kata penting tu, no 2 sehabis value"
+				}
+			]
+		},
+		{
+			"id": 10928,
+			"type": "message",
+			"date": "2022-06-05T16:23:29",
+			"date_unixtime": "1654421009",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Kalo gw dulu udah bisa identify mana meeting yg beneran minta pendapat gw vs mana yg sebenernya udah decided, tapi asking for my buy in",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Kalo gw dulu udah bisa identify mana meeting yg beneran minta pendapat gw vs mana yg sebenernya udah decided, tapi asking for my buy in"
+				}
+			]
+		},
+		{
+			"id": 10929,
+			"type": "message",
+			"date": "2022-06-05T16:23:40",
+			"date_unixtime": "1654421020",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "kwkwkwk, seni itu",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kwkwkwk, seni itu"
+				}
+			]
+		},
+		{
+			"id": 10930,
+			"type": "message",
+			"date": "2022-06-05T16:24:12",
+			"date_unixtime": "1654421052",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"text": "Jadi ada kejadian pas pandemi alot2 banget decisionnya, habis bisa WFO kudatengin aja satu-satu mejanya sambil halal-bihalal.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Jadi ada kejadian pas pandemi alot2 banget decisionnya, habis bisa WFO kudatengin aja satu-satu mejanya sambil halal-bihalal."
+				}
+			]
+		},
+		{
+			"id": 10931,
+			"type": "message",
+			"date": "2022-06-05T16:24:17",
+			"date_unixtime": "1654421057",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "gw pernah gedeg tapi karena diulang2 mulu, sampai gw bilang: \"pak, klo emang udah ada keputusan ma ya saya ikut aja, gak usah harus meyakinkan saya\"",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "gw pernah gedeg tapi karena diulang2 mulu, sampai gw bilang: \"pak, klo emang udah ada keputusan ma ya saya ikut aja, gak usah harus meyakinkan saya\""
+				}
+			]
+		},
+		{
+			"id": 10932,
+			"type": "message",
+			"date": "2022-06-05T16:24:35",
+			"date_unixtime": "1654421075",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "tapi nyesel gw, noob mistake ngomong gitu. harus2nya gw pura2 terpengaruh aja",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "tapi nyesel gw, noob mistake ngomong gitu. harus2nya gw pura2 terpengaruh aja"
+				}
+			]
+		},
+		{
+			"id": 10933,
+			"type": "message",
+			"date": "2022-06-05T16:24:51",
+			"date_unixtime": "1654421091",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"reply_to_message_id": 10932,
+			"text": "\"Iya pacc, saya setuju\"",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "\"Iya pacc, saya setuju\""
+				}
+			]
+		},
+		{
+			"id": 10934,
+			"type": "message",
+			"date": "2022-06-05T16:25:03",
+			"date_unixtime": "1654421103",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": [
+				{
+					"type": "italic",
+					"text": "oh iya ya.. saya gak kepikiran ampe situ.."
+				}
+			],
+			"text_entities": [
+				{
+					"type": "italic",
+					"text": "oh iya ya.. saya gak kepikiran ampe situ.."
+				}
+			]
+		},
+		{
+			"id": 10935,
+			"type": "message",
+			"date": "2022-06-05T16:25:13",
+			"date_unixtime": "1654421113",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"reply_to_message_id": 10928,
+			"text": "Caranya tinggal coba aja throw 1 idea, liat reaksinya. Apakah lo digiring ke ide mereka apa ga",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Caranya tinggal coba aja throw 1 idea, liat reaksinya. Apakah lo digiring ke ide mereka apa ga"
+				}
+			]
+		},
+		{
+			"id": 10936,
+			"type": "message",
+			"date": "2022-06-05T16:25:23",
+			"date_unixtime": "1654421123",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Atau downright resistive",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Atau downright resistive"
+				}
+			]
+		},
+		{
+			"id": 10937,
+			"type": "message",
+			"date": "2022-06-05T16:25:33",
+			"date_unixtime": "1654421133",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"text": "Pas halal-bihalal ya ga pada alot, decision di tempat, pulang2 kenyang karena disuruh makan terus ahahha",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Pas halal-bihalal ya ga pada alot, decision di tempat, pulang2 kenyang karena disuruh makan terus ahahha"
+				}
+			]
+		},
+		{
+			"id": 10938,
+			"type": "message",
+			"date": "2022-06-05T16:25:46",
+			"date_unixtime": "1654421146",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Kayak \"tapi sebelumnya sudah tertuang di surat keputusan meeting nomor X dan sudah berjalan\"",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Kayak \"tapi sebelumnya sudah tertuang di surat keputusan meeting nomor X dan sudah berjalan\""
+				}
+			]
+		},
+		{
+			"id": 10939,
+			"type": "message",
+			"date": "2022-06-05T16:25:50",
+			"date_unixtime": "1654421150",
+			"from": null,
+			"from_id": "user1168523623",
+			"reply_to_message_id": 10935,
+			"text": [
+				{
+					"type": "italic",
+					"text": "tapi begini Jason.. ada faktor lain yang harus kita pertimbangkan juga.."
+				}
+			],
+			"text_entities": [
+				{
+					"type": "italic",
+					"text": "tapi begini Jason.. ada faktor lain yang harus kita pertimbangkan juga.."
+				}
+			]
+		},
+		{
+			"id": 10940,
+			"type": "message",
+			"date": "2022-06-05T16:25:58",
+			"date_unixtime": "1654421158",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Nah kalo gini udah tau gw, cuma looking for my approval",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Nah kalo gini udah tau gw, cuma looking for my approval"
+				}
+			]
+		},
+		{
+			"id": 10941,
+			"type": "message",
+			"date": "2022-06-05T16:26:04",
+			"date_unixtime": "1654421164",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Looking for my sign on that paper",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Looking for my sign on that paper"
+				}
+			]
+		},
+		{
+			"id": 10942,
+			"type": "message",
+			"date": "2022-06-05T16:26:05",
+			"date_unixtime": "1654421165",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": [
+				{
+					"type": "italic",
+					"text": "secara prinsip saya setuju dengan kamu.."
+				}
+			],
+			"text_entities": [
+				{
+					"type": "italic",
+					"text": "secara prinsip saya setuju dengan kamu.."
+				}
+			]
+		},
+		{
+			"id": 10943,
+			"type": "message",
+			"date": "2022-06-05T16:26:16",
+			"date_unixtime": "1654421176",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 10928,
+			"text": "damn gw merasa bersalah",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "damn gw merasa bersalah"
+				}
+			]
+		},
+		{
+			"id": 10944,
+			"type": "message",
+			"date": "2022-06-05T16:26:19",
+			"date_unixtime": "1654421179",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"file": "video_files/roll-safe-clever.mp4",
+			"media_type": "animation",
+			"mime_type": "video/mp4",
+			"duration_seconds": 2,
+			"width": 320,
+			"height": 180,
+			"text": "",
+			"text_entities": []
+		},
+		{
+			"id": 10945,
+			"type": "message",
+			"date": "2022-06-05T16:26:44",
+			"date_unixtime": "1654421204",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"reply_to_message_id": 10943,
+			"text": "HAHAHAHAA",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "HAHAHAHAA"
+				}
+			]
+		},
+		{
+			"id": 10946,
+			"type": "message",
+			"date": "2022-06-05T16:26:58",
+			"date_unixtime": "1654421218",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"text": "Ini kenapa custom titlenya jadi dukun dah.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Ini kenapa custom titlenya jadi dukun dah."
+				}
+			]
+		},
+		{
+			"id": 10947,
+			"type": "message",
+			"date": "2022-06-05T16:27:01",
+			"date_unixtime": "1654421221",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 10945,
+			"text": "ga ke jason, tapi ke orang lain",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ga ke jason, tapi ke orang lain"
+				}
+			]
+		},
+		{
+			"id": 10948,
+			"type": "message",
+			"date": "2022-06-05T16:27:18",
+			"date_unixtime": "1654421238",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"text": "kebanyakan praktek di grup sebelah kah? 😂",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kebanyakan praktek di grup sebelah kah? 😂"
+				}
+			]
+		},
+		{
+			"id": 10949,
+			"type": "message",
+			"date": "2022-06-05T16:27:25",
+			"date_unixtime": "1654421245",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Ga tau tuh siapa yg pertama kali menobatkan gw dukun wkwkwk",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Ga tau tuh siapa yg pertama kali menobatkan gw dukun wkwkwk"
+				}
+			]
+		},
+		{
+			"id": 10950,
+			"type": "message",
+			"date": "2022-06-05T16:27:26",
+			"date_unixtime": "1654421246",
+			"from": "dicha?",
+			"from_id": "user925009191",
+			"text": [
+				{
+					"type": "bot_command",
+					"text": "/dukun@TeknologiUmumBot"
+				}
+			],
+			"text_entities": [
+				{
+					"type": "bot_command",
+					"text": "/dukun@TeknologiUmumBot"
+				}
+			]
+		},
+		{
+			"id": 10951,
+			"type": "message",
+			"date": "2022-06-05T16:27:27",
+			"date_unixtime": "1654421247",
+			"from": "LaodeBot",
+			"from_id": "user1813145338",
+			"text": [
+				{
+					"type": "bold",
+					"text": "Paguyuban Dukun Jason Wihardja"
+				},
+				"\n\n1. Jason Wihardja (463 poin)\n2. Ronny Gunawan ★ (455 poin)\n3. Reinaldy  (417 poin)\n4. dicha?  (197 poin)\n5. Wind Blade (123 poin)\n6. Rubi Chandraputra (113 poin)\n7. Maple Syrup  (112 poin)\n8. Valian Masdani (97 poin)\n9. ㅤ ㅤ (69 poin)\n10. Raymond WP (66 poin)\n11. Muhammad Al Fatih (59 poin)\n12. Farhan Aditya (54 poin)\n13. Kemum⁢‍‌‌‌‍⁢⁡⁢⁡‌⁤⁢⁢‍⁢⁣⁤⁢⁤⁢‍‌⁤‌⁣‌‍⁢⁤⁡⁢⁣‌⁢⁢⁡⁢⁢⁢‍‌‍‌‍‌‌⁢⁢‍⁡àki 🌿  (45 poin)\n14. Krishna  (40 poin)\n15. Lao ⁢‍‌‌‌‍⁢⁡⁢⁡‌⁤⁢⁢‍⁢⁣⁤⁢⁤⁢‍‌Dee  (30 poin)\n\ndan 40 dukun lainnya.."
+			],
+			"text_entities": [
+				{
+					"type": "bold",
+					"text": "Paguyuban Dukun Jason Wihardja"
+				},
+				{
+					"type": "plain",
+					"text": "\n\n1. Jason Wihardja (463 poin)\n2. Ronny Gunawan ★ (455 poin)\n3. Reinaldy  (417 poin)\n4. dicha?  (197 poin)\n5. Wind Blade (123 poin)\n6. Rubi Chandraputra (113 poin)\n7. Maple Syrup  (112 poin)\n8. Valian Masdani (97 poin)\n9. ㅤ ㅤ (69 poin)\n10. Raymond WP (66 poin)\n11. Muhammad Al Fatih (59 poin)\n12. Farhan Aditya (54 poin)\n13. Kemum⁢‍‌‌‌‍⁢⁡⁢⁡‌⁤⁢⁢‍⁢⁣⁤⁢⁤⁢‍‌⁤‌⁣‌‍⁢⁤⁡⁢⁣‌⁢⁢⁡⁢⁢⁢‍‌‍‌‍‌‌⁢⁢‍⁡àki 🌿  (45 poin)\n14. Krishna  (40 poin)\n15. Lao ⁢‍‌‌‌‍⁢⁡⁢⁡‌⁤⁢⁢‍⁢⁣⁤⁢⁤⁢‍‌Dee  (30 poin)\n\ndan 40 dukun lainnya.."
+				}
+			]
+		},
+		{
+			"id": 10952,
+			"type": "message",
+			"date": "2022-06-05T16:28:05",
+			"date_unixtime": "1654421285",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"text": "Jadi kesimpulannya, masuk ke perusahaana cuma jadi engineer dan ga aware politik ga sip ya.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Jadi kesimpulannya, masuk ke perusahaana cuma jadi engineer dan ga aware politik ga sip ya."
+				}
+			]
+		},
+		{
+			"id": 10953,
+			"type": "message",
+			"date": "2022-06-05T16:28:16",
+			"date_unixtime": "1654421296",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"text": "Ga bisa meroket karirnya, yang ada di-layoff LOL.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Ga bisa meroket karirnya, yang ada di-layoff LOL."
+				}
+			]
+		},
+		{
+			"id": 10954,
+			"type": "message",
+			"date": "2022-06-05T16:28:23",
+			"date_unixtime": "1654421303",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "iyo",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "iyo"
+				}
+			]
+		},
+		{
+			"id": 10955,
+			"type": "message",
+			"date": "2022-06-05T16:28:38",
+			"date_unixtime": "1654421318",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "gk ngerti politik tuh kayak barang bagus gak ada marketing",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "gk ngerti politik tuh kayak barang bagus gak ada marketing"
+				}
+			]
+		},
+		{
+			"id": 10956,
+			"type": "message",
+			"date": "2022-06-05T16:28:49",
+			"date_unixtime": "1654421329",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Ga semua orang bisa take hard truth tanpa sakit hati",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Ga semua orang bisa take hard truth tanpa sakit hati"
+				}
+			]
+		},
+		{
+			"id": 10957,
+			"type": "message",
+			"date": "2022-06-05T16:29:03",
+			"date_unixtime": "1654421343",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Ada yang PR di reject aja baper",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Ada yang PR di reject aja baper"
+				}
+			]
+		},
+		{
+			"id": 10958,
+			"type": "message",
+			"date": "2022-06-05T16:29:03",
+			"date_unixtime": "1654421343",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 10949,
+			"text": "yourself",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "yourself"
+				}
+			]
+		},
+		{
+			"id": 10959,
+			"type": "message",
+			"date": "2022-06-05T16:29:07",
+			"date_unixtime": "1654421347",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"text": "Saya skrg lebih ke : kalo selip lidah dimaklumi. Kalo udah ada yg bilang 'Didiet emang gitu' posisi saya udah aman haha",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Saya skrg lebih ke : kalo selip lidah dimaklumi. Kalo udah ada yg bilang 'Didiet emang gitu' posisi saya udah aman haha"
+				}
+			]
+		},
+		{
+			"id": 10960,
+			"type": "message",
+			"date": "2022-06-05T16:29:16",
+			"date_unixtime": "1654421356",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "lama2 gw juga ngerasa, man.. gak semua perang harus dimenangkan. kadang2 bisa tidur nyenyak lebih berharga",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "lama2 gw juga ngerasa, man.. gak semua perang harus dimenangkan. kadang2 bisa tidur nyenyak lebih berharga"
+				}
+			]
+		},
+		{
+			"id": 10961,
+			"type": "message",
+			"date": "2022-06-05T16:29:25",
+			"date_unixtime": "1654421365",
+			"edited": "2022-06-05T16:29:26",
+			"edited_unixtime": "1654421366",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"reply_to_message_id": 10959,
+			"text": "Menarik. Berarti udah accept the truth ya",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Menarik. Berarti udah accept the truth ya"
+				}
+			]
+		},
+		{
+			"id": 10962,
+			"type": "message",
+			"date": "2022-06-05T16:29:39",
+			"date_unixtime": "1654421379",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"reply_to_message_id": 10961,
+			"text": "Iyo karena saya punya personal relationship ama YBS.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Iyo karena saya punya personal relationship ama YBS."
+				}
+			]
+		},
+		{
+			"id": 10963,
+			"type": "message",
+			"date": "2022-06-05T16:30:16",
+			"date_unixtime": "1654421416",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"text": "Apalagi kalo ybsnya lebih sepuh. Just act like their kid. Jangan mendikte, mintanya kaya kita minta ama ortu aja.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Apalagi kalo ybsnya lebih sepuh. Just act like their kid. Jangan mendikte, mintanya kaya kita minta ama ortu aja."
+				}
+			]
+		},
+		{
+			"id": 10964,
+			"type": "message",
+			"date": "2022-06-05T16:31:04",
+			"date_unixtime": "1654421464",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"text": "So far works. Kalo buat yang segenerasi ya udah komunikasi biasa aja.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "So far works. Kalo buat yang segenerasi ya udah komunikasi biasa aja."
+				}
+			]
+		},
+		{
+			"id": 10965,
+			"type": "message",
+			"date": "2022-06-05T16:31:14",
+			"date_unixtime": "1654421474",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Gw selama pandemi ini udah 2x di layoff. Dan keduanya gw sebetulnya lumayan yakin bakal layoff anyway without pandemi sih. Cuma pandemi menambah extra excuse aja",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Gw selama pandemi ini udah 2x di layoff. Dan keduanya gw sebetulnya lumayan yakin bakal layoff anyway without pandemi sih. Cuma pandemi menambah extra excuse aja"
+				}
+			]
+		},
+		{
+			"id": 10966,
+			"type": "message",
+			"date": "2022-06-05T16:31:15",
+			"date_unixtime": "1654421475",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"text": "Kalo generasinya di bawah saya, ya berarti suka2 saya HAHAHA.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Kalo generasinya di bawah saya, ya berarti suka2 saya HAHAHA."
+				}
+			]
+		},
+		{
+			"id": 10967,
+			"type": "message",
+			"date": "2022-06-05T16:31:31",
+			"date_unixtime": "1654421491",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"reply_to_message_id": 10965,
+			"text": "Padahal tadi udah master",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Padahal tadi udah master"
+				}
+			]
+		},
+		{
+			"id": 10968,
+			"type": "message",
+			"date": "2022-06-05T16:31:46",
+			"date_unixtime": "1654421506",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"text": "omong2 soal layoff sebenernya kondisi ekonomi cukup gawat sih buat startup yang masih bakar2 uang.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "omong2 soal layoff sebenernya kondisi ekonomi cukup gawat sih buat startup yang masih bakar2 uang."
+				}
+			]
+		},
+		{
+			"id": 10969,
+			"type": "message",
+			"date": "2022-06-05T16:31:55",
+			"date_unixtime": "1654421515",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "medan perang Jason berat",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "medan perang Jason berat"
+				}
+			]
+		},
+		{
+			"id": 10970,
+			"type": "message",
+			"date": "2022-06-05T16:31:57",
+			"date_unixtime": "1654421517",
+			"from": "D Noor",
+			"from_id": "user217465963",
+			"text": "Saranku kalo mau bikin startup yang B2B.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Saranku kalo mau bikin startup yang B2B."
+				}
+			]
+		},
+		{
+			"id": 10971,
+			"type": "message",
+			"date": "2022-06-05T16:32:20",
+			"date_unixtime": "1654421540",
+			"from": null,
+			"from_id": "user1168523623",
+			"text": "btw, selain corporate speak, ada satu lagi. corporate wall",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "btw, selain corporate speak, ada satu lagi. corporate wall"
+				}
+			]
+		},
+		{
+			"id": 10972,
+			"type": "message",
+			"date": "2022-06-05T16:32:21",
+			"date_unixtime": "1654421541",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"reply_to_message_id": 10967,
+			"text": "Yang pertama masih noob. Gw main confront aja kalo ada issue. Jadi terjadi masalah, let's talk about it. But learned the hard truth ternyata sebagian orang pengen keep the problem to save their own position",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Yang pertama masih noob. Gw main confront aja kalo ada issue. Jadi terjadi masalah, let's talk about it. But learned the hard truth ternyata sebagian orang pengen keep the problem to save their own position"
+				}
+			]
+		},
+		{
+			"id": 10973,
+			"type": "message",
+			"date": "2022-06-05T16:32:35",
+			"date_unixtime": "1654421555",
+			"from": null,
+			"from_id": "user1168523623",
+			"photo": "photos/photo_318@05-06-2022_16-32-35.jpg",
+			"width": 700,
+			"height": 466,
+			"text": "tada.. siapa yang dikantornya ada ginian, wkwkwk",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "tada.. siapa yang dikantornya ada ginian, wkwkwk"
+				}
+			]
+		},
+		{
+			"id": 10974,
+			"type": "message",
+			"date": "2022-06-05T16:32:51",
+			"date_unixtime": "1654421571",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Yang kedua ya fighting ageism + politics level BUMN",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Yang kedua ya fighting ageism + politics level BUMN"
+				}
+			]
+		},
+		{
+			"id": 10975,
+			"type": "message",
+			"date": "2022-06-05T16:33:00",
+			"date_unixtime": "1654421580",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Baru learn macem2 corporate speak itu",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Baru learn macem2 corporate speak itu"
+				}
+			]
+		}
+	]
 }

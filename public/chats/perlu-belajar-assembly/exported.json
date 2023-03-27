@@ -1,1067 +1,1067 @@
 {
- "name": "Teknologi Umum v2.0",
- "type": "public_supergroup",
- "id": 1712691810,
- "messages": [
-  {
-   "id": 297197,
-   "type": "message",
-   "date": "2023-03-24T16:23:16",
-   "date_unixtime": "1679649796",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "assembly itu perlu",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "assembly itu perlu"
-    }
-   ]
-  },
-  {
-   "id": 297198,
-   "type": "message",
-   "date": "2023-03-24T16:23:35",
-   "date_unixtime": "1679649815",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "biar kita selalu tau code yang kita tulis efisien atau goblok",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "biar kita selalu tau code yang kita tulis efisien atau goblok"
-    }
-   ]
-  },
-  {
-   "id": 297199,
-   "type": "message",
-   "date": "2023-03-24T16:24:00",
-   "date_unixtime": "1679649840",
-   "from": "botak licin",
-   "from_id": "user5467883815",
-   "text": "kan udah bisa di automasi pake compiler.",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "kan udah bisa di automasi pake compiler."
-    }
-   ]
-  },
-  {
-   "id": 297200,
-   "type": "message",
-   "date": "2023-03-24T16:24:13",
-   "date_unixtime": "1679649853",
-   "from": "botak licin",
-   "from_id": "user5467883815",
-   "text": "buat apa bikin compiler canggih2 kalo masih manual",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "buat apa bikin compiler canggih2 kalo masih manual"
-    }
-   ]
-  },
-  {
-   "id": 297201,
-   "type": "message",
-   "date": "2023-03-24T16:24:14",
-   "date_unixtime": "1679649854",
-   "from": "botak licin",
-   "from_id": "user5467883815",
-   "text": "wkwk",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "wkwk"
-    }
-   ]
-  },
-  {
-   "id": 297202,
-   "type": "message",
-   "date": "2023-03-24T16:24:19",
-   "date_unixtime": "1679649859",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 297199,
-   "text": "ok rephrase: belajar assembly itu perlu",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "ok rephrase: belajar assembly itu perlu"
-    }
-   ]
-  },
-  {
-   "id": 297203,
-   "type": "message",
-   "date": "2023-03-24T16:24:28",
-   "date_unixtime": "1679649868",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "buat wawasan",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "buat wawasan"
-    }
-   ]
-  },
-  {
-   "id": 297204,
-   "type": "message",
-   "date": "2023-03-24T16:24:41",
-   "date_unixtime": "1679649881",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "once you know assembly, you'll look at code differently",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "once you know assembly, you'll look at code differently"
-    }
-   ]
-  },
-  {
-   "id": 297205,
-   "type": "message",
-   "date": "2023-03-24T16:24:57",
-   "date_unixtime": "1679649897",
-   "from": "botak licin",
-   "from_id": "user5467883815",
-   "text": "yes, kalo mau low-level programming, beneran low level",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "yes, kalo mau low-level programming, beneran low level"
-    }
-   ]
-  },
-  {
-   "id": 297206,
-   "type": "message",
-   "date": "2023-03-24T16:25:05",
-   "date_unixtime": "1679649905",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "bukan gitu",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "bukan gitu"
-    }
-   ]
-  },
-  {
-   "id": 297207,
-   "type": "message",
-   "date": "2023-03-24T16:25:57",
-   "date_unixtime": "1679649957",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "AI, explain why knowing basic concept of assembly makes us see our C++ code differently",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "AI, explain why knowing basic concept of assembly makes us see our C++ code differently"
-    }
-   ]
-  },
-  {
-   "id": 297208,
-   "type": "message",
-   "date": "2023-03-24T16:27:10",
-   "date_unixtime": "1679650030",
-   "from": "TEKNUM™",
-   "from_id": "user1982832072",
-   "reply_to_message_id": 297207,
-   "text": "Assembly language is a low-level language that is used to communicate directly with the computer's hardware. It is a tedious and complex language because it involves writing instructions in binary format, which can be difficult to comprehend and take longer to write. \n\nOn the other hand, C++ is a high-level language that allows developers to write programs using familiar English-like syntax. C++ code is then compiled into binary instructions that the computer can understand.\n\nWhen we have an understanding of assembly language, we gain a deeper understanding of how our C++ code is translated into binary and how our code interacts with the computer's hardware. This knowledge can help us optimize our code for performance and write more efficient programs.\n\nFurthermore, knowing assembly can also help us to identify any potential security vulnerabilities in our code, as we can see exactly how data is stored, processed and moved around the computer's memory.\n\nOverall, having knowledge of assembly can give us a better appreciation of how our C++ code works at a lower level and how it interacts with the hardware, which can ultimately help us to write better, more optimized, and more secure programs.",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Assembly language is a low-level language that is used to communicate directly with the computer's hardware. It is a tedious and complex language because it involves writing instructions in binary format, which can be difficult to comprehend and take longer to write. \n\nOn the other hand, C++ is a high-level language that allows developers to write programs using familiar English-like syntax. C++ code is then compiled into binary instructions that the computer can understand.\n\nWhen we have an understanding of assembly language, we gain a deeper understanding of how our C++ code is translated into binary and how our code interacts with the computer's hardware. This knowledge can help us optimize our code for performance and write more efficient programs.\n\nFurthermore, knowing assembly can also help us to identify any potential security vulnerabilities in our code, as we can see exactly how data is stored, processed and moved around the computer's memory.\n\nOverall, having knowledge of assembly can give us a better appreciation of how our C++ code works at a lower level and how it interacts with the hardware, which can ultimately help us to write better, more optimized, and more secure programs."
-    }
-   ]
-  },
-  {
-   "id": 297209,
-   "type": "message",
-   "date": "2023-03-24T16:27:27",
-   "date_unixtime": "1679650047",
-   "edited": "2023-03-24T16:28:11",
-   "edited_unixtime": "1679650091",
-   "from": "botak licin",
-   "from_id": "user5467883815",
-   "reply_to_message_id": 297205,
-   "text": "apalagi kalo mau pake feature cpu, gak semua bahasa punya feature intrinsic atau api ke sana, musti pake assembly",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "apalagi kalo mau pake feature cpu, gak semua bahasa punya feature intrinsic atau api ke sana, musti pake assembly"
-    }
-   ]
-  },
-  {
-   "id": 297210,
-   "type": "message",
-   "date": "2023-03-24T16:28:31",
-   "date_unixtime": "1679650111",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 297208,
-   "text": "does it also apply to writing golang code or C# code?",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "does it also apply to writing golang code or C# code?"
-    }
-   ]
-  },
-  {
-   "id": 297211,
-   "type": "message",
-   "date": "2023-03-24T16:28:42",
-   "date_unixtime": "1679650122",
-   "from": "TEKNUM™",
-   "from_id": "user1982832072",
-   "reply_to_message_id": 297210,
-   "text": "Yes, even though GoLang and C# are higher-level languages, understanding assembly language can still be useful for developing programs in those languages. \n\nFor example, GoLang and C# are both compiled languages, which means that the code written in these languages is translated into binary instructions that the computer can understand. Therefore, having a basic understanding of assembly language can help developers to optimize their programs and identify performance bottlenecks.\n\nIn addition to this, understanding assembly language can also help developers to better understand how the GoLang and C# compilers work and how the generated code interacts with the computer's hardware.\n\nOverall, while assembly language is not necessary to write programs in GoLang or C#, having some knowledge of it can be advantageous for developers who want to develop more efficient, optimized, and secure programs.",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Yes, even though GoLang and C# are higher-level languages, understanding assembly language can still be useful for developing programs in those languages. \n\nFor example, GoLang and C# are both compiled languages, which means that the code written in these languages is translated into binary instructions that the computer can understand. Therefore, having a basic understanding of assembly language can help developers to optimize their programs and identify performance bottlenecks.\n\nIn addition to this, understanding assembly language can also help developers to better understand how the GoLang and C# compilers work and how the generated code interacts with the computer's hardware.\n\nOverall, while assembly language is not necessary to write programs in GoLang or C#, having some knowledge of it can be advantageous for developers who want to develop more efficient, optimized, and secure programs."
-    }
-   ]
-  },
-  {
-   "id": 297212,
-   "type": "message",
-   "date": "2023-03-24T16:29:47",
-   "date_unixtime": "1679650187",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 297211,
-   "text": "it helps developers to decide which approach to take because the developers who understand assembly can visualize its target binary right?",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "it helps developers to decide which approach to take because the developers who understand assembly can visualize its target binary right?"
-    }
-   ]
-  },
-  {
-   "id": 297213,
-   "type": "message",
-   "date": "2023-03-24T16:29:55",
-   "date_unixtime": "1679650195",
-   "from": "TEKNUM™",
-   "from_id": "user1982832072",
-   "reply_to_message_id": 297212,
-   "text": "Yes, that is correct. Having a solid understanding of assembly language can help developers to visualize the target binary code and anticipate how their written high-level code will be translated into lower-level binary instructions.\n\nWith this understanding, developers can make more informed decisions about the design and implementation of their programs. For example, they can identify and avoid coding practices that may result in suboptimal performance or security vulnerabilities at the assembly level.\n\nFurthermore, understanding assembly language can help developers to write more optimized assembler code and debug low-level issues more easily. In this way, knowledge of assembly can be a valuable and powerful tool for software developers.",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Yes, that is correct. Having a solid understanding of assembly language can help developers to visualize the target binary code and anticipate how their written high-level code will be translated into lower-level binary instructions.\n\nWith this understanding, developers can make more informed decisions about the design and implementation of their programs. For example, they can identify and avoid coding practices that may result in suboptimal performance or security vulnerabilities at the assembly level.\n\nFurthermore, understanding assembly language can help developers to write more optimized assembler code and debug low-level issues more easily. In this way, knowledge of assembly can be a valuable and powerful tool for software developers."
-    }
-   ]
-  },
-  {
-   "id": 297214,
-   "type": "message",
-   "date": "2023-03-24T16:30:24",
-   "date_unixtime": "1679650224",
-   "from": "botak licin",
-   "from_id": "user5467883815",
-   "reply_to_message_id": 297208,
-   "text": "is it kind of abstractions leak if we have to tweak inside assembly ourself?",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "is it kind of abstractions leak if we have to tweak inside assembly ourself?"
-    }
-   ]
-  },
-  {
-   "id": 297215,
-   "type": "message",
-   "date": "2023-03-24T16:30:27",
-   "date_unixtime": "1679650227",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "text": "Leaky abstraction as usual",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Leaky abstraction as usual"
-    }
-   ]
-  },
-  {
-   "id": 297216,
-   "type": "message",
-   "date": "2023-03-24T16:30:34",
-   "date_unixtime": "1679650234",
-   "from": "TEKNUM™",
-   "from_id": "user1982832072",
-   "reply_to_message_id": 297214,
-   "text": "Yes, that's a good point. If we need to write assembly code ourselves to optimize or tweak our program, it means that we're effectively bypassing some of the abstractions provided by higher-level languages like C++. This can make our code less portable, harder to write and understand, and more prone to bugs and errors.\n\nHowever, in some cases, it may be necessary to write assembly code for specific low-level tasks where higher-level abstractions simply aren't suitable. For example, if we need to write optimized code for numerical calculations or real-time audio processing, it may be necessary to write some assembly code to achieve the required level of speed and precision.\n\nIn general, it's important to strike a balance between using higher-level abstractions to write clean, maintainable code, and writing low-level code when necessary to achieve specific performance or functionality requirements.",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Yes, that's a good point. If we need to write assembly code ourselves to optimize or tweak our program, it means that we're effectively bypassing some of the abstractions provided by higher-level languages like C++. This can make our code less portable, harder to write and understand, and more prone to bugs and errors.\n\nHowever, in some cases, it may be necessary to write assembly code for specific low-level tasks where higher-level abstractions simply aren't suitable. For example, if we need to write optimized code for numerical calculations or real-time audio processing, it may be necessary to write some assembly code to achieve the required level of speed and precision.\n\nIn general, it's important to strike a balance between using higher-level abstractions to write clean, maintainable code, and writing low-level code when necessary to achieve specific performance or functionality requirements."
-    }
-   ]
-  },
-  {
-   "id": 297217,
-   "type": "message",
-   "date": "2023-03-24T16:30:46",
-   "date_unixtime": "1679650246",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "text": "Kalo mau do something to the max, ya harus nyelam ke leaky abstraction2 itu",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Kalo mau do something to the max, ya harus nyelam ke leaky abstraction2 itu"
-    }
-   ]
-  },
-  {
-   "id": 297218,
-   "type": "message",
-   "date": "2023-03-24T16:30:51",
-   "date_unixtime": "1679650251",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "text": "Compiler stuff included",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Compiler stuff included"
-    }
-   ]
-  },
-  {
-   "id": 297219,
-   "type": "message",
-   "date": "2023-03-24T16:31:14",
-   "date_unixtime": "1679650274",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 297214,
-   "text": "ngga harus sampe tweak assembly. cukup understand aja",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "ngga harus sampe tweak assembly. cukup understand aja"
-    }
-   ]
-  },
-  {
-   "id": 297221,
-   "type": "message",
-   "date": "2023-03-24T16:31:44",
-   "date_unixtime": "1679650304",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "text": "Yes, ga tweak, tapi setidaknya it doesn't hurt to know",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Yes, ga tweak, tapi setidaknya it doesn't hurt to know"
-    }
-   ]
-  },
-  {
-   "id": 297222,
-   "type": "message",
-   "date": "2023-03-24T16:32:36",
-   "date_unixtime": "1679650356",
-   "from": "botak licin",
-   "from_id": "user5467883815",
-   "text": "kalo compiler nya canggih, harusnya udah di optimisasi semua hal2 yang butuh manual optimised hand-written code",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "kalo compiler nya canggih, harusnya udah di optimisasi semua hal2 yang butuh manual optimised hand-written code"
-    }
-   ]
-  },
-  {
-   "id": 297223,
-   "type": "message",
-   "date": "2023-03-24T16:32:48",
-   "date_unixtime": "1679650368",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 297222,
-   "text": "yes",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "yes"
-    }
-   ]
-  },
-  {
-   "id": 297224,
-   "type": "message",
-   "date": "2023-03-24T16:33:01",
-   "date_unixtime": "1679650381",
-   "from": "botak licin",
-   "from_id": "user5467883815",
-   "text": "tapi gak semua bahasa punya compiler secanggih itu",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "tapi gak semua bahasa punya compiler secanggih itu"
-    }
-   ]
-  },
-  {
-   "id": 297226,
-   "type": "message",
-   "date": "2023-03-24T16:33:57",
-   "date_unixtime": "1679650437",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "tapi ada hal2 yang masih perlu kita decide kaya deciding mau allocate di stack atau heap, mau mutable atau immutable, mau pass by value atau by reference, mau fixed size atau dynamic size, mau zero cost abstraction atau abstraction biasa",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "tapi ada hal2 yang masih perlu kita decide kaya deciding mau allocate di stack atau heap, mau mutable atau immutable, mau pass by value atau by reference, mau fixed size atau dynamic size, mau zero cost abstraction atau abstraction biasa"
-    }
-   ]
-  },
-  {
-   "id": 297227,
-   "type": "message",
-   "date": "2023-03-24T16:34:37",
-   "date_unixtime": "1679650477",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "bahkan ada hal yang memang harus leaky yaitu hal2 yang berhubungan dengan vector dan SIMD",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "bahkan ada hal yang memang harus leaky yaitu hal2 yang berhubungan dengan vector dan SIMD"
-    }
-   ]
-  },
-  {
-   "id": 297228,
-   "type": "message",
-   "date": "2023-03-24T16:35:21",
-   "date_unixtime": "1679650521",
-   "from": "Jason Wihardja",
-   "from_id": "user230072954",
-   "text": "Contohnya kayak in general kalo js ngelakuin spread, itu udah universally known sebagai slow. Padahal setelah nyelam ke code lower level, diketahui bahwa yang slow di engine v8 aja, yang mana engine lain ga significant slowdown nya. At least compared to v8",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Contohnya kayak in general kalo js ngelakuin spread, itu udah universally known sebagai slow. Padahal setelah nyelam ke code lower level, diketahui bahwa yang slow di engine v8 aja, yang mana engine lain ga significant slowdown nya. At least compared to v8"
-    }
-   ]
-  },
-  {
-   "id": 297229,
-   "type": "message",
-   "date": "2023-03-24T16:35:59",
-   "date_unixtime": "1679650559",
-   "from": "botak licin",
-   "from_id": "user5467883815",
-   "reply_to_message_id": 297226,
-   "text": "ini ga perlu assembly mah, udah bisa direpresent oleh compiler",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "ini ga perlu assembly mah, udah bisa direpresent oleh compiler"
-    }
-   ]
-  },
-  {
-   "id": 297230,
-   "type": "message",
-   "date": "2023-03-24T16:36:23",
-   "date_unixtime": "1679650583",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 297229,
-   "text": "kalo ngga paham saya ngomong apa ngga usah didebat",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "kalo ngga paham saya ngomong apa ngga usah didebat"
-    }
-   ]
-  },
-  {
-   "id": 297231,
-   "type": "message",
-   "date": "2023-03-24T16:36:34",
-   "date_unixtime": "1679650594",
-   "from": "Ahmad Tohir",
-   "from_id": "user368718073",
-   "reply_to_message_id": 297196,
-   "text": "bulan2 lalu baca2 elf nya pas abis di compile masih garuk2 kepala, agak mumet ya wwkkwk",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "bulan2 lalu baca2 elf nya pas abis di compile masih garuk2 kepala, agak mumet ya wwkkwk"
-    }
-   ]
-  },
-  {
-   "id": 297232,
-   "type": "message",
-   "date": "2023-03-24T16:36:37",
-   "date_unixtime": "1679650597",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "pahami, cerna, barulah didebat",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "pahami, cerna, barulah didebat"
-    }
-   ]
-  },
-  {
-   "id": 297233,
-   "type": "message",
-   "date": "2023-03-24T16:37:16",
-   "date_unixtime": "1679650636",
-   "from": "botak licin",
-   "from_id": "user5467883815",
-   "reply_to_message_id": 297230,
-   "text": "wkwk, maksudnya gimana om yang butuh asm?",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "wkwk, maksudnya gimana om yang butuh asm?"
-    }
-   ]
-  },
-  {
-   "id": 297234,
-   "type": "message",
-   "date": "2023-03-24T16:37:32",
-   "date_unixtime": "1679650652",
-   "from": "Ahmad Tohir",
-   "from_id": "user368718073",
-   "text": "tapi kalo udah liat asm nya emang jadi beda cara pandang ngoding di high level",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "tapi kalo udah liat asm nya emang jadi beda cara pandang ngoding di high level"
-    }
-   ]
-  },
-  {
-   "id": 297235,
-   "type": "message",
-   "date": "2023-03-24T16:39:31",
-   "date_unixtime": "1679650771",
-   "from": "botak licin",
-   "from_id": "user5467883815",
-   "text": "gw juga kemarin pas dilihatin gimana asm nya looping di rust dan go, kelihatan dimana zca yang dimaksud, wkwkwk,",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "gw juga kemarin pas dilihatin gimana asm nya looping di rust dan go, kelihatan dimana zca yang dimaksud, wkwkwk,"
-    }
-   ]
-  },
-  {
-   "id": 297236,
-   "type": "message",
-   "date": "2023-03-24T16:46:02",
-   "date_unixtime": "1679651162",
-   "from": "Hidup Loli",
-   "from_id": "user5260310328",
-   "reply_to_message_id": 297232,
-   "text": "wkwk. istirahat om",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "wkwk. istirahat om"
-    }
-   ]
-  },
-  {
-   "id": 297237,
-   "type": "message",
-   "date": "2023-03-24T16:48:51",
-   "date_unixtime": "1679651331",
-   "from": "botak licin",
-   "from_id": "user5467883815",
-   "reply_to_message_id": 297196,
-   "text": [
-    "jadi perlu belajar assembly?,\n",
-    {
-     "type": "italic",
-     "text": "ga perlu, gak ada duitnya\n"
-    },
-    "wkwkwk"
-   ],
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "jadi perlu belajar assembly?,\n"
-    },
-    {
-     "type": "italic",
-     "text": "ga perlu, gak ada duitnya\n"
-    },
-    {
-     "type": "plain",
-     "text": "wkwkwk"
-    }
-   ]
-  },
-  {
-   "id": 297243,
-   "type": "message",
-   "date": "2023-03-24T16:58:28",
-   "date_unixtime": "1679651908",
-   "from": "mfi",
-   "from_id": "user1069588862",
-   "reply_to_message_id": 297237,
-   "text": [
-    "jadi belajar ",
-    {
-     "type": "italic",
-     "text": "java"
-    },
-    " aja?"
-   ],
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "jadi belajar "
-    },
-    {
-     "type": "italic",
-     "text": "java"
-    },
-    {
-     "type": "plain",
-     "text": " aja?"
-    }
-   ]
-  },
-  {
-   "id": 297244,
-   "type": "message",
-   "date": "2023-03-24T16:59:22",
-   "date_unixtime": "1679651962",
-   "from": "botak licin",
-   "from_id": "user5467883815",
-   "reply_to_message_id": 297243,
-   "text": "😃",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "😃"
-    }
-   ]
-  },
-  {
-   "id": 297245,
-   "type": "message",
-   "date": "2023-03-24T17:00:17",
-   "date_unixtime": "1679652017",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 297237,
-   "text": "apakah kalo kamu belajar bahasa inggris lantas sehari2 ngomongnya jadi inggris?",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "apakah kalo kamu belajar bahasa inggris lantas sehari2 ngomongnya jadi inggris?"
-    }
-   ]
-  },
-  {
-   "id": 297246,
-   "type": "message",
-   "date": "2023-03-24T17:00:28",
-   "date_unixtime": "1679652028",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "belajar != memakai",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "belajar != memakai"
-    }
-   ]
-  },
-  {
-   "id": 297247,
-   "type": "message",
-   "date": "2023-03-24T17:00:53",
-   "date_unixtime": "1679652053",
-   "edited": "2023-03-24T17:15:25",
-   "edited_unixtime": "1679652925",
-   "from": "botak licin",
-   "from_id": "user5467883815",
-   "reply_to_message_id": 297246,
-   "text": "ilmu tapi gak diterapin ya buat apa, wkwk",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "ilmu tapi gak diterapin ya buat apa, wkwk"
-    }
-   ]
-  },
-  {
-   "id": 297248,
-   "type": "message",
-   "date": "2023-03-24T17:01:10",
-   "date_unixtime": "1679652070",
-   "from": "mfi",
-   "from_id": "user1069588862",
-   "text": "🍿",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "🍿"
-    }
-   ]
-  },
-  {
-   "id": 297249,
-   "type": "message",
-   "date": "2023-03-24T17:01:50",
-   "date_unixtime": "1679652110",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": [
-    "mungkin penjelasan simplenya gini. mana yang lebih efisien? C++ dev yang paham how assembly works atau yang ngga paham? golang dev yang ngerti how goroutine & channel work under the hood atau pernah ngebenchmark vs dev yang ngga ngerti? C#",
-    {
-     "type": "bot_command",
-     "text": "/java"
-    },
-    " dev yang ngerti cara kerja GC vs yang ngga ngerti?"
-   ],
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "mungkin penjelasan simplenya gini. mana yang lebih efisien? C++ dev yang paham how assembly works atau yang ngga paham? golang dev yang ngerti how goroutine & channel work under the hood atau pernah ngebenchmark vs dev yang ngga ngerti? C#"
-    },
-    {
-     "type": "bot_command",
-     "text": "/java"
-    },
-    {
-     "type": "plain",
-     "text": " dev yang ngerti cara kerja GC vs yang ngga ngerti?"
-    }
-   ]
-  },
-  {
-   "id": 297250,
-   "type": "message",
-   "date": "2023-03-24T17:02:23",
-   "date_unixtime": "1679652143",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 297247,
-   "text": "diterapinnya dalam decision making. bukan actually literally ngoding dalam bahasa assembly",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "diterapinnya dalam decision making. bukan actually literally ngoding dalam bahasa assembly"
-    }
-   ]
-  },
-  {
-   "id": 297251,
-   "type": "message",
-   "date": "2023-03-24T17:02:38",
-   "date_unixtime": "1679652158",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "ngerti GC bukan berarti bisa bikin GC sendiri",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "ngerti GC bukan berarti bisa bikin GC sendiri"
-    }
-   ]
-  },
-  {
-   "id": 297252,
-   "type": "message",
-   "date": "2023-03-24T17:03:54",
-   "date_unixtime": "1679652234",
-   "from": "botak licin",
-   "from_id": "user5467883815",
-   "reply_to_message_id": 297249,
-   "text": "Beberapa case yang benar2 low level memang perlu tau sih. Tapi Kalo masih system level atau high-level, cukup ngerti si bahasanya gimana.",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Beberapa case yang benar2 low level memang perlu tau sih. Tapi Kalo masih system level atau high-level, cukup ngerti si bahasanya gimana."
-    }
-   ]
-  },
-  {
-   "id": 297253,
-   "type": "message",
-   "date": "2023-03-24T17:04:28",
-   "date_unixtime": "1679652268",
-   "from": "botak licin",
-   "from_id": "user5467883815",
-   "reply_to_message_id": 297249,
-   "text": "yang nge-develop gc dan ngerti banget gimana gc juga bukan java dev, tapi c/c++ dev",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "yang nge-develop gc dan ngerti banget gimana gc juga bukan java dev, tapi c/c++ dev"
-    }
-   ]
-  },
-  {
-   "id": 297254,
-   "type": "message",
-   "date": "2023-03-24T17:05:27",
-   "date_unixtime": "1679652327",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 297252,
-   "text": "I disagree",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "I disagree"
-    }
-   ]
-  },
-  {
-   "id": 297255,
-   "type": "message",
-   "date": "2023-03-24T17:05:45",
-   "date_unixtime": "1679652345",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "ngga harus hal low level",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "ngga harus hal low level"
-    }
-   ]
-  },
-  {
-   "id": 297256,
-   "type": "message",
-   "date": "2023-03-24T17:05:54",
-   "date_unixtime": "1679652354",
-   "edited": "2023-03-24T17:10:04",
-   "edited_unixtime": "1679652604",
-   "from": "mfi",
-   "from_id": "user1069588862",
-   "text": "🍿🍿🍿",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "🍿🍿🍿"
-    }
-   ]
-  },
-  {
-   "id": 297257,
-   "type": "message",
-   "date": "2023-03-24T17:06:54",
-   "date_unixtime": "1679652414",
-   "from": "botak licin",
-   "from_id": "user5467883815",
-   "reply_to_message_id": 297249,
-   "text": "ini lebih gimana si bahasa nge-abstrak-in sesuatu sih, kalo sedikit2 mau efisien butuh tweak asm, dikit2 mau kenceng butuh tweak asm, dipertanyakan design bahasanya.",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "ini lebih gimana si bahasa nge-abstrak-in sesuatu sih, kalo sedikit2 mau efisien butuh tweak asm, dikit2 mau kenceng butuh tweak asm, dipertanyakan design bahasanya."
-    }
-   ]
-  },
-  {
-   "id": 297258,
-   "type": "message",
-   "date": "2023-03-24T17:07:10",
-   "date_unixtime": "1679652430",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "misal ada orang yang ngoding golang, ngga pernah pake pointer, perasaan kamu gimana?",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "misal ada orang yang ngoding golang, ngga pernah pake pointer, perasaan kamu gimana?"
-    }
-   ]
-  },
-  {
-   "id": 297259,
-   "type": "message",
-   "date": "2023-03-24T17:07:31",
-   "date_unixtime": "1679652451",
-   "edited": "2023-03-24T17:07:54",
-   "edited_unixtime": "1679652474",
-   "from": "botak licin",
-   "from_id": "user5467883815",
-   "text": "apalagi compiled language, harusnya udah di representasiin oleh compiler.\nkecuali mau access intrinsics api, yang belum tentu semua bahasa provide",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "apalagi compiled language, harusnya udah di representasiin oleh compiler.\nkecuali mau access intrinsics api, yang belum tentu semua bahasa provide"
-    }
-   ]
-  },
-  {
-   "id": 297260,
-   "type": "message",
-   "date": "2023-03-24T17:08:03",
-   "date_unixtime": "1679652483",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 297258,
-   "text": "atau orang ini begitu dikasih tau soal pointer, segala sesuatu dibikin pointer. perasaan kamu gimana?",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "atau orang ini begitu dikasih tau soal pointer, segala sesuatu dibikin pointer. perasaan kamu gimana?"
-    }
-   ]
-  },
-  {
-   "id": 297261,
-   "type": "message",
-   "date": "2023-03-24T17:08:39",
-   "date_unixtime": "1679652519",
-   "from": "botak licin",
-   "from_id": "user5467883815",
-   "reply_to_message_id": 297258,
-   "text": "pointer kan abstraksi dari bahasa nya, bukan ranah asm",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "pointer kan abstraksi dari bahasa nya, bukan ranah asm"
-    }
-   ]
-  },
-  {
-   "id": 297262,
-   "type": "message",
-   "date": "2023-03-24T17:08:45",
-   "date_unixtime": "1679652525",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "you have to explain lower levelnya kan",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "you have to explain lower levelnya kan"
-    }
-   ]
-  },
-  {
-   "id": 297263,
-   "type": "message",
-   "date": "2023-03-24T17:08:49",
-   "date_unixtime": "1679652529",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "memang ngga sampe asm",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "memang ngga sampe asm"
-    }
-   ]
-  },
-  {
-   "id": 297264,
-   "type": "message",
-   "date": "2023-03-24T17:08:53",
-   "date_unixtime": "1679652533",
-   "edited": "2023-03-24T17:09:22",
-   "edited_unixtime": "1679652562",
-   "from": "Zasda Yusuf Mikail",
-   "from_id": "user311785123",
-   "reply_to_message_id": 297256,
-   "text": [
-    "Nonton ",
-    {
-     "type": "code",
-     "text": "el clasico"
-    },
-    " ya pak."
-   ],
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "Nonton "
-    },
-    {
-     "type": "code",
-     "text": "el clasico"
-    },
-    {
-     "type": "plain",
-     "text": " ya pak."
-    }
-   ]
-  },
-  {
-   "id": 297265,
-   "type": "message",
-   "date": "2023-03-24T17:09:04",
-   "date_unixtime": "1679652544",
-   "from": "botak licin",
-   "from_id": "user5467883815",
-   "text": "explain in human language, yes\nin asm, ga harus",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "explain in human language, yes\nin asm, ga harus"
-    }
-   ]
-  },
-  {
-   "id": 297266,
-   "type": "message",
-   "date": "2023-03-24T17:09:17",
-   "date_unixtime": "1679652557",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "reply_to_message_id": 297265,
-   "text": "beberapa hal ngga bisa dijelasin in human language",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "beberapa hal ngga bisa dijelasin in human language"
-    }
-   ]
-  },
-  {
-   "id": 297267,
-   "type": "message",
-   "date": "2023-03-24T17:09:39",
-   "date_unixtime": "1679652579",
-   "from": "Ronny Gunawan ️",
-   "from_id": "user149994951",
-   "text": "even with visualization, belum tentu orangnya paham. yang ada orangnya NGERASA PAHAM, SOK PALING PAHAM, TERUS NGEDEBAT ORANG YANG SEBENRNYA LEBIH PAHAM",
-   "text_entities": [
-    {
-     "type": "plain",
-     "text": "even with visualization, belum tentu orangnya paham. yang ada orangnya NGERASA PAHAM, SOK PALING PAHAM, TERUS NGEDEBAT ORANG YANG SEBENRNYA LEBIH PAHAM"
-    }
-   ]
-  }
- ]
+	"name": "Teknologi Umum v2.0",
+	"type": "public_supergroup",
+	"id": 1712691810,
+	"messages": [
+		{
+			"id": 297197,
+			"type": "message",
+			"date": "2023-03-24T16:23:16",
+			"date_unixtime": "1679649796",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "assembly itu perlu",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "assembly itu perlu"
+				}
+			]
+		},
+		{
+			"id": 297198,
+			"type": "message",
+			"date": "2023-03-24T16:23:35",
+			"date_unixtime": "1679649815",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "biar kita selalu tau code yang kita tulis efisien atau goblok",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "biar kita selalu tau code yang kita tulis efisien atau goblok"
+				}
+			]
+		},
+		{
+			"id": 297199,
+			"type": "message",
+			"date": "2023-03-24T16:24:00",
+			"date_unixtime": "1679649840",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"text": "kan udah bisa di automasi pake compiler.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kan udah bisa di automasi pake compiler."
+				}
+			]
+		},
+		{
+			"id": 297200,
+			"type": "message",
+			"date": "2023-03-24T16:24:13",
+			"date_unixtime": "1679649853",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"text": "buat apa bikin compiler canggih2 kalo masih manual",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "buat apa bikin compiler canggih2 kalo masih manual"
+				}
+			]
+		},
+		{
+			"id": 297201,
+			"type": "message",
+			"date": "2023-03-24T16:24:14",
+			"date_unixtime": "1679649854",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"text": "wkwk",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "wkwk"
+				}
+			]
+		},
+		{
+			"id": 297202,
+			"type": "message",
+			"date": "2023-03-24T16:24:19",
+			"date_unixtime": "1679649859",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 297199,
+			"text": "ok rephrase: belajar assembly itu perlu",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ok rephrase: belajar assembly itu perlu"
+				}
+			]
+		},
+		{
+			"id": 297203,
+			"type": "message",
+			"date": "2023-03-24T16:24:28",
+			"date_unixtime": "1679649868",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "buat wawasan",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "buat wawasan"
+				}
+			]
+		},
+		{
+			"id": 297204,
+			"type": "message",
+			"date": "2023-03-24T16:24:41",
+			"date_unixtime": "1679649881",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "once you know assembly, you'll look at code differently",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "once you know assembly, you'll look at code differently"
+				}
+			]
+		},
+		{
+			"id": 297205,
+			"type": "message",
+			"date": "2023-03-24T16:24:57",
+			"date_unixtime": "1679649897",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"text": "yes, kalo mau low-level programming, beneran low level",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "yes, kalo mau low-level programming, beneran low level"
+				}
+			]
+		},
+		{
+			"id": 297206,
+			"type": "message",
+			"date": "2023-03-24T16:25:05",
+			"date_unixtime": "1679649905",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "bukan gitu",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "bukan gitu"
+				}
+			]
+		},
+		{
+			"id": 297207,
+			"type": "message",
+			"date": "2023-03-24T16:25:57",
+			"date_unixtime": "1679649957",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "AI, explain why knowing basic concept of assembly makes us see our C++ code differently",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "AI, explain why knowing basic concept of assembly makes us see our C++ code differently"
+				}
+			]
+		},
+		{
+			"id": 297208,
+			"type": "message",
+			"date": "2023-03-24T16:27:10",
+			"date_unixtime": "1679650030",
+			"from": "TEKNUM™",
+			"from_id": "user1982832072",
+			"reply_to_message_id": 297207,
+			"text": "Assembly language is a low-level language that is used to communicate directly with the computer's hardware. It is a tedious and complex language because it involves writing instructions in binary format, which can be difficult to comprehend and take longer to write. \n\nOn the other hand, C++ is a high-level language that allows developers to write programs using familiar English-like syntax. C++ code is then compiled into binary instructions that the computer can understand.\n\nWhen we have an understanding of assembly language, we gain a deeper understanding of how our C++ code is translated into binary and how our code interacts with the computer's hardware. This knowledge can help us optimize our code for performance and write more efficient programs.\n\nFurthermore, knowing assembly can also help us to identify any potential security vulnerabilities in our code, as we can see exactly how data is stored, processed and moved around the computer's memory.\n\nOverall, having knowledge of assembly can give us a better appreciation of how our C++ code works at a lower level and how it interacts with the hardware, which can ultimately help us to write better, more optimized, and more secure programs.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Assembly language is a low-level language that is used to communicate directly with the computer's hardware. It is a tedious and complex language because it involves writing instructions in binary format, which can be difficult to comprehend and take longer to write. \n\nOn the other hand, C++ is a high-level language that allows developers to write programs using familiar English-like syntax. C++ code is then compiled into binary instructions that the computer can understand.\n\nWhen we have an understanding of assembly language, we gain a deeper understanding of how our C++ code is translated into binary and how our code interacts with the computer's hardware. This knowledge can help us optimize our code for performance and write more efficient programs.\n\nFurthermore, knowing assembly can also help us to identify any potential security vulnerabilities in our code, as we can see exactly how data is stored, processed and moved around the computer's memory.\n\nOverall, having knowledge of assembly can give us a better appreciation of how our C++ code works at a lower level and how it interacts with the hardware, which can ultimately help us to write better, more optimized, and more secure programs."
+				}
+			]
+		},
+		{
+			"id": 297209,
+			"type": "message",
+			"date": "2023-03-24T16:27:27",
+			"date_unixtime": "1679650047",
+			"edited": "2023-03-24T16:28:11",
+			"edited_unixtime": "1679650091",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"reply_to_message_id": 297205,
+			"text": "apalagi kalo mau pake feature cpu, gak semua bahasa punya feature intrinsic atau api ke sana, musti pake assembly",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "apalagi kalo mau pake feature cpu, gak semua bahasa punya feature intrinsic atau api ke sana, musti pake assembly"
+				}
+			]
+		},
+		{
+			"id": 297210,
+			"type": "message",
+			"date": "2023-03-24T16:28:31",
+			"date_unixtime": "1679650111",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 297208,
+			"text": "does it also apply to writing golang code or C# code?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "does it also apply to writing golang code or C# code?"
+				}
+			]
+		},
+		{
+			"id": 297211,
+			"type": "message",
+			"date": "2023-03-24T16:28:42",
+			"date_unixtime": "1679650122",
+			"from": "TEKNUM™",
+			"from_id": "user1982832072",
+			"reply_to_message_id": 297210,
+			"text": "Yes, even though GoLang and C# are higher-level languages, understanding assembly language can still be useful for developing programs in those languages. \n\nFor example, GoLang and C# are both compiled languages, which means that the code written in these languages is translated into binary instructions that the computer can understand. Therefore, having a basic understanding of assembly language can help developers to optimize their programs and identify performance bottlenecks.\n\nIn addition to this, understanding assembly language can also help developers to better understand how the GoLang and C# compilers work and how the generated code interacts with the computer's hardware.\n\nOverall, while assembly language is not necessary to write programs in GoLang or C#, having some knowledge of it can be advantageous for developers who want to develop more efficient, optimized, and secure programs.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Yes, even though GoLang and C# are higher-level languages, understanding assembly language can still be useful for developing programs in those languages. \n\nFor example, GoLang and C# are both compiled languages, which means that the code written in these languages is translated into binary instructions that the computer can understand. Therefore, having a basic understanding of assembly language can help developers to optimize their programs and identify performance bottlenecks.\n\nIn addition to this, understanding assembly language can also help developers to better understand how the GoLang and C# compilers work and how the generated code interacts with the computer's hardware.\n\nOverall, while assembly language is not necessary to write programs in GoLang or C#, having some knowledge of it can be advantageous for developers who want to develop more efficient, optimized, and secure programs."
+				}
+			]
+		},
+		{
+			"id": 297212,
+			"type": "message",
+			"date": "2023-03-24T16:29:47",
+			"date_unixtime": "1679650187",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 297211,
+			"text": "it helps developers to decide which approach to take because the developers who understand assembly can visualize its target binary right?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "it helps developers to decide which approach to take because the developers who understand assembly can visualize its target binary right?"
+				}
+			]
+		},
+		{
+			"id": 297213,
+			"type": "message",
+			"date": "2023-03-24T16:29:55",
+			"date_unixtime": "1679650195",
+			"from": "TEKNUM™",
+			"from_id": "user1982832072",
+			"reply_to_message_id": 297212,
+			"text": "Yes, that is correct. Having a solid understanding of assembly language can help developers to visualize the target binary code and anticipate how their written high-level code will be translated into lower-level binary instructions.\n\nWith this understanding, developers can make more informed decisions about the design and implementation of their programs. For example, they can identify and avoid coding practices that may result in suboptimal performance or security vulnerabilities at the assembly level.\n\nFurthermore, understanding assembly language can help developers to write more optimized assembler code and debug low-level issues more easily. In this way, knowledge of assembly can be a valuable and powerful tool for software developers.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Yes, that is correct. Having a solid understanding of assembly language can help developers to visualize the target binary code and anticipate how their written high-level code will be translated into lower-level binary instructions.\n\nWith this understanding, developers can make more informed decisions about the design and implementation of their programs. For example, they can identify and avoid coding practices that may result in suboptimal performance or security vulnerabilities at the assembly level.\n\nFurthermore, understanding assembly language can help developers to write more optimized assembler code and debug low-level issues more easily. In this way, knowledge of assembly can be a valuable and powerful tool for software developers."
+				}
+			]
+		},
+		{
+			"id": 297214,
+			"type": "message",
+			"date": "2023-03-24T16:30:24",
+			"date_unixtime": "1679650224",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"reply_to_message_id": 297208,
+			"text": "is it kind of abstractions leak if we have to tweak inside assembly ourself?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "is it kind of abstractions leak if we have to tweak inside assembly ourself?"
+				}
+			]
+		},
+		{
+			"id": 297215,
+			"type": "message",
+			"date": "2023-03-24T16:30:27",
+			"date_unixtime": "1679650227",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Leaky abstraction as usual",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Leaky abstraction as usual"
+				}
+			]
+		},
+		{
+			"id": 297216,
+			"type": "message",
+			"date": "2023-03-24T16:30:34",
+			"date_unixtime": "1679650234",
+			"from": "TEKNUM™",
+			"from_id": "user1982832072",
+			"reply_to_message_id": 297214,
+			"text": "Yes, that's a good point. If we need to write assembly code ourselves to optimize or tweak our program, it means that we're effectively bypassing some of the abstractions provided by higher-level languages like C++. This can make our code less portable, harder to write and understand, and more prone to bugs and errors.\n\nHowever, in some cases, it may be necessary to write assembly code for specific low-level tasks where higher-level abstractions simply aren't suitable. For example, if we need to write optimized code for numerical calculations or real-time audio processing, it may be necessary to write some assembly code to achieve the required level of speed and precision.\n\nIn general, it's important to strike a balance between using higher-level abstractions to write clean, maintainable code, and writing low-level code when necessary to achieve specific performance or functionality requirements.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Yes, that's a good point. If we need to write assembly code ourselves to optimize or tweak our program, it means that we're effectively bypassing some of the abstractions provided by higher-level languages like C++. This can make our code less portable, harder to write and understand, and more prone to bugs and errors.\n\nHowever, in some cases, it may be necessary to write assembly code for specific low-level tasks where higher-level abstractions simply aren't suitable. For example, if we need to write optimized code for numerical calculations or real-time audio processing, it may be necessary to write some assembly code to achieve the required level of speed and precision.\n\nIn general, it's important to strike a balance between using higher-level abstractions to write clean, maintainable code, and writing low-level code when necessary to achieve specific performance or functionality requirements."
+				}
+			]
+		},
+		{
+			"id": 297217,
+			"type": "message",
+			"date": "2023-03-24T16:30:46",
+			"date_unixtime": "1679650246",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Kalo mau do something to the max, ya harus nyelam ke leaky abstraction2 itu",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Kalo mau do something to the max, ya harus nyelam ke leaky abstraction2 itu"
+				}
+			]
+		},
+		{
+			"id": 297218,
+			"type": "message",
+			"date": "2023-03-24T16:30:51",
+			"date_unixtime": "1679650251",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Compiler stuff included",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Compiler stuff included"
+				}
+			]
+		},
+		{
+			"id": 297219,
+			"type": "message",
+			"date": "2023-03-24T16:31:14",
+			"date_unixtime": "1679650274",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 297214,
+			"text": "ngga harus sampe tweak assembly. cukup understand aja",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ngga harus sampe tweak assembly. cukup understand aja"
+				}
+			]
+		},
+		{
+			"id": 297221,
+			"type": "message",
+			"date": "2023-03-24T16:31:44",
+			"date_unixtime": "1679650304",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Yes, ga tweak, tapi setidaknya it doesn't hurt to know",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Yes, ga tweak, tapi setidaknya it doesn't hurt to know"
+				}
+			]
+		},
+		{
+			"id": 297222,
+			"type": "message",
+			"date": "2023-03-24T16:32:36",
+			"date_unixtime": "1679650356",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"text": "kalo compiler nya canggih, harusnya udah di optimisasi semua hal2 yang butuh manual optimised hand-written code",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kalo compiler nya canggih, harusnya udah di optimisasi semua hal2 yang butuh manual optimised hand-written code"
+				}
+			]
+		},
+		{
+			"id": 297223,
+			"type": "message",
+			"date": "2023-03-24T16:32:48",
+			"date_unixtime": "1679650368",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 297222,
+			"text": "yes",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "yes"
+				}
+			]
+		},
+		{
+			"id": 297224,
+			"type": "message",
+			"date": "2023-03-24T16:33:01",
+			"date_unixtime": "1679650381",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"text": "tapi gak semua bahasa punya compiler secanggih itu",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "tapi gak semua bahasa punya compiler secanggih itu"
+				}
+			]
+		},
+		{
+			"id": 297226,
+			"type": "message",
+			"date": "2023-03-24T16:33:57",
+			"date_unixtime": "1679650437",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "tapi ada hal2 yang masih perlu kita decide kaya deciding mau allocate di stack atau heap, mau mutable atau immutable, mau pass by value atau by reference, mau fixed size atau dynamic size, mau zero cost abstraction atau abstraction biasa",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "tapi ada hal2 yang masih perlu kita decide kaya deciding mau allocate di stack atau heap, mau mutable atau immutable, mau pass by value atau by reference, mau fixed size atau dynamic size, mau zero cost abstraction atau abstraction biasa"
+				}
+			]
+		},
+		{
+			"id": 297227,
+			"type": "message",
+			"date": "2023-03-24T16:34:37",
+			"date_unixtime": "1679650477",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "bahkan ada hal yang memang harus leaky yaitu hal2 yang berhubungan dengan vector dan SIMD",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "bahkan ada hal yang memang harus leaky yaitu hal2 yang berhubungan dengan vector dan SIMD"
+				}
+			]
+		},
+		{
+			"id": 297228,
+			"type": "message",
+			"date": "2023-03-24T16:35:21",
+			"date_unixtime": "1679650521",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Contohnya kayak in general kalo js ngelakuin spread, itu udah universally known sebagai slow. Padahal setelah nyelam ke code lower level, diketahui bahwa yang slow di engine v8 aja, yang mana engine lain ga significant slowdown nya. At least compared to v8",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Contohnya kayak in general kalo js ngelakuin spread, itu udah universally known sebagai slow. Padahal setelah nyelam ke code lower level, diketahui bahwa yang slow di engine v8 aja, yang mana engine lain ga significant slowdown nya. At least compared to v8"
+				}
+			]
+		},
+		{
+			"id": 297229,
+			"type": "message",
+			"date": "2023-03-24T16:35:59",
+			"date_unixtime": "1679650559",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"reply_to_message_id": 297226,
+			"text": "ini ga perlu assembly mah, udah bisa direpresent oleh compiler",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ini ga perlu assembly mah, udah bisa direpresent oleh compiler"
+				}
+			]
+		},
+		{
+			"id": 297230,
+			"type": "message",
+			"date": "2023-03-24T16:36:23",
+			"date_unixtime": "1679650583",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 297229,
+			"text": "kalo ngga paham saya ngomong apa ngga usah didebat",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kalo ngga paham saya ngomong apa ngga usah didebat"
+				}
+			]
+		},
+		{
+			"id": 297231,
+			"type": "message",
+			"date": "2023-03-24T16:36:34",
+			"date_unixtime": "1679650594",
+			"from": "Ahmad Tohir",
+			"from_id": "user368718073",
+			"reply_to_message_id": 297196,
+			"text": "bulan2 lalu baca2 elf nya pas abis di compile masih garuk2 kepala, agak mumet ya wwkkwk",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "bulan2 lalu baca2 elf nya pas abis di compile masih garuk2 kepala, agak mumet ya wwkkwk"
+				}
+			]
+		},
+		{
+			"id": 297232,
+			"type": "message",
+			"date": "2023-03-24T16:36:37",
+			"date_unixtime": "1679650597",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "pahami, cerna, barulah didebat",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "pahami, cerna, barulah didebat"
+				}
+			]
+		},
+		{
+			"id": 297233,
+			"type": "message",
+			"date": "2023-03-24T16:37:16",
+			"date_unixtime": "1679650636",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"reply_to_message_id": 297230,
+			"text": "wkwk, maksudnya gimana om yang butuh asm?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "wkwk, maksudnya gimana om yang butuh asm?"
+				}
+			]
+		},
+		{
+			"id": 297234,
+			"type": "message",
+			"date": "2023-03-24T16:37:32",
+			"date_unixtime": "1679650652",
+			"from": "Ahmad Tohir",
+			"from_id": "user368718073",
+			"text": "tapi kalo udah liat asm nya emang jadi beda cara pandang ngoding di high level",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "tapi kalo udah liat asm nya emang jadi beda cara pandang ngoding di high level"
+				}
+			]
+		},
+		{
+			"id": 297235,
+			"type": "message",
+			"date": "2023-03-24T16:39:31",
+			"date_unixtime": "1679650771",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"text": "gw juga kemarin pas dilihatin gimana asm nya looping di rust dan go, kelihatan dimana zca yang dimaksud, wkwkwk,",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "gw juga kemarin pas dilihatin gimana asm nya looping di rust dan go, kelihatan dimana zca yang dimaksud, wkwkwk,"
+				}
+			]
+		},
+		{
+			"id": 297236,
+			"type": "message",
+			"date": "2023-03-24T16:46:02",
+			"date_unixtime": "1679651162",
+			"from": "Hidup Loli",
+			"from_id": "user5260310328",
+			"reply_to_message_id": 297232,
+			"text": "wkwk. istirahat om",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "wkwk. istirahat om"
+				}
+			]
+		},
+		{
+			"id": 297237,
+			"type": "message",
+			"date": "2023-03-24T16:48:51",
+			"date_unixtime": "1679651331",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"reply_to_message_id": 297196,
+			"text": [
+				"jadi perlu belajar assembly?,\n",
+				{
+					"type": "italic",
+					"text": "ga perlu, gak ada duitnya\n"
+				},
+				"wkwkwk"
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "jadi perlu belajar assembly?,\n"
+				},
+				{
+					"type": "italic",
+					"text": "ga perlu, gak ada duitnya\n"
+				},
+				{
+					"type": "plain",
+					"text": "wkwkwk"
+				}
+			]
+		},
+		{
+			"id": 297243,
+			"type": "message",
+			"date": "2023-03-24T16:58:28",
+			"date_unixtime": "1679651908",
+			"from": "mfi",
+			"from_id": "user1069588862",
+			"reply_to_message_id": 297237,
+			"text": [
+				"jadi belajar ",
+				{
+					"type": "italic",
+					"text": "java"
+				},
+				" aja?"
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "jadi belajar "
+				},
+				{
+					"type": "italic",
+					"text": "java"
+				},
+				{
+					"type": "plain",
+					"text": " aja?"
+				}
+			]
+		},
+		{
+			"id": 297244,
+			"type": "message",
+			"date": "2023-03-24T16:59:22",
+			"date_unixtime": "1679651962",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"reply_to_message_id": 297243,
+			"text": "😃",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "😃"
+				}
+			]
+		},
+		{
+			"id": 297245,
+			"type": "message",
+			"date": "2023-03-24T17:00:17",
+			"date_unixtime": "1679652017",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 297237,
+			"text": "apakah kalo kamu belajar bahasa inggris lantas sehari2 ngomongnya jadi inggris?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "apakah kalo kamu belajar bahasa inggris lantas sehari2 ngomongnya jadi inggris?"
+				}
+			]
+		},
+		{
+			"id": 297246,
+			"type": "message",
+			"date": "2023-03-24T17:00:28",
+			"date_unixtime": "1679652028",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "belajar != memakai",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "belajar != memakai"
+				}
+			]
+		},
+		{
+			"id": 297247,
+			"type": "message",
+			"date": "2023-03-24T17:00:53",
+			"date_unixtime": "1679652053",
+			"edited": "2023-03-24T17:15:25",
+			"edited_unixtime": "1679652925",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"reply_to_message_id": 297246,
+			"text": "ilmu tapi gak diterapin ya buat apa, wkwk",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ilmu tapi gak diterapin ya buat apa, wkwk"
+				}
+			]
+		},
+		{
+			"id": 297248,
+			"type": "message",
+			"date": "2023-03-24T17:01:10",
+			"date_unixtime": "1679652070",
+			"from": "mfi",
+			"from_id": "user1069588862",
+			"text": "🍿",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "🍿"
+				}
+			]
+		},
+		{
+			"id": 297249,
+			"type": "message",
+			"date": "2023-03-24T17:01:50",
+			"date_unixtime": "1679652110",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": [
+				"mungkin penjelasan simplenya gini. mana yang lebih efisien? C++ dev yang paham how assembly works atau yang ngga paham? golang dev yang ngerti how goroutine & channel work under the hood atau pernah ngebenchmark vs dev yang ngga ngerti? C#",
+				{
+					"type": "bot_command",
+					"text": "/java"
+				},
+				" dev yang ngerti cara kerja GC vs yang ngga ngerti?"
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "mungkin penjelasan simplenya gini. mana yang lebih efisien? C++ dev yang paham how assembly works atau yang ngga paham? golang dev yang ngerti how goroutine & channel work under the hood atau pernah ngebenchmark vs dev yang ngga ngerti? C#"
+				},
+				{
+					"type": "bot_command",
+					"text": "/java"
+				},
+				{
+					"type": "plain",
+					"text": " dev yang ngerti cara kerja GC vs yang ngga ngerti?"
+				}
+			]
+		},
+		{
+			"id": 297250,
+			"type": "message",
+			"date": "2023-03-24T17:02:23",
+			"date_unixtime": "1679652143",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 297247,
+			"text": "diterapinnya dalam decision making. bukan actually literally ngoding dalam bahasa assembly",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "diterapinnya dalam decision making. bukan actually literally ngoding dalam bahasa assembly"
+				}
+			]
+		},
+		{
+			"id": 297251,
+			"type": "message",
+			"date": "2023-03-24T17:02:38",
+			"date_unixtime": "1679652158",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "ngerti GC bukan berarti bisa bikin GC sendiri",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ngerti GC bukan berarti bisa bikin GC sendiri"
+				}
+			]
+		},
+		{
+			"id": 297252,
+			"type": "message",
+			"date": "2023-03-24T17:03:54",
+			"date_unixtime": "1679652234",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"reply_to_message_id": 297249,
+			"text": "Beberapa case yang benar2 low level memang perlu tau sih. Tapi Kalo masih system level atau high-level, cukup ngerti si bahasanya gimana.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Beberapa case yang benar2 low level memang perlu tau sih. Tapi Kalo masih system level atau high-level, cukup ngerti si bahasanya gimana."
+				}
+			]
+		},
+		{
+			"id": 297253,
+			"type": "message",
+			"date": "2023-03-24T17:04:28",
+			"date_unixtime": "1679652268",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"reply_to_message_id": 297249,
+			"text": "yang nge-develop gc dan ngerti banget gimana gc juga bukan java dev, tapi c/c++ dev",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "yang nge-develop gc dan ngerti banget gimana gc juga bukan java dev, tapi c/c++ dev"
+				}
+			]
+		},
+		{
+			"id": 297254,
+			"type": "message",
+			"date": "2023-03-24T17:05:27",
+			"date_unixtime": "1679652327",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 297252,
+			"text": "I disagree",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "I disagree"
+				}
+			]
+		},
+		{
+			"id": 297255,
+			"type": "message",
+			"date": "2023-03-24T17:05:45",
+			"date_unixtime": "1679652345",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "ngga harus hal low level",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ngga harus hal low level"
+				}
+			]
+		},
+		{
+			"id": 297256,
+			"type": "message",
+			"date": "2023-03-24T17:05:54",
+			"date_unixtime": "1679652354",
+			"edited": "2023-03-24T17:10:04",
+			"edited_unixtime": "1679652604",
+			"from": "mfi",
+			"from_id": "user1069588862",
+			"text": "🍿🍿🍿",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "🍿🍿🍿"
+				}
+			]
+		},
+		{
+			"id": 297257,
+			"type": "message",
+			"date": "2023-03-24T17:06:54",
+			"date_unixtime": "1679652414",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"reply_to_message_id": 297249,
+			"text": "ini lebih gimana si bahasa nge-abstrak-in sesuatu sih, kalo sedikit2 mau efisien butuh tweak asm, dikit2 mau kenceng butuh tweak asm, dipertanyakan design bahasanya.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ini lebih gimana si bahasa nge-abstrak-in sesuatu sih, kalo sedikit2 mau efisien butuh tweak asm, dikit2 mau kenceng butuh tweak asm, dipertanyakan design bahasanya."
+				}
+			]
+		},
+		{
+			"id": 297258,
+			"type": "message",
+			"date": "2023-03-24T17:07:10",
+			"date_unixtime": "1679652430",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "misal ada orang yang ngoding golang, ngga pernah pake pointer, perasaan kamu gimana?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "misal ada orang yang ngoding golang, ngga pernah pake pointer, perasaan kamu gimana?"
+				}
+			]
+		},
+		{
+			"id": 297259,
+			"type": "message",
+			"date": "2023-03-24T17:07:31",
+			"date_unixtime": "1679652451",
+			"edited": "2023-03-24T17:07:54",
+			"edited_unixtime": "1679652474",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"text": "apalagi compiled language, harusnya udah di representasiin oleh compiler.\nkecuali mau access intrinsics api, yang belum tentu semua bahasa provide",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "apalagi compiled language, harusnya udah di representasiin oleh compiler.\nkecuali mau access intrinsics api, yang belum tentu semua bahasa provide"
+				}
+			]
+		},
+		{
+			"id": 297260,
+			"type": "message",
+			"date": "2023-03-24T17:08:03",
+			"date_unixtime": "1679652483",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 297258,
+			"text": "atau orang ini begitu dikasih tau soal pointer, segala sesuatu dibikin pointer. perasaan kamu gimana?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "atau orang ini begitu dikasih tau soal pointer, segala sesuatu dibikin pointer. perasaan kamu gimana?"
+				}
+			]
+		},
+		{
+			"id": 297261,
+			"type": "message",
+			"date": "2023-03-24T17:08:39",
+			"date_unixtime": "1679652519",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"reply_to_message_id": 297258,
+			"text": "pointer kan abstraksi dari bahasa nya, bukan ranah asm",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "pointer kan abstraksi dari bahasa nya, bukan ranah asm"
+				}
+			]
+		},
+		{
+			"id": 297262,
+			"type": "message",
+			"date": "2023-03-24T17:08:45",
+			"date_unixtime": "1679652525",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "you have to explain lower levelnya kan",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "you have to explain lower levelnya kan"
+				}
+			]
+		},
+		{
+			"id": 297263,
+			"type": "message",
+			"date": "2023-03-24T17:08:49",
+			"date_unixtime": "1679652529",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "memang ngga sampe asm",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "memang ngga sampe asm"
+				}
+			]
+		},
+		{
+			"id": 297264,
+			"type": "message",
+			"date": "2023-03-24T17:08:53",
+			"date_unixtime": "1679652533",
+			"edited": "2023-03-24T17:09:22",
+			"edited_unixtime": "1679652562",
+			"from": "Zasda Yusuf Mikail",
+			"from_id": "user311785123",
+			"reply_to_message_id": 297256,
+			"text": [
+				"Nonton ",
+				{
+					"type": "code",
+					"text": "el clasico"
+				},
+				" ya pak."
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Nonton "
+				},
+				{
+					"type": "code",
+					"text": "el clasico"
+				},
+				{
+					"type": "plain",
+					"text": " ya pak."
+				}
+			]
+		},
+		{
+			"id": 297265,
+			"type": "message",
+			"date": "2023-03-24T17:09:04",
+			"date_unixtime": "1679652544",
+			"from": "botak licin",
+			"from_id": "user5467883815",
+			"text": "explain in human language, yes\nin asm, ga harus",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "explain in human language, yes\nin asm, ga harus"
+				}
+			]
+		},
+		{
+			"id": 297266,
+			"type": "message",
+			"date": "2023-03-24T17:09:17",
+			"date_unixtime": "1679652557",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"reply_to_message_id": 297265,
+			"text": "beberapa hal ngga bisa dijelasin in human language",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "beberapa hal ngga bisa dijelasin in human language"
+				}
+			]
+		},
+		{
+			"id": 297267,
+			"type": "message",
+			"date": "2023-03-24T17:09:39",
+			"date_unixtime": "1679652579",
+			"from": "Ronny Gunawan ️",
+			"from_id": "user149994951",
+			"text": "even with visualization, belum tentu orangnya paham. yang ada orangnya NGERASA PAHAM, SOK PALING PAHAM, TERUS NGEDEBAT ORANG YANG SEBENRNYA LEBIH PAHAM",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "even with visualization, belum tentu orangnya paham. yang ada orangnya NGERASA PAHAM, SOK PALING PAHAM, TERUS NGEDEBAT ORANG YANG SEBENRNYA LEBIH PAHAM"
+				}
+			]
+		}
+	]
 }
