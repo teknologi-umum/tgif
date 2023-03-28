@@ -719,21 +719,6 @@
 			]
 		},
 		{
-			"id": 297248,
-			"type": "message",
-			"date": "2023-03-24T17:01:10",
-			"date_unixtime": "1679652070",
-			"from": "mfi",
-			"from_id": "user1069588862",
-			"text": "🍿",
-			"text_entities": [
-				{
-					"type": "plain",
-					"text": "🍿"
-				}
-			]
-		},
-		{
 			"id": 297249,
 			"type": "message",
 			"date": "2023-03-24T17:01:50",
@@ -858,23 +843,6 @@
 			]
 		},
 		{
-			"id": 297256,
-			"type": "message",
-			"date": "2023-03-24T17:05:54",
-			"date_unixtime": "1679652354",
-			"edited": "2023-03-24T17:10:04",
-			"edited_unixtime": "1679652604",
-			"from": "mfi",
-			"from_id": "user1069588862",
-			"text": "🍿🍿🍿",
-			"text_entities": [
-				{
-					"type": "plain",
-					"text": "🍿🍿🍿"
-				}
-			]
-		},
-		{
 			"id": 297257,
 			"type": "message",
 			"date": "2023-03-24T17:06:54",
@@ -981,39 +949,6 @@
 				{
 					"type": "plain",
 					"text": "memang ngga sampe asm"
-				}
-			]
-		},
-		{
-			"id": 297264,
-			"type": "message",
-			"date": "2023-03-24T17:08:53",
-			"date_unixtime": "1679652533",
-			"edited": "2023-03-24T17:09:22",
-			"edited_unixtime": "1679652562",
-			"from": "Zasda Yusuf Mikail",
-			"from_id": "user311785123",
-			"reply_to_message_id": 297256,
-			"text": [
-				"Nonton ",
-				{
-					"type": "code",
-					"text": "el clasico"
-				},
-				" ya pak."
-			],
-			"text_entities": [
-				{
-					"type": "plain",
-					"text": "Nonton "
-				},
-				{
-					"type": "code",
-					"text": "el clasico"
-				},
-				{
-					"type": "plain",
-					"text": " ya pak."
 				}
 			]
 		},
