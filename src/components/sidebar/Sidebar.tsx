@@ -1,4 +1,4 @@
-import { createEffect, createMemo, createSignal, For, onCleanup, type JSX, Switch, Match, onMount } from "solid-js";
+import { createEffect, createSignal, For, onCleanup, type JSX, Switch, Match, onMount } from "solid-js";
 import autoAnimate from "@formkit/auto-animate";
 import { debounce } from "@solid-primitives/scheduled";
 import type { Metadata } from "~/service/Metadata";
@@ -19,7 +19,7 @@ export function Sidebar(props: SidebarProps) {
 	const [pathname, setPathname] = createSignal(
 		typeof window === "undefined" ? props.pathname : window.location.pathname
 	);
-	const isPathEmpty = createMemo(() => pathname() === "/");
+	const isPathEmpty = () => pathname() === "/";
 
 	function matchWithKeyword(talk: Metadata) {
 		if (keyword().length < 1) return true;
