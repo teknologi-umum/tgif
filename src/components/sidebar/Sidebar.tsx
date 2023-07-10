@@ -69,6 +69,7 @@ export function Sidebar(props: SidebarProps) {
 	});
 
 	onCleanup(() => {
+		if (typeof window === "undefined") return;
 		window.removeEventListener("beforeunload", storeCurrentScrollPositionToSessionStorage);
 	});
 
