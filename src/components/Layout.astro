@@ -64,14 +64,13 @@ const { title, keywords, summary, url } = Astro.props as Props;
 		<Seo keywords={keywords} summary={summary} url={url} title={title} />
 		<script>
 			import "../scripts/spa-navigation";
-			import "../scripts/mobile-mode-switcher";
 		</script>
 
 		<script>
 			import "../scripts/chat-box-scroll-restoration";
 		</script>
 	</head>
-	<body>
+	<body data-is-pathname-null={pathname === "/"}>
 		<div class="container">
 			<Sidebar talks={talks} pathname={pathname} client:load />
 			<div class="chat-content" id="chat-content">

@@ -1,0 +1,13 @@
+@use "./variables.scss";
+
+@media (max-width: variables.$screen-md-min) {
+	body:not([data-is-pathname-null]) .sidebar {
+		display: none
+	}
+}
+
+@media (max-width: variables.$screen-md-min) {
+	body[data-is-pathname-null] #chat-content {
+		display: none
+	}
+}
