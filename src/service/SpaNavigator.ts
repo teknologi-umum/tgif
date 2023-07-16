@@ -1,5 +1,4 @@
 // ref: https://github.com/Charca/astro-music
-import { switchToMobile } from "../scripts/mobile-mode-switcher";
 
 export class SpaNavigator {
 	private shouldNotIntercept(navigationEvent: NavigateEvent) {
@@ -38,7 +37,10 @@ export class SpaNavigator {
 
 		navigateEvent.intercept({
 			handler: async () => {
-				switchToMobile();
+				// to handle mobile view, this attribute is used in layout.scss
+				// to hide chat-content and sidebar accordingly
+				document.body.dataset.isPathnameNull = (location.pathname === "/").toString();
+
 				const loadingFragment = await this.getFragment("/loading/");
 				this.render(loadingFragment);
 				const chatFragment = await this.getFragment((toPath === "/" ? "/chat/_" : toPath) + "/");
