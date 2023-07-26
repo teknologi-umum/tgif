@@ -5,9 +5,10 @@ import { Metadata, metadataSchema } from "~/service/Metadata";
 import { Parser, TelegramChat } from "~/service/Parser";
 import { getRandomColour } from "./colours";
 import { markdownToHtml } from "./markdown-to-html";
+import { resolveChatAssetsPath } from "./resolve-chat-assets-path";
 
 const parser = new Parser();
-const CHATS_PATH = import.meta.env.DEV ? "../../../public/chats" : "../../public/chats";
+const CHATS_PATH = resolveChatAssetsPath();
 
 type FindChatResult = {
 	chat: TelegramChat;
