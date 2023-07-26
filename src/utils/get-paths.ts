@@ -1,8 +1,9 @@
 import { readdir } from "node:fs/promises";
 import { resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { resolveChatAssetsPath } from "./resolve-chat-assets-path";
 
-const CHATS_PATH = import.meta.env.DEV ? "../../../public/chats" : "../../public/chats";
+const CHATS_PATH = resolveChatAssetsPath();
 
 export async function getPaths() {
 	const files = await readdir(resolve(fileURLToPath(import.meta.url), CHATS_PATH), {
