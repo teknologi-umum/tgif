@@ -79,6 +79,8 @@ const messageTypes = [
 	"hashtag",
 	"spoiler",
 	"underline",
+	"text_link",
+	"mention_name",
 ] as const;
 type MessageType = (typeof messageTypes)[number];
 
@@ -113,6 +115,7 @@ const exportedChatHistorySchema = z.object({
 						z.object({
 							type: z.enum(messageTypes),
 							text: z.string(),
+							href: z.string().optional(),
 						}),
 					])
 				),
@@ -122,6 +125,7 @@ const exportedChatHistorySchema = z.object({
 					z.object({
 						type: z.enum(messageTypes),
 						text: z.string(),
+						href: z.string().optional(),
 					})
 				)
 				.optional(),
@@ -187,7 +191,7 @@ export class Parser {
 		return telegramChat;
 	}
 
-	private addTextFormatting(text: string, type: MessageType) {
+	private addTextFormatting(text: string, type: MessageType, href?: string) {
 		let result = "";
 		switch (type) {
 			case "plain":
@@ -214,6 +218,14 @@ export class Parser {
 			case "underline":
 				result += "<u>" + text + "</u>";
 				break;
+			case "text_link":
+				if (href != null) {
+					result += "<a href=\"" + href + "\">"+ text + "</a>";
+					break;
+				} else {
+					result += text;
+					break;
+				}
 			default:
 				result += text;
 		}
@@ -248,7 +260,8 @@ export class Parser {
 							text += entity;
 							continue;
 						}
-						text += this.addTextFormatting(entity.text, entity.type);
+
+						text += this.addTextFormatting(entity.text, entity.type, entity.href);
 					}
 				}
 			}
