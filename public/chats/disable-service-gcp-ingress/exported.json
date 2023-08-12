@@ -1,0 +1,753 @@
+{
+	"name": "Teknologi Umum v2.0",
+	"type": "public_supergroup",
+	"id": 1712691810,
+	"messages": [
+		{
+			"id": 269046,
+			"type": "message",
+			"date": "2023-02-18T13:35:43",
+			"date_unixtime": "1676702143",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"text": [
+				{
+					"type": "mention",
+					"text": "@zasdaym"
+				},
+				" pak, di gcp Ingress disable backend service gimana ya"
+			],
+			"text_entities": [
+				{
+					"type": "mention",
+					"text": "@zasdaym"
+				},
+				{
+					"type": "plain",
+					"text": " pak, di gcp Ingress disable backend service gimana ya"
+				}
+			]
+		},
+		{
+			"id": 269047,
+			"type": "message",
+			"date": "2023-02-18T13:36:12",
+			"date_unixtime": "1676702172",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"text": [
+				"pusing kena limit ",
+				{
+					"type": "code",
+					"text": "Error syncing to GCP: error running backend syncing routine: googleapi: Error 403: QUOTA_EXCEEDED - Quota 'GLOBAL_EXTERNAL_PROXY_LB_BACKEND_SERVICES' exceeded. Limit: 50.0 globally."
+				}
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "pusing kena limit "
+				},
+				{
+					"type": "code",
+					"text": "Error syncing to GCP: error running backend syncing routine: googleapi: Error 403: QUOTA_EXCEEDED - Quota 'GLOBAL_EXTERNAL_PROXY_LB_BACKEND_SERVICES' exceeded. Limit: 50.0 globally."
+				}
+			]
+		},
+		{
+			"id": 269048,
+			"type": "message",
+			"date": "2023-02-18T13:36:24",
+			"date_unixtime": "1676702184",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"text": "udah request quota di dinied",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "udah request quota di dinied"
+				}
+			]
+		},
+		{
+			"id": 269062,
+			"type": "message",
+			"date": "2023-02-18T14:11:27",
+			"date_unixtime": "1676704287",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"reply_to_message_id": 269047,
+			"photo": "photos/photo_11386@18-02-2023_14-11-27.jpg",
+			"width": 1117,
+			"height": 137,
+			"text": "Denied terus",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Denied terus"
+				}
+			]
+		},
+		{
+			"id": 269069,
+			"type": "message",
+			"date": "2023-02-18T14:35:00",
+			"date_unixtime": "1676705700",
+			"from": "Zasda Yusuf Mikail",
+			"from_id": "user311785123",
+			"reply_to_message_id": 269047,
+			"text": [
+				"Ini setiap app/service dibuatin Kubernetes Service type ",
+				{
+					"type": "code",
+					"text": "LoadBalancer"
+				},
+				" ya? Mending satu aja yg ",
+				{
+					"type": "code",
+					"text": "LoadBalancer"
+				},
+				" (ingress controller)."
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Ini setiap app/service dibuatin Kubernetes Service type "
+				},
+				{
+					"type": "code",
+					"text": "LoadBalancer"
+				},
+				{
+					"type": "plain",
+					"text": " ya? Mending satu aja yg "
+				},
+				{
+					"type": "code",
+					"text": "LoadBalancer"
+				},
+				{
+					"type": "plain",
+					"text": " (ingress controller)."
+				}
+			]
+		},
+		{
+			"id": 269080,
+			"type": "message",
+			"date": "2023-02-18T15:16:06",
+			"date_unixtime": "1676708166",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"reply_to_message_id": 269069,
+			"text": "service lain semua typenya clusterIP pak, loadbalancernya cuman ingress",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "service lain semua typenya clusterIP pak, loadbalancernya cuman ingress"
+				}
+			]
+		},
+		{
+			"id": 269081,
+			"type": "message",
+			"date": "2023-02-18T15:17:02",
+			"date_unixtime": "1676708222",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"text": "ni problem juga jalanin image nginx:stable ada maslaah di node dgn kernel linux ver 5 >",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ni problem juga jalanin image nginx:stable ada maslaah di node dgn kernel linux ver 5 >"
+				}
+			]
+		},
+		{
+			"id": 269087,
+			"type": "message",
+			"date": "2023-02-18T15:20:51",
+			"date_unixtime": "1676708451",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"reply_to_message_id": 269080,
+			"photo": "photos/photo_11388@18-02-2023_15-20-51.jpg",
+			"width": 447,
+			"height": 57,
+			"text": "ini masalah hidup sekarang wkwkw",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ini masalah hidup sekarang wkwkw"
+				}
+			]
+		},
+		{
+			"id": 269099,
+			"type": "message",
+			"date": "2023-02-18T15:25:39",
+			"date_unixtime": "1676708739",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"photo": "photos/photo_11389@18-02-2023_15-25-39.jpg",
+			"width": 851,
+			"height": 287,
+			"text": "OS: Linux 5.10.147+ selalu jalan tapi stack",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "OS: Linux 5.10.147+ selalu jalan tapi stack"
+				}
+			]
+		},
+		{
+			"id": 269101,
+			"type": "message",
+			"date": "2023-02-18T15:25:48",
+			"date_unixtime": "1676708748",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"text": "harusnya process nya ada beberapa",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "harusnya process nya ada beberapa"
+				}
+			]
+		},
+		{
+			"id": 269168,
+			"type": "message",
+			"date": "2023-02-18T16:21:19",
+			"date_unixtime": "1676712079",
+			"from": "Zasda Yusuf Mikail",
+			"from_id": "user311785123",
+			"reply_to_message_id": 269080,
+			"text": "Tapi bisa sampe ada 50 backend gt. Emang ingress-controllernya bikin 50 replica?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Tapi bisa sampe ada 50 backend gt. Emang ingress-controllernya bikin 50 replica?"
+				}
+			]
+		},
+		{
+			"id": 269169,
+			"type": "message",
+			"date": "2023-02-18T16:22:12",
+			"date_unixtime": "1676712132",
+			"from": "Zasda Yusuf Mikail",
+			"from_id": "user311785123",
+			"reply_to_message_id": 269168,
+			"text": "Mestinya kalo type ClusterIP ga akan create apapun di LB GCP.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Mestinya kalo type ClusterIP ga akan create apapun di LB GCP."
+				}
+			]
+		},
+		{
+			"id": 269594,
+			"type": "message",
+			"date": "2023-02-19T00:55:37",
+			"date_unixtime": "1676742937",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"reply_to_message_id": 269169,
+			"text": "Mungkin ada yg Salah Dari file yaml ingress saya pak",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Mungkin ada yg Salah Dari file yaml ingress saya pak"
+				}
+			]
+		},
+		{
+			"id": 269680,
+			"type": "message",
+			"date": "2023-02-19T10:52:46",
+			"date_unixtime": "1676778766",
+			"from": "Zasda Yusuf Mikail",
+			"from_id": "user311785123",
+			"reply_to_message_id": 269594,
+			"text": "Ada pake annotation ada di Service ClusterIP-nya?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Ada pake annotation ada di Service ClusterIP-nya?"
+				}
+			]
+		},
+		{
+			"id": 270188,
+			"type": "message",
+			"date": "2023-02-20T08:31:33",
+			"date_unixtime": "1676856693",
+			"edited": "2023-02-20T08:33:41",
+			"edited_unixtime": "1676856821",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"reply_to_message_id": 269680,
+			"text": [
+				"enggak ada pak, service nya gini doang\n\n",
+				{
+					"type": "pre",
+					"text": "apiVersion: v1\nkind: Service\nmetadata:\n  name: service-core\n  namespace: default\n  labels:\n      name: helloworld\n      app: helloworld\nspec:\n  selector:\n    name: helloworld\n    app: helloworld\n  ports:\n    - port: 80\n      targetPort: 7000\n\n",
+					"language": ""
+				},
+				"utk ingressnya begini\n",
+				{
+					"type": "pre",
+					"text": "apiVersion: \"networking.k8s.io/v1\"\nkind: \"Ingress\"\nmetadata:\n  name: \"super-apps-ingress\"\n  namespace: \"default\"\n  annotations:\n    networking.gke.io/managed-certificates: apps.example.app\nspec:\n  rules:\n  - host: \"apps.example.app\"\n    http:\n      paths:                \n        - backend:\n            service:\n              name: service-core\n              port:\n                number: 80\n          path: /\n          pathType: Prefix\n        - backend:\n            service:\n              name: service-authentication\n              port:\n                number: 80\n          path: /auth\n          pathType: Prefix\nstatus:\n  loadBalancer: {}",
+					"language": ""
+				}
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "enggak ada pak, service nya gini doang\n\n"
+				},
+				{
+					"type": "pre",
+					"text": "apiVersion: v1\nkind: Service\nmetadata:\n  name: service-core\n  namespace: default\n  labels:\n      name: helloworld\n      app: helloworld\nspec:\n  selector:\n    name: helloworld\n    app: helloworld\n  ports:\n    - port: 80\n      targetPort: 7000\n\n",
+					"language": ""
+				},
+				{
+					"type": "plain",
+					"text": "utk ingressnya begini\n"
+				},
+				{
+					"type": "pre",
+					"text": "apiVersion: \"networking.k8s.io/v1\"\nkind: \"Ingress\"\nmetadata:\n  name: \"super-apps-ingress\"\n  namespace: \"default\"\n  annotations:\n    networking.gke.io/managed-certificates: apps.example.app\nspec:\n  rules:\n  - host: \"apps.example.app\"\n    http:\n      paths:                \n        - backend:\n            service:\n              name: service-core\n              port:\n                number: 80\n          path: /\n          pathType: Prefix\n        - backend:\n            service:\n              name: service-authentication\n              port:\n                number: 80\n          path: /auth\n          pathType: Prefix\nstatus:\n  loadBalancer: {}",
+					"language": ""
+				}
+			]
+		},
+		{
+			"id": 270190,
+			"type": "message",
+			"date": "2023-02-20T08:39:20",
+			"date_unixtime": "1676857160",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"reply_to_message_id": 270188,
+			"photo": "photos/photo_11462@20-02-2023_08-39-20.jpg",
+			"width": 492,
+			"height": 281,
+			"text": "ini backend servicesnya sejumlah service2 saya + kube system 1",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ini backend servicesnya sejumlah service2 saya + kube system 1"
+				}
+			]
+		},
+		{
+			"id": 270194,
+			"type": "message",
+			"date": "2023-02-20T09:12:19",
+			"date_unixtime": "1676859139",
+			"from": "Zasda Yusuf Mikail",
+			"from_id": "user311785123",
+			"reply_to_message_id": 270190,
+			"text": "Kenapa semua service sampe kube-system/default ada di situ juga, wkwk. Harusnya yg di situ cuma service ingress-controller (misal nginx, haproxy, contour, dsb )",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Kenapa semua service sampe kube-system/default ada di situ juga, wkwk. Harusnya yg di situ cuma service ingress-controller (misal nginx, haproxy, contour, dsb )"
+				}
+			]
+		},
+		{
+			"id": 270195,
+			"type": "message",
+			"date": "2023-02-20T09:24:19",
+			"date_unixtime": "1676859859",
+			"from": "Zasda Yusuf Mikail",
+			"from_id": "user311785123",
+			"reply_to_message_id": 270188,
+			"text": [
+				"Oh, ini pake GKE Ingress Controller yg bawaan ya. Pantes habis, soalnya setiap object ",
+				{
+					"type": "code",
+					"text": "Ingress"
+				},
+				" bakal mapping 1-1 sama Cloud LB, dan setiap ",
+				{
+					"type": "code",
+					"text": "http.paths[].backend.service"
+				},
+				" mapping 1-1 juga sama backend target di Cloud LB. Solusinya pake ini aja pak ",
+				{
+					"type": "link",
+					"text": "https://github.com/kubernetes/ingress-nginx"
+				},
+				" jadi nanti yg quota backend service LB cuma kepake sama pod ingress-nginx itu, bukan semua service yg diexpose."
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Oh, ini pake GKE Ingress Controller yg bawaan ya. Pantes habis, soalnya setiap object "
+				},
+				{
+					"type": "code",
+					"text": "Ingress"
+				},
+				{
+					"type": "plain",
+					"text": " bakal mapping 1-1 sama Cloud LB, dan setiap "
+				},
+				{
+					"type": "code",
+					"text": "http.paths[].backend.service"
+				},
+				{
+					"type": "plain",
+					"text": " mapping 1-1 juga sama backend target di Cloud LB. Solusinya pake ini aja pak "
+				},
+				{
+					"type": "link",
+					"text": "https://github.com/kubernetes/ingress-nginx"
+				},
+				{
+					"type": "plain",
+					"text": " jadi nanti yg quota backend service LB cuma kepake sama pod ingress-nginx itu, bukan semua service yg diexpose."
+				}
+			]
+		},
+		{
+			"id": 270196,
+			"type": "message",
+			"date": "2023-02-20T09:25:09",
+			"date_unixtime": "1676859909",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"reply_to_message_id": 270195,
+			"text": "Betul, harus pake ingress controller merek tertentu",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Betul, harus pake ingress controller merek tertentu"
+				}
+			]
+		},
+		{
+			"id": 270197,
+			"type": "message",
+			"date": "2023-02-20T09:25:29",
+			"date_unixtime": "1676859929",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Eh, tapi kalo ingress nya 1 harusnya bisa jg sih",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Eh, tapi kalo ingress nya 1 harusnya bisa jg sih"
+				}
+			]
+		},
+		{
+			"id": 270198,
+			"type": "message",
+			"date": "2023-02-20T09:25:33",
+			"date_unixtime": "1676859933",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Kenapa bisa habis ya",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Kenapa bisa habis ya"
+				}
+			]
+		},
+		{
+			"id": 270199,
+			"type": "message",
+			"date": "2023-02-20T09:26:10",
+			"date_unixtime": "1676859970",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Intinya tuh cloud LB mapping 1-1 sama ingress dan service yg tipenya LB",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Intinya tuh cloud LB mapping 1-1 sama ingress dan service yg tipenya LB"
+				}
+			]
+		},
+		{
+			"id": 270200,
+			"type": "message",
+			"date": "2023-02-20T09:26:33",
+			"date_unixtime": "1676859993",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Nah kalo cluster lo mengandung banyak 2 benda ini maka bakalan habis, which is supposedly not the case sih kalo ngeliat yaml lo",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Nah kalo cluster lo mengandung banyak 2 benda ini maka bakalan habis, which is supposedly not the case sih kalo ngeliat yaml lo"
+				}
+			]
+		},
+		{
+			"id": 270201,
+			"type": "message",
+			"date": "2023-02-20T09:33:06",
+			"date_unixtime": "1676860386",
+			"from": "Zasda Yusuf Mikail",
+			"from_id": "user311785123",
+			"reply_to_message_id": 270200,
+			"text": "Setelah saya korelasikan dengan chat beliau yg sebelumnya sepertinya di satu Ingress itu ada 50 path routes pak, jadi jatah backend servicenya habis.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Setelah saya korelasikan dengan chat beliau yg sebelumnya sepertinya di satu Ingress itu ada 50 path routes pak, jadi jatah backend servicenya habis."
+				}
+			]
+		},
+		{
+			"id": 270202,
+			"type": "message",
+			"date": "2023-02-20T09:33:28",
+			"date_unixtime": "1676860408",
+			"from": "Zasda Yusuf Mikail",
+			"from_id": "user311785123",
+			"reply_to_message_id": 269047,
+			"text": "This.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "This."
+				}
+			]
+		},
+		{
+			"id": 270203,
+			"type": "message",
+			"date": "2023-02-20T09:34:01",
+			"date_unixtime": "1676860441",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "I know, limitnya habis, tapi bukannya kalo ingress nya cuma 1 maka LB yang ke create cuma 1 ya?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "I know, limitnya habis, tapi bukannya kalo ingress nya cuma 1 maka LB yang ke create cuma 1 ya?"
+				}
+			]
+		},
+		{
+			"id": 270204,
+			"type": "message",
+			"date": "2023-02-20T09:34:23",
+			"date_unixtime": "1676860463",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Is that not the case kalo di GCP? Di cloud2 lain yang gw coba semua kayak gitu",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Is that not the case kalo di GCP? Di cloud2 lain yang gw coba semua kayak gitu"
+				}
+			]
+		},
+		{
+			"id": 270205,
+			"type": "message",
+			"date": "2023-02-20T09:34:28",
+			"date_unixtime": "1676860468",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "AWS, Azure, Alibaba",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "AWS, Azure, Alibaba"
+				}
+			]
+		},
+		{
+			"id": 270206,
+			"type": "message",
+			"date": "2023-02-20T09:34:34",
+			"date_unixtime": "1676860474",
+			"from": "Zasda Yusuf Mikail",
+			"from_id": "user311785123",
+			"reply_to_message_id": 270203,
+			"text": "Yes, memang cuma 1. Yang kena quota limit bukan LB-nya pak, tapi backend dari si LB.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Yes, memang cuma 1. Yang kena quota limit bukan LB-nya pak, tapi backend dari si LB."
+				}
+			]
+		},
+		{
+			"id": 270211,
+			"type": "message",
+			"date": "2023-02-20T09:35:54",
+			"date_unixtime": "1676860554",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"reply_to_message_id": 270206,
+			"text": "Oh, maybe ya. Tapi TIL sih routes punya limit jg di GCP",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Oh, maybe ya. Tapi TIL sih routes punya limit jg di GCP"
+				}
+			]
+		},
+		{
+			"id": 270212,
+			"type": "message",
+			"date": "2023-02-20T09:36:17",
+			"date_unixtime": "1676860577",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Ok lah di cloud lain limit jg ada, tapi ga 50 kayaknya, diatas itu",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Ok lah di cloud lain limit jg ada, tapi ga 50 kayaknya, diatas itu"
+				}
+			]
+		},
+		{
+			"id": 270213,
+			"type": "message",
+			"date": "2023-02-20T09:36:31",
+			"date_unixtime": "1676860591",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Ya bener, solusinya harus pake ingress controller merek lain",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Ya bener, solusinya harus pake ingress controller merek lain"
+				}
+			]
+		},
+		{
+			"id": 270214,
+			"type": "message",
+			"date": "2023-02-20T09:36:51",
+			"date_unixtime": "1676860611",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Jadi ingress nya lempar aja langsung ke si controller itu, di controller baru punya banyak routing",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Jadi ingress nya lempar aja langsung ke si controller itu, di controller baru punya banyak routing"
+				}
+			]
+		},
+		{
+			"id": 270215,
+			"type": "message",
+			"date": "2023-02-20T09:38:40",
+			"date_unixtime": "1676860720",
+			"from": "Zasda Yusuf Mikail",
+			"from_id": "user311785123",
+			"reply_to_message_id": 270212,
+			"photo": "photos/photo_11463@20-02-2023_09-38-40.jpg",
+			"width": 1136,
+			"height": 542,
+			"text": "Wkwk, mungkin udah dibenchmark sama tim GCP kalo di atas 50 routes pattern matchingnya lemot.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Wkwk, mungkin udah dibenchmark sama tim GCP kalo di atas 50 routes pattern matchingnya lemot."
+				}
+			]
+		},
+		{
+			"id": 270216,
+			"type": "message",
+			"date": "2023-02-20T09:39:54",
+			"date_unixtime": "1676860794",
+			"from": "Zasda Yusuf Mikail",
+			"from_id": "user311785123",
+			"text": [
+				"Kalo kebutuhannya cuma expose HTTP service mending pake ",
+				{
+					"type": "link",
+					"text": "https://cloud.google.com/run/"
+				},
+				" daripada melihara Kubernetes cluster sendiri."
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Kalo kebutuhannya cuma expose HTTP service mending pake "
+				},
+				{
+					"type": "link",
+					"text": "https://cloud.google.com/run/"
+				},
+				{
+					"type": "plain",
+					"text": " daripada melihara Kubernetes cluster sendiri."
+				}
+			]
+		},
+		{
+			"id": 270217,
+			"type": "message",
+			"date": "2023-02-20T09:40:53",
+			"date_unixtime": "1676860853",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": [
+				"Di AWS, equivalent nya ini gw cek2 malah ga disebutin punya limit ",
+				{
+					"type": "link",
+					"text": "https://kubernetes-sigs.github.io/aws-load-balancer-controller/v2.4/guide/ingress/annotations/"
+				}
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Di AWS, equivalent nya ini gw cek2 malah ga disebutin punya limit "
+				},
+				{
+					"type": "link",
+					"text": "https://kubernetes-sigs.github.io/aws-load-balancer-controller/v2.4/guide/ingress/annotations/"
+				}
+			]
+		},
+		{
+			"id": 270218,
+			"type": "message",
+			"date": "2023-02-20T09:41:59",
+			"date_unixtime": "1676860919",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "Tapi kalo API gateway AWS ada limitnya, gw pernah kena dulu",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Tapi kalo API gateway AWS ada limitnya, gw pernah kena dulu"
+				}
+			]
+		},
+		{
+			"id": 270220,
+			"type": "message",
+			"date": "2023-02-20T09:42:13",
+			"date_unixtime": "1676860933",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": "But still, limitnya tuh gede, kayak berapa ratus gitu",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "But still, limitnya tuh gede, kayak berapa ratus gitu"
+				}
+			]
+		}
+	]
+}
