@@ -220,7 +220,7 @@ export class Parser {
 				break;
 			case "text_link":
 				if (href != null) {
-					result += "<a href=\"" + href + "\">"+ text + "</a>";
+					result += '<a href="' + href + '">' + text + "</a>";
 					break;
 				} else {
 					result += text;
