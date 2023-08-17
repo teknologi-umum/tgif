@@ -1,0 +1,727 @@
+{
+	"name": "Teknologi Umum v2.0",
+	"type": "public_supergroup",
+	"id": 1712691810,
+	"messages": [
+		{
+			"id": 262568,
+			"type": "message",
+			"date": "2023-02-10T15:27:59",
+			"date_unixtime": "1676017679",
+			"from": "Aldi William",
+			"from_id": "user368024110",
+			"text": "Om saya mau praktek load balancer",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Om saya mau praktek load balancer"
+				}
+			]
+		},
+		{
+			"id": 262569,
+			"type": "message",
+			"date": "2023-02-10T15:28:04",
+			"date_unixtime": "1676017684",
+			"from": "Aldi William",
+			"from_id": "user368024110",
+			"text": "Pake nginx ya",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Pake nginx ya"
+				}
+			]
+		},
+		{
+			"id": 262570,
+			"type": "message",
+			"date": "2023-02-10T15:28:45",
+			"date_unixtime": "1676017725",
+			"from": "Aldi William",
+			"from_id": "user368024110",
+			"text": "Itu cara bagi traficnya gmn ?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Itu cara bagi traficnya gmn ?"
+				}
+			]
+		},
+		{
+			"id": 262571,
+			"type": "message",
+			"date": "2023-02-10T15:29:17",
+			"date_unixtime": "1676017757",
+			"from": "Aldi William",
+			"from_id": "user368024110",
+			"text": "Misal ada 2 Vm",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Misal ada 2 Vm"
+				}
+			]
+		},
+		{
+			"id": 262572,
+			"type": "message",
+			"date": "2023-02-10T15:29:41",
+			"date_unixtime": "1676017781",
+			"from": "Aldi William",
+			"from_id": "user368024110",
+			"text": "2 VM itu aplikasinya sama gk sih ?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "2 VM itu aplikasinya sama gk sih ?"
+				}
+			]
+		},
+		{
+			"id": 262573,
+			"type": "message",
+			"date": "2023-02-10T15:30:06",
+			"date_unixtime": "1676017806",
+			"from": "Aldi William",
+			"from_id": "user368024110",
+			"text": "Source code sama atau beda",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Source code sama atau beda"
+				}
+			]
+		},
+		{
+			"id": 262574,
+			"type": "message",
+			"date": "2023-02-10T15:30:20",
+			"date_unixtime": "1676017820",
+			"from": "Aldi William",
+			"from_id": "user368024110",
+			"text": "Misal toko online",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Misal toko online"
+				}
+			]
+		},
+		{
+			"id": 262575,
+			"type": "message",
+			"date": "2023-02-10T15:31:29",
+			"date_unixtime": "1676017889",
+			"from": "Aldi William",
+			"from_id": "user368024110",
+			"text": "Atau 1 VM di buat masing2 domain bisnis ?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Atau 1 VM di buat masing2 domain bisnis ?"
+				}
+			]
+		},
+		{
+			"id": 262576,
+			"type": "message",
+			"date": "2023-02-10T15:33:14",
+			"date_unixtime": "1676017994",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 262575,
+			"text": "mahal amat kek gini",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "mahal amat kek gini"
+				}
+			]
+		},
+		{
+			"id": 262577,
+			"type": "message",
+			"date": "2023-02-10T15:33:50",
+			"date_unixtime": "1676018030",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 262570,
+			"text": "ini tergantung pake rule load balancing apa.\n\napakah round robin, weighted round robin, random, least connection, closest physical location, dll",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ini tergantung pake rule load balancing apa.\n\napakah round robin, weighted round robin, random, least connection, closest physical location, dll"
+				}
+			]
+		},
+		{
+			"id": 262578,
+			"type": "message",
+			"date": "2023-02-10T15:34:00",
+			"date_unixtime": "1676018040",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "kalo pake nginx menurut gw sih ga seru ya wkwkwkwkw",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kalo pake nginx menurut gw sih ga seru ya wkwkwkwkw"
+				}
+			]
+		},
+		{
+			"id": 262579,
+			"type": "message",
+			"date": "2023-02-10T15:34:44",
+			"date_unixtime": "1676018084",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "dan tergantung tujuan load balancing ini mau ngapain. emang mau serve server closest to user's location kayak teknum, atau simply emang mau handle larger load doang",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "dan tergantung tujuan load balancing ini mau ngapain. emang mau serve server closest to user's location kayak teknum, atau simply emang mau handle larger load doang"
+				}
+			]
+		},
+		{
+			"id": 262580,
+			"type": "message",
+			"date": "2023-02-10T15:35:21",
+			"date_unixtime": "1676018121",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "load balancing itu kalo simpelnya ya dari nginx/caddy/traefik/any api gateway kita nge state backend urls (atau target urls)",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "load balancing itu kalo simpelnya ya dari nginx/caddy/traefik/any api gateway kita nge state backend urls (atau target urls)"
+				}
+			]
+		},
+		{
+			"id": 262581,
+			"type": "message",
+			"date": "2023-02-10T15:37:40",
+			"date_unixtime": "1676018260",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": [
+				"misal kalo caddy\n\n",
+				{
+					"type": "code",
+					"text": "yourdomain.com {\n  reverse_proxy {\n    upstream vm1:8000 vm2:8000 vm3:800\n    lb_policy round_robin\n  }\n}"
+				}
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "misal kalo caddy\n\n"
+				},
+				{
+					"type": "code",
+					"text": "yourdomain.com {\n  reverse_proxy {\n    upstream vm1:8000 vm2:8000 vm3:800\n    lb_policy round_robin\n  }\n}"
+				}
+			]
+		},
+		{
+			"id": 262582,
+			"type": "message",
+			"date": "2023-02-10T15:38:22",
+			"date_unixtime": "1676018302",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "tapi kalo kayak gini pasti muncul pertanyaan \"nginx nya bakal jadi single point of failure dong?\"",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "tapi kalo kayak gini pasti muncul pertanyaan \"nginx nya bakal jadi single point of failure dong?\""
+				}
+			]
+		},
+		{
+			"id": 262583,
+			"type": "message",
+			"date": "2023-02-10T15:38:42",
+			"date_unixtime": "1676018322",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "nah kalo ga ada pertanyaan itu, gw bisa makan dengan damai",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "nah kalo ga ada pertanyaan itu, gw bisa makan dengan damai"
+				}
+			]
+		},
+		{
+			"id": 262584,
+			"type": "message",
+			"date": "2023-02-10T15:41:50",
+			"date_unixtime": "1676018510",
+			"from": "Ahmad Tohir",
+			"from_id": "user368718073",
+			"text": "btw biasanya kalo spin up replicated app di 1 VM udah mentok, enak horizontal apa vertical scaling nya ?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "btw biasanya kalo spin up replicated app di 1 VM udah mentok, enak horizontal apa vertical scaling nya ?"
+				}
+			]
+		},
+		{
+			"id": 262585,
+			"type": "message",
+			"date": "2023-02-10T15:42:21",
+			"date_unixtime": "1676018541",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 262584,
+			"text": "both",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "both"
+				}
+			]
+		},
+		{
+			"id": 262586,
+			"type": "message",
+			"date": "2023-02-10T15:43:01",
+			"date_unixtime": "1676018581",
+			"from": "Ahmad Tohir",
+			"from_id": "user368718073",
+			"reply_to_message_id": 262585,
+			"text": "siip2",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "siip2"
+				}
+			]
+		},
+		{
+			"id": 262587,
+			"type": "message",
+			"date": "2023-02-10T15:43:54",
+			"date_unixtime": "1676018634",
+			"from": "dicha?",
+			"from_id": "user925009191",
+			"reply_to_message_id": 262582,
+			"text": "klo load balancernya mati gimana",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "klo load balancernya mati gimana"
+				}
+			]
+		},
+		{
+			"id": 262588,
+			"type": "message",
+			"date": "2023-02-10T15:44:02",
+			"date_unixtime": "1676018642",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 262587,
+			"text": "sialan",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "sialan"
+				}
+			]
+		},
+		{
+			"id": 262589,
+			"type": "message",
+			"date": "2023-02-10T15:44:06",
+			"date_unixtime": "1676018646",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "bentar makan dulu",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "bentar makan dulu"
+				}
+			]
+		},
+		{
+			"id": 262590,
+			"type": "message",
+			"date": "2023-02-10T15:44:16",
+			"date_unixtime": "1676018656",
+			"from": "Ahmad Tohir",
+			"from_id": "user368718073",
+			"reply_to_message_id": 262587,
+			"file": "stickers/sticker (20).webp",
+			"thumbnail": "stickers/sticker (20).webp_thumb.jpg",
+			"media_type": "sticker",
+			"sticker_emoji": "✨",
+			"width": 512,
+			"height": 511,
+			"text": "",
+			"text_entities": []
+		},
+		{
+			"id": 262591,
+			"type": "message",
+			"date": "2023-02-10T15:45:30",
+			"date_unixtime": "1676018730",
+			"from": "Rahmat Fathoni",
+			"from_id": "user630036819",
+			"reply_to_message_id": 262587,
+			"text": "pernah kejadian, nginx (load balancer) nya lemot, minta restart wkwk",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "pernah kejadian, nginx (load balancer) nya lemot, minta restart wkwk"
+				}
+			]
+		},
+		{
+			"id": 262592,
+			"type": "message",
+			"date": "2023-02-10T15:46:36",
+			"date_unixtime": "1676018796",
+			"from": "TheManInTheMiddle",
+			"from_id": "user1238654979",
+			"text": "Kalau di nginx bisa detect user datang dari web / mobile? bisa ubah routing gitu ga ya? jadi web pakai build 1, mobile pakai build 2",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Kalau di nginx bisa detect user datang dari web / mobile? bisa ubah routing gitu ga ya? jadi web pakai build 1, mobile pakai build 2"
+				}
+			]
+		},
+		{
+			"id": 262593,
+			"type": "message",
+			"date": "2023-02-10T15:48:21",
+			"date_unixtime": "1676018901",
+			"from": "Rahmat Fathoni",
+			"from_id": "user630036819",
+			"text": [
+				{
+					"type": "link",
+					"text": "https://serverfault.com/a/775464"
+				}
+			],
+			"text_entities": [
+				{
+					"type": "link",
+					"text": "https://serverfault.com/a/775464"
+				}
+			]
+		},
+		{
+			"id": 262594,
+			"type": "message",
+			"date": "2023-02-10T15:54:01",
+			"date_unixtime": "1676019241",
+			"from": "Aldi William",
+			"from_id": "user368024110",
+			"reply_to_message_id": 262581,
+			"text": "Oow ini settingannya tq om penjelasannya",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Oow ini settingannya tq om penjelasannya"
+				}
+			]
+		},
+		{
+			"id": 262595,
+			"type": "message",
+			"date": "2023-02-10T15:55:37",
+			"date_unixtime": "1676019337",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 262587,
+			"text": "kalo load balancer mati, kita bisa restart aja. atau..\n\nspawn load balancer lagi di VM terpisah, dan nge-load balance load balancernya di level DNS",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kalo load balancer mati, kita bisa restart aja. atau..\n\nspawn load balancer lagi di VM terpisah, dan nge-load balance load balancernya di level DNS"
+				}
+			]
+		},
+		{
+			"id": 262596,
+			"type": "message",
+			"date": "2023-02-10T15:56:27",
+			"date_unixtime": "1676019387",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "jadi punya 2 VM (atau mungkin lebih) di region yang sama (atau mungkin beda). yang penting punya public IPv4 dan public IPv6 yang beda",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "jadi punya 2 VM (atau mungkin lebih) di region yang sama (atau mungkin beda). yang penting punya public IPv4 dan public IPv6 yang beda"
+				}
+			]
+		},
+		{
+			"id": 262597,
+			"type": "message",
+			"date": "2023-02-10T15:56:49",
+			"date_unixtime": "1676019409",
+			"edited": "2023-02-10T17:45:20",
+			"edited_unixtime": "1676025920",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "nanti kalo di DNS settings bakal ketemu A record dan AAAA record. untuk setiap keys, value dari kedua record ini bisa lebih dari satu",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "nanti kalo di DNS settings bakal ketemu A record dan AAAA record. untuk setiap keys, value dari kedua record ini bisa lebih dari satu"
+				}
+			]
+		},
+		{
+			"id": 262598,
+			"type": "message",
+			"date": "2023-02-10T15:56:50",
+			"date_unixtime": "1676019410",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "misal",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "misal"
+				}
+			]
+		},
+		{
+			"id": 262599,
+			"type": "message",
+			"date": "2023-02-10T15:57:17",
+			"date_unixtime": "1676019437",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": [
+				{
+					"type": "pre",
+					"text": "A teknologiumum.com 103.80.20.1\nA teknologiumum.com 103.28.132.63",
+					"language": ""
+				}
+			],
+			"text_entities": [
+				{
+					"type": "pre",
+					"text": "A teknologiumum.com 103.80.20.1\nA teknologiumum.com 103.28.132.63",
+					"language": ""
+				}
+			]
+		},
+		{
+			"id": 262600,
+			"type": "message",
+			"date": "2023-02-10T15:58:25",
+			"date_unixtime": "1676019505",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "terus muncul pertanyaan lagi biasanya, \"loh kalo bisa di load balance dari level DNS, udah nggak butuh load balancer kayak nginx dan semacamnya dong?\"",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "terus muncul pertanyaan lagi biasanya, \"loh kalo bisa di load balance dari level DNS, udah nggak butuh load balancer kayak nginx dan semacamnya dong?\""
+				}
+			]
+		},
+		{
+			"id": 262601,
+			"type": "message",
+			"date": "2023-02-10T15:58:45",
+			"date_unixtime": "1676019525",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "atau pertanyaan lain, \"kalo ada 2 VM atau lebih gitu, cara biar settings nya konsisten terus gimana?\"",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "atau pertanyaan lain, \"kalo ada 2 VM atau lebih gitu, cara biar settings nya konsisten terus gimana?\""
+				}
+			]
+		},
+		{
+			"id": 262602,
+			"type": "message",
+			"date": "2023-02-10T15:58:54",
+			"date_unixtime": "1676019534",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "monggo yang kira2 kebayang jawabannya",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "monggo yang kira2 kebayang jawabannya"
+				}
+			]
+		},
+		{
+			"id": 262611,
+			"type": "message",
+			"date": "2023-02-10T16:06:28",
+			"date_unixtime": "1676019988",
+			"from": "Muhammad Nasrul",
+			"from_id": "user522266589",
+			"text": "ngomongin server on premise harus standby 2 ip public dari isp yg berbeda, kejadian dikantor isp A mati enggak bisa diaccess jadinya haha\nsetelah itu baru kepiran pakai dns made easy, dia nyediain buat secondary ip",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ngomongin server on premise harus standby 2 ip public dari isp yg berbeda, kejadian dikantor isp A mati enggak bisa diaccess jadinya haha\nsetelah itu baru kepiran pakai dns made easy, dia nyediain buat secondary ip"
+				}
+			]
+		},
+		{
+			"id": 262617,
+			"type": "message",
+			"date": "2023-02-10T16:09:12",
+			"date_unixtime": "1676020152",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 262611,
+			"text": "tapi ini bener bener works kalo emang beda physical region",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "tapi ini bener bener works kalo emang beda physical region"
+				}
+			]
+		},
+		{
+			"id": 262618,
+			"type": "message",
+			"date": "2023-02-10T16:09:20",
+			"date_unixtime": "1676020160",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "misal 1 datacenter singapur, 1 datacenter australia",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "misal 1 datacenter singapur, 1 datacenter australia"
+				}
+			]
+		},
+		{
+			"id": 262619,
+			"type": "message",
+			"date": "2023-02-10T16:14:42",
+			"date_unixtime": "1676020482",
+			"from": "Aldi William",
+			"from_id": "user368024110",
+			"reply_to_message_id": 262600,
+			"text": "Apa load balance dari dns ini bisa settings seperti round robin ?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Apa load balance dari dns ini bisa settings seperti round robin ?"
+				}
+			]
+		},
+		{
+			"id": 262620,
+			"type": "message",
+			"date": "2023-02-10T16:15:19",
+			"date_unixtime": "1676020519",
+			"from": "Aldi William",
+			"from_id": "user368024110",
+			"text": "Bagi rata ke masing2 dns",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Bagi rata ke masing2 dns"
+				}
+			]
+		},
+		{
+			"id": 262621,
+			"type": "message",
+			"date": "2023-02-10T16:16:09",
+			"date_unixtime": "1676020569",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 262619,
+			"text": "nggak",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "nggak"
+				}
+			]
+		},
+		{
+			"id": 262623,
+			"type": "message",
+			"date": "2023-02-10T16:17:23",
+			"date_unixtime": "1676020643",
+			"from": "Aldi William",
+			"from_id": "user368024110",
+			"reply_to_message_id": 262621,
+			"text": "Oke berarti jawabannya sudah terjawab",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Oke berarti jawabannya sudah terjawab"
+				}
+			]
+		},
+		{
+			"id": 262624,
+			"type": "message",
+			"date": "2023-02-10T16:17:26",
+			"date_unixtime": "1676020646",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": [
+				"a few reads: \n\n- ",
+				{
+					"type": "link",
+					"text": "https://webmasters.stackexchange.com/questions/10927/using-multiple-a-records-for-my-domain-do-web-browsers-ever-try-more-than-one"
+				},
+				"\n- ",
+				{
+					"type": "link",
+					"text": "https://serverfault.com/questions/101053/is-round-robin-dns-good-enough-for-load-balancing-static-content/868535"
+				},
+				"\n- ",
+				{
+					"type": "link",
+					"text": "https://stackoverflow.com/questions/5319649/using-dns-for-failover-using-multiple-a-records"
+				}
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "a few reads: \n\n- "
+				},
+				{
+					"type": "link",
+					"text": "https://webmasters.stackexchange.com/questions/10927/using-multiple-a-records-for-my-domain-do-web-browsers-ever-try-more-than-one"
+				},
+				{
+					"type": "plain",
+					"text": "\n- "
+				},
+				{
+					"type": "link",
+					"text": "https://serverfault.com/questions/101053/is-round-robin-dns-good-enough-for-load-balancing-static-content/868535"
+				},
+				{
+					"type": "plain",
+					"text": "\n- "
+				},
+				{
+					"type": "link",
+					"text": "https://stackoverflow.com/questions/5319649/using-dns-for-failover-using-multiple-a-records"
+				}
+			]
+		}
+	]
+}
