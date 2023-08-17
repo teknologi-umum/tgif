@@ -1,0 +1,7 @@
+{
+	"slug": "disable-service-gcp-ingress",
+	"title": "Disable Backend Service di GCP Ingress",
+	"tags": ["devops", "gcp"],
+	"short_summary": "Cara kerja Kubernetes Ingress di Google Cloud Platform serta konfigurasi yang tepat",
+	"date": "2023-02-18"
+}
