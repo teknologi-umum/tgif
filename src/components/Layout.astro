@@ -1,4 +1,5 @@
 ---
+import { ViewTransitions } from "astro:transitions";
 import { readdir, readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -57,24 +58,43 @@ export type Props = {
 	url?: URL | string;
 };
 
-const { title, keywords, summary, url } = Astro.props as Props;
+const { title, keywords, summary, url } = Astro.props;
 ---
 
 <html lang="en">
 	<head>
 		<Seo keywords={keywords} summary={summary} url={url} title={title} />
-		<script>
-			import "../scripts/spa-navigation";
-		</script>
-
+		<ViewTransitions />
 		<script>
 			import "../scripts/chat-box-scroll-restoration";
 		</script>
 	</head>
 	<body data-is-pathname-null={pathname === "/"}>
 		<div class="container">
-			<Sidebar talks={talks} pathname={pathname} client:load />
-			<div class="chat-content" id="chat-content">
+			<aside class="sidebar">
+				<div class="search-container">
+					<div class="search-shadow"></div>
+					<!-- TODO: working with input -->
+					<input
+						class="search-input"
+						type="search"
+						placeholder="Search something... (add # for tags)"
+						id="search-input"
+					/>
+					<a class="search-icon" href="/">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 12 12">
+							<path
+								fill="currentColor"
+								d="M10.5 6a.5.5 0 0 0-.5-.5H3.207l2.647-2.646a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L3.207 6.5H10a.5.5 0 0 0 .5-.5Z"
+							></path>
+						</svg>
+					</a>
+				</div>
+				<div class="chats-container">
+					<Sidebar talks={talks} pathname={pathname} client:load />
+				</div>
+			</aside>
+			<div class="chat-content" id="chat-content" transition:animate="slide">
 				<slot />
 			</div>
 		</div>
