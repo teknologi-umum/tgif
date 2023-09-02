@@ -1,4 +1,4 @@
-import { createEffect, createSignal, For, onCleanup, type JSX, Switch, Match, onMount } from "solid-js";
+import { createSignal, For, onCleanup, type JSX, Switch, Match, onMount } from "solid-js";
 import autoAnimate from "@formkit/auto-animate";
 import { debounce } from "@solid-primitives/scheduled";
 import type { Metadata } from "~/service/Metadata";
@@ -16,9 +16,7 @@ type SidebarProps = {
 export function Sidebar(props: SidebarProps) {
 	let chatsContentEl!: HTMLDivElement;
 	const [keyword, setKeyword] = createSignal("");
-	const [pathname, setPathname] = createSignal(
-		typeof window === "undefined" ? props.pathname : window.location.pathname
-	);
+	const pathname = () => (typeof window === "undefined" ? props.pathname : window.location.pathname);
 	const isPathEmpty = () => pathname() === "/";
 
 	function matchWithKeyword(talk: Metadata) {
@@ -50,14 +48,6 @@ export function Sidebar(props: SidebarProps) {
 		autoAnimate(el, { duration: 200 });
 	}
 
-	createEffect(() => {
-		const updatePathname = (navigateEvent: NavigateEvent) => {
-			setPathname(new URL(navigateEvent.destination.url).pathname);
-		};
-		window.navigation.addEventListener("navigate", updatePathname);
-		onCleanup(() => window.navigation.removeEventListener("navigate", updatePathname));
-	});
-
 	function storeCurrentScrollPositionToSessionStorage() {
 		window.sessionStorage.setItem(storageKeys.sidebarScrollY, chatsContentEl.scrollTop.toString());
 	}
@@ -84,25 +74,25 @@ export function Sidebar(props: SidebarProps) {
 					value={keyword()}
 					placeholder="Search something... (add # for tags)"
 				/>
-				<div
-					class={`search-icon ${isPathEmpty() ? "" : "search-icon-active"}`}
-					onClick={() => {
-						if (!isPathEmpty()) {
-							document.title = "Home | TGIF";
-							window.location.replace("/");
-							window.sessionStorage.clear();
-						}
-					}}
-				>
-					<Switch>
-						<Match when={!isPathEmpty()}>
+				<Switch>
+					<Match when={!isPathEmpty()}>
+						<a
+							href="/"
+							class="search-icon search-icon-active"
+							onClick={() => {
+								document.title = "Home | TGIF";
+								window.sessionStorage.clear();
+							}}
+						>
 							<ArrowIcon />
-						</Match>
-						<Match when={isPathEmpty()}>
+						</a>
+					</Match>
+					<Match when={isPathEmpty()}>
+						<div class="search-icon">
 							<SearchIcon />
-						</Match>
-					</Switch>
-				</div>
+						</div>
+					</Match>
+				</Switch>
 			</div>
 			<div class="chats-container">
 				<div ref={chatsContentEl} class="chats-content" use:animate>
