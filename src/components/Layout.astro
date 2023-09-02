@@ -3,7 +3,7 @@ import { ViewTransitions } from "astro:transitions";
 import { readdir, readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import { Metadata, metadataSchema } from "~/service/Metadata";
+import { type Metadata, metadataSchema } from "~/service/Metadata";
 import { resolveChatAssetsPath } from "~/utils/resolve-chat-assets-path";
 import { Sidebar } from "./sidebar";
 import Seo from "./Seo.astro";
@@ -72,7 +72,7 @@ const { title, keywords, summary, url } = Astro.props;
 	<body data-is-pathname-null={pathname === "/"}>
 		<div class="container">
 			<Sidebar talks={talks} pathname={pathname} client:load />
-			<div class="chat-content" id="chat-content" transition:animate="slide">
+			<div class="chat-content" id="chat-content" transition:animate="fade">
 				<slot />
 			</div>
 		</div>
