@@ -22,7 +22,7 @@ export function ChatBox(props: ChatBoxProps) {
 				</p>
 				<p class="placeholder-content">
 					Ingin kontribusi wejangan dan ilmu? Kunjungi{" "}
-					<a class="url" href="https://github.com/teknologi-umum/tgif">
+					<a class="url" id="tgif-github" href="https://github.com/teknologi-umum/tgif" data-umami-event="TGIF Github Link">
 						teknologi-umum/tgif
 					</a>
 				</p>
@@ -50,7 +50,7 @@ export function ChatBox(props: ChatBoxProps) {
 						window.location.replace("/");
 					}}
 				>
-						<HomeIcon />
+					<HomeIcon />
 				</button>
 			</a>
 		</div>
