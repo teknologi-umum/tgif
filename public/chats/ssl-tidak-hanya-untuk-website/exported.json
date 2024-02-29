@@ -1,0 +1,923 @@
+{
+	"name": "Teknologi Umum v2.0",
+	"type": "public_supergroup",
+	"id": 1712691810,
+	"messages": [
+		{
+			"id": 632575,
+			"type": "message",
+			"date": "2024-02-25T11:52:36",
+			"date_unixtime": "1708836756",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "abis baca post orang jadi penasaran",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "abis baca post orang jadi penasaran"
+				}
+			]
+		},
+		{
+			"id": 632576,
+			"type": "message",
+			"date": "2024-02-25T11:53:31",
+			"date_unixtime": "1708836811",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"poll": {
+				"question": "Apakah Anda tahu kalau SSL certificate bisa digunakan selain untuk keperluan website (https)?",
+				"closed": false,
+				"total_voters": 25,
+				"answers": [
+					{
+						"text": "Tahu",
+						"voters": 11,
+						"chosen": true
+					},
+					{
+						"text": "Tidak",
+						"voters": 14,
+						"chosen": false
+					}
+				]
+			},
+			"text": "",
+			"text_entities": []
+		},
+		{
+			"id": 632590,
+			"type": "message",
+			"date": "2024-02-25T12:14:35",
+			"date_unixtime": "1708838075",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 632576,
+			"text": "cuma 2 orang yang nggak tau. bahas ga ya?",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "cuma 2 orang yang nggak tau. bahas ga ya?"
+				}
+			]
+		},
+		{
+			"id": 632591,
+			"type": "message",
+			"date": "2024-02-25T12:14:48",
+			"date_unixtime": "1708838088",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": [
+				"bikin something kayak tipis-tipis backendnya ",
+				{
+					"type": "mention",
+					"text": "@qepo_s"
+				},
+				" tapi di grup ini, menarik ga ya"
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "bikin something kayak tipis-tipis backendnya "
+				},
+				{
+					"type": "mention",
+					"text": "@qepo_s"
+				},
+				{
+					"type": "plain",
+					"text": " tapi di grup ini, menarik ga ya"
+				}
+			]
+		},
+		{
+			"id": 632596,
+			"type": "message",
+			"date": "2024-02-25T12:16:56",
+			"date_unixtime": "1708838216",
+			"from": "Qepo",
+			"from_id": "user527249536",
+			"reply_to_message_id": 632591,
+			"text": "Menarik",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Menarik"
+				}
+			]
+		},
+		{
+			"id": 632599,
+			"type": "message",
+			"date": "2024-02-25T12:19:08",
+			"date_unixtime": "1708838348",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 632596,
+			"text": "terlalu dikit yang minat, topiknya receh berarti",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "terlalu dikit yang minat, topiknya receh berarti"
+				}
+			]
+		},
+		{
+			"id": 632604,
+			"type": "message",
+			"date": "2024-02-25T12:27:09",
+			"date_unixtime": "1708838829",
+			"from": "Qepo",
+			"from_id": "user527249536",
+			"reply_to_message_id": 632599,
+			"text": "Dicoba dulu, bikin 3",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Dicoba dulu, bikin 3"
+				}
+			]
+		},
+		{
+			"id": 632605,
+			"type": "message",
+			"date": "2024-02-25T12:27:20",
+			"date_unixtime": "1708838840",
+			"from": "Qepo",
+			"from_id": "user527249536",
+			"text": "Kalo ga banyak yg minat, baru berhenti",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Kalo ga banyak yg minat, baru berhenti"
+				}
+			]
+		},
+		{
+			"id": 632609,
+			"type": "message",
+			"date": "2024-02-25T12:31:53",
+			"date_unixtime": "1708839113",
+			"from": "A J I Mode Signal Off",
+			"from_id": "user224998752",
+			"reply_to_message_id": 632591,
+			"text": "menarik",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "menarik"
+				}
+			]
+		},
+		{
+			"id": 632618,
+			"type": "message",
+			"date": "2024-02-25T12:40:00",
+			"date_unixtime": "1708839600",
+			"from": "Jason Wihardja",
+			"from_id": "user230072954",
+			"text": [
+				"Sepertinya menarik\n\n",
+				{
+					"type": "link",
+					"text": "https://youtu.be/-kiqKTIMKpk"
+				}
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Sepertinya menarik\n\n"
+				},
+				{
+					"type": "link",
+					"text": "https://youtu.be/-kiqKTIMKpk"
+				}
+			]
+		},
+		{
+			"id": 632621,
+			"type": "message",
+			"date": "2024-02-25T12:41:27",
+			"date_unixtime": "1708839687",
+			"from": "Qepo",
+			"from_id": "user527249536",
+			"text": [
+				{
+					"type": "mention",
+					"text": "@WahidinAji"
+				},
+				" \n\n",
+				{
+					"type": "link",
+					"text": "https://x.com/FulhamFC/status/1761436652176650478?s=20"
+				}
+			],
+			"text_entities": [
+				{
+					"type": "mention",
+					"text": "@WahidinAji"
+				},
+				{
+					"type": "plain",
+					"text": " \n\n"
+				},
+				{
+					"type": "link",
+					"text": "https://x.com/FulhamFC/status/1761436652176650478?s=20"
+				}
+			]
+		},
+		{
+			"id": 632623,
+			"type": "message",
+			"date": "2024-02-25T12:42:36",
+			"date_unixtime": "1708839756",
+			"from": "A J I Mode Signal Off",
+			"from_id": "user224998752",
+			"reply_to_message_id": 632621,
+			"text": [
+				"biasanya sih abis ngetrol terus nyungsep😌\n\n",
+				{
+					"type": "italic",
+					"text": "berkaca dari NU"
+				},
+				""
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "biasanya sih abis ngetrol terus nyungsep😌\n\n"
+				},
+				{
+					"type": "italic",
+					"text": "berkaca dari NU"
+				},
+				{
+					"type": "plain",
+					"text": ""
+				}
+			]
+		},
+		{
+			"id": 632624,
+			"type": "message",
+			"date": "2024-02-25T12:46:58",
+			"date_unixtime": "1708840018",
+			"from": "Qepo",
+			"from_id": "user527249536",
+			"reply_to_message_id": 632623,
+			"text": "Kalo MU, abis sombong terus nyungsep",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Kalo MU, abis sombong terus nyungsep"
+				}
+			]
+		},
+		{
+			"id": 632625,
+			"type": "message",
+			"date": "2024-02-25T12:47:06",
+			"date_unixtime": "1708840026",
+			"from": "Qepo",
+			"from_id": "user527249536",
+			"text": "Beda satu huruf, mirip2",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Beda satu huruf, mirip2"
+				}
+			]
+		},
+		{
+			"id": 632633,
+			"type": "message",
+			"date": "2024-02-25T12:58:34",
+			"date_unixtime": "1708840714",
+			"from": "A J I Mode Signal Off",
+			"from_id": "user224998752",
+			"reply_to_message_id": 632624,
+			"file": "(File not included. Change data exporting settings to download.)",
+			"media_type": "animation",
+			"mime_type": "video/mp4",
+			"duration_seconds": 11,
+			"width": 148,
+			"height": 82,
+			"text": "",
+			"text_entities": []
+		},
+		{
+			"id": 632634,
+			"type": "message",
+			"date": "2024-02-25T13:03:16",
+			"date_unixtime": "1708840996",
+			"from": "ㅤ⍼ ㅤFail n Learn from it",
+			"from_id": "user82566768",
+			"photo": "photos/photo_27186@25-02-2024_13-03-16.jpg",
+			"width": 720,
+			"height": 1280,
+			"text": "\"di luar negeri sudah mulai seperti kamu ko\"",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "\"di luar negeri sudah mulai seperti kamu ko\""
+				}
+			]
+		},
+		{
+			"id": 632635,
+			"type": "message",
+			"date": "2024-02-25T13:05:04",
+			"date_unixtime": "1708841104",
+			"from": "Maple Syrup (Out of stock)",
+			"from_id": "user587690442",
+			"reply_to_message_id": 632634,
+			"text": "Asik bener sofa nya",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Asik bener sofa nya"
+				}
+			]
+		},
+		{
+			"id": 632638,
+			"type": "message",
+			"date": "2024-02-25T13:16:00",
+			"date_unixtime": "1708841760",
+			"from": "Osfe",
+			"from_id": "user5260310328",
+			"photo": "photos/photo_27187@25-02-2024_13-16-00.jpg",
+			"width": 879,
+			"height": 227,
+			"text": "Copy 377GB gambar dalam 24 Jam",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Copy 377GB gambar dalam 24 Jam"
+				}
+			]
+		},
+		{
+			"id": 632639,
+			"type": "message",
+			"date": "2024-02-25T13:19:53",
+			"date_unixtime": "1708841993",
+			"from": "Maple Syrup (Out of stock)",
+			"from_id": "user587690442",
+			"reply_to_message_id": 632638,
+			"text": "Lambat juga 4MB/s",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Lambat juga 4MB/s"
+				}
+			]
+		},
+		{
+			"id": 632640,
+			"type": "message",
+			"date": "2024-02-25T13:20:06",
+			"date_unixtime": "1708842006",
+			"from": "Osfe",
+			"from_id": "user5260310328",
+			"reply_to_message_id": 632639,
+			"text": "iya, hdd soalnya.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "iya, hdd soalnya."
+				}
+			]
+		},
+		{
+			"id": 632641,
+			"type": "message",
+			"date": "2024-02-25T13:20:51",
+			"date_unixtime": "1708842051",
+			"from": "Maple Syrup (Out of stock)",
+			"from_id": "user587690442",
+			"text": "Apa gak pakai writeback cache? Biar read access time nya paling gak kebantu",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Apa gak pakai writeback cache? Biar read access time nya paling gak kebantu"
+				}
+			]
+		},
+		{
+			"id": 632642,
+			"type": "message",
+			"date": "2024-02-25T13:21:55",
+			"date_unixtime": "1708842115",
+			"from": "Osfe",
+			"from_id": "user5260310328",
+			"reply_to_message_id": 632641,
+			"text": "kurang tahu apa ini. tapi tadi copy pakai rsync archive mode + no compression.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "kurang tahu apa ini. tapi tadi copy pakai rsync archive mode + no compression."
+				}
+			]
+		},
+		{
+			"id": 632643,
+			"type": "message",
+			"date": "2024-02-25T13:23:56",
+			"date_unixtime": "1708842236",
+			"from": "Maple Syrup (Out of stock)",
+			"from_id": "user587690442",
+			"text": "Itu error akhirnya? (errno 28, ENOSPC, \"left on device\")",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Itu error akhirnya? (errno 28, ENOSPC, \"left on device\")"
+				}
+			]
+		},
+		{
+			"id": 632644,
+			"type": "message",
+			"date": "2024-02-25T13:24:23",
+			"date_unixtime": "1708842263",
+			"from": "Osfe",
+			"from_id": "user5260310328",
+			"reply_to_message_id": 632643,
+			"text": "iya, hdd 500GB nya penuh wkwk.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "iya, hdd 500GB nya penuh wkwk."
+				}
+			]
+		},
+		{
+			"id": 632846,
+			"type": "message",
+			"date": "2024-02-25T18:03:18",
+			"date_unixtime": "1708858998",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"reply_to_message_id": 632576,
+			"text": [
+				"anyway karena 59% jawab tidak. mari kita ",
+				{
+					"type": "hashtag",
+					"text": "#TipisTipisTeknologiUmum"
+				}
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "anyway karena 59% jawab tidak. mari kita "
+				},
+				{
+					"type": "hashtag",
+					"text": "#TipisTipisTeknologiUmum"
+				}
+			]
+		},
+		{
+			"id": 632847,
+			"type": "message",
+			"date": "2024-02-25T18:03:57",
+			"date_unixtime": "1708859037",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "ngetik yang panjang dulu bentar",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "ngetik yang panjang dulu bentar"
+				}
+			]
+		},
+		{
+			"id": 632848,
+			"type": "message",
+			"date": "2024-02-25T18:06:26",
+			"date_unixtime": "1708859186",
+			"from": "Alfian Hidayat",
+			"from_id": "user6495108619",
+			"text": "jangan bilang 200rb dulu baru ngetik",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "jangan bilang 200rb dulu baru ngetik"
+				}
+			]
+		},
+		{
+			"id": 632849,
+			"type": "message",
+			"date": "2024-02-25T18:08:14",
+			"date_unixtime": "1708859294",
+			"edited": "2024-02-25T18:08:20",
+			"edited_unixtime": "1708859300",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": [
+				"Yak betul, SSL (yang sebenernya sekarang lebih disebut sebagai TLS -- Transport Layer Security) merupakan sebuah protokol (suatu standar untuk melakukan formatting & processing terhadap suatu data -- baca: ",
+				{
+					"type": "link",
+					"text": "https://www.cloudflare.com/en-gb/learning/network-layer/what-is-a-protocol/"
+				},
+				") agar suatu koneksi dapat terlaksana secara aman.\n\nKalo bahasa bullshit ala-ala security auditor Indonesia itu \"agar koneksinya ter-enkripsi\", yang kalo ditanya, most of the time mereka nggak bisa jawab gimana cara kerja encryption di berbagai layer."
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Yak betul, SSL (yang sebenernya sekarang lebih disebut sebagai TLS -- Transport Layer Security) merupakan sebuah protokol (suatu standar untuk melakukan formatting & processing terhadap suatu data -- baca: "
+				},
+				{
+					"type": "link",
+					"text": "https://www.cloudflare.com/en-gb/learning/network-layer/what-is-a-protocol/"
+				},
+				{
+					"type": "plain",
+					"text": ") agar suatu koneksi dapat terlaksana secara aman.\n\nKalo bahasa bullshit ala-ala security auditor Indonesia itu \"agar koneksinya ter-enkripsi\", yang kalo ditanya, most of the time mereka nggak bisa jawab gimana cara kerja encryption di berbagai layer."
+				}
+			]
+		},
+		{
+			"id": 632850,
+			"type": "message",
+			"date": "2024-02-25T18:08:24",
+			"date_unixtime": "1708859304",
+			"edited": "2024-02-25T18:08:27",
+			"edited_unixtime": "1708859307",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": [
+				"TLS (baca: ",
+				{
+					"type": "link",
+					"text": "https://www.cloudflare.com/en-gb/learning/ssl/transport-layer-security-tls/"
+				},
+				"),  itu memang salah satu tujuannya untuk mengamankan website, dimana kita sebagai users bisa memasukan kombinasi email, password, kalau mau sawer vtuber favorit harus masukin data kartu kredit, kalo mau checkout merchandise wibu juga harus masukin data-data yang sangat sensitif. Kalau di dalam perjalanan (in-transport) sudah encrypted, akan meminimalisir terjadinya Man In the Middle attack atau Packet Sniffing."
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "TLS (baca: "
+				},
+				{
+					"type": "link",
+					"text": "https://www.cloudflare.com/en-gb/learning/ssl/transport-layer-security-tls/"
+				},
+				{
+					"type": "plain",
+					"text": "),  itu memang salah satu tujuannya untuk mengamankan website, dimana kita sebagai users bisa memasukan kombinasi email, password, kalau mau sawer vtuber favorit harus masukin data kartu kredit, kalo mau checkout merchandise wibu juga harus masukin data-data yang sangat sensitif. Kalau di dalam perjalanan (in-transport) sudah encrypted, akan meminimalisir terjadinya Man In the Middle attack atau Packet Sniffing."
+				}
+			]
+		},
+		{
+			"id": 632851,
+			"type": "message",
+			"date": "2024-02-25T18:09:29",
+			"date_unixtime": "1708859369",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"photo": "photos/photo_27194@25-02-2024_18-09-29.jpg",
+			"width": 1280,
+			"height": 731,
+			"text": "Ilustrasi TLS handshake. Setelah prosedur handshake ini selesai, barulah semua data yang lewat koneksi ini bisa dijamin keamanannya, susah banget buat dibaca mentah-mentah tulisannya.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Ilustrasi TLS handshake. Setelah prosedur handshake ini selesai, barulah semua data yang lewat koneksi ini bisa dijamin keamanannya, susah banget buat dibaca mentah-mentah tulisannya."
+				}
+			]
+		},
+		{
+			"id": 632852,
+			"type": "message",
+			"date": "2024-02-25T18:09:39",
+			"date_unixtime": "1708859379",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "Bukan, beda sama handshake JKT48 yang sekarang sistemnya undian.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Bukan, beda sama handshake JKT48 yang sekarang sistemnya undian."
+				}
+			]
+		},
+		{
+			"id": 632853,
+			"type": "message",
+			"date": "2024-02-25T18:12:36",
+			"date_unixtime": "1708859556",
+			"edited": "2024-02-25T18:45:02",
+			"edited_unixtime": "1708861502",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "Sekarang kita bahas certificate nya, di dalam suatu paket (atau bundle) certificate yang sah, biasanya terdiri atas:\n\n- Certificate Authority -> Siapa pihak berwenang yang melakukan issuance (mengeluarkan) sertifikat ini.\n- Certificate -> Certificate TLS nya yang public, boleh dibaca orang lain.\n- Private Key -> Certificate TLS nya yang private, harus disimpan baik-baik.\n\nCombo dari 3 ini bakal bikin simbol gembok warna hijau di browser.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Sekarang kita bahas certificate nya, di dalam suatu paket (atau bundle) certificate yang sah, biasanya terdiri atas:\n\n- Certificate Authority -> Siapa pihak berwenang yang melakukan issuance (mengeluarkan) sertifikat ini.\n- Certificate -> Certificate TLS nya yang public, boleh dibaca orang lain.\n- Private Key -> Certificate TLS nya yang private, harus disimpan baik-baik.\n\nCombo dari 3 ini bakal bikin simbol gembok warna hijau di browser."
+				}
+			]
+		},
+		{
+			"id": 632854,
+			"type": "message",
+			"date": "2024-02-25T18:14:10",
+			"date_unixtime": "1708859650",
+			"edited": "2024-02-25T18:28:32",
+			"edited_unixtime": "1708860512",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": [
+				"Kalo di browser websitenya ",
+				{
+					"type": "code",
+					"text": "https"
+				},
+				" juga, tapi gemboknya warna merah, agak kebuka sedikit gimana? Nah itu namanya certificate invalid. Invalid ini bisa karena (1) self-signed, atau (2) certificate nya udah expired.\n\nSelf-signed -> Bukan dari \"Certificate Authority\" yang populer. Contoh CA yang populer: Google, ZeroSSL, Lets Encrypt, GlobalSign, dll. Biasanya dipakai untuk personal use, atau internally di kantor. Baca: ",
+				{
+					"type": "link",
+					"text": "https://www.linode.com/docs/guides/create-a-self-signed-tls-certificate/"
+				},
+				"\n\nCertificate udah expired -> ya.. udah expired, ibarat Indomie udah expired, masih mau dimakan? Bisa aja, tapi nggak ada yang jamin abis ini tetep sehat atau masuk IGD.\n\nREVISI: Ada beberapa poin tambahan lagi dari Pak Zasda: ",
+				{
+					"type": "link",
+					"text": "https://t.me/teknologi_umum_v2/632866"
+				}
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Kalo di browser websitenya "
+				},
+				{
+					"type": "code",
+					"text": "https"
+				},
+				{
+					"type": "plain",
+					"text": " juga, tapi gemboknya warna merah, agak kebuka sedikit gimana? Nah itu namanya certificate invalid. Invalid ini bisa karena (1) self-signed, atau (2) certificate nya udah expired.\n\nSelf-signed -> Bukan dari \"Certificate Authority\" yang populer. Contoh CA yang populer: Google, ZeroSSL, Lets Encrypt, GlobalSign, dll. Biasanya dipakai untuk personal use, atau internally di kantor. Baca: "
+				},
+				{
+					"type": "link",
+					"text": "https://www.linode.com/docs/guides/create-a-self-signed-tls-certificate/"
+				},
+				{
+					"type": "plain",
+					"text": "\n\nCertificate udah expired -> ya.. udah expired, ibarat Indomie udah expired, masih mau dimakan? Bisa aja, tapi nggak ada yang jamin abis ini tetep sehat atau masuk IGD.\n\nREVISI: Ada beberapa poin tambahan lagi dari Pak Zasda: "
+				},
+				{
+					"type": "link",
+					"text": "https://t.me/teknologi_umum_v2/632866"
+				}
+			]
+		},
+		{
+			"id": 632857,
+			"type": "message",
+			"date": "2024-02-25T18:15:47",
+			"date_unixtime": "1708859747",
+			"edited": "2024-02-25T18:24:53",
+			"edited_unixtime": "1708860293",
+			"from": "A J I Mode Signal Off",
+			"from_id": "user224998752",
+			"reply_to_message_id": 632846,
+			"text": [
+				"Saran bang, edit tambahin\n\n",
+				{
+					"type": "hashtag",
+					"text": "#TipisTipisTeknologiUmum"
+				},
+				" - episode 1\n\n",
+				{
+					"type": "italic",
+					"text": "biar nanti saya rekap ke tgif"
+				}
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Saran bang, edit tambahin\n\n"
+				},
+				{
+					"type": "hashtag",
+					"text": "#TipisTipisTeknologiUmum"
+				},
+				{
+					"type": "plain",
+					"text": " - episode 1\n\n"
+				},
+				{
+					"type": "italic",
+					"text": "biar nanti saya rekap ke tgif"
+				}
+			]
+		},
+		{
+			"id": 632858,
+			"type": "message",
+			"date": "2024-02-25T18:18:09",
+			"date_unixtime": "1708859889",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": [
+				"Oke so far harusnya udah paham basic-basic TLS dan butuh apa aja biar bisa dapet gembok hijau itu.\n\nTapi kan yang kita tau sebatas buat website doang, ",
+				{
+					"type": "code",
+					"text": "https"
+				},
+				" doang.\n\nKalo di inget-inget lagi, kan namanya \"Transport Layer Security\", jadi sebenernya koneksi protokol apapun selain HTTP yang bisa implement TLS ya bisa aja pake TLS.\n\nMisal beberapa yang populer disini bisa kok pake TLS, contoh:\n- PostgreSQL: ",
+				{
+					"type": "link",
+					"text": "https://www.postgresql.org/docs/current/ssl-tcp.html"
+				},
+				"\n- ClickHouse: ",
+				{
+					"type": "link",
+					"text": "https://clickhouse.com/docs/en/guides/sre/configuring-ssl"
+				},
+				"\n- Kafka: ",
+				{
+					"type": "link",
+					"text": "https://docs.confluent.io/platform/current/kafka/authentication_ssl.html"
+				},
+				"\n- Redis: ",
+				{
+					"type": "link",
+					"text": "https://redis.io/docs/management/security/encryption/"
+				},
+				"\n\nTapi harus inget-inget kalau TLS itu ya artinya bakal ada momen TLS handshake yang cukup makan waktu (biasanya sekitar 100ms). Kalo bisa tolerir ya it's okay. Tapi kalo sering banget buka-tutup koneksi, ini bakal jadi bottleneck. Apalagi kayak Redis yang emang harus se-kenceng mungkin, karena dia itu distributed cache."
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Oke so far harusnya udah paham basic-basic TLS dan butuh apa aja biar bisa dapet gembok hijau itu.\n\nTapi kan yang kita tau sebatas buat website doang, "
+				},
+				{
+					"type": "code",
+					"text": "https"
+				},
+				{
+					"type": "plain",
+					"text": " doang.\n\nKalo di inget-inget lagi, kan namanya \"Transport Layer Security\", jadi sebenernya koneksi protokol apapun selain HTTP yang bisa implement TLS ya bisa aja pake TLS.\n\nMisal beberapa yang populer disini bisa kok pake TLS, contoh:\n- PostgreSQL: "
+				},
+				{
+					"type": "link",
+					"text": "https://www.postgresql.org/docs/current/ssl-tcp.html"
+				},
+				{
+					"type": "plain",
+					"text": "\n- ClickHouse: "
+				},
+				{
+					"type": "link",
+					"text": "https://clickhouse.com/docs/en/guides/sre/configuring-ssl"
+				},
+				{
+					"type": "plain",
+					"text": "\n- Kafka: "
+				},
+				{
+					"type": "link",
+					"text": "https://docs.confluent.io/platform/current/kafka/authentication_ssl.html"
+				},
+				{
+					"type": "plain",
+					"text": "\n- Redis: "
+				},
+				{
+					"type": "link",
+					"text": "https://redis.io/docs/management/security/encryption/"
+				},
+				{
+					"type": "plain",
+					"text": "\n\nTapi harus inget-inget kalau TLS itu ya artinya bakal ada momen TLS handshake yang cukup makan waktu (biasanya sekitar 100ms). Kalo bisa tolerir ya it's okay. Tapi kalo sering banget buka-tutup koneksi, ini bakal jadi bottleneck. Apalagi kayak Redis yang emang harus se-kenceng mungkin, karena dia itu distributed cache."
+				}
+			]
+		},
+		{
+			"id": 632859,
+			"type": "message",
+			"date": "2024-02-25T18:19:44",
+			"date_unixtime": "1708859984",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": "Seharusnya muncul pertanyaan: Kalo misal PostgreSQL kita bikin koneksinya pake TLS, buat apa sih sebenernya? Bukannya yang namanya database itu nggak akan pernah di-expose ke public ya?\n\nTLS itu guarantee security di level transport. Client yang pegang Certificate Authority yang sama kayak di PostgreSQL bisa memastikan juga kalo dia connect ke server yang bener.",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Seharusnya muncul pertanyaan: Kalo misal PostgreSQL kita bikin koneksinya pake TLS, buat apa sih sebenernya? Bukannya yang namanya database itu nggak akan pernah di-expose ke public ya?\n\nTLS itu guarantee security di level transport. Client yang pegang Certificate Authority yang sama kayak di PostgreSQL bisa memastikan juga kalo dia connect ke server yang bener."
+				}
+			]
+		},
+		{
+			"id": 632863,
+			"type": "message",
+			"date": "2024-02-25T18:22:04",
+			"date_unixtime": "1708860124",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": [
+				"Pertanyaan lanjutan: Kalo cuma memastikan client (app biasanya sih) connect ke server PostgreSQL yang bener, kan bisa aja kita bikin server PostgreSQL palsu yang pake TLS certificate yang sama, misal expiry certificate nya 10 tahun.\n\nNah, TLS yang modern itu bisa juga meng-authenticate dirinya sendiri dengan cara menunjukan certificate. Kalau selama ini kan cuma server yang show certificatenya (semua certificate & private key hanya dipegang server). Tapi kalau ada client yang juga turut show certificatenya (certificate & private key tadi) kepada si server, maka terjadi yang namanya TLS Client Authentication. Baca: ",
+				{
+					"type": "link",
+					"text": "https://blog.cloudflare.com/introducing-tls-client-auth/"
+				}
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Pertanyaan lanjutan: Kalo cuma memastikan client (app biasanya sih) connect ke server PostgreSQL yang bener, kan bisa aja kita bikin server PostgreSQL palsu yang pake TLS certificate yang sama, misal expiry certificate nya 10 tahun.\n\nNah, TLS yang modern itu bisa juga meng-authenticate dirinya sendiri dengan cara menunjukan certificate. Kalau selama ini kan cuma server yang show certificatenya (semua certificate & private key hanya dipegang server). Tapi kalau ada client yang juga turut show certificatenya (certificate & private key tadi) kepada si server, maka terjadi yang namanya TLS Client Authentication. Baca: "
+				},
+				{
+					"type": "link",
+					"text": "https://blog.cloudflare.com/introducing-tls-client-auth/"
+				}
+			]
+		},
+		{
+			"id": 632864,
+			"type": "message",
+			"date": "2024-02-25T18:24:15",
+			"date_unixtime": "1708860255",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": [
+				"Dah sampe sini aja. Kalo ada pertanyaan, langsung reply ke message terkait.\n\nKalo tertarik sama konten-konten kayak gini, beri like ke message yang ini: ",
+				{
+					"type": "link",
+					"text": "https://t.me/teknologi_umum_v2/632857"
+				},
+				" (biar Aji masukin ke TGIF nya teknum)"
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Dah sampe sini aja. Kalo ada pertanyaan, langsung reply ke message terkait.\n\nKalo tertarik sama konten-konten kayak gini, beri like ke message yang ini: "
+				},
+				{
+					"type": "link",
+					"text": "https://t.me/teknologi_umum_v2/632857"
+				},
+				{
+					"type": "plain",
+					"text": " (biar Aji masukin ke TGIF nya teknum)"
+				}
+			]
+		},
+		{
+			"id": 632865,
+			"type": "message",
+			"date": "2024-02-25T18:26:07",
+			"date_unixtime": "1708860367",
+			"edited": "2024-02-25T18:27:19",
+			"edited_unixtime": "1708860439",
+			"from": "Reinaldy",
+			"from_id": "user1462097294",
+			"text": [
+				"Nggak bahas beberapa hal ini karena out of scope:\n\n- Certificate Management (ACME, Vault)\n- TLS version (1.1 vs 1.2 vs 1.3)\n- QUIC\n- Crypto algo for TLS certificate (kebanyakan)\n- Secure ClientHello\n- berbagai vendor kayak OpenSSL, LibreSSL, WolfSSL, dll (tapi khusus yang ini, ada interesting table yang bisa di lihat ",
+				{
+					"type": "link",
+					"text": "https://en.wikipedia.org/wiki/Comparison_of_TLS_implementations"
+				},
+				")"
+			],
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Nggak bahas beberapa hal ini karena out of scope:\n\n- Certificate Management (ACME, Vault)\n- TLS version (1.1 vs 1.2 vs 1.3)\n- QUIC\n- Crypto algo for TLS certificate (kebanyakan)\n- Secure ClientHello\n- berbagai vendor kayak OpenSSL, LibreSSL, WolfSSL, dll (tapi khusus yang ini, ada interesting table yang bisa di lihat "
+				},
+				{
+					"type": "link",
+					"text": "https://en.wikipedia.org/wiki/Comparison_of_TLS_implementations"
+				},
+				{
+					"type": "plain",
+					"text": ")"
+				}
+			]
+		},
+		{
+			"id": 632866,
+			"type": "message",
+			"date": "2024-02-25T18:27:59",
+			"date_unixtime": "1708860479",
+			"edited": "2024-02-25T18:28:17",
+			"edited_unixtime": "1708860497",
+			"from": "Zasda Yusuf Mikail",
+			"from_id": "user311785123",
+			"reply_to_message_id": 632854,
+			"text": "Izin edit yang mulia:\n\n1. CA yg sign cert tersebut tidak terdaftar as Trusted CA di komputer tersebut. (Self sign tidak masalah asal diimport dulu CA yg sign as Trusted CA)\n2. Expired\n3. Masuk ke dalam Certificate Revocation List (CRL)",
+			"text_entities": [
+				{
+					"type": "plain",
+					"text": "Izin edit yang mulia:\n\n1. CA yg sign cert tersebut tidak terdaftar as Trusted CA di komputer tersebut. (Self sign tidak masalah asal diimport dulu CA yg sign as Trusted CA)\n2. Expired\n3. Masuk ke dalam Certificate Revocation List (CRL)"
+				}
+			]
+		}
+	]
+}
