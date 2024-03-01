@@ -237,7 +237,6 @@ export class Parser {
 			default:
 				result += text;
 		}
-		//console.log(type);
 		return result;
 	}
 
