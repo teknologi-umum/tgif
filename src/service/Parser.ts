@@ -81,6 +81,8 @@ const messageTypes = [
 	"underline",
 	"text_link",
 	"mention_name",
+	"url",
+	"email",
 ] as const;
 type MessageType = (typeof messageTypes)[number];
 
@@ -226,6 +228,12 @@ export class Parser {
 					result += text;
 					break;
 				}
+			case "url":
+				result += '<a href="' + text + '">' + text + "</a>";
+				break;
+			case "email":
+				result += '<a href="mailto:' + text + '">' + text + "</a>";
+				break;
 			default:
 				result += text;
 		}
