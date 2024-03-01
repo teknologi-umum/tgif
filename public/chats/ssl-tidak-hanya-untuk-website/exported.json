@@ -213,47 +213,6 @@
 			]
 		},
 		{
-			"id": 632857,
-			"type": "message",
-			"date": "2024-02-25T18:15:47",
-			"date_unixtime": "1708859747",
-			"edited": "2024-02-25T18:24:53",
-			"edited_unixtime": "1708860293",
-			"from": "A J I Mode Signal Off",
-			"from_id": "user224998752",
-			"reply_to_message_id": 632846,
-			"text": [
-				"Saran bang, edit tambahin\n\n",
-				{
-					"type": "hashtag",
-					"text": "#TipisTipisTeknologiUmum"
-				},
-				" - episode 1\n\n",
-				{
-					"type": "italic",
-					"text": "biar nanti saya rekap ke tgif"
-				}
-			],
-			"text_entities": [
-				{
-					"type": "plain",
-					"text": "Saran bang, edit tambahin\n\n"
-				},
-				{
-					"type": "hashtag",
-					"text": "#TipisTipisTeknologiUmum"
-				},
-				{
-					"type": "plain",
-					"text": " - episode 1\n\n"
-				},
-				{
-					"type": "italic",
-					"text": "biar nanti saya rekap ke tgif"
-				}
-			]
-		},
-		{
 			"id": 632858,
 			"type": "message",
 			"date": "2024-02-25T18:18:09",
