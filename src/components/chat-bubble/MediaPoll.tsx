@@ -1,6 +1,5 @@
 import type { TelegramMessagePoll } from "~/service/Parser";
 import "./MediaPoll.scss";
-import { createSignal } from "solid-js";
 
 // colorblind-friendly colors
 // and Telegram has maximum of 10 options
