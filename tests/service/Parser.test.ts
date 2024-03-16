@@ -1709,3 +1709,71 @@ test("parse without text_entity", () => {
 		},
 	]);
 });
+
+test("message poll", () => {
+	const stub = `{
+		"name": "Teknologi Umum v2.0",
+		"type": "public_supergroup",
+		"id": 1712691810,
+		"messages": [
+			{
+				"id": 632576,
+				"type": "message",
+				"date": "2024-02-25T11:53:31",
+				"date_unixtime": "1708836811",
+				"from": "Reinaldy",
+				"from_id": "user1462097294",
+				"poll": {
+					"question": "Apakah Anda tahu kalau SSL certificate bisa digunakan selain untuk keperluan website (https)?",
+					"closed": false,
+					"total_voters": 25,
+					"answers": [
+						{
+							"text": "Tahu",
+							"voters": 11,
+							"chosen": true
+						},
+						{
+							"text": "Tidak",
+							"voters": 14,
+							"chosen": false
+						}
+					]
+				},
+				"text": "",
+				"text_entities": []
+			}
+		]
+	}`;
+
+	const parser = new Parser();
+
+	const telegramChat = parser.fromExportedChatHistory(stub);
+
+	expect(telegramChat.chatId).toEqual(1712691810);
+	expect(telegramChat.chatName).toEqual("Teknologi Umum v2.0");
+	expect(telegramChat.message).toStrictEqual([
+		{
+			date: new Date("2024-02-25T11:53:31"),
+			from: {
+				id: 1462097294,
+				name: "Reinaldy",
+			},
+			hasMedia: true,
+			mediaType: "poll",
+			messageId: 632576,
+			replyToMessageId: undefined,
+			text: "Apakah Anda tahu kalau SSL certificate bisa digunakan selain untuk keperluan website (https)?",
+			pollResult: [
+				{
+					text: "Tahu",
+					votes: 11,
+				},
+				{
+					text: "Tidak",
+					votes: 14,
+				},
+			],
+		},
+	]);
+});
