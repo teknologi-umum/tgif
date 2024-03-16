@@ -54,12 +54,23 @@ export type TelegramMessageWithVideoFile = {
 	height: number;
 } & TelegramMessageBase;
 
+export type TelegramMessagePoll = {
+	hasMedia: true;
+	mediaType: "poll";
+	pollResult: {
+		text: string;
+		votes: number;
+	}[];
+	explanation?: string;
+} & TelegramMessageBase;
+
 export type TelegramMessage =
 	| (TelegramMessageBase & { hasMedia: false })
 	| TelegramMessageWithAnimation
 	| TelegramMessageWithPhoto
 	| TelegramMessageWithSticker
-	| TelegramMessageWithVideoFile;
+	| TelegramMessageWithVideoFile
+	| TelegramMessagePoll;
 
 export type TelegramChat = {
 	chatName: string;
@@ -130,6 +141,20 @@ const exportedChatHistorySchema = z.object({
 						href: z.string().optional(),
 					})
 				)
+				.optional(),
+			poll: z
+				.object({
+					question: z.string(),
+					closed: z.boolean(),
+					total_voters: z.number(),
+					answers: z.array(
+						z.object({
+							text: z.string(),
+							voters: z.number(),
+							chosen: z.boolean(),
+						})
+					),
+				})
 				.optional(),
 		})
 	),
@@ -347,6 +372,26 @@ export class Parser {
 					file: message.file ?? "",
 					thumbnail: message.thumbnail ?? "",
 					mimeType: message.mime_type ?? "",
+				});
+				continue;
+			} else if (message.poll !== undefined) {
+				telegramChat.message.push({
+					date: new Date(message.date),
+					from: {
+						name: message.from,
+						id: Number.parseInt(message.from_id.replace("user", "")),
+					},
+					messageId: message.id,
+					replyToMessageId: message.reply_to_message_id,
+					text: message.poll.question,
+					hasMedia: true,
+					mediaType: "poll",
+					pollResult: message.poll.answers.map((answer) => {
+						return {
+							text: answer.text,
+							votes: answer.voters,
+						};
+					}),
 				});
 				continue;
 			} else {

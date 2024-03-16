@@ -1,5 +1,6 @@
 import { Match, Show, Switch } from "solid-js";
 import type { TelegramMessage } from "~/service/Parser";
+import { MediaPoll } from "./MediaPoll";
 import "./ChatBubble.scss";
 
 type ChatBubbleProps = TelegramMessage & {
@@ -47,18 +48,19 @@ export function ChatBubble(props: ChatBubbleProps) {
 				<Match when={props.hasMedia}>
 					<img
 						class={resolveMediaClassname()}
-						src={props.hasMedia ? `/chats/${props.slug}/${props.file}` : ""}
+						src={props.hasMedia && props.mediaType !== "poll" ? `/chats/${props.slug}/${props.file}` : ""}
 					/>
 					<Show when={props.text.length}>
 						<div
 							class="chat-content"
 							style={{
-								"padding": props.repliedTo ? "0" : "1rem 2rem 1.5rem 2rem",
-								"padding-top": "1rem"
+								padding: props.repliedTo ? "0" : "1rem 2rem 1.5rem 2rem",
+								"padding-top": "1rem",
 							}}
 							innerHTML={props.text}
 						/>
 					</Show>
+					{props.hasMedia && props.mediaType === "poll" && <MediaPoll {...props} />}
 				</Match>
 				<Match when={!props.hasMedia}>
 					<div class="chat-content" innerHTML={props.text} />
