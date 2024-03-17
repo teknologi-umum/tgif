@@ -19,6 +19,7 @@
 		"@fontsource/space-grotesk": "^5.0.8",
 		"@fontsource/unbounded": "^5.0.11",
 		"@formkit/auto-animate": "1.0.0-pre-alpha.3",
+		"@leafac/rehype-shiki": "^2.2.1",
 		"@sentry/astro": "^7.106.1",
 		"@solid-primitives/scheduled": "^1.4.1",
 		"astro": "^4.5.1",
@@ -38,7 +39,6 @@
 	"devDependencies": {
 		"@babel/core": "^7.22.11",
 		"@iconify-json/fluent": "^1.1.33",
-		"@leafac/rehype-shiki": "^2.2.1",
 		"@typescript-eslint/eslint-plugin": "^6.5.0",
 		"@typescript-eslint/parser": "^6.5.0",
 		"@vitest/coverage-v8": "^0.34.3",
