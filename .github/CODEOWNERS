@@ -1,0 +1,3 @@
+* @teknologi-umum/frontend-web
+.github @teknologi-umum/infrastructure
+Dockerfile @teknologi-umum/infrastructure @teknologi-umum/frontend-web

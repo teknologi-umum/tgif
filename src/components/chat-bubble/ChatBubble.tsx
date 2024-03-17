@@ -35,7 +35,7 @@ export function ChatBubble(props: ChatBubbleProps) {
 				</span>
 			</Show>
 			<Show when={props.repliedTo !== undefined}>
-				<a href={"#" + props.repliedTo?.messageId.toString() ?? ""} class="chat-reply-link">
+				<a href={"#" + props.repliedTo?.messageId.toString()} class="chat-reply-link">
 					<div class="chat-reply-box">
 						<span class="chat-reply-sender" style={{ color: props.repliedTo?.from.colour ?? "black" }}>
 							{props.repliedTo?.from.name}
