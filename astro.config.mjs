@@ -3,6 +3,7 @@ import solidJs from "@astrojs/solid-js";
 import node from "@astrojs/node";
 import Icons from "unplugin-icons/vite";
 import sentry from "@sentry/astro";
+import * as Sentry from "@sentry/astro";
 import { viteStaticCopy } from "vite-plugin-static-copy";
 
 // https://astro.build/config
@@ -13,9 +14,19 @@ export default defineConfig({
 			dsn: process.env.SENTRY_DSN,
 			environment: process.env.NODE_ENV,
 			sampleRate: 1.0,
-			tracesSampleRate: 0.3,
-			replaysSessionSampleRate: 0.0,
-			replaysOnErrorSampleRate: 0.1,
+			tracesSampleRate: 0.5,
+			replaysSessionSampleRate: 0.05,
+			replaysOnErrorSampleRate: 0.5,
+			integrations: [
+				Sentry.replayIntegration({
+					networkDetailAllowUrls: [/teknologiumum.com/],
+					maskAllText: false,
+					maskAllInputs: false,
+				}),
+				Sentry.httpIntegration({ tracing: true }),
+				Sentry.nativeNodeFetchintegration(),
+			],
+			tracePropagationTargets: [/teknologiumum.com/],
 			sourceMapsUploadOptions: {
 				project: "tgif",
 				authToken: process.env.SENTRY_AUTH_TOKEN,
