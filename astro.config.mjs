@@ -18,11 +18,6 @@ export default defineConfig({
 			replaysSessionSampleRate: 0.05,
 			replaysOnErrorSampleRate: 0.5,
 			integrations: [
-				Sentry.replayIntegration({
-					networkDetailAllowUrls: [/teknologiumum.com/],
-					maskAllText: false,
-					maskAllInputs: false,
-				}),
 				Sentry.httpIntegration({ tracing: true }),
 				Sentry.nativeNodeFetchintegration(),
 			],
