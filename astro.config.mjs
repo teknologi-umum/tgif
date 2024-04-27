@@ -17,10 +17,7 @@ export default defineConfig({
 			tracesSampleRate: 0.5,
 			replaysSessionSampleRate: 0.05,
 			replaysOnErrorSampleRate: 0.5,
-			integrations: [
-				Sentry.httpIntegration({ tracing: true }),
-				Sentry.nativeNodeFetchintegration(),
-			],
+			integrations: [Sentry.httpIntegration({ tracing: true }), Sentry.nativeNodeFetchintegration()],
 			tracePropagationTargets: [/teknologiumum.com/],
 			sourceMapsUploadOptions: {
 				project: "tgif",
